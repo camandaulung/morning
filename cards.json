@@ -1,5 +1,185 @@
 [
   {
+    "date": "2026-07-25",
+    "dayLabel": "Thứ Bảy",
+    "dateLabel": "25/07/2026",
+    "entertainment": [
+      {
+        "title": "🎬 Người Nhện: Khởi Đầu Mới với SCREENX",
+        "desc": "Phần phim Người Nhện mới toanh sẽ mang đến trải nghiệm điện ảnh cực đã với định dạng SCREENX độc đáo, mở rộng khung hình trên ba màn hình.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "24/07·kenh14.vn",
+        "url": "https://kenh14.vn/khan-gia-phan-khich-khi-duoc-trai-nghiem-phim-nguoi-nhen-khoi-dau-moi-voi-dinh-dang-screenx-215260724135807552.chn"
+      },
+      {
+        "title": "🎵 Hit 100 triệu view: Hái ra tiền tỷ mỗi tháng",
+        "desc": "Một bản hit trăm triệu view đang làm thay đổi cuộc chơi nhạc Việt, giúp chủ nhân kiếm hơn 1,6 tỷ đồng/tháng mà không cần làm gì.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "25/07·kenh14.vn",
+        "url": "https://kenh14.vn/hit-100-trieu-view-lam-thay-doi-cuoc-choi-nhac-viet-dua-chu-nhan-len-dinh-cao-khong-lam-gi-van-kiem-hon-16-ty-dong-thang-215260725070729348.chn"
+      },
+      {
+        "title": "⭐ Thang Duy: Hôn nhân bình dị ở vùng núi",
+        "desc": "Nữ diễn viên Thang Duy và đạo diễn Kim Tae Yong chọn cuộc sống an yên ở vùng núi, tận hưởng những buổi sáng đi bộ và hái dưa leo.",
+        "detail": "Sau những ồn ào của làng giải trí, Thang Duy tìm thấy sự đồng điệu trong hôn nhân với đạo diễn Hàn Quốc Kim Tae Yong. Cặp đôi thường dọn về vùng núi sống mỗi khi rảnh rỗi, tận hưởng cuộc sống bình dị, gần gũi thiên nhiên. Hình ảnh buổi sáng cùng nhau đi bộ và ăn dưa leo mới hái cho thấy một khía cạnh rất đời và đáng ngưỡng mộ của biểu tượng sắc đẹp này.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "24/07·vnexpress.net",
+        "url": "https://vnexpress.net/hon-nhan-dong-dieu-cua-thang-duy-5101236.html"
+      },
+      {
+        "title": "📺 Running Man Việt Nam mùa 4 trở lại với Trấn Thành",
+        "desc": "Dàn cast Running Man Việt Nam chính thức tái xuất, và Trấn Thành đã gây chú ý khi muốn loại Quân A.P ngay từ đầu.",
+        "detail": "Chương trình truyền hình thực tế \"Running Man Việt Nam\" mùa 4 đã chính thức trở lại với sự góp mặt của Trấn Thành và dàn cast quen thuộc. Ngay từ những tương tác đầu tiên, Trấn Thành đã gây bất ngờ khi bày tỏ ý định muốn loại Quân A.P, hứa hẹn một mùa giải đầy kịch tính và những màn \"chơi khăm\" không thể đoán trước. Fan hâm mộ đang rất mong chờ những tình huống hài hước và bất ngờ mà chương trình mang lại.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "25/07·kenh14.vn",
+        "url": "https://kenh14.vn/tran-thanh-muon-loai-quan-ap-trong-running-man-mua-4-215260724235606753.chn"
+      },
+      {
+        "title": "⭐ Công chúa Norodom Jenna hát khai mạc ASEAN Cup",
+        "desc": "Công chúa 14 tuổi của Campuchia, Norodom Jenna, sẽ trình diễn tại lễ khai mạc ASEAN Cup tối 24/7 ở Phnom Penh.",
+        "detail": "Công chúa Norodom Jenna, 14 tuổi, không chỉ là thành viên hoàng gia mà còn là một tài năng âm nhạc. Cô sẽ mang đến màn trình diễn đặc biệt tại lễ khai mạc ASEAN Cup, diễn ra tại sân vận động quốc gia Morodok Techo, Phnom Penh. Sự kiện này hứa hẹn sẽ thu hút sự chú ý lớn từ khán giả khu vực và quốc tế, đồng thời thể hiện sự giao thoa giữa văn hóa và thể thao.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "24/07·vnexpress.net",
+        "url": "https://vnexpress.net/cong-chua-campuchia-se-hat-khai-mac-asean-cup-5101171.html"
+      }
+    ],
+    "trending": [
+      {
+        "title": "📱 Dân văn phòng chi tiền mua AI",
+        "desc": "Nhiều dân văn phòng sẵn sàng chi từ 132.000 - 600.000 đồng/tháng để sử dụng các công cụ AI, coi đây là khoản đầu tư đáng giá.",
+        "tag": "tiktok",
+        "tagLabel": "📱 TIKTOK",
+        "source": "25/07·kenh14.vn",
+        "url": "https://kenh14.vn/dan-van-phong-chi-132000-600000-dong-thang-mua-ai-dieu-dang-gia-nhat-khong-la-o-cau-tra-loi-215260725074718403.chn"
+      },
+      {
+        "title": "🔥 Nữ Chủ tịch 27 tuổi Trịnh Khánh Linh gây sốt",
+        "desc": "Trịnh Khánh Linh, sinh năm 1999, trở thành Chủ tịch HĐQT Tập đoàn PC1 với cơ nghiệp hơn 24.500 tỷ đồng, gây chú ý bởi nhan sắc và phong thái chuyên nghiệp.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "25/07·kenh14.vn",
+        "url": "https://kenh14.vn/co-nghiep-hon-24500-ty-dong-nu-chu-tich-sn-1999-thay-cha-ganh-vac-trai-dai-tu-khu-cong-nghiep-den-dien-gio-thuy-dien-dung-dau-viet-nam-trong-1-linh-vuc-21526072507564237.chn"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Tập sức mạnh 3 giờ/tuần, trẻ hóa 8 tuổi",
+        "desc": "Dành 180 phút tập sức mạnh mỗi tuần có thể giúp bạn giảm tuổi sinh học đến 8 năm, theo một nghiên cứu mới.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/tap-suc-manh-3-gio-moi-tuan-tre-hoa-co-the-8-tuoi-5100729.html"
+      },
+      {
+        "title": "🍜 Thịt rã đông có nên trữ lạnh lại?",
+        "desc": "Việc trữ lạnh lại thịt đã rã đông cần cẩn trọng để tránh gây hại cho sức khỏe, đặc biệt là với thịt tươi sống.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/thit-da-ra-dong-co-nen-tru-lanh-lai-5101393.html"
+      },
+      {
+        "title": "✈️ Chùa không sư ở đảo Lý Sơn",
+        "desc": "Chùa Đục, một ngôi chùa linh thiêng trên đảo Lý Sơn, đã được người dân địa phương tự chăm nom suốt 16 năm qua mà không có sư trụ trì.",
+        "detail": "Nằm ở vị trí đẹp và linh thiêng, chùa Đục là một điểm đến độc đáo trên đảo Lý Sơn. Điều đặc biệt là ngôi chùa này đã được người dân địa phương tự nguyện chăm sóc và duy trì trong suốt 16 năm, tạo nên một nét văn hóa cộng đồng đặc sắc. Đây là một minh chứng cho lòng thành kính và sự gắn bó của người dân với di sản tâm linh của mình.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/chua-khong-su-o-dao-ly-son-5099565.html"
+      },
+      {
+        "title": "💪 5 sai lầm cần tránh khi uống cà phê đá",
+        "desc": "Uống quá nhiều, thay nước lọc bằng cà phê, hoặc thêm nhiều đường và topping là những thói quen không tốt khi thưởng thức cà phê đá.",
+        "detail": "Cà phê đá là thức uống yêu thích của nhiều người, nhưng nếu không uống đúng cách có thể ảnh hưởng đến sức khỏe. Các sai lầm phổ biến bao gồm uống quá nhiều cà phê trong ngày, dùng cà phê thay thế nước lọc, hoặc lạm dụng đường và các loại topping béo ngậy. Để tận hưởng cà phê một cách lành mạnh, bạn nên uống điều độ và hạn chế các chất phụ gia không cần thiết.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/5-sai-lam-nen-tranh-khi-uong-ca-phe-da-5100319.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "📜 Đề xuất mới về cấp sổ đỏ",
+        "desc": "Đất vi phạm thủ tục trước 1/8/2024 có thể được xem xét cấp sổ đỏ nếu đáp ứng đủ điều kiện về sử dụng ổn định, không tranh chấp và phù hợp quy hoạch.",
+        "detail": "Những đề xuất mới này mang lại cơ hội hợp thức hóa giấy tờ cho nhiều trường hợp đất đai còn tồn đọng. Điều kiện quan trọng là đất phải được sử dụng ổn định, không có tranh chấp và phù hợp với quy hoạch sử dụng đất hiện hành. Đây là một bước tiến nhằm giải quyết các vướng mắc pháp lý, giúp người dân an tâm hơn về quyền sử dụng đất của mình.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/nhung-de-xuat-moi-ve-cap-so-do-5100836.html"
+      },
+      {
+        "title": "💼 Lương tối thiểu tăng, trợ cấp thất nghiệp cũng tăng",
+        "desc": "Nếu lương tối thiểu vùng điều chỉnh 7,8% từ 1/1/2027, tiền hưởng trợ cấp thất nghiệp tối đa dự kiến tăng lên 28,5 triệu đồng.",
+        "detail": "Việc điều chỉnh lương tối thiểu vùng sẽ tác động trực tiếp đến nhiều khoản đóng và hưởng của người lao động. Cụ thể, mức trợ cấp thất nghiệp tối đa sẽ tăng lên, mang lại lợi ích thiết thực cho người lao động khi không may mất việc. Đây là một chính sách quan trọng nhằm đảm bảo an sinh xã hội và hỗ trợ người dân trong bối cảnh kinh tế có nhiều biến động.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/khoan-dong-huong-tang-khi-luong-toi-thieu-dieu-chinh-tu-1-1-2027-5101296.html"
+      },
+      {
+        "title": "🏙️ Nguồn cung nhà ở TP.HCM bùng nổ",
+        "desc": "Thị trường bất động sản TP.HCM ghi nhận sự bùng nổ với hơn 21.000 căn nhà đủ điều kiện mở bán, vượt xa con số của cả năm 2025.",
+        "detail": "Đây là tín hiệu tích cực cho thị trường bất động sản TP.HCM, cho thấy nguồn cung đang được cải thiện đáng kể. Với hơn 21.165 căn nhà sắp được tung ra thị trường, người mua sẽ có nhiều lựa chọn hơn, đồng thời kỳ vọng giá cả sẽ ổn định hơn. Sự bùng nổ này được dự báo sẽ kích hoạt làn sóng tăng giá trị cho chuỗi siêu dự án tại các khu vực trọng điểm như Thủ Thiêm.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "25/07·tuoitre.vn",
+        "url": "https://tuoitre.vn/nguon-cung-nha-o-tphcm-bung-no-voi-hon-21000-can-du-dieu-kien-mo-ban-100260724215707045.htm"
+      },
+      {
+        "title": "🚦 Nỗi lo thoát hiểm trên xe giường nằm",
+        "desc": "Xe giường nằm với lối đi hẹp gây lo ngại về khả năng thoát hiểm cho hành khách khi gặp sự cố cháy nổ hoặc lật nghiêng.",
+        "detail": "Với thiết kế 24-40 chỗ và lối đi hạn chế, xe giường nằm tiềm ẩn nhiều rủi ro khi xảy ra tai nạn. Khi gặp sự cố như cháy nổ hay lật xe, hành khách bên trong sẽ khó khăn trong việc tìm đường thoát thân, dẫn đến những hậu quả đáng tiếc. Vấn đề này đặt ra yêu cầu cần có những quy định chặt chẽ hơn về an toàn và thiết kế xe khách giường nằm để bảo vệ tính mạng hành khách.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "25/07·vnexpress.net",
+        "url": "https://vnexpress.net/noi-lo-thoat-hiem-tren-xe-giuong-nam-5101420.html"
+      },
+      {
+        "title": "📜 Bộ Nội vụ bãi bỏ thủ tục xếp lương viên chức",
+        "desc": "Bộ Nội vụ vừa bãi bỏ 3 thủ tục hành chính liên quan đến viên chức, trong đó có thủ tục xếp lương với viên chức hoàn thành tập sự.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "25/07·tuoitre.vn",
+        "url": "https://tuoitre.vn/tin-tuc-sang-25-7-bo-noi-vu-bai-bo-thu-tuc-xep-luong-voi-vien-chuc-hoan-thanh-tap-su-100260724214109215.htm"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🤖 EU phạt Google gần 1 tỷ USD",
+        "desc": "Liên minh Châu Âu (EU) đã chính thức phạt Google gần 1 tỷ USD vì vi phạm Luật Thị trường Kỹ thuật số (DMA).",
+        "detail": "Brussels, ngày 23/7/2026 – EU đã công bố mức phạt tổng cộng 890 triệu euro (khoảng 1 tỷ USD) đối với Google. Quyết định này được đưa ra sau khi Google bị cáo buộc vi phạm các quy định của Luật Thị trường Kỹ thuật số, một đạo luật nhằm đảm bảo cạnh tranh công bằng trong không gian số. Đây là một động thái mạnh mẽ của EU nhằm kiểm soát các \"ông lớn\" công nghệ và bảo vệ người tiêu dùng.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "25/07·tinhte.vn",
+        "url": "https://tinhte.vn/thread/eu-phat-google-gan-1-ty-usd-vi-vi-pham-luat-thi-truong-ky-thuat-so.4163462/"
+      },
+      {
+        "title": "🚀 Apple Watch Series 12 sắp ra mắt",
+        "desc": "Apple Watch Series 12 được đồn đoán sẽ ra mắt với chip mới, pin trâu hơn, nhưng tính năng Touch ID vẫn còn bỏ ngỏ.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "25/07·tinhte.vn",
+        "url": "https://tinhte.vn/thread/apple-watch-series-12-sap-ra-mat-chip-moi-pin-trau-hon-nhung-touch-id-van-hen-xui-anh-em-a.4162493/"
+      },
+      {
+        "title": "🤖 AMD mở rộng sang Physical AI",
+        "desc": "Tại sự kiện Advancing AI 2026, AMD chính thức bước vào mảng Physical AI, tập trung vào robot, tự động hóa công nghiệp và hệ thống nhúng.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "24/07·tinhte.vn",
+        "url": "https://tinhte.vn/thread/amd-advancing-ai-amd-mo-rong-physical-ai-voi-ryzen-ai-embedded-x100-va-nen-tang-kria-ai-robotics.4163704/"
+      }
+    ],
+    "finance": [],
+    "sports": []
+  },
+  {
     "date": "2026-07-24",
     "dayLabel": "Thứ Sáu",
     "dateLabel": "24/07/2026",
