@@ -1,5 +1,71 @@
 [
   {
+    "weekLabel": "Tuần 30/2026",
+    "fromDate": "2026-07-20",
+    "toDate": "2026-07-26",
+    "highlights": [
+      {
+        "title": "🎵 Rosalía bị hủy show vì… World Cup?",
+        "desc": "Nữ ca sĩ Rosalía vừa bị hủy show giao hưởng tri ân âm nhạc của mình tại Córdoba, Argentina vì một bài đăng chế giễu đội tuyển Argentina, gây xôn xao dư luận và ảnh hưởng đến hình ảnh của cô.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/nu-ca-si-bi-huy-show-vi-bai-dang-che-gieu-argentina-215260726081114766.chn"
+      },
+      {
+        "title": "🤖 AI 'thanh lọc' ngành IT, lương kỹ sư sụt giảm",
+        "desc": "Làn sóng AI đang 'thanh lọc' ngành IT, khiến lương kỹ sư công nghệ sụt giảm mạnh và đòi hỏi nhân sự phải thay đổi để tăng khả năng cạnh tranh, tạo ra áp lực lớn cho thị trường lao động công nghệ.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/ai-thanh-loc-nganh-it-luong-ky-su-cong-nghe-sut-giam-manh-165260726081244762.chn"
+      },
+      {
+        "title": "🪙 Quỹ vàng khổng lồ 'gom' chục tấn vàng",
+        "desc": "Khi giá vàng bật tăng từ đáy, một quỹ vàng khổng lồ đã nhanh chóng 'gom' cả chục tấn vàng, cho thấy lực cầu bắt đáy mạnh mẽ và dự báo xu hướng tăng giá của kim loại quý này.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/quy-vang-khong-lo-gom-ca-chuc-tan-vang-khi-gia-bat-tang-tu-day-188260725225030902.chn"
+      },
+      {
+        "title": "📜 Bộ Công an muốn định danh tài sản số",
+        "desc": "Bộ Công an đề xuất mở rộng phạm vi định danh điện tử sang dữ liệu, ứng dụng và tài sản số, ảnh hưởng đến người sở hữu tài sản số và tạo ra khung pháp lý mới cho lĩnh vực này.",
+        "tag": "policy",
+        "tagLabel": "📜 POLICY",
+        "url": "https://cafebiz.vn/bo-cong-an-muon-dinh-danh-tai-san-so-176260726080850877.chn"
+      },
+      {
+        "title": "💸 Chuyển tiền lạ có thể 'giữ lại 24 giờ'",
+        "desc": "Sắp tới, ngân hàng sẽ cho phép khách hàng tự chọn hạn mức và thời gian chờ tối thiểu 24 giờ khi chuyển tiền trực tuyến đến tài khoản lạ, nhằm tăng cường bảo mật và phòng chống lừa đảo.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://vnexpress.net/co-the-giu-lai-tien-trong-24-gio-neu-chuyen-toi-tai-khoan-la-5101220.html"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🎮 HLE sở hữu thông số 'khó đỡ' tại EWC 2026",
+        "desc": "HLE, ứng cử viên vô địch EWC 2026, đang gây chú ý với một thông số 'khó đỡ' mà không đội nào khác có được, làm dấy lên nhiều tranh cãi và dự đoán trong cộng đồng game thủ.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "url": "https://cl44.cnnd.vn/hle-so-huu-mot-thong-so-kho-do-tai-ewc-2026-178260722002240275.chn"
+      },
+      {
+        "title": "💻 Faker bất ngờ 'đổi nghề' gây sốt",
+        "desc": "Hình ảnh mới nhất của Faker, 'Quỷ Vương Bất Tử' của LMHT, trong vai trò khác lạ đang gây sốt cộng đồng game thủ Hàn Quốc, khiến nhiều người tò mò về hướng đi mới của anh.",
+        "tag": "social",
+        "tagLabel": "🎰 SOCIAL",
+        "url": "https://cl44.cnnd.vn/faker-bat-ngo-doi-nghe-khien-cong-dong-ngo-ngang-178260722142007743.chn"
+      },
+      {
+        "title": "🎮 Game gacha nổi tiếng có bản PC chính thức!",
+        "desc": "Tựa game gacha đình đám cuối cùng cũng ra mắt phiên bản PC chính thức, mang đến tin vui cho cộng đồng game thủ, hứa hẹn trải nghiệm chơi game mượt mà và tiện lợi hơn.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "url": "https://cl44.cnnd.vn/tua-game-gacha-noi-tieng-bac-nhat-the-gioi-cuoi-cung-cung-co-ban-pc-chinh-thuc-bao-tin-vui-cho-nguoi-choi-178260720095039019.chn"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 29/2026",
     "fromDate": "2026-07-13",
     "toDate": "2026-07-18",
