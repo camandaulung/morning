@@ -1,5 +1,168 @@
 [
   {
+    "date": "2026-07-27",
+    "dayLabel": "Thứ Hai",
+    "dateLabel": "27/07/2026",
+    "entertainment": [
+      {
+        "title": "💖 Vbiz có cặp đôi mới sau 10 năm hẹn hò bí mật!",
+        "desc": "Một cặp sao Vbiz đình đám vừa chính thức công khai tình cảm sau một thập kỷ vướng tin đồn 'phim giả tình thật'.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "27/07·Kenh14",
+        "url": "https://kenh14.vn/cap-sao-vbiz-cong-khai-yeu-nhau-sau-10-nam-bi-don-hen-ho-nha-gai-dep-nuc-tieng-nha-trai-la-soai-ca-hoc-duong-215260727030627019.chn"
+      },
+      {
+        "title": "👨‍👩‍👧 Cao Minh Đạt đón con đầu lòng sau 10 năm kết hôn",
+        "desc": "Nam diễn viên Cao Minh Đạt và vợ Thanh Trúc vừa hạnh phúc chào đón con đầu lòng sau một thập kỷ chung sống.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "27/07·VnExpress",
+        "url": "https://vnexpress.net/hon-nhan-10-nam-cua-nghe-si-cao-minh-dat-5096670.html"
+      },
+      {
+        "title": "🎬 Phim Hàn phá kỷ lục rating 4 năm chưa từng có!",
+        "desc": "Một bộ phim Hàn Quốc vừa thiết lập kỷ lục rating 'điên rồ' với lượt xem vượt nửa dân số cả nước, thành tích chưa từng thấy trong 4 năm qua.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "26/07·Kenh14",
+        "url": "https://kenh14.vn/phim-han-lap-ky-luc-rating-4-nam-chua-tung-xuat-hien-luot-xem-vuot-nua-dan-so-ca-nuoc-thanh-tich-qua-dien-ro-21526072611485361.chn"
+      },
+      {
+        "title": "🎵 Giám đốc âm nhạc 'Chị Đẹp' gặp khó với 'Anh Trai Chông Gai'",
+        "desc": "Những tranh cãi về ca khúc không được lên sóng của 'Anh Trai Chông Gai' đã hé lộ áp lực lớn mà giám đốc âm nhạc các show thực tế đang phải đối mặt.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "27/07·Kenh14",
+        "url": "https://kenh14.vn/tu-tranh-cai-ca-khuc-khong-duoc-len-song-cua-anh-trai-chong-gai-moi-thay-giam-doc-am-nhac-chi-dep-kho-co-nao-215260727083028791.chn"
+      },
+      {
+        "title": "⭐ Tăng Thanh Hà: Hai thập kỷ 'ngọc nữ' màn ảnh Việt",
+        "desc": "Tăng Thanh Hà, 'ngọc nữ' một thời của màn ảnh Việt, được nhìn lại hành trình hai thập kỷ từ khi vụt sáng đến nay.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "27/07·VnExpress",
+        "url": "https://vnexpress.net/hai-thap-nien-tren-man-anh-cua-tang-thanh-ha-5093766.html"
+      },
+      {
+        "title": "⭐ Em gái Đặng Văn Lâm thử sức làm người mẫu",
+        "desc": "Thanh Giang, em gái 19 tuổi của thủ môn Đặng Văn Lâm, đang tìm kiếm cơ hội trên sàn catwalk tại show áo cưới của NTK Đỗ Long.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "26/07·VnExpress",
+        "url": "https://vnexpress.net/em-gai-cau-thu-dang-van-lam-casting-nguoi-mau-5101719.html"
+      }
+    ],
+    "trending": [],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "😩 'Hội chứng chán ghét Thứ Hai' có thật không?",
+        "desc": "Nhiều người, đặc biệt là dân văn phòng, thường cảm thấy mệt mỏi, uể oải vào sáng Thứ Hai dù không có bệnh lý.",
+        "detail": "Cảm giác 'chán ghét Thứ Hai' không phải là hiếm, Minh (26 tuổi, lập trình viên TP HCM) là một ví dụ điển hình. Đây là một hiện tượng tâm lý phổ biến, thường xuất hiện sau những ngày cuối tuần thư giãn. Để vượt qua, bạn có thể thử điều chỉnh lịch sinh hoạt, chuẩn bị tinh thần từ tối Chủ Nhật hoặc tìm kiếm những hoạt động thú vị để khởi đầu tuần mới.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "27/07·VnExpress",
+        "url": "https://vnexpress.net/hoi-chung-chan-ghet-thu-hai-5100222.html"
+      },
+      {
+        "title": "💧 Máy lọc nước Tineco Hydrate One Ice Master 5 trong 1",
+        "desc": "Tineco vừa ra mắt Hydrate One Ice Master, máy lọc nước RO uống trực tiếp tích hợp 5 tính năng, bao gồm làm đá tự động chỉ sau 8 phút.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "27/07·VnExpress",
+        "url": "https://vnexpress.net/tineco-hydrate-one-ice-master-may-loc-nuoc-5-trong-mot-5101752.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "🙏 TP.HCM tri ân liệt sĩ, trao di vật sau 58 năm",
+        "desc": "Tối 26/7, TP.HCM tổ chức đêm tưởng niệm xúc động, trao lại di vật của liệt sĩ Huỳnh Văn Quên cho gia đình sau 58 năm hy sinh.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "27/07·VnExpress",
+        "url": "https://vnexpress.net/nuoc-mat-trong-dem-tuong-niem-liet-si-o-cong-vien-le-thi-rieng-5101860.html"
+      },
+      {
+        "title": "🚦 Hà Nội khép kín 5 tuyến vành đai vào năm 2027",
+        "desc": "Hà Nội đặt mục tiêu hoàn thành toàn bộ 5 tuyến đường vành đai quan trọng, bao gồm Vành đai 1, 2.5, 3, 3.5 và 4, vào năm 2027.",
+        "detail": "Đây là một tin vui cho người dân và doanh nghiệp tại Hà Nội, hứa hẹn giảm áp lực giao thông đáng kể. Vành đai 1 dự kiến hoàn thành trong năm nay, các dự án của Vành đai 2.5 cũng sẽ xong trong năm (trừ đoạn Lĩnh Nam năm sau). Việc hoàn thiện các tuyến vành đai sẽ giúp kết nối các khu vực, thúc đẩy phát triển kinh tế và cải thiện chất lượng cuộc sống đô thị.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "26/07·VnExpress",
+        "url": "https://vnexpress.net/ha-noi-se-khep-kin-5-tuyen-vanh-dai-vao-nam-2027-5101828.html"
+      },
+      {
+        "title": "💼 Bán lẻ online 'bội thu' nửa đầu năm, tăng trưởng gấp 3 lần",
+        "desc": "Doanh số bán lẻ trực tuyến trên các sàn Shopee, TikTok Shop, Lazada và Tiki tăng hơn 40% trong 6 tháng đầu năm, nhanh gấp 3 lần tốc độ tăng trưởng chung của ngành.",
+        "detail": "Thị trường bán lẻ online Việt Nam đang chứng kiến sự bùng nổ mạnh mẽ, vượt xa tốc độ tăng trưởng của ngành bán lẻ truyền thống. Điều này cho thấy xu hướng mua sắm trực tuyến ngày càng được người tiêu dùng ưa chuộng, đồng thời tạo ra nhiều cơ hội và thách thức cho các doanh nghiệp. Các sàn thương mại điện tử tiếp tục là kênh phân phối hiệu quả, thúc đẩy nền kinh tế số phát triển.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "27/07·VnExpress",
+        "url": "https://vnexpress.net/ban-le-online-boi-thu-nua-dau-nam-5101812.html"
+      },
+      {
+        "title": "💸 Người có nhà cho thuê cần nắm rõ quy định thuế mới",
+        "desc": "Thuế TP Hà Nội vừa hướng dẫn cách kê khai và nộp thuế theo quy định mới từ năm 2026 cho người có nhà cho thuê.",
+        "detail": "Từ năm 2026, các quy định về thuế đối với hoạt động cho thuê nhà sẽ có những thay đổi quan trọng. Người có nhà cho thuê cần chủ động tìm hiểu và nắm rõ các hướng dẫn mới từ cơ quan thuế để đảm bảo kê khai và nộp thuế đúng quy định, tránh những sai sót không đáng có. Việc này sẽ ảnh hưởng trực tiếp đến nghĩa vụ tài chính và quyền lợi của chủ nhà.",
+        "tag": "tax",
+        "tagLabel": "💸 THUẾ",
+        "source": "27/07·CafeBiz",
+        "url": "https://cafebiz.vn/tat-ca-nhung-nguoi-co-nha-cho-thue-can-nam-ro-thong-tin-quan-trong-nay-ve-thu-e-176260727054906937.chn"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🤖 Apple Store app sắp có trợ lý AI tư vấn mua hàng",
+        "desc": "Ứng dụng Apple Store sẽ sớm tích hợp trợ lý AI để tư vấn mua sắm, có thể sử dụng cả mô hình AI từ bên thứ ba.",
+        "detail": "Đây là một bước tiến lớn của Apple trong việc ứng dụng AI vào trải nghiệm khách hàng. Trợ lý ảo sẽ giúp người dùng dễ dàng tìm kiếm sản phẩm, so sánh tính năng và đưa ra quyết định mua hàng thông minh hơn. Việc cho phép sử dụng mô hình AI bên thứ ba cũng mở ra nhiều khả năng tùy biến và nâng cao hiệu quả cho dịch vụ này.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "27/07·Tinhte",
+        "url": "https://tinhte.vn/thread/apple-store-app-sap-co-tro-ly-ai-tu-van-mua-do-co-the-dung-model-ben-thu-3.4163319/"
+      },
+      {
+        "title": "💻 Máy tính đang được thiết kế lại cho AI agent",
+        "desc": "Thiết kế máy tính đang dịch chuyển trọng tâm từ phục vụ con người sang tối ưu hóa cho các AI agent, thay đổi cách chúng ta nhìn nhận sức mạnh chip.",
+        "detail": "Trong nhiều thập kỷ, chip CPU mạnh mẽ được đánh giá qua khả năng chạy đa nhiệm hay tốc độ duyệt web. Tuy nhiên, với sự trỗi dậy của AI, các nhà sản xuất đang tái định hình kiến trúc máy tính để phù hợp hơn với nhu cầu xử lý của các AI agent. Điều này có nghĩa là hiệu năng của máy tính trong tương lai sẽ được đo lường bằng khả năng hỗ trợ AI, mở ra một kỷ nguyên mới cho ngành công nghiệp phần cứng.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "26/07·Tinhte",
+        "url": "https://tinhte.vn/thread/may-tinh-dang-duoc-thiet-ke-lai-khong-phai-cho-con-nguoi-ma-cho-ai-agent.4163045/"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📉 FPT 'bốc hơi' 114.000 tỷ vốn hóa, bằng 3 ngân hàng",
+        "desc": "FPT đã mất 114.000 tỷ đồng vốn hóa từ đỉnh, tương đương tổng vốn hóa của 3 ngân hàng cộng lại, không còn trong top 10 vốn hóa thị trường.",
+        "detail": "Từng là tập đoàn tư nhân lớn nhất sàn chứng khoán, FPT đang trải qua giai đoạn điều chỉnh mạnh. Việc 'bốc hơi' một lượng lớn vốn hóa cho thấy những biến động khó lường của thị trường chứng khoán. Điều này cũng đặt ra câu hỏi về chiến lược đầu tư và quản lý rủi ro cho các nhà đầu tư cá nhân, đặc biệt khi các cổ phiếu cơ bản cũng chịu áp lực giảm giá.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "27/07·CafeF",
+        "url": "https://cafef.vn/fpt-boc-hoi-114000-ty-von-hoa-tu-dinh-bang-3-ngan-hang-cong-lai-18826072623565161.chn"
+      },
+      {
+        "title": "📈 Quỹ Đài Loan trở lại mua cổ phiếu Việt Nam sau 165 ngày",
+        "desc": "Lần đầu tiên sau 165 ngày, một quỹ đầu tư từ Đài Loan đã quay lại mua cổ phiếu Việt Nam, sau hơn 10 quý liên tiếp ghi nhận dòng vốn âm.",
+        "detail": "Đây là một tín hiệu tích cực hiếm hoi cho thị trường chứng khoán Việt Nam trong bối cảnh hiện tại. Việc quỹ ngoại này tái đầu tư có thể cho thấy niềm tin vào triển vọng dài hạn của thị trường, dù trước đó họ đã trải qua giai đoạn rút vốn kéo dài. Động thái này có thể thu hút sự chú ý của các nhà đầu tư khác và góp phần ổn định tâm lý thị trường.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "27/07·CafeF",
+        "url": "https://cafef.vn/la-lan-dau-tien-sau-165-ngay-quy-dai-loan-tro-lai-mua-co-phieu-viet-nam-188260727003114912.chn"
+      },
+      {
+        "title": "🪙 Giá vàng giữ vững mốc 4.000 USD/oz, tăng nhẹ đầu tuần",
+        "desc": "Giá vàng thế giới tăng mạnh khi khởi động tuần giao dịch mới, giữ vững mốc hỗ trợ 4.000 USD/oz nhờ tín hiệu xuống thang chiến sự Vùng Vịnh.",
+        "detail": "Sau một tuần biến động, giá vàng đang có dấu hiệu phục hồi tích cực. Việc kim loại quý giữ được mốc 4.000 USD/oz được xem là tín hiệu tốt, đặc biệt khi giá dầu thô giảm mạnh do căng thẳng ở Vùng Vịnh hạ nhiệt. Giới đầu tư cá nhân đang lạc quan hơn về triển vọng ngắn hạn của vàng, trong khi các chuyên gia vẫn khuyến nghị thận trọng.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "27/07·VnEconomy",
+        "url": "https://vneconomy.vn/tin-hieu-tich-cuc-tu-viec-gia-vang-giu-vung-moc-4000-usdoz.htm"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-07-26",
     "dayLabel": "Chủ Nhật",
     "dateLabel": "26/07/2026",
