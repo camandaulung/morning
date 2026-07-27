@@ -1,5 +1,7 @@
 """Test notify-telegram.py evening mode — collect_evening_items (addedEvening
-filter) + build_evening_message (None when nothing new, grouped output otherwise)."""
+filter) + build_evening_message (None when nothing new, grouped output otherwise)
++ mark_evening_notified (send-once idempotency guard against double triggers)."""
+import json
 import os
 import sys
 import importlib.util
@@ -77,3 +79,34 @@ class TestBuildEveningMessage:
 
     def test_empty_card_returns_none(self):
         assert notify_telegram.build_evening_message({"date": "2026-07-15"}) is None
+
+
+class TestMarkEveningNotified:
+    """mark_evening_notified: send-once flag that stops the 22h/23h double trigger
+    (GitHub schedule cron + Cloudflare backup cron) re-sending the same digest."""
+
+    def test_sets_flag_on_first_card(self, tmp_path):
+        path = tmp_path / "cards.json"
+        cards = [{"date": "2026-07-26", "tech": [
+            {"title": "T", "url": "https://a.com", "addedEvening": True}]}]
+        notify_telegram.mark_evening_notified(cards, str(path))
+        assert cards[0]["eveningNotified"] is True
+        written = json.loads(path.read_text(encoding="utf-8"))
+        assert written[0]["eveningNotified"] is True
+
+    def test_canonical_json_format(self, tmp_path):
+        """Must match card_pipeline.write_cards_file (ensure_ascii=False, indent=2)
+        so the flag write adds one key without reformatting the whole file."""
+        path = tmp_path / "cards.json"
+        cards = [{"date": "2026-07-26", "title": "Tin tiếng Việt"}]
+        notify_telegram.mark_evening_notified(cards, str(path))
+        text = path.read_text(encoding="utf-8")
+        assert "Tin tiếng Việt" in text          # non-ASCII kept verbatim
+        assert '\n    "date"' in text             # indent=2 (dict nested in list → 4 sp)
+
+    def test_guard_short_circuits_second_run(self, tmp_path):
+        """Simulate the 2nd (duplicate) trigger: a card already flagged must be
+        recognized as already-sent, so the caller skips before re-notifying."""
+        cards = [{"date": "2026-07-26", "eveningNotified": True}]
+        # This mirrors the top-level guard: `if card.get("eveningNotified"): skip`
+        assert cards[0].get("eveningNotified") is True

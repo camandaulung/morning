@@ -73,6 +73,16 @@ def html_escape(s: str) -> str:
     return (s or "").replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
 
 
+def mark_evening_notified(cards: list, path: str = "cards.json") -> None:
+    """Persist the evening send-once marker on cards[0], writing cards.json in the
+    canonical format (matches card_pipeline.write_cards_file → no git-diff churn).
+    The evening job's 'Commit and push' step then carries the flag to main so a
+    duplicate evening run checks it out and short-circuits before re-sending."""
+    cards[0]["eveningNotified"] = True
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(cards, f, ensure_ascii=False, indent=2)
+
+
 def build_morning_message(card: dict) -> str:
     """Full morning digest — sections by topic."""
     lines = [f"{site_title} — <b>{card.get('dateLabel','')}</b> ({card.get('dayLabel','')})", ""]
@@ -144,6 +154,15 @@ def build_evening_message(card: dict) -> str | None:
 
 
 if MODE == "evening":
+    # Idempotency guard: the evening workflow can fire more than once per day
+    # (GitHub Actions schedule cron + Cloudflare Worker backup cron, both at
+    # 0 15 * * *; GitHub's cron lag makes them run ~1h apart). generate_card.py
+    # already no-ops the 2nd run via eveningDone, but notify runs unconditionally
+    # and would re-send the same addedEvening items. eveningNotified — set only
+    # after a successful send below — makes the notification itself send-once.
+    if card.get("eveningNotified"):
+        print("Evening digest already sent for today — skipping (avoid duplicate)")
+        sys.exit(0)
     message = build_evening_message(card)
     if message is None:
         print("No new evening items — skipping notification (avoid spam)")
@@ -207,5 +226,17 @@ for chat_id in CHAT_IDS:
         fail_count += 1
 
 print(f"Total: {ok_count} ok / {fail_count} fail / {len(CHAT_IDS)} recipients")
+
+# Persist the send-once marker so a duplicate evening run skips notifying. Only
+# after ≥1 successful send: if EVERY recipient failed we leave the flag unset so a
+# later retry/backup run can still deliver. A persistently-failing recipient (e.g.
+# blocked the bot) is intentionally accepted as "misses this digest" rather than
+# re-sending to the healthy recipients every hour. NOTE: serialization holds only
+# when run 1 pushes before run 2 checks out (the observed ~1h GitHub-cron lag);
+# truly simultaneous triggers could still double-send — acceptable for this cadence.
+if MODE == "evening" and ok_count > 0 and not card.get("eveningNotified"):
+    mark_evening_notified(cards)
+    print("Marked eveningNotified=true in cards.json")
+
 if ok_count == 0 and fail_count:
     sys.exit(1)
