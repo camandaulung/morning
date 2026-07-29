@@ -52,23 +52,6 @@ def collect_items(card: dict) -> list[tuple[str, dict]]:
     return out
 
 
-def first_items(items: list, n: int = 3) -> list:
-    """Take first N items in existing (topic/config) order, deduped by URL.
-    NOTE: PRIORITY_TAGS ranking removed — it was stale vs current config.json tags
-    (e.g. 'hot' doesn't exist, many tags like 'ai'/'deal'/'gold' fell through to
-    default rank 99) and caused a notify loop bug. Simpler + correct: no ranking,
-    just take the first N items as they naturally appear."""
-    seen, out = set(), []
-    for field, x in items:
-        if x["url"] in seen:
-            continue
-        seen.add(x["url"])
-        out.append((field, x))
-        if len(out) >= n:
-            break
-    return out
-
-
 def html_escape(s: str) -> str:
     return (s or "").replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
 
@@ -86,15 +69,6 @@ def mark_evening_notified(cards: list, path: str = "cards.json") -> None:
 def build_morning_message(card: dict) -> str:
     """Full morning digest — sections by topic."""
     lines = [f"{site_title} — <b>{card.get('dateLabel','')}</b> ({card.get('dayLabel','')})", ""]
-
-    all_items = collect_items(card)
-    top_picks = first_items(all_items, n=3)
-    if top_picks:
-        lines.append("🔥 <b>Điểm nhanh sáng nay:</b>")
-        for field, x in top_picks:
-            emoji, _ = section_meta(field)
-            lines.append(f"{emoji} <a href=\"{x['url']}\">{html_escape(x['title'])}</a>")
-        lines.append("")
 
     # Sections per topic (skip if empty)
     for field in list_item_fields(card):
