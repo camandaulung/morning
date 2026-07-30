@@ -1,5 +1,200 @@
 [
   {
+    "date": "2026-07-30",
+    "dayLabel": "Thứ Năm",
+    "dateLabel": "30/07/2026",
+    "entertainment": [
+      {
+        "title": "🎬 \"The Odyssey\" của Nolan bùng nổ phòng vé",
+        "desc": "Phim mới của Christopher Nolan đã cán mốc gần 700 triệu USD toàn cầu chỉ sau hơn một tuần ra mắt.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/ly-do-the-odyssey-gay-sot-phong-ve-5102883.html"
+      },
+      {
+        "title": "⭐ Ngô Kiến Huy lộ hint hẹn hò gái xinh kém 9 tuổi",
+        "desc": "Ngô Kiến Huy và bạn gái tin đồn đã để lộ những bằng chứng hẹn hò rõ ràng, khiến fan xôn xao.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "30/07·Kenh14",
+        "url": "https://kenh14.vn/ngo-kien-huy-va-gai-xinh-kem-9-tuoi-da-chiu-cong-khai-215260730082539706.chn"
+      },
+      {
+        "title": "⭐ Sooyoung (SNSD) có bạn trai mới sau chia tay Jung Kyung Ho?",
+        "desc": "Tin đồn Sooyoung (SNSD) hẹn hò bạn trai mới đang rộ lên, dù người trong cuộc vẫn giữ im lặng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "30/07·Kenh14",
+        "url": "https://kenh14.vn/sooyoung-snsd-cong-khai-ban-trai-moi-sau-khi-chia-tay-jung-kyung-ho-215260730082157157.chn"
+      },
+      {
+        "title": "⭐ Kim Soo Hyun được minh oan vụ kiện \"dâm ô trẻ vị thành niên\"",
+        "desc": "Cảnh sát Hàn Quốc đã công bố tài tử Kim Soo Hyun vô tội trong vụ kiện gây chấn động dư luận.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "29/07·VnExpress",
+        "url": "https://vnexpress.net/kim-soo-hyun-vo-toi-5102921.html"
+      },
+      {
+        "title": "🎵 The Flob \"hết flop\", sold-out nhà thi đấu",
+        "desc": "Từ cát xê ít ỏi, ban nhạc The Flob nay đã thành công rực rỡ với các tour diễn cháy vé khắp cả nước.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "30/07·Kenh14",
+        "url": "https://kenh14.vn/tu-cat-xe-100k-va-2-phieu-an-ga-ran-den-ban-nhac-sold-out-nha-thi-dau-the-flob-da-het-flop-215260729234531972.chn"
+      }
+    ],
+    "trending": [
+      {
+        "title": "📱 Vũ đạo \"lùa cơm\" của Vương Bình gây sốt",
+        "desc": "Điệu nhảy \"Tinh Hà Say Hi\" với vũ đạo \"lùa cơm\" của Vương Bình đang được dàn sao hưởng ứng nhiệt tình.",
+        "tag": "tiktok",
+        "tagLabel": "📱 TIKTOK",
+        "source": "29/07·Tiền Phong",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN1JCeG9jeGJMN0NwbVdKaEhBekJySnItTEJDVFYwMWZVa0c0c1puSkNabGlEREV5emREclY3d2NkdFJFVi1iSXhNdURFb2FBWjlWRnEwMmlUM2p0aU5MMG5Fank1WmdHRE1odGpUU2ZOOW1ONm9qeWlQbnBtelFhTjAzWi1YaGJlTWpJUllza3NOSGtnMUVzVlM2eFM5X3N1RC1FNHFzUnlUbFk1ZFE?oc=5"
+      },
+      {
+        "title": "🔥 Nam sinh Trung Quốc tạo AI nhắc ông nội uống thuốc",
+        "desc": "Một nam sinh Trung Quốc đã tạo ra ứng dụng AI nhắc ông nội uống thuốc, gây \"sốt\" mạng xã hội.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "29/07·Tin tức 24h",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYzdYS2hreUwwQ0g0WnFfTndMLVI4WXFreTE1RDY5cUtDUXlrQ2pOSW9hTVBPSkZuX0cyVE5Pcl9Ma0J1UjBjSEwzSkFBaWxycVgxVXdwRjkxVlFkUEF6WVBWaUw5YVhRakNlaE9PdU5KanRSQmJKaUlNRlAtUjlmOURHRHpGUG42SUthYk95YlRqZEx1RkZ2cmZKTnI5T1ZFR1VuUEx0eFh2Mk9wblpZQ1oxVmhJQmJENUtTWUNUN0hXTzlvaklRSV9IZw?oc=5"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 4 thói quen ăn uống \"rút cạn canxi\" bạn cần tránh",
+        "desc": "Ăn quá mặn, lạm dụng đồ ngọt, nhiều đường và rượu bia là những thói quen gây hại, khiến cơ thể khó hấp thu canxi.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/4-thoi-quen-an-uong-tang-nguy-co-rut-can-canxi-5102478.html"
+      },
+      {
+        "title": "🧘 Áp lực \"sếp nhắn là phải trả lời\" ngoài giờ làm",
+        "desc": "Nhiều người đi làm đang đối mặt với áp lực phải phản hồi tin nhắn công việc từ sếp ngay cả khi đã hết giờ hành chính.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/ap-luc-sep-nhan-la-phai-tra-loi-5100603.html"
+      },
+      {
+        "title": "✈️ Omakase phở 4,5 triệu đồng ở TP.HCM",
+        "desc": "Hai đầu bếp nổi tiếng đã tạo nên thực đơn omakase phở đầu tiên tại TP.HCM với mức giá 4,5 triệu đồng.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/omakase-pho-4-5-trieu-dong-o-tp-hcm-5095577.html"
+      },
+      {
+        "title": "💪 Bác sĩ cảnh báo sai lầm khi ngủ bật quạt mùa nóng",
+        "desc": "Thói quen bật quạt thổi trực tiếp vào người suốt đêm có thể gây khô da, kích hoạt dị ứng và suy yếu hệ miễn dịch hô hấp.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/bac-si-canh-bao-sai-lam-nguy-hai-suc-khoe-khi-ngu-bat-quat-mua-nong-5101971.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "📜 Phạt 10-20 triệu nếu không cho lao động nữ nghỉ thai sản/kinh nguyệt",
+        "desc": "Chủ sử dụng lao động sẽ bị phạt 10-20 triệu đồng nếu không cho lao động nữ nghỉ 30 phút/ngày trong kỳ kinh hoặc 60 phút/ngày khi nuôi con dưới 12 tháng.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/phat-10-20-trieu-dong-neu-khong-cho-lao-dong-nu-nuoi-con-nho-nghi-60-phut-moi-ngay-5102907.html"
+      },
+      {
+        "title": "✈️ Tàu sân bay USS George Washington thăm Đà Nẵng",
+        "desc": "Tàu sân bay USS George Washington của Mỹ dự kiến đến Việt Nam hôm nay, bắt đầu chuyến thăm hữu nghị tại Đà Nẵng.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "30/07·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/tau-san-bay-mang-ten-vi-tong-thong-my-dau-tien-den-viet-nam-10026072919131991.htm"
+      },
+      {
+        "title": "🎓 Bộ Chính trị yêu cầu giảm 20% đầu mối ĐH công lập",
+        "desc": "Bộ Chính trị yêu cầu giảm tối thiểu 20% đầu mối cơ sở giáo dục đại học công lập, hoàn thành trước 1/4/2027.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "30/07·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/bo-chinh-tri-giam-toi-thieu-20-dau-moi-co-so-giao-duc-dai-hoc-cong-lap-100260729231829363.htm"
+      },
+      {
+        "title": "💼 Công ty bầu Đức lãi gần 2.300 tỷ đồng nửa đầu năm",
+        "desc": "Hoàng Anh Gia Lai (HAGL) lãi sau thuế gần 2.300 tỷ đồng trong nửa đầu năm, tăng 161% so với cùng kỳ.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/cong-ty-cua-bau-duc-lai-gan-2-300-ty-dong-nua-dau-nam-5102947.html"
+      },
+      {
+        "title": "🚦 Cháy xe tải, cao tốc Long Thành - Dầu Giây ùn tắc 5 km",
+        "desc": "Một vụ cháy xe tải trên cao tốc TP.HCM - Long Thành - Dầu Giây đã gây ùn tắc kéo dài 4-5 km chiều 29/7.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "29/07·VnExpress",
+        "url": "https://vnexpress.net/chay-xe-tai-cao-toc-long-thanh-dau-giay-un-tac-5-km-5103063.html"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🤖 Kimi K3 - mô hình AI mã nguồn mở lớn nhất từ trước đến giờ",
+        "desc": "Moonshot AI (Trung Quốc) chuẩn bị công bố Kimi K3, mô hình AI mã nguồn mở lớn nhất từ trước đến giờ.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "30/07·Tinhte",
+        "url": "https://tinhte.vn/thread/kimi-k3-mo-hinh-ai-ma-nguon-mo-lon-nhat-tu-truoc-den-gio.4164730/"
+      },
+      {
+        "title": "💸 Google tăng giá Pixel 11 vì khủng hoảng RAM",
+        "desc": "Google xác nhận toàn bộ dòng Pixel 11 sẽ tăng giá do khủng hoảng RAM chưa từng có trên thị trường.",
+        "tag": "deal",
+        "tagLabel": "💸 DEAL",
+        "source": "29/07·Tinhte",
+        "url": "https://tinhte.vn/thread/google-xac-nhan-tang-gia-pixel-11-vi-khung-hoang-ram-chua-tung-co.4164729/"
+      },
+      {
+        "title": "💸 Apple lần đầu cho thuê iPhone và thiết bị khác",
+        "desc": "Apple triển khai chương trình cho thuê iPhone và nhiều thiết bị khác tại Mỹ với giá từ 17,99 USD.",
+        "tag": "deal",
+        "tagLabel": "💸 DEAL",
+        "source": "30/07·GenK",
+        "url": "https://genk.vn/apple-lam-dieu-chua-tung-co-voi-iphone-165260730081236682.chn"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 Giá vàng, dầu thế giới tăng, chứng khoán Mỹ giảm 1.100 điểm",
+        "desc": "Giá vàng và dầu thế giới tăng mạnh, trong khi chứng khoán Mỹ giảm 1.100 điểm sau quyết định của Fed và giao tranh Trung Đông.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/gia-vang-dau-the-gioi-tang-chung-khoan-my-giam-1-100-diem-5103150.html"
+      },
+      {
+        "title": "💵 Fed tiếp tục giữ nguyên lãi suất lần thứ 5 liên tiếp",
+        "desc": "Cục Dự trữ Liên bang Mỹ (Fed) đã giữ nguyên lãi suất lần thứ 5 liên tiếp, đúng như dự báo của thị trường.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/fed-tiep-tuc-giu-nguyen-lai-suat-5103125.html"
+      },
+      {
+        "title": "📈 VN-Index lấy lại mốc 1.700 điểm, tăng mạnh nhất một tháng",
+        "desc": "VN-Index tăng 24 điểm, lấy lại mốc tâm lý 1.700 điểm, đánh dấu phiên tăng mạnh nhất trong một tháng qua.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "30/07·VnExpress",
+        "url": "https://vnexpress.net/vn-index-tang-manh-nhat-mot-thang-5103025.html"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-07-29",
     "dayLabel": "Thứ Tư",
     "dateLabel": "29/07/2026",
