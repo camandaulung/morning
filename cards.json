@@ -1,5 +1,230 @@
 [
   {
+    "date": "2026-08-01",
+    "dayLabel": "Thứ Bảy",
+    "dateLabel": "01/08/2026",
+    "entertainment": [
+      {
+        "title": "👑 Emoura Phạm đăng quang Miss Grand Vietnam 2026",
+        "desc": "Bông hồng lai Việt - Anh Emoura Phạm, 26 tuổi, đã chính thức trở thành Tân Miss Grand Vietnam 2026, giành suất thi quốc tế.",
+        "detail": "Emoura Phạm đã vượt qua 29 thí sinh khác trong đêm chung kết tối 31/7 để đội lên chiếc vương miện danh giá. Tuy nhiên, cô nàng cũng từng gây tranh cãi vì màn trình diễn bikini bị cho là phản cảm trước đó. Á hậu 1 Ngô Bảo Ngọc cũng sẽ có cơ hội thi quốc tế.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "01/08·VnExpress, Kenh14",
+        "url": "https://vnexpress.net/emoura-pham-dang-quang-miss-grand-vietnam-2026-5103940.html"
+      },
+      {
+        "title": "⭐ Lý Tiểu Lộ lật ngược thế cờ vụ ly hôn sau 7 năm",
+        "desc": "Scandal 'làm tóc' của Lý Tiểu Lộ và Giả Nãi Lượng tưởng chừng đã khép lại, nhưng sự thật về vụ ly hôn rúng động này vừa được hé lộ với những tình tiết bất ngờ.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "01/08·Kenh14",
+        "url": "https://kenh14.vn/ven-man-kich-ban-ly-hon-rung-dong-ly-tieu-lo-lat-nguoc-the-co-sau-7-nam-su-that-vu-di-lam-toc-chinh-thuc-duoc-he-lo-215260731233451662.chn"
+      },
+      {
+        "title": "🎬 Hyun Bin, Kim Woo Bin 'đại náo' Rồng Xanh 2026",
+        "desc": "Hai tài tử Hyun Bin và Kim Woo Bin gây sốt thảm đỏ Rồng Xanh 2026 với vẻ ngoài điển trai như tượng tạc, khiến fan 'đổ rầm'.",
+        "detail": "Dù Son Ye Jin vắng bóng, Hyun Bin vẫn tỏa sáng rực rỡ tại lễ trao giải. Kim Woo Bin cũng không kém cạnh khi xuất hiện lịch lãm, thu hút mọi ánh nhìn. Đặc biệt, khoảnh khắc Shin Min Ah lên trao giải đã khiến Kim Woo Bin ngượng chín người, tạo nên một trong những đoạn clip viral nhất đêm qua.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "31/07·Kenh14",
+        "url": "https://kenh14.vn/hyun-bin-kim-woo-bin-dai-nao-rong-xanh-2026-dep-trai-den-muc-nhin-nhu-tuong-tac-son-ye-jin-vang-bong-215260731221006136.chn"
+      },
+      {
+        "title": "💕 Negav và Uyển Ân bị bắt gặp hẹn hò",
+        "desc": "Cặp đôi Negav và Uyển Ân lại tiếp tục bị 'team qua đường' tóm dính khoảnh khắc sánh đôi, hành động của nam rapper giữa nơi đông người gây chú ý.",
+        "detail": "Sau nhiều lần vướng tin đồn hẹn hò, Negav và Uyển Ân vẫn chưa chính thức lên tiếng xác nhận mối quan hệ. Tuy nhiên, những hình ảnh mới nhất cho thấy cả hai khá thoải mái khi xuất hiện cùng nhau. Hành động ga lăng của Negav dành cho Uyển Ân đã khiến cộng đồng mạng không ngừng 'đẩy thuyền' cho cặp đôi này.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "01/08·Kenh14",
+        "url": "https://kenh14.vn/negav-va-uyen-an-bi-bat-gap-hen-ho-hanh-dong-cua-nam-rapper-giua-noi-dong-nguoi-gay-chu-y-215260801000922163.chn"
+      },
+      {
+        "title": "🎤 Nữ ca sĩ Han Seo Hee trở lại sau scandal ma túy",
+        "desc": "Nữ ca sĩ sinh năm 1995 Han Seo Hee, từng vướng loạt cáo buộc về ma túy và phải đi tù, nay trở lại với diện mạo khác lạ khiến nhiều người không nhận ra.",
+        "detail": "Han Seo Hee nổi tiếng với scandal ma túy cùng T.O.P (BIGBANG) và nhiều lùm xùm khác trong quá khứ. Sau thời gian ở tù, sự xuất hiện trở lại của cô với vẻ ngoài thay đổi đã thu hút sự chú ý lớn từ công chúng. Nhiều người bày tỏ sự bất ngờ và tò mò về hướng đi mới trong sự nghiệp của nữ ca sĩ này.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "01/08·Kenh14",
+        "url": "https://kenh14.vn/nu-ca-si-sinh-nam-1995-vuong-loat-cao-buoc-ve-ma-tuy-phai-di-tu-nay-tro-lai-ai-cung-khong-nhan-ra-2152607311534363.chn"
+      }
+    ],
+    "trending": [
+      {
+        "title": "🧖 Giới trẻ Hàn rủ nhau đi xông hơi 'cai điện thoại'",
+        "desc": "Phòng xông hơi bất ngờ trở thành điểm hẹn mới của giới trẻ Hàn Quốc, không chỉ để thư giãn mà còn để 'cai nghiện' điện thoại.",
+        "detail": "Thay vì dán mắt vào màn hình, nhiều bạn trẻ Hàn Quốc chọn đến các phòng xông hơi để tận hưởng những phút giây 'detox' kỹ thuật số. Đây là một xu hướng mới lạ, giúp họ thoát khỏi áp lực mạng xã hội và kết nối với bạn bè theo cách truyền thống hơn. Mục đích chính là tạo không gian không có smartphone để mọi người tập trung vào trải nghiệm thực tế.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "31/07·Báo Văn Hóa, Tuổi Trẻ",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGNqNk9Bb2JzZUM3VVVRMThvU19mTDhmV3RrRjdKcGRNb2NRb0YtWUkwYklrYnozZU5IbEo5VTdrS1JzSlhQaXNkN0RLbmZ0M2NxeC1iOVM2NlZqS0YwQkJvUjhqZmpMS2xCdUhqcXlESC1EU1Z4ejRpaVd3NmlLNUZTVFVKbWc4ZmV5QmVLRjFSUHluTkdDQ3lHUWRjM2I5cGZhRU1MYmE?oc=5"
+      },
+      {
+        "title": "👩‍💻 Nữ phiên dịch viên bóng chuyền nam Việt Nam gây sốt",
+        "desc": "Nguyễn Phan Thái Linh, nữ phiên dịch viên xinh đẹp của đội tuyển bóng chuyền nam Việt Nam, đang 'gây sốt' mạng xã hội với khả năng biết 5 ngôn ngữ.",
+        "detail": "Thái Linh không chỉ gây ấn tượng bởi ngoại hình mà còn bởi tài năng ngôn ngữ đáng nể. Sự xuất hiện của cô trong các trận đấu và buổi họp báo đã nhanh chóng thu hút sự chú ý của cộng đồng mạng. Nhiều người bày tỏ sự ngưỡng mộ và dành lời khen ngợi cho cô gái đa tài này, góp phần làm tăng sức hút cho đội tuyển.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "01/08·Thanh Niên",
+        "url": "https://thanhnien.vn/nu-phien-dich-vien-doi-tuyen-bong-chuyen-nam-viet-nam-xinh-dep-biet-5-ngon-ngu-18526073109424388.htm"
+      },
+      {
+        "title": "💸 Người trẻ Mỹ từ chối ăn chơi, dồn tiền tiết kiệm từ 19 tuổi",
+        "desc": "Một xu hướng sống mới đang nổi lên ở Mỹ: nhiều bạn trẻ từ chối ăn chơi, tập trung dồn tiền tiết kiệm từ rất sớm, thậm chí từ năm 19 tuổi.",
+        "detail": "Trong bối cảnh kinh tế nhiều biến động, giới trẻ Mỹ đang có cái nhìn thực tế hơn về tài chính cá nhân. Thay vì chi tiêu cho những thú vui nhất thời, họ ưu tiên tích lũy tài sản, đầu tư và chuẩn bị cho tương lai. Xu hướng này phản ánh sự thay đổi trong tư duy về tiền bạc và mục tiêu cuộc sống của thế hệ trẻ, hướng tới sự ổn định và độc lập tài chính.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "30/07·Tin tức 24h",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVEl3b0xYMDAyaGdISlJPdmRaaGQ4Y1owLVlrbzlwVG80UUpXMVFPTWlkeGxoQzNNT2pCVm5YLTlCOFVIWkJ3a3VuN2xsQ1VsQzNyVmxvUVUzTlNlaTBWVlRhQnZtUFNZX0QtMVRvdmVmWTJGNnpFc3B2bkN2Ulp5QUpDalhaLXNRVjg5MFkzNFJ3WmNWYjY1azdVZzZKTWNrV3IwUXZxeEhyU0dhMVAtU0NiM0RMVE8xeUgwQzNybw?oc=5"
+      },
+      {
+        "title": "🚨 Hệ lụy từ trào lưu TikTok phản cảm",
+        "desc": "Nhiều trào lưu TikTok phản cảm đang gây ra những hệ lụy tiêu cực, ảnh hưởng đến cộng đồng và đặc biệt là giới trẻ.",
+        "detail": "Các clip có nội dung dung tục, bạo lực hoặc thách thức nguy hiểm đang lan truyền chóng mặt trên TikTok, khiến nhiều người lo ngại về tác động xấu đến nhận thức và hành vi của người xem, đặc biệt là trẻ em. Đã có trường hợp nữ KOL bị chồng bắn tử vong vì đu trend 15 giây. Các cơ quan chức năng và cộng đồng đang kêu gọi kiểm soát chặt chẽ hơn để bảo vệ môi trường mạng lành mạnh.",
+        "tag": "tiktok",
+        "tagLabel": "📱 TIKTOK",
+        "source": "01/08·baotintuc.vn, Kenh14",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1lBUVIzME80SHVCbGxIRkNLN19jWDZSelVtUWFUMFB4TDFuQW41SWFUMkpUMFl5ejRlZU5ZenRFMkQ2cmlCZ1RQZ2gzS3E4TGZUWlRrcHp3ZUNvTFRDM0hsSy1FZGg4OUc4OTN5ZjBYdy1uazA0TDl2ZEtzTzFPWllveW1mOGJjNlRBWW9pQQ?oc=5"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "🥑 4 loại quả giàu protein giúp giảm cân hiệu quả",
+        "desc": "Bơ, ổi và mít non là 3 trong số 4 loại quả giàu protein và chất xơ, giúp bạn no lâu, kiểm soát calo và hỗ trợ giảm cân hiệu quả.",
+        "detail": "Ngoài bơ, ổi và mít non, còn có một loại quả nữa cũng rất tốt cho người muốn giảm cân. Những loại quả này không chỉ cung cấp năng lượng mà còn giúp duy trì hệ tiêu hóa khỏe mạnh. Việc bổ sung chúng vào chế độ ăn hàng ngày sẽ giúp bạn cảm thấy no lâu hơn, hạn chế thèm ăn vặt và đạt được mục tiêu giảm cân một cách tự nhiên.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/4-qua-giau-protein-nguoi-giam-can-nen-an-thuong-xuyen-5103848.html"
+      },
+      {
+        "title": "⚠️ Tuyến giáp bị 'cắt oan' vì nỗi sợ ung thư",
+        "desc": "Nhiều người phát hiện nhân tuyến giáp đã vội vàng phẫu thuật cắt bỏ toàn bộ vì lo sợ ung thư, dẫn đến biến chứng đáng tiếc.",
+        "detail": "Một phụ nữ 58 tuổi đã bị liệt dây thanh quản sau khi kiên quyết cắt toàn bộ tuyến giáp dù chỉ phát hiện nhân lành tính. Các bác sĩ khuyến cáo không phải tất cả các nhân tuyến giáp đều cần phẫu thuật. Việc thăm khám kỹ lưỡng và tuân thủ lời khuyên của chuyên gia là rất quan trọng để tránh những can thiệp không cần thiết, gây ảnh hưởng đến sức khỏe và chất lượng cuộc sống.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/tuyen-giap-bi-cat-oan-boi-noi-so-ung-thu-5093753.html"
+      },
+      {
+        "title": "🏝️ Nậm Cang vào mùa lúa chín, cồn Thới Sơn hút khách",
+        "desc": "Từ cuối tháng 8 đến đầu tháng 9, Nậm Cang (Lào Cai) vào mùa lúa chín vàng rực, trong khi cồn Thới Sơn (Tiền Giang) vẫn là điểm đến hấp dẫn với vườn cây trái và kênh rạch.",
+        "detail": "Nậm Cang là điểm đến lý tưởng cho những ai muốn chiêm ngưỡng vẻ đẹp của những thửa ruộng bậc thang mùa lúa chín, tạo nên khung cảnh thơ mộng. Trong khi đó, cồn Thới Sơn ở miền Tây Nam Bộ lại thu hút du khách bởi trải nghiệm đi xuồng ba lá len lỏi qua các con rạch, thưởng thức trái cây tươi ngon và nghe đờn ca tài tử. Cả hai đều là những lựa chọn tuyệt vời cho chuyến đi cuối tuần.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/nam-cang-vao-mua-lua-chin-5103694.html"
+      },
+      {
+        "title": "🦠 Mắc hai bệnh tình dục sau 'cuộc vui' massage",
+        "desc": "Một nam thanh niên 22 tuổi đã mắc sùi mào gà và Chlamydia, đe dọa khả năng sinh sản, sau một 'cuộc vui' tại cơ sở massage.",
+        "detail": "Sau khi xuất hiện các nốt u nhú nhỏ ở dương vật, nam thanh niên đã đi khám và được chẩn đoán mắc đồng thời hai bệnh lây truyền qua đường tình dục nguy hiểm. Bác sĩ cảnh báo rằng việc quan hệ tình dục không an toàn, kể cả tại các cơ sở massage, có thể dẫn đến những hậu quả nghiêm trọng cho sức khỏe sinh sản. Việc phòng ngừa và thăm khám định kỳ là cực kỳ cần thiết.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/mac-hai-benh-tinh-duc-sau-cuoc-vui-massage-5103731.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "📜 Chính sách nổi bật có hiệu lực từ tháng 8",
+        "desc": "Từ tháng 8 này, nhiều chính sách mới sẽ có hiệu lực, trong đó có quy định phạt cảnh cáo khi chở trẻ em trên ôtô không có ghế an toàn và xử phạt hành vi dắt chó không rọ mõm.",
+        "detail": "Ngoài ra, người dùng VNeID cũng sẽ được miễn giảm phí trước bạ theo quy định mới. Những chính sách này tác động trực tiếp đến đời sống hàng ngày của người dân, từ việc đảm bảo an toàn giao thông cho trẻ nhỏ, giữ gìn trật tự công cộng đến việc khuyến khích sử dụng ứng dụng định danh điện tử. Anh chị nhớ cập nhật để tránh vi phạm nhé!",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/chinh-sach-noi-bat-co-hieu-luc-tu-thang-8-5103576.html"
+      },
+      {
+        "title": "🍜 Hà Nội muốn xây dựng phố ẩm thực Cầu Giấy",
+        "desc": "Hà Nội đang lên kế hoạch xây dựng phố ẩm thực tại Cầu Giấy theo mô hình xe bán hàng lưu động và khu ẩm thực tập trung di động.",
+        "detail": "Phố ẩm thực dự kiến được bố trí tại phố Khúc Thừa Dụ, phường Cầu Giấy, nhằm tạo không gian ăn uống đa dạng và hấp dẫn cho người dân và du khách. Đề xuất này cũng đi kèm với ý tưởng 'thay vì cấm, nên sắp xếp kinh doanh trên vỉa hè một cách hợp lý', hỗ trợ sinh kế cho người lao động. Đây hứa hẹn sẽ là điểm đến mới mẻ, góp phần thúc đẩy kinh tế đêm của thủ đô.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/ha-noi-muon-xay-dung-pho-am-thuc-cau-giay-5103942.html"
+      },
+      {
+        "title": "💼 Lợi nhuận Yeah1 giảm một nửa do thiếu concert",
+        "desc": "Tập đoàn Yeah1, nhà sản xuất show 'Anh trai vượt ngàn chông gai', báo lãi quý II giảm hơn một nửa, chỉ còn 15,6 tỷ đồng, do thiếu doanh thu từ concert.",
+        "detail": "Việc thiếu vắng các sự kiện âm nhạc lớn đã ảnh hưởng đáng kể đến doanh thu của Yeah1 trong quý vừa qua. Mặc dù vẫn duy trì các chương trình truyền hình ăn khách, nhưng mảng concert vốn là nguồn thu lớn đã không đạt kỳ vọng. Điều này cho thấy sự phụ thuộc của các doanh nghiệp giải trí vào các hoạt động trực tiếp và cần đa dạng hóa nguồn thu để ổn định lợi nhuận.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "01/08·VnExpress",
+        "url": "https://vnexpress.net/loi-nhuan-yeah1-giam-mot-nua-do-thieu-concert-5103752.html"
+      },
+      {
+        "title": "🚧 Hàng nghìn phương tiện ùn ứ trên cầu Vĩnh Tuy",
+        "desc": "Tối 31/7, hàng nghìn phương tiện đã ùn ứ kéo dài trên cầu Vĩnh Tuy do ảnh hưởng của ngập lụt và lòng đường bị thu hẹp phục vụ thi công hầm chui.",
+        "detail": "Tình trạng ùn tắc nghiêm trọng này gây khó khăn lớn cho người dân di chuyển qua cầu. Việc kết hợp giữa thời tiết xấu và công trình đang thi công đã làm trầm trọng thêm vấn đề giao thông tại khu vực cửa ngõ thủ đô. Các tài xế cần lưu ý chọn lộ trình thay thế hoặc chủ động thời gian di chuyển để tránh kẹt xe kéo dài.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "31/07·VnExpress",
+        "url": "https://vnexpress.net/hang-nghin-phuong-tien-un-u-tren-cau-vinh-tuy-5103931.html"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🍎 Tim Cook úp mở vụ trả phí dùng AI trên iPhone",
+        "desc": "Tim Cook vừa hé lộ khả năng Apple sẽ thu phí cho các tính năng AI trên iPhone, có thể thông qua gói nâng cấp iCloud+.",
+        "detail": "Trong buổi báo cáo tài chính, CEO Apple đã chia sẻ về chiến lược kinh doanh kỹ lưỡng của hãng, cho thấy họ đang lên kế hoạch tích hợp AI sâu rộng hơn vào hệ sinh thái. Việc thu phí cho AI có thể là một cách để Apple tối ưu hóa lợi nhuận từ công nghệ mới, đồng thời cung cấp các tính năng cao cấp hơn cho người dùng sẵn sàng chi trả. Điều này sẽ ảnh hưởng đến cách chúng ta sử dụng và trải nghiệm iPhone trong tương lai.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "01/08·Tinhte",
+        "url": "https://tinhte.vn/thread/tim-cook-up-mo-vu-tra-phi-dung-ai-tren-iphone-icloud-sap-co-goi-nang-cap.4165548/"
+      },
+      {
+        "title": "📱 Galaxy Z Fold8: Đọc truyện tranh sướng hơn máy đọc sách?",
+        "desc": "Galaxy Z Fold8 đang gây sốt trong cộng đồng người dùng máy gập vì tỷ lệ màn hình 4:3 giúp hiển thị truyện tranh vừa khít, thậm chí 'sướng' hơn máy đọc sách chuyên dụng.",
+        "detail": "Sau khi Z Fold8 lên kệ, nhiều người dùng đã chia sẻ trải nghiệm đọc truyện tranh tuyệt vời trên thiết bị này. Tỷ lệ màn hình đặc biệt giúp tối ưu hóa không gian hiển thị, mang lại cảm giác như đang cầm một cuốn sách thật. Điều này khiến không ít người đã bỏ hẳn thói quen dùng máy đọc sách để chuyển sang Z Fold8, cho thấy sự linh hoạt và tiện lợi của điện thoại gập trong các tác vụ giải trí.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "01/08·Genk",
+        "url": "https://genk.vn/doc-truyen-tranh-tren-galaxy-z-fold8-suong-hon-may-doc-sach-ly-do-nam-o-ty-le-43-165260801081042839.chn"
+      },
+      {
+        "title": "💻 Microsoft đại tu menu chuột phải trên Windows 11",
+        "desc": "Microsoft đang đại tu menu chuột phải trên Windows 11 để khắc phục tình trạng chậm và lag, đặc biệt trên các hệ thống x86.",
+        "detail": "Anh em nào dùng Windows 11 chắc không lạ gì việc menu chuột phải trong File Explorer thường xuyên bị chậm. Đây là một vấn đề gây khó chịu cho người dùng, ảnh hưởng đến trải nghiệm làm việc. Việc Microsoft quyết định cải thiện sẽ giúp tăng tốc độ phản hồi, mang lại sự mượt mà hơn khi thao tác. Hy vọng bản cập nhật này sẽ sớm được phát hành và giải quyết triệt để tình trạng này.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "31/07·Tinhte",
+        "url": "https://tinhte.vn/thread/microsoft-dai-tu-menu-chuot-phai-tren-windows-11-de-xu-ly-tinh-trang-cham.4165499/"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📉 Xây dựng Hòa Bình báo lãi ròng quý II/2026 'sụt giảm' 55%",
+        "desc": "Kết thúc quý II/2026, Xây dựng Hòa Bình báo lãi ròng đạt gần 18,9 tỷ đồng, giảm 54,8% so với cùng kỳ năm trước.",
+        "detail": "Sự sụt giảm lợi nhuận chủ yếu do công ty không còn ghi nhận khoản lãi từ thanh lý tài sản cố định như quý II/2025. Mặc dù doanh thu vẫn duy trì, nhưng việc thiếu đi các khoản thu nhập bất thường đã ảnh hưởng lớn đến kết quả kinh doanh cuối cùng. Điều này cho thấy hoạt động cốt lõi của doanh nghiệp xây dựng vẫn còn nhiều thách thức trong bối cảnh thị trường hiện tại.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "01/08·CafeF",
+        "url": "https://cafef.vn/xay-dung-hoa-binh-bao-lai-rong-quy-ii-2026-sut-giam-55-so-voi-cung-ky-188260801082939564.chn"
+      },
+      {
+        "title": "🪙 Giá vàng thế giới bất ngờ giảm mạnh",
+        "desc": "Giá vàng thế giới quay đầu giảm mạnh trong phiên giao dịch ngày 31/7, trượt sâu dưới mốc 4.100 USD/oz, do nỗi lo lãi suất tăng.",
+        "detail": "Mặc dù hoàn tất tháng tăng đầu tiên sau 4 tháng giảm liên tiếp, nhưng phiên cuối tháng 7 lại chứng kiến giá vàng giảm đến 61,5 USD/ounce, chỉ còn 4.041,6 USD/ounce. Diễn biến này phản ánh sự thận trọng của nhà đầu tư trước khả năng các ngân hàng trung ương tiếp tục thắt chặt chính sách tiền tệ. SPDR Gold Trust cũng đã bán ròng, cho thấy áp lực giảm giá vẫn còn hiện hữu trên thị trường vàng.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "01/08·VnEconomy, Tuổi Trẻ",
+        "url": "https://vneconomy.vn/gia-vang-lai-giam-manh-vi-noi-lo-lai-suat-tang-spdr-gold-trust-ban-rong.htm"
+      },
+      {
+        "title": "💵 Ngân hàng quốc doanh tiếp tục được 'nới thanh khoản'",
+        "desc": "Ngân hàng Nhà nước lần thứ hai trong năm nay điều chỉnh cách tính tỷ lệ cho vay trên tổng tiền gửi, giúp nhóm nhà băng quốc doanh có thêm dư địa cung ứng vốn.",
+        "detail": "Quyết định 1743/QĐ-NHNN nâng tỷ lệ tiền gửi có kỳ hạn của Kho bạc Nhà nước được tính vào nguồn vốn huy động từ 20% lên 50% khi xác định tỷ lệ LDR (dư nợ cho vay so với tổng tiền gửi). Thay đổi này có hiệu lực từ 1/8, mang lại lợi ích lớn cho các ngân hàng quốc doanh, giúp họ có thêm nguồn lực để cho vay, hỗ trợ nền kinh tế. Đây là động thái quan trọng nhằm ổn định thị trường tài chính và thúc đẩy tăng trưởng tín dụng.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "31/07·VnExpress, VnEconomy",
+        "url": "https://vnexpress.net/ngan-hang-quoc-doanh-tiep-tuc-duoc-noi-thanh-khoan-5103806.html"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-07-31",
     "dayLabel": "Thứ Sáu",
     "dateLabel": "31/07/2026",
