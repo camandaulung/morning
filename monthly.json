@@ -1,5 +1,135 @@
 [
   {
+    "monthLabel": "Tháng 7/2026",
+    "fromDate": "2026-07-01",
+    "toDate": "2026-07-31",
+    "topNews": [
+      {
+        "title": "🍎 Apple kiện OpenAI, cáo buộc 'đánh cắp bí mật'",
+        "desc": "Apple đã khởi kiện OpenAI, tố cáo công ty này 'đánh cắp bí mật kinh doanh' liên quan đến phần cứng, sau những lời chỉ trích từ Elon Musk về Apple Intelligence.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "11/07·Tinhte, GenK, VnExpress",
+        "url": "https://tinhte.vn/thread/khi-apple-tu-tat-vao-mat-minh-tu-loi-che-cua-elon-musk-den-don-kien-nam-2026.4159812/"
+      },
+      {
+        "title": "🤖 Diaflow: Nền tảng AI teammates tự hoạt động",
+        "desc": "Một nền tảng AI mới mang tên Diaflow vừa ra mắt, hứa hẹn cung cấp các 'AI teammates' có khả năng tự hoạt động, giúp tối ưu công việc cho người dùng.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "11/07·Tinhte",
+        "url": "https://tinhte.vn/thread/gioi-thieu-diaflow-nen-tang-ai-teammates-tu-hoat-dong.4156850/"
+      },
+      {
+        "title": "💸 Tính năng AI trên máy vẫn phải trả phí hàng tháng",
+        "desc": "Apple âm thầm cập nhật trong macOS 27 beta 3 rằng một số tính năng AI chạy trên thiết bị vẫn yêu cầu phí thuê bao hàng tháng, gây nhiều tranh cãi.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "11/07·Tinhte",
+        "url": "https://tinhte.vn/thread/khi-tinh-nang-ai-chay-ngay-tren-may-van-phai-tra-phi-hang-thang.4159440/"
+      },
+      {
+        "title": "⌚ Galaxy Ring: Thiết bị theo dõi sức khỏe tiện lợi",
+        "desc": "Galaxy Ring được nhắc lại với ưu điểm theo dõi giấc ngủ thoải mái hơn 49 lần so với đồng hồ thông minh, phù hợp cho ai muốn một thiết bị đeo nhẹ nhàng.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "11/07·Tinhte",
+        "url": "https://tinhte.vn/thread/anh-em-con-nho-galaxy-ring-khong.4159800/"
+      },
+      {
+        "title": "📈 Tổng Giám đốc PNJ mua 1 triệu cổ phiếu",
+        "desc": "Tổng Giám đốc PNJ đăng ký mua 1 triệu cổ phiếu giữa lúc cổ phiếu PNJ đang giảm sâu, cho thấy niềm tin vào doanh nghiệp.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "11/07·CafeF",
+        "url": "https://cafef.vn/tong-giam-doc-pnj-dang-ky-mua-1-trieu-co-phieu-giua-con-bao-kim-cuong-18826071121325865.chn"
+      },
+      {
+        "title": "📈 Cổ phiếu HVN của Vietnam Airlines sắp hết hạn chế",
+        "desc": "Từ ngày 14/7, cổ phiếu HVN của Vietnam Airlines sẽ không còn bị hạn chế giao dịch, mở ra cơ hội mới cho nhà đầu tư.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "11/07·CafeF",
+        "url": "https://cafef.vn/co-phieu-cua-vietnam-airlines-don-tin-vui-tu-ngay-14-7-18826071115060179.chn"
+      },
+      {
+        "title": "💵 Lãi suất tiết kiệm cao nhất 7,3%/năm, thẻ tín dụng 48%/năm",
+        "desc": "Tuần qua, lãi suất tiền gửi kỳ hạn 12 tháng cao nhất là 7,3%/năm, trong khi lãi suất thẻ tín dụng có thể lên tới 48%/năm.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "11/07·CafeBiz",
+        "url": "https://cafebiz.vn/tai-chinh-tuan-qua-lai-suat-tiet-kiem-cao-nhat-73-nam-lai-suat-the-tin-dung-vot-len-48-nam-176260711192144072.chn"
+      },
+      {
+        "title": "📈 Chủ tịch DIC Corp tiếp tục bị bán giải chấp cổ phiếu DIG",
+        "desc": "Ông Nguyễn Hùng Cường, Chủ tịch HĐQT DIC Corp và người thân tiếp tục bị bán giải chấp cổ phiếu DIG, ảnh hưởng đến giá cổ phiếu.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "11/07·CafeF",
+        "url": "https://cafef.vn/chu-tich-dic-corp-cung-nguoi-than-tiep-tuc-bi-ban-giai-chap-co-phieu-dig-188260711100328046.chn"
+      },
+      {
+        "title": "✈️ Cảng hàng không quốc tế Gia Bình quy tụ nhân tài quốc tế",
+        "desc": "Dự án Cảng hàng không quốc tế Gia Bình không chỉ giảm áp lực hạ tầng mà còn thu hút nhân tài quốc tế, trở thành cực tăng trưởng mới cho hàng không miền Bắc.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "11/07·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/cang-hang-khong-quoc-te-gia-binh-quy-tu-nhan-tai-quoc-te-100260711185512149.htm"
+      },
+      {
+        "title": "🎧 Tai nghe AI tích hợp camera",
+        "desc": "Một mẫu tai nghe mở mới tích hợp camera Sony 8MP, AI dịch trực tiếp và nhận diện vật thể, có giá chỉ hơn 2 triệu đồng.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "12/07·GenK",
+        "url": "https://genk.vn/tai-nghe-mo-nay-co-san-camera-sony-8mp-ai-dich-truc-tiep-va-nhan-dien-vat-the-gia-chi-hon-2-trieu-dong-16526071200312738.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🎓 Đại học trao học bổng 400 triệu cho game thủ",
+        "desc": "Một trường đại học gây sốt khi trao học bổng gần 400 triệu đồng cho game thủ 'phá đảo' 115 thành tựu của một tựa game. Đúng là 'học tài thi phận' nhưng 'chơi game' cũng có thể thành tài!",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "13/07·cl44.cnnd.vn",
+        "url": "https://cl44.cnnd.vn/mot-truong-dai-hoc-gay-sot-trao-hoc-bong-gan-400-trieu-dong-cho-game-thu-pha-dao-115-thanh-tuu-cua-tua-game-nay-178260713113516086.chn"
+      },
+      {
+        "title": "🎮 Dragon Ball tri ân Akira Toriyama và Goku",
+        "desc": "Bản cập nhật cuối cùng của Dragon Ball Xenoverse 2 mang đến bộ trang phục đặc biệt của Goku, tri ân tác giả Akira Toriyama và nhân vật huyền thoại này. Fan Dragon Ball chắc chắn sẽ xúc động!",
+        "tag": "console",
+        "tagLabel": "🎮 CONSOLE",
+        "source": "14/07·cl44.cnnd.vn",
+        "url": "https://cl44.cnnd.vn/dragon-ball-tri-an-akira-toriyama-va-goku-bang-mon-qua-dac-biet-khien-fan-xuc-dong-178260714135549425.chn"
+      },
+      {
+        "title": "💻 Game thủ PC nhận miễn phí game vĩnh viễn",
+        "desc": "Nhanh tay lên anh em game thủ PC ơi! Một tựa game đang được tặng miễn phí vĩnh viễn, thao tác đơn giản là có ngay để chiến. Đừng bỏ lỡ cơ hội này nhé!",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "14/07·cl44.cnnd.vn",
+        "url": "https://cl44.cnnd.vn/game-thu-pc-nhanh-tay-nhan-mien-phi-ngay-mot-tua-game-vinh-vien-thao-tac-don-gian-178260714092203333.chn"
+      },
+      {
+        "title": "💻 Game thủ PC nhận miễn phí game kinh dị chất lượng",
+        "desc": "Cộng đồng game thủ PC đang có cơ hội nhận miễn phí một tựa game kinh dị chất lượng, đừng bỏ lỡ để làm dày thêm thư viện game của mình.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "15/07·cl44.cnnd.vn",
+        "url": "https://cl44.cnnd.vn/game-thu-pc-tiep-tuc-co-qua-free-nhanh-tay-nhan-mien-phi-ngay-mot-tro-choi-kinh-di-day-chat-luong-178260715094956397.chn"
+      },
+      {
+        "title": "📱 FC Mobile phát Code TOTY cực khủng hôm nay",
+        "desc": "Game thủ FC Mobile có thể nhận quà TOTY cực khủng với Code mới nhất hôm nay 15/07/2026. Nhanh tay nhập code để không bỏ lỡ phần thưởng giá trị!",
+        "tag": "mobile",
+        "tagLabel": "📱 MOBILE",
+        "source": "15/07·Quantrimang.com",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45M25fYnE4YnFOMFBQcmNyLTJVUjR1WmIyRHhPNzZmdU1WZXFtY3poZUtVNFBPOWNpSlVpUzBNeWQ3LW5aYnk4eWY4b052WDA4S25HSGFxeDdKb3hCejU5b2NQRlJGdw?oc=5"
+      }
+    ]
+  },
+  {
     "monthLabel": "Tháng 5/2026",
     "fromDate": "2026-05-01",
     "toDate": "2026-05-31",
