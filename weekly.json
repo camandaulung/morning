@@ -1,5 +1,49 @@
 [
   {
+    "weekLabel": "Tuần 31/2026",
+    "fromDate": "2026-07-27",
+    "toDate": "2026-08-02",
+    "highlights": [
+      {
+        "title": "🏆 Chi Pu thắng giải quốc tế tại Gala Weibo",
+        "desc": "Chi Pu vừa làm rạng danh Việt Nam khi trở thành nghệ sĩ Việt đầu tiên được vinh danh tại Gala giao lưu văn hóa của Weibo, gây chú ý với váy 'tiên nữ hoa sen'.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/chi-pu-thang-giai-quoc-te-215260802001156376.chn"
+      },
+      {
+        "title": "💔 Showbiz rúng động tin ly hôn của cặp đôi ngôn tình",
+        "desc": "Tin đồn cặp đôi ngôn tình bậc nhất showbiz ly hôn chỉ sau 1 năm cưới đang khiến công chúng không khỏi bàng hoàng, gây xôn xao dư luận.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/am-i-tin-cap-doi-ngon-tinh-bac-nhat-showbiz-ly-hon-sau-1-nam-cuoi-2-chu-lang-man-da-hoan-toan-sup-do-215260801165055786.chn"
+      },
+      {
+        "title": "🤖 OpenAI vượt mốc một tỷ người dùng",
+        "desc": "Sau khi giảm giá mô hình GPT-5.6, OpenAI đã chính thức đạt cột mốc quan trọng với hơn một tỷ người dùng trên toàn cầu, khẳng định vị thế dẫn đầu trong lĩnh vực AI.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/openai-vuot-moc-mot-ty-nguoi-dung-5104202.html"
+      },
+      {
+        "title": "💸 Lợi nhuận nhiều ngân hàng đi lùi trong nửa đầu năm",
+        "desc": "Eximbank, Sacombank, LPBank và Saigonbank là số ít nhà băng ghi nhận lợi nhuận đi xuống, có nơi giảm sâu hơn 70% trong 6 tháng đầu năm, cho thấy thách thức của ngành tài chính.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/loi-nhuan-nhieu-ngan-hang-di-lui-5104061.html"
+      },
+      {
+        "title": "📜 TP.HCM muốn mở rộng mạng lưới metro lên 255 km vào năm 2030",
+        "desc": "TP.HCM đặt mục tiêu hoàn thành thêm 8 tuyến metro, nâng tổng chiều dài đường sắt đô thị lên 255 km trong gần 5 năm tới, hướng tới phát triển đô thị thông minh.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/tp-hcm-muon-mo-rong-mang-luoi-metro-len-255-km-vao-nam-2030-5103453.html"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": []
+  },
+  {
     "weekLabel": "Tuần 30/2026",
     "fromDate": "2026-07-20",
     "toDate": "2026-07-26",
