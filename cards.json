@@ -1,5 +1,200 @@
 [
   {
+    "date": "2026-08-02",
+    "dayLabel": "Chủ Nhật",
+    "dateLabel": "02/08/2026",
+    "entertainment": [
+      {
+        "title": "🏆 Chi Pu thắng giải quốc tế tại Gala Weibo",
+        "desc": "Chi Pu vừa làm rạng danh Việt Nam khi trở thành nghệ sĩ Việt đầu tiên được vinh danh tại Gala giao lưu văn hóa của Weibo.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/08·Kenh14",
+        "url": "https://kenh14.vn/chi-pu-thang-giai-quoc-te-215260802001156376.chn"
+      },
+      {
+        "title": "💔 Showbiz rúng động tin ly hôn của cặp đôi ngôn tình",
+        "desc": "Tin đồn cặp đôi ngôn tình bậc nhất showbiz ly hôn chỉ sau 1 năm cưới đang khiến công chúng không khỏi bàng hoàng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/08·Kenh14",
+        "url": "https://kenh14.vn/am-i-tin-cap-doi-ngon-tinh-bac-nhat-showbiz-ly-hon-sau-1-nam-cuoi-2-chu-lang-man-da-hoan-toan-sup-do-215260801165055786.chn"
+      },
+      {
+        "title": "🎬 Lê Vũ Long tái xuất màn ảnh với vai Đinh Tiên Hoàng",
+        "desc": "Phong lãng tử Lê Vũ Long của 'Xin hãy tin em' thập niên 90 bất ngờ trở lại màn ảnh rộng, hóa thân thành Đinh Tiên Hoàng.",
+        "detail": "Sự trở lại của nam diễn viên gạo cội sau nhiều năm vắng bóng đang nhận được sự quan tâm lớn từ khán giả. Anh sẽ đảm nhận vai diễn lịch sử quan trọng trong bộ phim 'Hộ linh tráng sĩ', hứa hẹn mang đến một hình ảnh Đinh Tiên Hoàng đầy khí chất và chiều sâu. Đây là tin vui cho những ai yêu mến tài năng của Lê Vũ Long.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/dien-vien-le-vu-long-tai-xuat-man-anh-5104175.html"
+      },
+      {
+        "title": "😭 Cường Đô La rơi nước mắt nói về hôn nhân với Đàm Thu Trang",
+        "desc": "Trong dịp kỷ niệm 7 năm ngày cưới, Cường Đô La đã không kìm được xúc động khi chia sẻ những lời thật lòng về người vợ Đàm Thu Trang.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/08·Kenh14",
+        "url": "https://kenh14.vn/cuong-do-la-khoc-khi-noi-that-ve-hon-nhan-voi-dam-thu-trang-215260802084936404.chn"
+      },
+      {
+        "title": "🎤 Thu Minh và Hương Tràm 'gương vỡ lại lành' sau 14 năm",
+        "desc": "Hai giọng ca đình đám Thu Minh và Hương Tràm lần đầu xuất hiện cùng nhau sau gần 14 năm giận dỗi, khiến fan vỡ òa.",
+        "detail": "Mối quan hệ thầy trò từng rạn nứt của Thu Minh và Hương Tràm luôn là chủ đề được quan tâm. Việc cả hai tái hợp và xuất hiện chung sân khấu đã xóa tan mọi nghi vấn, mang lại niềm vui lớn cho người hâm mộ. Đây là tín hiệu đáng mừng cho một tình bạn, tình đồng nghiệp đẹp đẽ trở lại.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "02/08·Kenh14",
+        "url": "https://kenh14.vn/thu-minh-huong-tram-guong-vo-lai-lanh-sau-14-nam-gian-khong-nhin-mat-215260802001828339.chn"
+      }
+    ],
+    "trending": [
+      {
+        "title": "🤔 Bận rộn không còn đáng tự hào?",
+        "desc": "Trào lưu 'bận rộn' từng là biểu tượng của sự chăm chỉ, nhưng giờ đây nhiều người trẻ đang đặt câu hỏi về giá trị thực sự của nó.",
+        "detail": "Khi ngày càng nhiều người kiệt sức vì công việc, quan niệm về thành công cũng dần thay đổi. Thay vì tự hào về lịch trình dày đặc, giới trẻ bắt đầu tìm kiếm sự cân bằng và chất lượng cuộc sống. Điều này phản ánh một sự chuyển dịch trong tư duy, nơi sức khỏe tinh thần và thời gian cá nhân được coi trọng hơn.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "01/08·Kenh14",
+        "url": "https://kenh14.vn/ban-ron-khong-con-dang-tu-hao-215263107233222070.chn"
+      },
+      {
+        "title": "👯‍♀️ 'Một cuộc đời nuôi mình, một cuộc đời mình nuôi'",
+        "desc": "Nhiều người tuổi 30 đang chọn sống 'hai cuộc đời', một cho công việc và một cho đam mê cá nhân, tạo nên một xu hướng sống mới.",
+        "detail": "Ở tuổi 30, bên cạnh những trách nhiệm và áp lực công việc, giới trẻ ngày càng nhận ra tầm quan trọng của việc nuôi dưỡng 'cuộc đời thứ hai' cho riêng mình. Đó có thể là một sở thích, một dự án cá nhân, hay một hoạt động tình nguyện. Xu hướng này cho thấy mong muốn tìm kiếm ý nghĩa và sự thỏa mãn vượt ra ngoài công việc chính, giúp họ cân bằng cuộc sống và phát triển bản thân toàn diện hơn.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "01/08·Kenh14",
+        "url": "https://kenh14.vn/mot-cuoc-doi-nuoi-minh-mot-cuoc-doi-minh-nuoi-vi-sao-ngay-cang-nhieu-nguoi-tuoi-30-song-2-cuoc-doi-215260801182922953.chn"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "⏰ Những thói quen buổi sáng khiến bạn già nhanh",
+        "desc": "Kiểm tra điện thoại ngay khi thức dậy và bỏ bữa sáng là hai thói quen phổ biến có thể đẩy nhanh quá trình lão hóa.",
+        "detail": "Việc tiếp xúc với điện thoại quá sớm có thể làm tăng căng thẳng và ảnh hưởng đến chất lượng giấc ngủ còn lại. Trong khi đó, bỏ bữa sáng sẽ làm rối loạn trao đổi chất, thiếu năng lượng và dễ dẫn đến tăng cân. Thay đổi những thói quen này bằng cách dành thời gian cho bữa sáng đủ chất và hạn chế màn hình có thể giúp bạn duy trì sức khỏe và sự trẻ trung lâu hơn.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/nhung-thoi-quen-buoi-sang-co-the-khien-ban-gia-nhanh-5103913.html"
+      },
+      {
+        "title": "🥗 5 món ít calo, giàu protein giúp tăng cơ",
+        "desc": "Thịt gà không da, cá ngừ, đậu phụ, thịt bò nạc là những lựa chọn tuyệt vời giúp bạn tăng cơ và duy trì vóc dáng.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/5-mon-it-calo-giau-protein-giup-tang-co-5104111.html"
+      },
+      {
+        "title": "👂 Ba thói quen dùng điều hòa ảnh hưởng đến tai",
+        "desc": "Bật điều hòa quá lạnh, để gió thổi trực tiếp vào tai và không duy trì độ ẩm phòng có thể gây đau nhức tai.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/ba-thoi-quen-dung-dieu-hoa-co-the-anh-huong-den-tai-5104108.html"
+      },
+      {
+        "title": "✈️ 12 điểm ăn uống tại Hội An theo phong cách địa phương",
+        "desc": "Tạp chí Time Out vừa giới thiệu 12 điểm ăn uống được người địa phương đánh giá cao tại Hội An, giúp bạn khám phá ẩm thực chuẩn vị.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/12-diem-an-uong-tai-hoi-an-theo-phong-cach-dia-phuong-5104019.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "🚦 Sân bay Nội Bài thay đổi phương án đón, trả khách",
+        "desc": "Từ 7h ngày 3/8, Cảng Hàng không quốc tế Nội Bài sẽ áp dụng phương án giao thông mới tại nhà ga T1 và T2 để giảm ùn tắc.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/san-bay-noi-bai-thay-doi-phuong-an-don-tra-khach-5104168.html"
+      },
+      {
+        "title": "💸 Lợi nhuận nhiều ngân hàng đi lùi trong nửa đầu năm",
+        "desc": "Eximbank, Sacombank, LPBank và Saigonbank là số ít nhà băng ghi nhận lợi nhuận đi xuống, có nơi giảm sâu hơn 70% trong 6 tháng đầu năm 2026.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/loi-nhuan-nhieu-ngan-hang-di-lui-5104061.html"
+      },
+      {
+        "title": "📜 TP.HCM tăng cường kiểm tra tài xế ô tô",
+        "desc": "TP.HCM sẽ tăng cường kiểm tra điều kiện kinh doanh vận tải bằng ô tô, đặc biệt tập trung vào thời gian làm việc và sức khỏe của tài xế.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "02/08·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/tin-tuc-sang-2-8-tphcm-kiem-tra-dieu-kien-kinh-doanh-van-tai-bang-o-to-trong-tam-la-hoat-dong-tai-xe-100260801210134523.htm"
+      },
+      {
+        "title": "🌊 Cồn 50 ha ở miền Tây teo dần vì sạt lở",
+        "desc": "Cồn Thanh Long (Bến Tre) từng rộng 50 ha nay chỉ còn khoảng 30 ha do sạt lở nghiêm trọng, khiến nhiều nhà cửa và vườn cây bị cuốn trôi.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/con-50-ha-o-mien-tay-teo-dan-vi-sat-lo-5103926.html"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🤖 OpenAI vượt mốc một tỷ người dùng",
+        "desc": "Sau khi giảm giá mô hình GPT-5.6, OpenAI đã chính thức đạt cột mốc quan trọng với hơn một tỷ người dùng trên toàn cầu.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "02/08·VnExpress",
+        "url": "https://vnexpress.net/openai-vuot-moc-mot-ty-nguoi-dung-5104202.html"
+      },
+      {
+        "title": "📱 Google Pixel Tag lộ diện, đối thủ của AirTag",
+        "desc": "Hình ảnh rò rỉ đầu tiên của Google Pixel Tag đã xuất hiện, hứa hẹn trở thành đối thủ đáng gờm của Apple AirTag.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "02/08·Tinhte",
+        "url": "https://tinhte.vn/thread/google-pixel-tag-lo-dien-doi-thu-cua-airtag-cuoi-cung-cung-xuat-hien.4165921/"
+      },
+      {
+        "title": "💻 ASUS ZenScreen DUO MB14FCD: Hai màn hình gập tiện lợi",
+        "desc": "ASUS vừa ra mắt ZenScreen DUO MB14FCD, mẫu màn hình di động với hai màn hình IPS FHD 14 inch gập được, giá khoảng 355 USD.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "01/08·Tinhte",
+        "url": "https://tinhte.vn/thread/asus-zenscreen-duo-mb14fcd-hai-man-hinh-14-inch-ips-fhd-60hz-gap-duoc-gia-khoang-355-usd.4165859/"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 Cổ phiếu TAL, FRT 'cháy hàng', PNJ 'dò đáy' 6 năm",
+        "desc": "Tuần qua, cổ phiếu TAL và FRT bất ngờ tăng mạnh, trong khi PNJ lại chạm đáy 6 năm, cho thấy sự phân hóa rõ rệt trên thị trường chứng khoán.",
+        "detail": "Diễn biến trái chiều này phản ánh tâm lý nhà đầu tư và tình hình kinh doanh của từng doanh nghiệp. Việc PNJ 'dò đáy' 6 năm có thể là tín hiệu đáng lo ngại cho các cổ đông, trong khi sự 'cháy hàng' của TAL và FRT lại mang đến cơ hội cho những nhà đầu tư nhanh nhạy. Thị trường chứng khoán vẫn đầy biến động và cần được theo dõi cẩn trọng.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "02/08·CafeF",
+        "url": "https://cafef.vn/chung-khoan-tuan-qua-co-phieu-tal-va-frt-bat-ngo-chay-hang-pnj-do-day-6-nam-188260801222539782.chn"
+      },
+      {
+        "title": "🏠 Áp lực đáo hạn 60.000 tỷ đồng trái phiếu BĐS",
+        "desc": "Ngành bất động sản Việt Nam đang đối mặt với áp lực đáo hạn 60.000 tỷ đồng trái phiếu trong nửa cuối năm 2026, gây rủi ro cho cả chủ đầu tư và ngân hàng.",
+        "detail": "Với chi phí tài chính đắt đỏ và dòng tiền suy giảm, nhiều doanh nghiệp bất động sản đang gặp khó khăn trong việc thanh toán nợ. Rủi ro này không chỉ dừng lại ở các chủ đầu tư mà còn lan sang chất lượng tài sản của hệ thống ngân hàng, có thể ảnh hưởng đến sự ổn định của thị trường tài chính. Đây là vấn đề cần được quan tâm đặc biệt.",
+        "tag": "realestate",
+        "tagLabel": "🏠 BĐS",
+        "source": "02/08·CafeBiz",
+        "url": "https://cafebiz.vn/ap-luc-dao-han-60000-ty-dong-trai-phieu-bat-dong-san-phan-hoa-gay-gat-va-bai-toan-rui-ro-cho-ngan-hang-176260802080521637.chn"
+      },
+      {
+        "title": "💸 Lịch chốt quyền cổ tức tuần đầu tháng 8: Vinhomes 'lăn chốt'",
+        "desc": "Tuần đầu tháng 8 có gần 25 doanh nghiệp trả cổ tức bằng tiền mặt, với mức cao nhất lên đến 100% và thấp nhất là 1%.",
+        "detail": "Đây là thông tin quan trọng cho các nhà đầu tư đang nắm giữ cổ phiếu của những doanh nghiệp này. Đặc biệt, Vinhomes 'lăn chốt' cổ tức sẽ thu hút sự chú ý lớn. Việc nhận cổ tức bằng tiền mặt là một phần lợi nhuận trực tiếp mà nhà đầu tư nhận được, giúp họ đánh giá hiệu quả đầu tư và điều chỉnh danh mục của mình.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "02/08·CafeF",
+        "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-dau-thang-8-vinhomes-lan-chot-co-tuc-tien-mat-cao-nhat-100-188260801221511883.chn"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-08-01",
     "dayLabel": "Thứ Bảy",
     "dateLabel": "01/08/2026",
