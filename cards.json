@@ -1,5 +1,175 @@
 [
   {
+    "date": "2026-08-09",
+    "dayLabel": "Chủ Nhật",
+    "dateLabel": "09/08/2026",
+    "entertainment": [
+      {
+        "title": "⭐ J.Lo U60 vẫn 'cháy'",
+        "desc": "Dù đã gần 60, Jennifer Lopez vẫn khiến dân tình trầm trồ với phong cách thời trang trẻ trung, tôn dáng trong những ngày hè.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/vay-ao-mua-he-ton-dang-cua-jennifer-lopez-5103146.html"
+      },
+      {
+        "title": "🎵 Hồng Ngọc tái xuất sau 6 năm",
+        "desc": "Ca sĩ Hồng Ngọc vừa chính thức trở lại đường đua âm nhạc sau 6 năm vắng bóng với MV mới mang tên 'Thôi xin anh đừng' thuộc thể loại Latin pop.",
+        "detail": "Sự trở lại của 'mắt nai cha cha cha' Hồng Ngọc đang nhận được nhiều sự chú ý từ khán giả. MV 'Thôi xin anh đừng' đánh dấu màn tái xuất đầy năng lượng, hứa hẹn mang đến làn gió mới cho thị trường nhạc Việt. Sau thời gian dài tập trung cho gia đình, giọng ca đình đám một thời vẫn giữ được phong độ và sự cuốn hút riêng.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/hong-ngoc-ra-mv-sau-6-nam-5106049.html"
+      },
+      {
+        "title": "⭐ Vũ Thúy Quỳnh báo tin vui",
+        "desc": "Á hậu Vũ Thúy Quỳnh vừa xác nhận đang mang thai, chia sẻ về cuộc sống hiện tại và nhận được nhiều lời chúc mừng từ người hâm mộ.",
+        "detail": "Thông tin Vũ Thúy Quỳnh mang thai đã nhanh chóng lan truyền và nhận được sự quan tâm lớn từ cộng đồng mạng. Cô tiết lộ thêm về những thay đổi trong cuộc sống cá nhân, cho thấy một hình ảnh hạnh phúc và viên mãn. Đây là tin vui lớn cho người đẹp và gia đình sau thời gian cô khá kín tiếng về đời tư.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/08·Kenh14",
+        "url": "https://kenh14.vn/vu-thuy-quynh-xac-nhan-dang-mang-thai-215260809085701236.chn"
+      },
+      {
+        "title": "🎬 Trấn Thành đổi kịch bản phim Tết?",
+        "desc": "Rộ tin đạo diễn Trấn Thành đang gấp rút thay đổi kịch bản cho phim Tết sắp tới, được cho là vì một mỹ nhân hot nhất Vbiz.",
+        "detail": "Thông tin Trấn Thành có thể thay đổi kịch bản phim Tết vì một nữ diễn viên đang gây xôn xao dư luận. Nhiều người đồn đoán về danh tính mỹ nhân này và mức độ ảnh hưởng của cô đến dự án phim. Nếu đây là sự thật, bộ phim Tết năm nay của Trấn Thành chắc chắn sẽ có nhiều điều bất ngờ và thu hút sự chú ý đặc biệt.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "08/08·Kenh14",
+        "url": "https://kenh14.vn/ro-tin-tran-thanh-doi-gap-kich-ban-phim-tet-vi-1-my-nhan-hot-bac-nhat-vbiz-lo-hint-ro-mon-mot-tu-lau-215260808150725143.chn"
+      }
+    ],
+    "trending": [
+      {
+        "title": "😂 'Không dám nhắn tin vì sợ chụp màn hình'",
+        "desc": "Trào lưu 'Không dám nhắn tin kể chuyện riêng, vì sợ chụp màn hình' đang viral, phản ánh nỗi lo của giới trẻ về quyền riêng tư trên mạng xã hội.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/08·Thanh Niên",
+        "url": "https://thanhnien.vn/khong-dam-nhan-tin-ke-chuyen-rieng-vi-so-chup-man-hinh-185260808144023829.htm"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Ăn chanh đông lạnh có tiêu khối u?",
+        "desc": "Nhiều người tin rằng ăn chanh đông lạnh mỗi sáng có thể tiêu khối u nhờ các chất chống oxy hóa, nhưng chuyên gia y tế đã lên tiếng cảnh báo.",
+        "detail": "Theo các chuyên gia, thông tin về việc chanh đông lạnh có thể điều trị ung thư là chưa có cơ sở khoa học. Dù chanh giàu vitamin C và chất chống oxy hóa tốt cho sức khỏe, nhưng không thể thay thế các phương pháp điều trị y tế. Việc tin vào những thông tin không kiểm chứng có thể khiến người bệnh bỏ lỡ 'thời gian vàng' điều trị, gây hậu quả nghiêm trọng.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/an-chanh-dong-lanh-moi-sang-de-tieu-khoi-u-5106732.html"
+      },
+      {
+        "title": "💪 Cẩn trọng khi dùng dầu gió, cao dán",
+        "desc": "Thói quen lạm dụng dầu gió, cao dán khi đau đầu có thể che lấp các triệu chứng bệnh lý nguy hiểm, khiến bạn bỏ lỡ 'thời gian vàng' cấp cứu.",
+        "detail": "Dầu gió và cao dán chỉ là giải pháp tạm thời, giúp giảm đau tức thời nhưng không giải quyết được nguyên nhân gốc rễ. Các chuyên gia cảnh báo rằng việc này có thể làm lu mờ các dấu hiệu của bệnh lý nghiêm trọng như đột quỵ, u não, khiến việc chẩn đoán và điều trị bị chậm trễ. Khi đau đầu kéo dài hoặc kèm theo các triệu chứng bất thường, bạn nên đi khám bác sĩ ngay.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/lam-dung-dau-gio-cao-dan-khi-dau-dau-de-bo-lo-thoi-gian-vang-cap-cuu-5105948.html"
+      },
+      {
+        "title": "✈️ Thảo nguyên Bùi Hui 'chạm vào mây'",
+        "desc": "Khoảng 8.500 người đã đổ về thảo nguyên Bùi Hui (Quảng Ngãi) để tham gia lễ hội 'Chạm vào mây', check-in đồi sim và trải nghiệm văn hóa bản địa.",
+        "detail": "Bùi Hui, với vẻ đẹp hoang sơ của đồi sim và không khí trong lành, đang trở thành điểm đến hot thu hút đông đảo du khách. Lễ hội 'Chạm vào mây' là cơ hội tuyệt vời để khám phá cảnh quan thiên nhiên hùng vĩ và hòa mình vào văn hóa độc đáo của người dân địa phương. Nếu bạn đang tìm kiếm một địa điểm để 'đổi gió' cuối tuần, Bùi Hui chắc chắn là một lựa chọn không tồi.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/8-500-nguoi-do-ve-thao-nguyen-bui-hui-5106940.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "📜 Quốc hội bàn sửa Luật Phòng, chống rửa tiền",
+        "desc": "Quốc hội đang thảo luận sửa đổi Luật Phòng, chống rửa tiền và Luật Xuất bản, những dự án luật quan trọng ảnh hưởng đến nhiều lĩnh vực.",
+        "detail": "Việc sửa đổi Luật Phòng, chống rửa tiền nhằm tăng cường hiệu quả công tác phòng ngừa và đấu tranh với tội phạm tài chính, đảm bảo sự minh bạch của nền kinh tế. Đồng thời, Luật Xuất bản cũng được xem xét để phù hợp hơn với bối cảnh phát triển công nghệ và nhu cầu thông tin của xã hội. Những thay đổi này được kỳ vọng sẽ tạo ra hành lang pháp lý vững chắc hơn, góp phần vào sự phát triển ổn định của đất nước.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "09/08·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/tin-tuc-sang-9-8-quoc-hoi-thao-luan-sua-luat-phong-chong-rua-tien-lai-suat-qua-dem-giam-manh-100260808220659366.htm"
+      },
+      {
+        "title": "🏙️ TP.HCM thiếu chỗ đổ 3 triệu m3 bùn",
+        "desc": "Dự án cải tạo kênh Tham Lương - Bến Cát - rạch Nước Lên dài gần 32 km đang đối mặt nguy cơ chậm tiến độ vì thiếu nơi tiếp nhận hơn 3 triệu m3 bùn nạo vét.",
+        "detail": "Đây là một trong những dự án trọng điểm của TP.HCM nhằm cải thiện môi trường và giao thông thủy. Tuy nhiên, việc không có bãi đổ bùn phù hợp đang gây ra thách thức lớn, có thể ảnh hưởng đến thời gian hoàn thành và chi phí dự án. Các cơ quan chức năng đang gấp rút tìm giải pháp để đảm bảo tiến độ và hiệu quả của công trình.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/ba-trieu-m3-bun-nao-vet-o-kenh-dai-nhat-tp-hcm-khong-co-noi-do-5106901.html"
+      },
+      {
+        "title": "🚦 Cầu đi bộ lá dừa nước sắp hoàn thành",
+        "desc": "Cầu đi bộ hình lá dừa nước qua sông Sài Gòn đang đẩy nhanh tiến độ, dự kiến hoàn thành trong tháng 9 sau một năm rưỡi thi công.",
+        "detail": "Với thiết kế độc đáo lấy cảm hứng từ lá dừa nước, cây cầu này hứa hẹn sẽ trở thành một biểu tượng mới của TP.HCM, kết nối khu vực trung tâm với các quận phía Đông. Công trình không chỉ phục vụ nhu cầu đi lại mà còn là điểm nhấn kiến trúc, góp phần tạo cảnh quan đô thị. Việc hoàn thành cầu sẽ mang lại tiện ích lớn cho người dân và du khách.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/dien-mao-cau-di-bo-hinh-la-dua-nuoc-qua-song-sai-gon-5105689.html"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🚀 Samsung & Google lộ diện kính AI",
+        "desc": "Samsung và Google vừa hé lộ kính AI Android XR không màn hình tròng kính, với pin 9 tiếng và sạc 7 lần, đối đầu trực tiếp với sản phẩm của Meta.",
+        "detail": "Đây là một bước tiến lớn trong công nghệ kính thông minh, tập trung vào trải nghiệm thực tế mở rộng (XR) mà không cần màn hình hiển thị trực tiếp trong tầm nhìn. Với thời lượng pin ấn tượng và khả năng sạc nhanh, sản phẩm này hứa hẹn mang lại sự tiện lợi và hiệu quả cho người dùng. Sự hợp tác giữa hai ông lớn công nghệ này được kỳ vọng sẽ tạo ra một làn sóng mới trên thị trường thiết bị đeo thông minh.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "09/08·GenK",
+        "url": "https://genk.vn/pin-9-tieng-sac-7-lan-samsung-va-google-chinh-thuc-lo-dien-kinh-ai-doi-dau-san-pham-cua-meta-165260809082123771.chn"
+      },
+      {
+        "title": "🤖 ChatGPT miễn phí được gỡ giới hạn",
+        "desc": "OpenAI vừa thông báo gỡ bỏ giới hạn độ dài cuộc trò chuyện bằng văn bản cho toàn bộ người dùng ChatGPT miễn phí, đồng thời nâng cấp các mô hình mặc định.",
+        "detail": "Đây là tin vui lớn cho hàng triệu người dùng ChatGPT, giúp họ có thể tận dụng tối đa khả năng của AI mà không bị gián đoạn. Việc nâng cấp mô hình mặc định cũng hứa hẹn mang lại trải nghiệm tốt hơn, với khả năng hiểu và phản hồi chính xác hơn. Động thái này cho thấy OpenAI đang nỗ lực phổ biến AI đến đông đảo người dùng hơn nữa.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "09/08·GenK",
+        "url": "https://genk.vn/tin-vui-cho-nguoi-dung-chatgpt-mien-phi-165260809081839138.chn"
+      },
+      {
+        "title": "⭐ Review Galaxy Watch9 sau 10 ngày",
+        "desc": "Galaxy Watch9 giữ nguyên thiết kế nhưng mang lại nhiều cải tiến về tính năng, giúp người dùng theo dõi sức khỏe và nhận thông báo hiệu quả hơn.",
+        "detail": "Sau 10 ngày trải nghiệm, Galaxy Watch9 được đánh giá cao về sự ổn định và các tính năng theo dõi sức khỏe chuyên sâu. Dù ngoại hình không thay đổi nhiều so với Watch8, nhưng hiệu suất và khả năng tương tác đã được cải thiện đáng kể. Đây là một lựa chọn tốt cho những ai tìm kiếm một chiếc smartwatch đáng tin cậy để quản lý cuộc sống và sức khỏe hàng ngày.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "08/08·Tinhte",
+        "url": "https://tinhte.vn/thread/10-ngay-deo-galaxy-watch9-minh-nhan-duoc-gi-ngoai-thong-bao-va-so-buoc-chan.4167595/"
+      }
+    ],
+    "finance": [
+      {
+        "title": "🪙 Giá vàng hôm nay tiếp tục trụ vững",
+        "desc": "Sáng 9/8, giá vàng thế giới niêm yết ở mức 4.341 USD/ounce, không đổi so với đầu giờ sáng qua, tiếp tục trụ vững ở ngưỡng cao.",
+        "detail": "Sau một tuần biến động mạnh, giá vàng đang cho thấy sự ổn định ở mức cao, phản ánh tâm lý thận trọng của nhà đầu tư trước các yếu tố kinh tế vĩ mô. Giới phân tích cho rằng, việc giá vàng giữ vững ngưỡng này có thể là dấu hiệu cho thấy kim loại quý đang tìm được điểm cân bằng mới. Đối với nhà đầu tư, đây là thời điểm cần theo dõi sát sao diễn biến thị trường để đưa ra quyết định phù hợp.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "09/08·CafeF",
+        "url": "https://cafef.vn/gia-vang-hom-nay-9-8-tiep-tuc-tru-vung-o-nguong-cao-188260809075536529.chn"
+      },
+      {
+        "title": "📈 VNDIRECT khuyến nghị nhà đầu tư",
+        "desc": "VNDIRECT đưa ra khuyến nghị quan trọng, dự báo thị trường chứng khoán Việt Nam sẽ hồi phục đan xen rung lắc sau nhịp điều chỉnh mạnh tháng 7.",
+        "detail": "Theo VNDIRECT, dòng tiền chưa thực sự cải thiện và tâm lý nhà đầu tư vẫn thận trọng trước nhiều yếu tố bất định từ bên ngoài. Do đó, dù có khả năng hồi phục, thị trường sẽ vẫn có những phiên rung lắc. Nhà đầu tư cần cẩn trọng, ưu tiên các mã cổ phiếu có nền tảng cơ bản tốt và theo dõi sát các tín hiệu thị trường để đưa ra quyết định đầu tư hiệu quả.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "09/08·CafeF",
+        "url": "https://cafef.vn/vndirect-dua-ra-khuyen-nghi-quan-trong-cho-nha-dau-tu-chung-khoan-188260808222420805.chn"
+      },
+      {
+        "title": "💸 Lịch chốt quyền cổ tức tuần 10-14/8",
+        "desc": "Tuần tới (10-14/8), gần 16 doanh nghiệp sẽ chốt quyền trả cổ tức bằng tiền mặt, với mức cao nhất lên tới 100% và thấp nhất là 3%.",
+        "detail": "Trong số các doanh nghiệp này, có một ngân hàng lớn sẽ 'lăn chốt', thu hút sự chú ý của nhiều nhà đầu tư. Mức cổ tức 100% cho thấy hiệu quả kinh doanh tốt của một số công ty, mang lại lợi nhuận hấp dẫn cho cổ đông. Đây là thông tin quan trọng mà các nhà đầu tư cần nắm bắt để tối ưu hóa danh mục đầu tư của mình.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "09/08·CafeF",
+        "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-10-14-8-mot-ngan-hang-lon-lan-chot-co-tuc-tien-mat-cao-nhat-100-188260808222553302.chn"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-08-08",
     "dayLabel": "Thứ Bảy",
     "dateLabel": "08/08/2026",
