@@ -38,6 +38,60 @@
         "tagLabel": "🎬 PHIM",
         "source": "08/08·Kenh14",
         "url": "https://kenh14.vn/ro-tin-tran-thanh-doi-gap-kich-ban-phim-tet-vi-1-my-nhan-hot-bac-nhat-vbiz-lo-hint-ro-mon-mot-tu-lau-215260808150725143.chn"
+      },
+      {
+        "title": "🎬 Phim Jung Hae In gây sốt",
+        "desc": "\"Our Sticky Love\" của Jung Hae In đang làm mưa làm gió với chuyện tình lãng mạn nhưng đầy bi kịch về mất trí nhớ.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/phim-cua-jung-hae-in-gay-sot-voi-chuyen-tinh-mat-tri-nho-5107021.html",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Mỹ nhân Thần Điêu Đại Hiệp: Scandal và nỗi đau làm mẹ",
+        "desc": "Một mỹ nhân đình đám của \"Thần Điêu Đại Hiệp\" đối mặt với sự nghiệp lao dốc vì scandal ảnh nóng và nỗi đau 12 lần IVF không thành.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/08·Kenh14",
+        "url": "https://kenh14.vn/my-nhan-than-dieu-dai-hiep-bi-huy-hoai-su-nghiep-vi-scandal-anh-nong-12-lan-lam-ivf-van-khong-co-co-hoi-lam-me-215260809162944707.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "🎬 Phim ngôn tình mới: Drama từ hậu trường",
+        "desc": "Một phim ngôn tình vừa khởi quay đã \"ngập tràn drama\" khi cặp chính được ví như tiên đồng ngọc nữ lại cạch mặt nhau.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "09/08·Kenh14",
+        "url": "https://kenh14.vn/phim-ngon-tinh-moi-khoi-quay-da-ngap-tran-drama-cap-chinh-tien-dong-ngoc-nu-nhung-cach-mat-nhau-215260809195751873.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "🎵 Phương Mỹ Chi hoãn lịch quan trọng",
+        "desc": "Phương Mỹ Chi vừa thông báo hoãn một lịch trình quan trọng, khiến fan không khỏi tò mò.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/08·Kenh14",
+        "url": "https://kenh14.vn/phuong-my-chi-hoan-lich-quan-trong-215260809213752834.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "📺 NSƯT Thành Lộc mở sân khấu mới",
+        "desc": "Sau khi sân khấu Thiên Đăng đóng cửa, NSƯT Thành Lộc đã quyết định mở sàn diễn mới mang tên mình tại TP.HCM.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/nghe-si-thanh-loc-lap-san-khau-moi-5106980.html",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Chị gái Ronaldo phủ nhận tin kết hôn",
+        "desc": "Elma Aveiro, chị ruột của danh thủ Ronaldo, đã bác bỏ thông tin em trai sẽ làm lễ cưới với người mẫu Georgina Rodriguez trong năm nay.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/chi-gai-phu-nhan-tin-ronaldo-ket-hon-nam-nay-5107061.html",
+        "addedEvening": true
       }
     ],
     "trending": [
@@ -48,6 +102,43 @@
         "tagLabel": "🔥 VIRAL",
         "source": "09/08·Thanh Niên",
         "url": "https://thanhnien.vn/khong-dam-nhan-tin-ke-chuyen-rieng-vi-so-chup-man-hinh-185260808144023829.htm"
+      },
+      {
+        "title": "🔥 Hành trình tìm bạn thư tay 24 năm",
+        "desc": "Một người đàn ông Trung Quốc vượt 3.000km để tìm lại người bạn thư tay sau 24 năm thất lạc, gây xúc động mạnh.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/08·Kenh14",
+        "url": "https://kenh14.vn/hanh-trinh-tim-lai-ban-thu-tay-sau-24-nam-that-lac-cua-nguoi-dan-ong-trung-quoc-215260809205416879.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "🔥 Tranh cãi: Chưa thành công là không đi họp lớp?",
+        "desc": "Câu hỏi \"Chưa thành công là không đi họp lớp?\" đang gây tranh luận sôi nổi trên mạng xã hội.",
+        "detail": "Họp lớp vốn là dịp để bạn bè cũ gặp gỡ, ôn lại kỷ niệm và hỏi thăm nhau. Tuy nhiên, áp lực về thành công cá nhân đang khiến nhiều người trẻ ngần ngại tham gia. Trào lưu này phản ánh một góc nhìn về sự so sánh và áp lực đồng trang lứa trong xã hội hiện đại, khiến nhiều người phải suy ngẫm.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/08·Thanh Niên",
+        "url": "https://thanhnien.vn/tranh-cai-chua-thanh-cong-la-khong-di-hop-lop-185260809131156392.htm",
+        "addedEvening": true
+      },
+      {
+        "title": "🔥 \"Cứ ném vào AI làm cho nhanh\": Sếp nói, nhân viên dị ứng",
+        "desc": "Câu nói cửa miệng của sếp \"Cứ ném vào AI làm cho nhanh\" đang khiến nhiều nhân viên cảm thấy dị ứng.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/08·Kenh14",
+        "url": "https://kenh14.vn/cu-nem-vao-ai-lam-cho-nhanh-vi-sao-nhan-vien-di-ung-cau-noi-nay-cua-sep-nguoi-quan-ly-nhin-nhan-ra-sao-215260809085445299.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "🔥 Đàn bò triệu view \"cứu sống\" nông trại",
+        "desc": "Một đàn bò bất ngờ nổi tiếng nhờ video triệu view, giúp \"cứu sống\" cả nông trại đang gặp khó khăn.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "08/08·etime.danviet.vn",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdUckJ1OGxrTy1Tc0o5WGFfLU1sZjlORGJ3REFPaFVDNGVxNDJSMWtqZ0dqN0xpOVZEWml1MEw3Ry1ndjdNX1h0QS1RT1JzWWpTTmVYQUhnUS1BQnVjVkxXYTlMdkhKT29oUUxFdktvdmdBZm9Zd2ZyTE5pLVRVZWZTSVJjWTFZbi1mUWVhNmt3WE1lSnZGZ0xhb2ZHNTdYUC0wTVdfejB5bXpIeDJxVHMyT1pycFdCOEVnVTFHVFU?oc=5",
+        "addedEvening": true
       }
     ],
     "gaming": [],
@@ -78,6 +169,43 @@
         "tagLabel": "✈️ TRAVEL",
         "source": "09/08·VnExpress",
         "url": "https://vnexpress.net/8-500-nguoi-do-ve-thao-nguyen-bui-hui-5106940.html"
+      },
+      {
+        "title": "✈️ Indonesia đóng cửa vườn quốc gia Bromo",
+        "desc": "Vườn quốc gia Bromo, nơi được mệnh danh \"như hành tinh khác\", đã bị Indonesia đóng cửa từ tối 8/8 do cháy rừng kéo dài.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/indonesia-dong-cua-vuon-quoc-gia-duoc-menh-danh-hanh-tinh-khac-5107117.html",
+        "addedEvening": true
+      },
+      {
+        "title": "💪 Thời điểm ăn trứng hỗ trợ giảm cân, tăng cơ",
+        "desc": "Ăn trứng vào bữa sáng giúp no lâu, kiểm soát cân nặng, còn ăn sau tập luyện phù hợp cho người muốn phục hồi cơ bắp.",
+        "detail": "Trứng là thực phẩm giàu protein và dinh dưỡng. Việc lựa chọn thời điểm ăn trứng hợp lý có thể tối ưu hóa lợi ích cho sức khỏe. Ăn sáng giúp bạn cảm thấy no lâu hơn, giảm cảm giác thèm ăn. Trong khi đó, sau khi tập luyện, protein trong trứng hỗ trợ quá trình phục hồi và phát triển cơ bắp hiệu quả.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/thoi-diem-an-trung-ho-tro-giam-can-tang-co-5106479.html",
+        "addedEvening": true
+      },
+      {
+        "title": "✈️ Du khách bất chấp nguy hiểm check-in Sơn Trà",
+        "desc": "Nhiều du khách vẫn bất chấp nguy hiểm vào các khu vực cấm như Mũi Nghê, Bãi Đá Đen ở Sơn Trà để chụp ảnh.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/nhieu-du-khach-bat-chap-nguy-hiem-vao-vung-cam-o-son-tra-de-check-in-5107048.html",
+        "addedEvening": true
+      },
+      {
+        "title": "💪 5 điều nên tránh sau tuổi 40",
+        "desc": "Người từ 40 tuổi nên hạn chế lối sống ít vận động, ăn uống kém lành mạnh, thiếu ngủ và trì hoãn khám sức khỏe để khỏe mạnh về già.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/5-diep-nen-tranh-sau-tuoi-40-de-khoe-manh-ve-gia-5106750.html",
+        "addedEvening": true
       }
     ],
     "vietnam": [
@@ -107,6 +235,33 @@
         "tagLabel": "🚦 GIAO THÔNG",
         "source": "09/08·VnExpress",
         "url": "https://vnexpress.net/dien-mao-cau-di-bo-hinh-la-dua-nuoc-qua-song-sai-gon-5105689.html"
+      },
+      {
+        "title": "📜 Hà Nội xem xét miễn nhiệm 11 ủy viên UBND",
+        "desc": "Hà Nội dự kiến miễn nhiệm chức vụ ủy viên UBND với 11 người đứng đầu sở, ngành để tinh gọn bộ máy theo quy định mới.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "09/08·VnExpress",
+        "url": "https://vnexpress.net/ha-noi-xem-xet-mien-nhiem-chuc-vu-uy-vien-ubnd-voi-11-nguoi-dung-dau-so-nganh-5107012.html",
+        "addedEvening": true
+      },
+      {
+        "title": "💼 Xuất khẩu rau quả Việt Nam vượt 1 tỷ USD/tháng",
+        "desc": "Xuất khẩu rau quả Việt Nam lần đầu tiên đạt kim ngạch hơn 1 tỷ USD chỉ trong một tháng, lập kỷ lục mới.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "09/08·Cafebiz",
+        "url": "https://cafebiz.vn/mot-nganh-hang-viet-lan-dau-thu-ve-hon-1-ty-usd-chi-trong-1-thang-176260809182153086.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "📜 TPHCM tính làm \"thành phố ngầm\" dưới công viên 23/9",
+        "desc": "TP.HCM đang lấy ý kiến về quy hoạch công viên 23/9 kết hợp trung tâm thương mại và bãi đỗ xe ngầm quy mô lớn.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "09/08·Cafebiz",
+        "url": "https://cafebiz.vn/tphcm-tinh-lam-thanh-pho-ngam-duoi-cong-vien-23-9-176260809203254995.chn",
+        "addedEvening": true
       }
     ],
     "tech": [
@@ -136,6 +291,33 @@
         "tagLabel": "⭐ REVIEW",
         "source": "08/08·Tinhte",
         "url": "https://tinhte.vn/thread/10-ngay-deo-galaxy-watch9-minh-nhan-duoc-gi-ngoai-thong-bao-va-so-buoc-chan.4167595/"
+      },
+      {
+        "title": "🚀 Galaxy Z Fold8 kéo doanh số tăng 52%",
+        "desc": "Galaxy Z Fold8 lập kỷ lục 1,44 triệu đơn tại Hàn Quốc, kéo doanh số dòng gập tại Việt Nam tăng 52%.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "09/08·GenK",
+        "url": "https://genk.vn/lap-ky-luc-144-trieu-don-tai-han-quoc-galaxy-z-fold8-tiep-tuc-keo-doanh-so-dong-gap-tai-viet-nam-tang-52-165260809202749313.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "💸 Tin vui cho người dùng iPhone cũ",
+        "desc": "Apple bất ngờ tăng giá trị thu mua iPhone cũ lên tới 70 USD (1,75 triệu VNĐ) qua chương trình Trade In.",
+        "tag": "deal",
+        "tagLabel": "💸 DEAL",
+        "source": "09/08·GenK",
+        "url": "https://genk.vn/tin-vui-cho-tat-ca-nguoi-dang-co-iphone-cu-165260809135035217.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Ghế công thái học Manson Foris giá 4 triệu",
+        "desc": "Ghế công thái học Manson Foris gây ấn tượng với nhiều tính năng chỉ với mức giá khoảng 4 triệu đồng.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "09/08·Tinhte",
+        "url": "https://tinhte.vn/thread/trai-nghiem-ghe-cong-thai-hoc-manson-foris-4-trieu-nhieu-tinh-nang.4150676/",
+        "addedEvening": true
       }
     ],
     "finance": [
@@ -165,9 +347,38 @@
         "tagLabel": "💵 LÃI SUẤT",
         "source": "09/08·CafeF",
         "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-10-14-8-mot-ngan-hang-lon-lan-chot-co-tuc-tien-mat-cao-nhat-100-188260808222553302.chn"
+      },
+      {
+        "title": "💵 Lãi suất ngân hàng ổn định, ACB cao nhất 7,8%",
+        "desc": "Lãi suất huy động trực tuyến ngày 9/8 duy trì ổn định, ACB giữ mức cao nhất 7,8%/năm cho kỳ hạn 12 tháng.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "09/08·Cafebiz",
+        "url": "https://cafebiz.vn/lai-suat-ngan-hang-9-8-tai-agribank-vietcombank-bidv-vietinbank-mb-sacombank-hdbank-176260809212509639.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "📈 Doanh nghiệp sắp trả 3.000 đồng/cp cổ tức",
+        "desc": "Một doanh nghiệp sắp trả 3.000 đồng/cổ phiếu cổ tức, nâng tổng cổ tức năm 2025 lên 6.000 đồng/cổ phiếu.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "09/08·CafeF",
+        "url": "https://cafef.vn/mot-doanh-nghiep-sap-tra-3000-dong-cp-lich-su-co-tuc-tien-mat-deu-nhu-vat-tranh-188260809175148666.chn",
+        "addedEvening": true
+      },
+      {
+        "title": "📈 VN-Index đối mặt rung lắc mạnh",
+        "desc": "Chuyên gia cảnh báo VN-Index vẫn đối mặt khả năng rung lắc mạnh dù \"dòng tiền bí ẩn\" bất ngờ xuất hiện.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "09/08·CafeF",
+        "url": "https://cafef.vn/goc-nhin-chuyen-gia-dong-tien-bi-an-bat-ngo-xuat-hien-nhung-vn-index-van-doi-mat-kha-nang-rung-lac-manh-188260809152015819.chn",
+        "addedEvening": true
       }
     ],
-    "sports": []
+    "sports": [],
+    "eveningDone": true,
+    "eveningNotified": true
   },
   {
     "date": "2026-08-08",
