@@ -1,5 +1,49 @@
 [
   {
+    "weekLabel": "Tuần 32/2026",
+    "fromDate": "2026-08-03",
+    "toDate": "2026-08-09",
+    "highlights": [
+      {
+        "title": "📜 Quốc hội bàn sửa Luật Phòng, chống rửa tiền",
+        "desc": "Quốc hội đang thảo luận sửa đổi Luật Phòng, chống rửa tiền và Luật Xuất bản, những dự án luật quan trọng ảnh hưởng đến nhiều lĩnh vực.",
+        "tag": "policy",
+        "tagLabel": "📜 POLICY",
+        "url": "https://tuoitre.vn/tin-tuc-sang-9-8-quoc-hoi-thao-luan-sua-luat-phong-chong-rua-tien-lai-suat-qua-dem-giam-manh-100260808220659366.htm"
+      },
+      {
+        "title": "🚀 Samsung & Google lộ diện kính AI",
+        "desc": "Samsung và Google vừa hé lộ kính AI Android XR không màn hình tròng kính, với pin 9 tiếng và sạc 7 lần, đối đầu trực tiếp với sản phẩm của Meta.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "url": "https://genk.vn/pin-9-tieng-sac-7-lan-samsung-va-google-chinh-thuc-lo-dien-kinh-ai-doi-dau-san-pham-cua-meta-165260809082123771.chn"
+      },
+      {
+        "title": "🤖 ChatGPT miễn phí được gỡ giới hạn",
+        "desc": "OpenAI vừa thông báo gỡ bỏ giới hạn độ dài cuộc trò chuyện bằng văn bản cho toàn bộ người dùng ChatGPT miễn phí, đồng thời cải thiện hiệu suất.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "url": "https://genk.vn/tin-vui-cho-nguoi-dung-chatgpt-mien-phi-165260809081839138.chn"
+      },
+      {
+        "title": "🪙 Giá vàng hôm nay tiếp tục trụ vững",
+        "desc": "Sáng 9/8, giá vàng thế giới niêm yết ở mức 4.341 USD/ounce, không đổi so với đầu giờ sáng qua, tiếp tục trụ vững ở ngưỡng cao.",
+        "tag": "gold",
+        "tagLabel": "🪙 GOLD",
+        "url": "https://cafef.vn/gia-vang-hom-nay-9-8-tiep-tuc-tru-vung-o-nguong-cao-188260809075536529.chn"
+      },
+      {
+        "title": "📈 VNDIRECT khuyến nghị nhà đầu tư",
+        "desc": "VNDIRECT đưa ra khuyến nghị quan trọng, dự báo thị trường chứng khoán Việt Nam sẽ hồi phục đan xen rung lắc sau nhịp điều chỉnh.",
+        "tag": "stock",
+        "tagLabel": "📈 STOCK",
+        "url": "https://cafef.vn/vndirect-dua-ra-khuyen-nghi-quan-trong-cho-nha-dau-tu-chung-khoan-188260808222420805.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": []
+  },
+  {
     "weekLabel": "Tuần 31/2026",
     "fromDate": "2026-07-27",
     "toDate": "2026-08-02",
