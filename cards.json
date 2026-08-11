@@ -1,5 +1,189 @@
 [
   {
+    "date": "2026-08-11",
+    "dayLabel": "Thứ Ba",
+    "dateLabel": "11/08/2026",
+    "entertainment": [
+      {
+        "title": "🎭 'Mơ Show' gây sốt rạp xiếc 1.400 tỷ",
+        "desc": "Vở diễn kết hợp xiếc, múa rối, mapping tại rạp đa năng Phú Thọ, TP HCM đang thu hút hàng nghìn khán giả.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/mo-show-vo-dien-gay-sot-o-rap-xiec-gan-1-400-ty-dong-5107455.html"
+      },
+      {
+        "title": "⭐ Nhan sắc Angelababy gây xôn xao",
+        "desc": "Vợ cũ Huỳnh Hiểu Minh khiến mạng xã hội bàn tán không ngừng về vẻ đẹp 'hack tuổi' sau 10 năm.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "11/08·Kenh14",
+        "url": "https://kenh14.vn/chang-dam-tin-day-la-angelababy-vo-cu-huynh-hieu-minh-an-gi-ma-nhan-sac-sau-10-nam-lai-the-nay-215260811073657681.chn"
+      },
+      {
+        "title": "⭐ BLACKPINK bị fan 'quay lưng' vì kỷ niệm 10 năm hời hợt?",
+        "desc": "Lễ kỷ niệm 10 năm của BLACKPINK bị chỉ trích vì sự hời hợt, thậm chí tặng quà giá trị thấp, khiến nhiều fan thất vọng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "11/08·Kenh14",
+        "url": "https://kenh14.vn/dieu-tra-su-kien-ky-niem-10-nam-cua-blackpink-215260810164443732.chn"
+      },
+      {
+        "title": "🎬 Giải Bách Hoa gây tranh cãi, khán giả than 'giới giải trí Hoa ngữ nát rồi'",
+        "desc": "Giải thưởng điện ảnh Bách Hoa bị chỉ trích nặng nề khi loại Thẩm Đằng, Vương Bảo Cường nhận 0 phiếu dù là sao phòng vé.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "11/08·Kenh14",
+        "url": "https://kenh14.vn/giai-thuong-khien-khan-gia-cam-than-gioi-giai-tri-hoa-ngu-nat-roi-215260811014313574.chn"
+      },
+      {
+        "title": "⭐ Mỹ nhân Vbiz từng trầm cảm vì nổi tiếng, giờ được đề cử đẹp nhất thế giới",
+        "desc": "Một mỹ nhân Vbiz từng nặng 39kg vì trầm cảm do áp lực nổi tiếng, nay được đề cử vào danh sách đẹp nhất thế giới.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "11/08·Kenh14",
+        "url": "https://kenh14.vn/my-nhan-vbiz-bi-tram-cam-vi-qua-noi-tieng-chi-nang-39kg-gio-duoc-de-cu-dep-nhat-the-gioi-215260811021050522.chn"
+      }
+    ],
+    "trending": [],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Ba thói quen ngủ dễ dẫn đến ung thư",
+        "desc": "Thiếu ngủ dưới 6 tiếng, thức khuya không ngủ trưa và sinh hoạt thất thường có thể tăng nguy cơ ung thư tới 82%.",
+        "detail": "Giấc ngủ đóng vai trò quan trọng đối với sức khỏe. Các chuyên gia cảnh báo rằng việc ngủ ít hơn 6 tiếng mỗi đêm, thói quen thức khuya mà không bù đắp bằng giấc ngủ trưa, hoặc lịch sinh hoạt không đều đặn đều có thể gây hại nghiêm trọng. Những thói quen này làm rối loạn đồng hồ sinh học, suy yếu hệ miễn dịch và tăng khả năng mắc các bệnh nguy hiểm, trong đó có ung thư.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/ba-thoi-quen-ngu-de-dan-den-ung-thu-5107212.html"
+      },
+      {
+        "title": "💪 Dấu hiệu lạ trên móng tay không thể xem thường",
+        "desc": "Móng tay có thể phản ánh sức khỏe nội tạng và hệ miễn dịch, những biến đổi nhỏ cảnh báo sớm nhiều bệnh lý nguy hiểm.",
+        "detail": "Đừng bỏ qua những thay đổi bất thường trên móng tay của bạn, vì chúng có thể là tín hiệu cảnh báo sớm về các vấn đề sức khỏe nghiêm trọng. Từ màu sắc, hình dạng đến kết cấu móng, mỗi dấu hiệu đều có thể liên quan đến chức năng nội tạng, hệ miễn dịch hay quá trình chuyển hóa của cơ thể. Việc nhận biết sớm giúp bạn kịp thời thăm khám và điều trị.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/nhung-dau-hieu-la-tren-mong-tay-khong-the-xem-thuong-5107200.html"
+      },
+      {
+        "title": "✈️ Đến nơi 'yên tĩnh nhất Trái Đất' ở Hawaii",
+        "desc": "Vườn quốc gia Haleakalā ở Hawaii mang đến trải nghiệm tĩnh lặng tuyệt đối, được du khách yêu thích.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/den-noi-yen-tinh-nhat-trai-dat-5107335.html"
+      },
+      {
+        "title": "✈️ Nhà vệ sinh 17 tỷ đồng ở Nhật Bản gây tranh cãi",
+        "desc": "Một nhà vệ sinh công cộng trị giá 17 tỷ đồng ở tỉnh Kagawa, Nhật Bản đang gây tranh cãi về hiệu quả đầu tư.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "10/08·VnExpress",
+        "url": "https://vnexpress.net/nha-ve-sinh-17-ty-dong-o-nhat-ban-gay-tranh-cai-5107548.html"
+      },
+      {
+        "title": "💪 Uống nước dừa thường xuyên: Tốt cho thận hay không?",
+        "desc": "Nước dừa bổ sung nước và kali, nhưng lượng kali cao có thể khiến thận phải xử lý nhiều hơn, đặc biệt với người suy thận.",
+        "detail": "Nước dừa là thức uống giải khát tự nhiên được nhiều người yêu thích, giàu chất điện giải và kali. Tuy nhiên, đối với những người có chức năng thận suy giảm, việc uống nước dừa thường xuyên có thể gây áp lực lên thận do hàm lượng kali cao. Hãy tham khảo ý kiến bác sĩ để biết liều lượng phù hợp với tình trạng sức khỏe của bạn.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/dieu-gi-xay-ra-voi-than-khi-uong-nuoc-dua-thuong-xuyen-5106731.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "🏙️ TP HCM loay hoay giảm chôn lấp rác suốt hai thập kỷ",
+        "desc": "TP HCM vẫn gặp khó khăn trong việc xử lý rác thải, với nhà máy đốt rác nghìn tỷ chưa vận hành và bãi chôn lấp Đa Phước quá tải.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/hai-thap-ky-tp-hcm-loay-hoay-giam-chon-lap-rac-5106498.html"
+      },
+      {
+        "title": "📜 TP HCM dự kiến tăng 10% chỉ tiêu nghĩa vụ quân sự năm 2027",
+        "desc": "TP HCM đang lên kế hoạch tăng chỉ tiêu nghĩa vụ quân sự năm 2027 thêm 10%, theo tin tức sáng 11/8.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "11/08·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/tin-tuc-sang-11-8-tphcm-du-kien-chi-tieu-nghia-vu-quan-su-nam-2027-tang-10-100260810203837123.htm"
+      },
+      {
+        "title": "💼 Giá vé máy bay đi Singapore, Thái Lan giảm sâu trong tháng 8 và 9",
+        "desc": "Giá vé máy bay từ TP HCM đi Singapore, Bangkok chỉ từ 1,4 - 1,9 triệu đồng/chiều, thấp hơn nhiều chuyến bay nội địa.",
+        "detail": "Sự cạnh tranh gay gắt trên các đường bay quốc tế đã khiến giá vé đi Singapore và Thái Lan giảm mạnh trong tháng 8 và 9. Đây là cơ hội tốt cho những ai muốn du lịch nước ngoài với chi phí tiết kiệm. Mức giá này thậm chí còn hấp dẫn hơn một số chuyến bay từ TP HCM đi Hà Nội, cho thấy sự thay đổi đáng kể trong thị trường hàng không.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "11/08·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/vi-sao-gia-ve-may-bay-di-singapore-thai-lan-giam-sau-trong-thang-8-va-9-100260810171055571.htm"
+      },
+      {
+        "title": "📜 Việt Nam tự chủ đóng tàu hộ vệ chống ngầm đa năng",
+        "desc": "Tổng công ty Sông Thu phối hợp Quân chủng Hải quân khởi công đóng tàu hộ vệ chống ngầm đa năng, sản phẩm tàu chiến lớn nhất do Việt Nam tự thiết kế.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "10/08·VnExpress",
+        "url": "https://vnexpress.net/viet-nam-tu-chu-dong-tau-ho-ve-chong-ngam-da-nang-5107576.html"
+      },
+      {
+        "title": "🏙️ Đắk Lắk ghi nhận ca tử vong đầu tiên do sốt xuất huyết Dengue năm 2026",
+        "desc": "Tỉnh Đắk Lắk vừa ghi nhận trường hợp đầu tiên tử vong do sốt xuất huyết Dengue trong năm nay, theo Sở Y tế.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "11/08·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/dak-lak-co-truong-hop-dau-tien-tu-vong-do-sot-xuat-huyet-dengue-trong-nam-nay-100260811071626732.htm"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🚀 Google Pixel 11 Series ra mắt vào 13/8",
+        "desc": "Google sẽ giới thiệu Pixel 11 Series, Pixel Watch 5 và có thể cả Pixel Tag vào 5:00 sáng ngày 13/8/2026 (giờ Việt Nam).",
+        "detail": "Sự kiện ra mắt sản phẩm mới của Google luôn được giới công nghệ mong đợi. Lần này, tâm điểm là dòng Pixel 11 Series với những cải tiến về camera và AI, cùng với Pixel Watch 5 hứa hẹn nhiều tính năng sức khỏe mới. Khả năng xuất hiện Pixel Tag cũng khiến người dùng tò mò về hệ sinh thái thiết bị của Google.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "11/08·Tinhte",
+        "url": "https://tinhte.vn/thread/5-00-sang-thu-5-ngay-13-8-2026-gio-viet-nam-google-se-gioi-thieu-pixel-11-series.4168084/"
+      },
+      {
+        "title": "🤖 ChatGPT thay thế 12 ứng dụng trên điện thoại?",
+        "desc": "Một người dùng đã thử nghiệm dùng ChatGPT thay thế 12 ứng dụng cơ bản trên điện thoại và có cái kết bất ngờ.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "11/08·GenK",
+        "url": "https://genk.vn/toi-dung-chatgpt-thay-cho-12-ung-dung-tren-dien-thoai-va-cai-ket-bat-ngo-165260811080423711.chn"
+      },
+      {
+        "title": "💸 iPhone có thể tăng giá vì CXMT từ chối bán chip nhớ giá rẻ",
+        "desc": "Nỗ lực của Apple tìm nguồn cung chip nhớ giá rẻ gặp trở ngại khi hãng CXMT (Trung Quốc) từ chối, có thể khiến iPhone tăng giá.",
+        "tag": "deal",
+        "tagLabel": "💸 DEAL",
+        "source": "11/08·GenK",
+        "url": "https://genk.vn/cxmt-tu-choi-ban-chip-nho-gia-re-cho-apple-iphone-co-the-tang-gia-som-16526081108033209.chn"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 Tỷ phú Phạm Nhật Vượng 'bắt tay' Elon Musk đưa vệ tinh lên quỹ đạo",
+        "desc": "VinSpace của tỷ phú Phạm Nhật Vượng vừa ký hợp đồng phóng vệ tinh với SpaceX của Elon Musk, đánh dấu bước tiến lớn.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "11/08·CafeF",
+        "url": "https://cafef.vn/nong-ty-phu-pham-nhat-vuong-bat-tay-elon-musk-dua-ve-tinh-len-quy-dao-188260811081858786.chn"
+      },
+      {
+        "title": "💵 Ngân hàng 'khát' vốn, rốt ráo tìm khách gửi tiền",
+        "desc": "Nhiều ngân hàng đang tăng tốc huy động vốn qua trái phiếu, vay nước ngoài và kêu gọi khách gửi tiền, cho thấy nhu cầu vốn lớn.",
+        "detail": "Tình trạng 'khát' vốn đang diễn ra tại nhiều ngân hàng, buộc họ phải rốt ráo tìm kiếm nguồn tiền. Các nhân viên ngân hàng tích cực mời chào khách hàng gửi tiền, đồng thời các nhà băng cũng đẩy mạnh phát hành trái phiếu và vay vốn từ nước ngoài. Điều này có thể ảnh hưởng đến lãi suất huy động và cho vay trong thời gian tới, tác động trực tiếp đến người gửi tiền và doanh nghiệp.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/ngan-hang-khat-von-5107615.html"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-08-10",
     "dayLabel": "Thứ Hai",
     "dateLabel": "10/08/2026",
@@ -10981,108 +11165,6 @@
         "tagLabel": "💼 KINH TẾ",
         "source": "13/07·Tuổi Trẻ",
         "url": "https://tuoitre.vn/cuoc-tau-di-my-tang-len-gan-9000-usd-container-100260713075328739.htm"
-      }
-    ],
-    "lifestyle": []
-  },
-  {
-    "date": "2026-07-12",
-    "dayLabel": "Chủ Nhật",
-    "dateLabel": "12/07/2026",
-    "tech": [
-      {
-        "title": "🎧 Tai nghe AI tích hợp camera",
-        "desc": "Một mẫu tai nghe mở mới tích hợp camera Sony 8MP, AI dịch trực tiếp và nhận diện vật thể, có giá chỉ hơn 2 triệu đồng.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "12/07·GenK",
-        "url": "https://genk.vn/tai-nghe-mo-nay-co-san-camera-sony-8mp-ai-dich-truc-tiep-va-nhan-dien-vat-the-gia-chi-hon-2-trieu-dong-16526071200312738.chn"
-      },
-      {
-        "title": "💻 Lenovo Xiaoxin Air 13",
-        "desc": "Lenovo vừa ra mắt Xiaoxin Air 13 tại Trung Quốc với màn hình 120Hz, giá khoảng 869 USD, được xem là đối thủ của MacBook Neo.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "12/07·Tinhte",
-        "url": "https://tinhte.vn/thread/lenovo-ra-xiaoxin-air-13-man-120hz-ngon-nha-doi-thu-cua-macbook-neo-day-roi.4159881/"
-      },
-      {
-        "title": "🤖 OpenAI đáp trả Apple",
-        "desc": "OpenAI đã chính thức lên tiếng về vụ kiện của Apple cáo buộc công ty này ăn cắp bí mật thương mại của iPhone.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "12/07·Tinhte",
-        "url": "https://tinhte.vn/thread/openai-len-tieng-dap-tra-apple-vu-an-cap-bi-mat-thuong-mai-ne.4159876/"
-      },
-      {
-        "title": "📱 Google Photos đổi giao diện",
-        "desc": "Google Photos phiên bản 7.82 trên Android vừa cập nhật giao diện thanh điều khiển dạng nổi mới, mang lại trải nghiệm khác biệt.",
-        "tag": "review",
-        "tagLabel": "⭐ REVIEW",
-        "source": "12/07·Tinhte",
-        "url": "https://tinhte.vn/thread/google-photos-tren-android-vua-doi-giao-dien-thanh-dieu-khien-dang-noi-ne-anh-em.4159878/"
-      }
-    ],
-    "finance": [
-      {
-        "title": "🪙 Giá vàng hôm nay: Người mua lỗ 'kép'",
-        "desc": "Sáng nay, giá vàng tiếp tục đi ngang sau nhiều phiên điều chỉnh, khiến người mua lỗ từ 2,2 triệu – 6 triệu đồng/lượng trong một tuần.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "12/07·CafeF",
-        "url": "https://cafef.vn/gia-vang-hom-nay-12-7-nguoi-mua-lo-kep-sau-mot-tuan-188260712100320973.chn"
-      },
-      {
-        "title": "📈 Cổ phiếu Lộc Trời bị cảnh báo",
-        "desc": "Cổ phiếu LTG của Lộc Trời sẽ vào diện cảnh báo từ ngày 14/7/2026 do công ty chưa nộp báo cáo tài chính kiểm toán năm 2025.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "12/07·CafeF",
-        "url": "https://cafef.vn/co-phieu-ltg-cua-loc-troi-vao-dien-canh-bao-tu-ngay-14-7-2026-188260712100705311.chn"
-      },
-      {
-        "title": "💵 EU đầu tư 1,5 tỷ Euro vào ngành pin",
-        "desc": "Ủy ban EU sẽ đầu tư 1,5 tỷ Euro vào ngành công nghiệp pin, lần đầu áp dụng cơ chế cho vay không lãi suất để thúc đẩy phát triển.",
-        "tag": "rate",
-        "tagLabel": "💵 LÃI SUẤT",
-        "source": "12/07·CafeBiz",
-        "url": "https://cafebiz.vn/uy-ban-eu-dau-tu-15-ty-euro-vao-nganh-cong-nghiep-pin-lan-dau-ap-dung-co-che-cho-vay-khong-lai-suat-176260712113709223.chn"
-      },
-      {
-        "title": "💵 ACB hỗ trợ trả góp 0% lãi suất",
-        "desc": "ACB cung cấp chương trình trả góp 0% lãi suất bằng thẻ tín dụng, bao gồm cả chuyển đổi giao dịch rút tiền mặt sang trả góp.",
-        "tag": "rate",
-        "tagLabel": "💵 LÃI SUẤT",
-        "source": "12/07·VnEconomy",
-        "url": "https://vneconomy.vn/tra-gop-voi-lai-suat-0-bang-the-tin-dung-acb.htm"
-      }
-    ],
-    "entertainment": [],
-    "gaming": [],
-    "vietnam": [
-      {
-        "title": "💸 Giảm trừ chi phí giáo dục cần hóa đơn",
-        "desc": "Theo quy định mới, người lao động muốn giảm trừ chi phí giáo dục, y tế phải tự quyết toán thuế và có hóa đơn, chứng từ đầy đủ.",
-        "tag": "tax",
-        "tagLabel": "💸 THUẾ",
-        "source": "12/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/giam-tru-chi-phi-giao-duc-khong-co-hoa-don-nguoi-lao-dong-co-mat-quyen-loi-100260712120332406.htm"
-      },
-      {
-        "title": "💼 Bán hàng online tìm đường 'sống' mới",
-        "desc": "Thời kỳ 'đốt tiền' quảng cáo đã qua, các nhà bán hàng online đang chuyển hướng sang video ngắn, livestream và tương tác cộng đồng để giảm chi phí.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "12/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/qua-thoi-dot-tien-quang-cao-ban-hang-online-tim-duong-song-moi-100260712071400381.htm"
-      },
-      {
-        "title": "🚦 Tăng tốc kết nối sân bay Long Thành",
-        "desc": "Tiến độ mở rộng cao tốc kết nối sân bay Long Thành đang thay đổi từng ngày, hứa hẹn cải thiện hạ tầng giao thông khu vực.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "11/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/tang-toc-ket-noi-san-bay-long-thanh-tien-do-mo-rong-cao-toc-thay-doi-tung-ngay-100260711154742968.htm"
       }
     ],
     "lifestyle": []
