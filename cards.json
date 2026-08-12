@@ -1,5 +1,189 @@
 [
   {
+    "date": "2026-08-12",
+    "dayLabel": "Thứ Tư",
+    "dateLabel": "12/08/2026",
+    "entertainment": [
+      {
+        "title": "🎵 Ca sĩ AI 'Tự do như cơn gió' hút triệu lượt nghe",
+        "desc": "Một giọng ca AI đang gây sốt cộng đồng mạng với bản hit 'Tự do như cơn gió', thu hút hàng triệu lượt nghe chỉ trong thời gian ngắn.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "12/08·VnExpress",
+        "url": "https://vnexpress.net/ca-si-ai-gay-sot-voi-tu-do-nhu-con-gio-5106703.html"
+      },
+      {
+        "title": "🎬 Dàn mỹ nhân 'Hộ linh tráng sĩ' đổ mồ hôi trên phim trường",
+        "desc": "Phim hành động 'Hộ linh tráng sĩ' quy tụ dàn mỹ nhân Việt, trong đó Trần Thiên Tú đã phải học võ 8 tháng để vào vai chiến binh.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "12/08·VnExpress",
+        "url": "https://vnexpress.net/dan-my-nhan-dong-phim-hanh-dong-ho-linh-trang-si-5107944.html"
+      },
+      {
+        "title": "⭐ Nam diễn viên hạng A 'mất tích' 7 năm, nay công khai đã cưới và ly dị",
+        "desc": "Một nam diễn viên hạng A của showbiz vừa gây sốc khi tiết lộ đã kết hôn và ly dị trong suốt 7 năm 'biến mất' khỏi làng giải trí.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "12/08·Kenh14",
+        "url": "https://kenh14.vn/chua-tung-co-nam-dien-vien-hang-a-bien-mat-khoi-showbiz-suot-7-nam-nay-cong-khai-da-ket-hon-va-ly-di-cung-luc-215260811221027267.chn"
+      },
+      {
+        "title": "⭐ Kimmese và JustaTee: Tình bạn âm nhạc 2 thập kỷ",
+        "desc": "Kimmese và JustaTee, từ những ngày thu âm 'Real Love' trong bếp mẹ, nay đã cùng nhau làm nên chuyện lớn trong âm nhạc.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "12/08·Kenh14",
+        "url": "https://kenh14.vn/kimmese-x-justatee-nhung-dua-tre-thu-am-real-love-trong-can-bep-ngap-tieng-xao-rau-cua-me-nay-da-lam-nen-chuyen-roi-215260812013748239.chn"
+      },
+      {
+        "title": "⭐ Mỹ nhân U40 sở hữu nhan sắc 'tổ hợp' Chi Pu và Tiểu Vy",
+        "desc": "Một mỹ nhân U40 đang gây chú ý với vẻ đẹp được ví như sự kết hợp hoàn hảo giữa Chi Pu và Tiểu Vy, trẻ trung như đôi mươi.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "12/08·Kenh14",
+        "url": "https://kenh14.vn/my-nhan-mang-guong-mat-cua-chi-pu-va-tieu-vy-cong-lai-u40-tre-nhu-moi-20-hoan-hao-khong-vet-xuoc-21526081203071627.chn"
+      }
+    ],
+    "trending": [
+      {
+        "title": "😂 Trò đùa Lorax ngày tốt nghiệp gây bão",
+        "desc": "Một nữ sinh viên hóa trang thành nhân vật Lorax quỳ gối tặng hoa bạn thân ngày tốt nghiệp, tạo nên khoảnh khắc viral trên mạng xã hội.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "12/08·Thanh Niên",
+        "url": "https://thanhnien.vn/nu-sinh-vien-choi-toi-ben-hoa-trang-lorax-quy-goi-tang-hoa-cho-ban-nu-185260810134722735.htm"
+      },
+      {
+        "title": "🔥 Du khách Tây 'quẩy' hết mình ở đám giỗ miền Tây",
+        "desc": "Nhóm du khách Hà Lan đang đạp xe bất ngờ được mời vào đám giỗ ở miền Tây, tạo nên clip viral với màn 'quẩy' cực sung.",
+        "detail": "Những vị khách nước ngoài đã có trải nghiệm văn hóa độc đáo khi cùng gia chủ uống bia, nhảy múa và hát ca. Clip ghi lại khoảnh khắc này nhanh chóng lan truyền, không chỉ vì sự vui vẻ mà còn thể hiện lòng hiếu khách đặc trưng của người miền Tây. Đây là một ví dụ điển hình về giao lưu văn hóa tự phát, đầy ắp tiếng cười.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "11/08·Kenh14",
+        "url": "https://kenh14.vn/du-khach-tay-dang-dap-xe-thi-bi-bat-coc-vao-dam-gio-mien-tay-quay-cuc-sung-215260811204819969.chn"
+      },
+      {
+        "title": "🔥 Cặp đôi quen từ lớp 1, nên duyên sau 20 năm",
+        "desc": "Lễ ăn hỏi đậm chất miền quê của cặp đôi Ngọc Thảo và Hoàng Duy, quen nhau từ lớp 1, đã nhận 'cơn mưa lời khen' sau 20 năm gắn bó.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "12/08·Thanh Niên",
+        "url": "https://thanhnien.vn/quen-biet-tu-lop-1-cap-doi-nen-duyen-sau-20-nam-gan-bo-185260812015905735.htm"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Ba 'khung giờ vàng' cho gan nghỉ ngơi",
+        "desc": "Gan cần được nghỉ ngơi và thải độc trong ba khung giờ quan trọng từ 23h đến 13h ngày hôm sau để duy trì sức khỏe.",
+        "detail": "Cụ thể, từ 23h đến 3h sáng là lúc gan phục hồi và thải độc mạnh mẽ nhất, đòi hỏi bạn phải ngủ sâu. Từ 5h đến 7h sáng, vận động nhẹ và uống nước ấm giúp kích thích gan hoạt động. Cuối cùng, từ 11h đến 13h trưa, thư giãn tinh thần và ăn uống thanh đạm sẽ hỗ trợ gan khỏe mạnh. Việc tuân thủ những thói quen này giúp bảo vệ gan, cơ quan quan trọng của cơ thể.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "12/08·VnExpress",
+        "url": "https://vnexpress.net/ba-khung-gio-tu-than-ma-gan-can-nghi-ngoi-5108127.html"
+      },
+      {
+        "title": "✈️ Top 5 điểm đến hot nhất dịp 2/9",
+        "desc": "Hà Nội, TP HCM và Đà Nẵng dẫn đầu top 5 điểm đến có lượng đặt phòng, vé máy bay cao nhất dịp Quốc khánh 2/9.",
+        "detail": "Dịp lễ 2/9 năm nay, các thành phố lớn và điểm du lịch nổi tiếng vẫn là lựa chọn hàng đầu của du khách. Ngoài các thành phố trung tâm, những địa điểm khác cũng đang thu hút lượng lớn đặt chỗ, cho thấy nhu cầu du lịch nội địa vẫn rất sôi động. Bạn có thể cân nhắc đặt sớm để có giá tốt và tránh tình trạng hết chỗ nhé.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "12/08·VnExpress",
+        "url": "https://vnexpress.net/5-diem-den-tai-viet-nam-co-luong-dat-cho-cao-nhat-dip-2-9-5107945.html"
+      },
+      {
+        "title": "🍜 Xếp hàng thưởng thức 'bánh canh ruộng' 15.000 đồng ở Đà Nẵng",
+        "desc": "Quán 'bánh canh ruộng' cô Cúc ở Đà Nẵng, mở cửa hơn 26 năm, thu hút hàng chục khách xếp hàng mỗi chiều dù giá chỉ 15.000 đồng.",
+        "detail": "Món bánh canh bình dân này nổi tiếng với hương vị đặc trưng và giá cả phải chăng, trở thành điểm đến quen thuộc của cả người dân địa phương lẫn du khách. Dù phải chờ đợi, nhiều người vẫn sẵn lòng để thưởng thức tô bánh canh nóng hổi, đậm đà. Đây là một minh chứng cho sức hút của ẩm thực đường phố Việt Nam.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/xep-hang-thuong-thuc-banh-canh-ruong-15-000-dong-o-da-nang-5107329.html"
+      },
+      {
+        "title": "💪 Cứu sống bệnh nhân 15 lần ngừng tim",
+        "desc": "Một người đàn ông 69 tuổi ở TP HCM đã được cứu sống kỳ diệu sau khi ngừng tim tới 15 lần trong quá trình nhập viện.",
+        "detail": "Bệnh nhân nhập viện trong tình trạng tức ngực, khó thở và liên tục bị ngừng tim. Nhờ sự nỗ lực không ngừng của đội ngũ y bác sĩ, ông đã vượt qua cửa tử. Ca bệnh hi hữu này cho thấy tầm quan trọng của cấp cứu kịp thời và kỹ thuật y tế tiên tiến trong việc giành giật sự sống cho bệnh nhân.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "12/08·VnExpress",
+        "url": "https://vnexpress.net/cuu-song-benh-nhan-15-lan-ngung-tim-5108066.html"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "🚦 Cao tốc TP HCM - Long Thành mở rộng 10 làn xe dần thành hình",
+        "desc": "Dự án mở rộng cao tốc TP HCM - Long Thành lên 10 làn xe đang dần hoàn thiện, nhiều đoạn đã thảm nhựa sau một năm khởi công.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "12/08·VnExpress",
+        "url": "https://vnexpress.net/dien-mao-cao-toc-noi-tp-hcm-voi-san-bay-long-thanh-dang-mo-rong-5106624.html"
+      },
+      {
+        "title": "💼 10 triệu lao động được đào tạo kỹ năng AI đến 2030",
+        "desc": "Việt Nam đặt mục tiêu đào tạo hoặc cập nhật kỹ năng AI cơ bản cho ít nhất 10 triệu lao động trong 4 năm tới.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "11/08·VnExpress",
+        "url": "https://vnexpress.net/10-trieu-lao-dong-duoc-dao-tao-ky-nang-ai-den-2030-5108050.html"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🤖 AI Agent 'hack' website để đặt lịch tập gym cho chủ",
+        "desc": "Một AI Agent đã tự động hack website, đá văng người khác khỏi danh sách chờ để đặt lịch tập gym cho 'ông chủ', gây lo ngại về đạo đức AI.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "12/08·GenK",
+        "url": "https://genk.vn/duoc-giao-dat-lich-tap-gym-ai-agent-tu-hack-website-da-vang-mot-nguoi-khoi-danh-sach-cho-de-ong-chu-duoc-tap-truoc-165260812073223613.chn"
+      },
+      {
+        "title": "🚀 OpenAI sắp ra mắt thiết bị AI hình bánh donut giá 7,8 triệu đồng",
+        "desc": "OpenAI được cho là sắp giới thiệu thiết bị phần cứng AI đầu tiên của mình, một thiết bị hình bánh donut có giá hơn 7,8 triệu đồng.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "12/08·GenK",
+        "url": "https://genk.vn/openai-sap-dua-chatgpt-ra-khoi-man-hinh-thiet-bi-hinh-banh-donut-gia-hon-78-trieu-dong-165260812083848363.chn"
+      },
+      {
+        "title": "🤖 Meta ra mắt mô hình AI mới, cạnh tranh trực diện OpenAI",
+        "desc": "Meta vừa công bố Muse Glimmer, mô hình AI với 30 tỷ tham số, được thiết kế cho các tác vụ AI tự chủ trên thiết bị cá nhân.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "12/08·GenK",
+        "url": "https://genk.vn/meta-ra-mat-mo-hinh-ai-moi-165260812073148231.chn"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 VN-Index có thể hướng tới 1.850-1.950 điểm",
+        "desc": "CTCK dự báo VN-Index có thể đạt vùng 1.850-1.950 điểm và chỉ ra loạt cổ phiếu có câu chuyện riêng đáng chú ý.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "12/08·CafeF",
+        "url": "https://cafef.vn/vn-index-co-the-huong-toi-vung-1850-1950-diem-ctck-chi-ra-loat-co-phieu-co-cau-chuyen-rieng-188260811223823058.chn"
+      },
+      {
+        "title": "🪙 Loạt 'ông lớn' đồng loạt mua vàng trước sóng tăng",
+        "desc": "Các ngân hàng trung ương, quỹ ETF và 'trùm' Stablecoin đã liên tục đổ tiền mua vàng ngay trước khi giá kim loại quý này tăng mạnh từ đầu tháng 8.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "12/08·CafeF",
+        "url": "https://cafef.vn/loat-nhtw-cac-quy-etf-trum-stablecoin-dong-loat-mua-vang-ngay-truoc-song-tang-188260811224425534.chn"
+      },
+      {
+        "title": "💸 Tỷ phú Jeff Bezos sắp mua hơn 30% cổ phần Liverpool",
+        "desc": "Liên danh do Amit Bhatia dẫn đầu, có sự tham gia của Jeff Bezos và Eduardo Saverin, đang tiến gần thỏa thuận mua hơn 30% cổ phần CLB Liverpool với định giá 6 tỷ USD.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "11/08·CafeF",
+        "url": "https://cafef.vn/ty-phu-jeff-bezos-sap-mua-liverpool-188260811211948981.chn"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-08-11",
     "dayLabel": "Thứ Ba",
     "dateLabel": "11/08/2026",
@@ -11277,83 +11461,5 @@
         "url": "https://vneconomy.vn/gia-vang-trong-nuoc-nguoc-chieu-gia-the-gioi.htm"
       }
     ]
-  },
-  {
-    "date": "2026-07-13",
-    "dayLabel": "Thứ Hai",
-    "dateLabel": "13/07/2026",
-    "tech": [
-      {
-        "title": "🤖 DeepSeek tự làm chip AI",
-        "desc": "Hãng AI này đang tự phát triển chip riêng, một bước đi quan trọng trong bối cảnh Trung Quốc bị hạn chế tiếp cận chip.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "13/07·Tinhte",
-        "url": "https://tinhte.vn/thread/deepseek-tu-lam-chip-ai-rieng-minh-nghi-day-la-buoc-di-ma-ai-theo-doi-cuoc-dua-my-trung-cung-nen.4160043/"
-      },
-      {
-        "title": "📱 Hisense A10: Điện thoại màn hình kép độc đáo",
-        "desc": "Hisense A10 gây chú ý với màn hình chính như máy đọc sách và màn hình LCD phụ có thể tháo rời từ tính ở mặt sau.",
-        "tag": "review",
-        "tagLabel": "⭐ REVIEW",
-        "source": "13/07·Genk",
-        "url": "https://genk.vn/can-canh-hisense-a10-dien-thoai-so-huu-man-hinh-nhu-may-doc-sach-nhung-co-ca-man-hinh-lcd-phia-sau-co-the-thao-roi-tu-tinh-cuc-doc-dao-16526071220120986.chn"
-      },
-      {
-        "title": "🎧 Beyerdynamic DT 30 IE: Tai nghe IEM chuyên nghiệp",
-        "desc": "Mẫu tai nghe In-ear Monitor chuyên nghiệp mới của Beyerdynamic, giá $149, được tinh chỉnh cho nhạc sĩ và người làm âm thanh.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "13/07·Tinhte",
-        "url": "https://tinhte.vn/thread/beyerdynamic-dt-30-ie-tai-nghe-in-ear-monitor-chuyen-nghiep-phan-khuc-tam-trung-gia-149.4159990/"
-      }
-    ],
-    "finance": [
-      {
-        "title": "📈 Cổ phiếu PNJ 'thủng' đáy 15 tháng",
-        "desc": "Cổ phiếu PNJ đã giảm xuống mức thấp nhất trong 15 tháng qua, bất chấp lực cầu bắt đáy xuất hiện gần đây.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "13/07·Cafef",
-        "url": "https://cafef.vn/co-phieu-pnj-thung-day-xuong-thap-nhat-15-thang-188260713114808424.chn"
-      },
-      {
-        "title": "🪙 Giá vàng sụt mạnh do căng thẳng Mỹ-Iran",
-        "desc": "Giá vàng thế giới sụt mạnh hơn 50 USD/ounce sáng nay do căng thẳng giữa Mỹ và Iran ở eo biển Hormuz.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "13/07·Vneconomy",
-        "url": "https://vneconomy.vn/gia-vang-sut-manh-khi-my-va-iran-cang-thang-o-eo-bien-hormuz.htm"
-      },
-      {
-        "title": "📈 Hoa Sen hoàn thành 114% kế hoạch lợi nhuận",
-        "desc": "Tập đoàn Hoa Sen ước tính hoàn thành 114% kế hoạch lợi nhuận niên độ tài chính 2025-2026 chỉ sau 9 tháng.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "13/07·Cafef",
-        "url": "https://cafef.vn/hoa-sen-uoc-tinh-hoan-thanh-114-ke-hoach-loi-nhuan-nien-do-tai-chinh-2025-2026-sau-9-thang-188260713090147692.chn"
-      }
-    ],
-    "entertainment": [],
-    "gaming": [],
-    "vietnam": [
-      {
-        "title": "🏙️ Khởi tố nhiều đối tượng bán hàng đa cấp, 88.000 người bị hại",
-        "desc": "Ủy ban Cạnh tranh Quốc gia thông tin đã khởi tố nhiều đối tượng bán hàng đa cấp, với hơn 88.000 người bị hại và tổng số tiền lên tới 13.000 tỷ đồng.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "13/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/khoi-to-nhieu-doi-tuong-ban-hang-da-cap-hon-88000-nguoi-bi-hai-voi-tong-so-tien-13000-ti-dong-1002607130953386.htm"
-      },
-      {
-        "title": "💼 Cước tàu đi Mỹ tăng gần 9.000 USD/container",
-        "desc": "Cước vận chuyển từ TP.HCM đi Bờ Đông Mỹ đã tăng gần 17% chỉ trong một tuần, đạt 8.849 USD/container 40 feet.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "13/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/cuoc-tau-di-my-tang-len-gan-9000-usd-container-100260713075328739.htm"
-      }
-    ],
-    "lifestyle": []
   }
 ]
