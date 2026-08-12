@@ -106,8 +106,17 @@ function storyMetaHtml(item) {
 function storyVisualHtml(item, compact = false) {
   const topicClass = String(item.topicField || 'news').replace(/[^a-z0-9-]/gi, '').toLowerCase();
   const initial = stripLeadingSymbols(item.topicLabel || item.title).charAt(0) || 'M';
-  const imageStyle = item.image ? ` style="background-image:url('${escapeHtml(item.image)}')"` : '';
-  return `<span class="story-visual topic-${topicClass}${item.image ? ' has-image' : ''}${compact ? ' compact' : ''}"${imageStyle} aria-hidden="true">
+  // Real thumbnail (lazy-loaded) layered over the monogram tile. item.image is already
+  // safeUrl()-filtered to http(s) in flattenCard. On load failure the onerror strips
+  // `has-image` and removes the <img> so the monogram fallback shows — no broken icon,
+  // no layout shift (the tile keeps its reserved min-height).
+  const img = item.image
+    ? `<img class="visual-img" src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async"
+        onload="this.closest('.story-visual').classList.add('img-ready')"
+        onerror="this.closest('.story-visual').classList.remove('has-image');this.remove();">`
+    : '';
+  return `<span class="story-visual topic-${topicClass}${item.image ? ' has-image' : ''}${compact ? ' compact' : ''}" aria-hidden="true">
+    ${img}
     <span class="visual-label">${escapeHtml(item.topicLabel)}</span>
     <span class="visual-monogram">${escapeHtml(initial)}</span>
   </span>`;

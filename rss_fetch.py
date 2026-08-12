@@ -12,6 +12,39 @@ RSS_TIMEOUT    = 10
 MAX_PER_FEED   = 8
 MAX_AGE_DAYS   = 14  # drop items older than this (stale news guard); unparseable dates are kept
 
+# XML namespaces for image tags carried by VN publisher feeds.
+MEDIA_NS   = "{http://search.yahoo.com/mrss/}"          # media:content / media:thumbnail
+CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"  # content:encoded (often holds <img>)
+
+
+def _valid_img(u: str) -> bool:
+    """Accept only absolute http(s) image URLs (skip data-URIs / relative)."""
+    u = (u or "").strip()
+    return u.startswith("http://") or u.startswith("https://")
+
+
+def extract_image(item, desc_raw: str = "") -> str:
+    """Best-effort thumbnail URL for one RSS/Atom item, in priority order:
+    media:content → media:thumbnail → enclosure(image) → first <img> in
+    description/content:encoded. Returns "" if none — caller leaves the item
+    imageless so the frontend falls back to its monogram tile."""
+    for tag in (MEDIA_NS + "content", MEDIA_NS + "thumbnail"):
+        el = item.find(tag)
+        if el is not None and _valid_img(el.get("url")):
+            return el.get("url").strip()
+
+    enc = item.find("enclosure")
+    if enc is not None and _valid_img(enc.get("url")):
+        typ = enc.get("type") or ""
+        if typ.startswith("image") or not typ:
+            return enc.get("url").strip()
+
+    for blob in (desc_raw, item.findtext(CONTENT_NS + "encoded") or ""):
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)', blob or "")
+        if m and _valid_img(m.group(1)):
+            return m.group(1).strip()
+    return ""
+
 
 def parse_pub_date(pub: str) -> datetime | None:
     """Parse RSS/Atom pubDate: RFC-822 ('Thu, 23 Jul 2026 09:30:00 +0700'),
@@ -83,6 +116,7 @@ def fetch_rss(url: str, max_items: int = MAX_PER_FEED) -> list[dict]:
                 "url":         link,
                 "description": strip_cdata(desc)[:400],
                 "pubDate":     pub,
+                "image":       extract_image(item, desc),
             })
         if len(items) >= max_items:
             break
@@ -105,6 +139,7 @@ def fetch_rss(url: str, max_items: int = MAX_PER_FEED) -> list[dict]:
                     "url":         link,
                     "description": strip_cdata(desc)[:400],
                     "pubDate":     pub,
+                    "image":       extract_image(entry, desc),
                 })
             if len(items) >= max_items:
                 break
@@ -120,20 +155,25 @@ def strip_cdata(s: str) -> str:
     return " ".join(html.unescape(s).split())
 
 
-def fetch_rss_topic(topic: dict) -> tuple[str, set[str]]:
-    """Aggregate all RSS feeds for a topic. Returns (text_context, valid_urls)."""
+def fetch_rss_topic(topic: dict) -> tuple[str, set[str], dict]:
+    """Aggregate all RSS feeds for a topic.
+    Returns (text_context, valid_urls, image_map). image_map = {article_url: image_url}
+    built from the feeds' own media tags — NOT surfaced in text_context, so the LLM
+    picks items by article URL and the image is attached later by URL match (the LLM
+    never sees or invents an image URL)."""
     feeds = topic.get("rss_feeds") or []
     if not feeds:
-        return "", set()
+        return "", set(), {}
 
     all_items = []
     for url in feeds:
         all_items.extend(fetch_rss(url))
 
     if not all_items:
-        return "", set()
+        return "", set(), {}
 
     valid_urls = {r["url"] for r in all_items if r.get("url")}
+    image_map = {r["url"]: r["image"] for r in all_items if r.get("url") and r.get("image")}
     lines = ["RSS feed items (URL nguyên xi, pubDate = ngày đăng — ưu tiên tin mới):"]
     for i, r in enumerate(all_items, 1):
         lines.append(f"[R{i}] {r['title']}")
@@ -143,4 +183,4 @@ def fetch_rss_topic(topic: dict) -> tuple[str, set[str]]:
         if r["description"]:
             lines.append(f"    {r['description'][:300]}")
         lines.append("")
-    return "\n".join(lines), valid_urls
+    return "\n".join(lines), valid_urls, image_map

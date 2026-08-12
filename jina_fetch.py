@@ -143,14 +143,16 @@ def fetch_github_topic(topic: dict, cutoff_date: str) -> tuple[str, set[str]]:
 
 # ── Dispatcher ────────────────────────────────────────────────────────────────
 
-def fetch_topic_context(topic: dict, month_year: str) -> tuple[str, set[str]]:
+def fetch_topic_context(topic: dict, month_year: str) -> tuple[str, set[str], dict]:
     """Dispatch by topic.data_source + supplement with RSS feeds if configured.
-    Returns (text_context, trusted_urls) — trusted_urls is the set of REAL URLs
-    sourced directly from RSS/Jina/GitHub (not LLM-generated). Caller aggregates
-    these across topics into a whitelist so the downstream HEAD-check can trust them
-    outright, instead of re-verifying with a HEAD request that some sites (e.g.
-    vnexpress.net) block from bot/datacenter IPs — which previously caused real items
-    to be dropped as false-negative "dead URLs"."""
+    Returns (text_context, trusted_urls, image_map).
+    - trusted_urls: set of REAL URLs sourced directly from RSS/Jina/GitHub (not
+      LLM-generated). Caller aggregates these into a whitelist so the downstream
+      HEAD-check can trust them outright, instead of re-verifying with a HEAD request
+      that some sites (e.g. vnexpress.net) block from bot/datacenter IPs — which
+      previously caused real items to be dropped as false-negative "dead URLs".
+    - image_map: {article_url: thumbnail_url} harvested from RSS media tags, attached
+      to items later by URL match (currently RSS-only; Jina results carry no image)."""
     source = topic.get("data_source", "jina")
     if source == "github_api":
         cutoff = (datetime.now() - timedelta(days=14)).strftime("%Y-%m-%d")
@@ -158,12 +160,15 @@ def fetch_topic_context(topic: dict, month_year: str) -> tuple[str, set[str]]:
     else:
         text, urls = fetch_jina_topic(topic, month_year)
 
+    image_map: dict = {}
+
     # Supplement with RSS feeds (VN-specific sources)
     if topic.get("rss_feeds"):
         from rss_fetch import fetch_rss_topic
-        rss_text, rss_urls = fetch_rss_topic(topic)
+        rss_text, rss_urls, rss_images = fetch_rss_topic(topic)
         if rss_text:
             text = (text + "\n\n" + rss_text).strip() if text else rss_text
             urls |= rss_urls
+        image_map.update(rss_images)
 
-    return text, urls
+    return text, urls, image_map

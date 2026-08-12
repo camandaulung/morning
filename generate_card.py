@@ -13,7 +13,7 @@ import os
 from datetime import datetime, timedelta
 
 from digest_utils import get_recent_titles, get_recent_urls, build_dedup_index, DEDUP_DAYS
-from card_pipeline import fetch_contexts, generate_card_json, validate_card, dedup_card, write_cards_file
+from card_pipeline import fetch_contexts, generate_card_json, validate_card, dedup_card, enrich_images, write_cards_file
 from prompt_builder import build_daily_prompt
 from time_utils import now_vn
 
@@ -71,7 +71,7 @@ def main_morning():
 
     print(f"Generating card for {date_str} | topics: {list(topics.keys())}...")
     print("Step 1: Fetching web content...")
-    topic_contexts, trusted_urls = fetch_contexts(topics, month_year)
+    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year)
     has_data = bool(trusted_urls)
     print(f"Fetch done. has_data={has_data} trusted_urls={len(trusted_urls)}")
 
@@ -88,6 +88,7 @@ def main_morning():
     card_json = generate_card_json(prompt, has_data, date_str, day_label, date_label, output_fields)
     card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
     card_json = dedup_card(card_json, output_fields, recent_urls, recent_norms, recent_tokens)
+    card_json = enrich_images(card_json, output_fields, image_map)
 
     cards = update_cards_file(cards, card_json, date_str, now)
 

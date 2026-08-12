@@ -324,6 +324,38 @@ test('image-less cards use compact topic markers while real images retain visual
   }
 });
 
+test('featured cards lazy-load a real thumbnail, else fall back to the monogram tile', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await waitForDigest(page);
+
+  const result = await page.evaluate(() => {
+    const base = { topicField: 'vietnam', topicLabel: 'Việt Nam', title: 'Tiêu đề kiểm thử' };
+    const parse = html => { const d = document.createElement('div'); d.innerHTML = html; return d.firstElementChild; };
+    const withImg = parse(storyVisualHtml({ ...base, image: 'https://cdn.example/x.jpg' }));
+    const noImg = parse(storyVisualHtml({ ...base, image: '' }));
+    const img = withImg.querySelector('img.visual-img');
+    return {
+      hasImageClass: withImg.classList.contains('has-image'),
+      imgSrc: img && img.getAttribute('src'),
+      imgLoading: img && img.getAttribute('loading'),
+      imgDecoding: img && img.getAttribute('decoding'),
+      imgHasErrorHandler: img ? img.hasAttribute('onerror') : false,
+      monogramPresent: !!withImg.querySelector('.visual-monogram'),
+      noImgHasImageClass: noImg.classList.contains('has-image'),
+      noImgHasImg: !!noImg.querySelector('img.visual-img')
+    };
+  });
+
+  expect(result.hasImageClass).toBe(true);
+  expect(result.imgSrc).toBe('https://cdn.example/x.jpg');
+  expect(result.imgLoading).toBe('lazy');
+  expect(result.imgDecoding).toBe('async');
+  expect(result.imgHasErrorHandler).toBe(true);
+  expect(result.monogramPresent).toBe(true);
+  expect(result.noImgHasImageClass).toBe(false);
+  expect(result.noImgHasImg).toBe(false);
+});
+
 test('hero and light surfaces preserve readable contrast after read state', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 });
   await waitForDigest(page);

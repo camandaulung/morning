@@ -52,7 +52,7 @@ class TestMerge:
             "tech": [{"title": "Old tech news", "url": "https://a.com", "desc": "",
                        "tag": "x", "tagLabel": "X", "source": "s"}],
         }]
-        mock_fetch.return_value = ({"tech": "ctx"}, {"https://b.com"})
+        mock_fetch.return_value = ({"tech": "ctx"}, {"https://b.com"}, {})
         mock_gen.return_value = {
             "date": "2026-07-15",
             "tech": [{"title": "New tech news", "url": "https://b.com", "desc": "",
@@ -77,7 +77,7 @@ class TestMerge:
     @patch("evening_update.fetch_contexts")
     def test_all_deduped_still_marks_done(self, mock_fetch, mock_gen, mock_validate, mock_dedup, mock_write):
         cards = [{"date": "2026-07-15", "dayLabel": "Thứ Tư", "dateLabel": "15/07/2026", "tech": []}]
-        mock_fetch.return_value = ({}, set())
+        mock_fetch.return_value = ({}, set(), {})
         mock_gen.return_value = {"date": "2026-07-15", "tech": []}
         mock_validate.side_effect = lambda c, *a, **k: c
         mock_dedup.side_effect = lambda c, *a, **k: c
@@ -101,7 +101,7 @@ class TestMerge:
             "date": "2026-07-15", "dayLabel": "Thứ Tư", "dateLabel": "15/07/2026",
             "tech": [{"title": "Morning story", "url": "https://a.com"}],
         }]
-        mock_fetch.return_value = ({}, set())
+        mock_fetch.return_value = ({}, set(), {})
         mock_gen.return_value = {"date": "2026-07-15", "tech": []}
         mock_validate.side_effect = lambda c, *a, **k: c
         mock_dedup.side_effect = lambda c, *a, **k: c

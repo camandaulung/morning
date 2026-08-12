@@ -50,19 +50,25 @@ def sanitize_reader_detail(item: dict) -> dict:
     return item
 
 
-def fetch_contexts(topics: dict, month_year: str) -> tuple[dict, set[str]]:
-    """Fetch pre-search web context per topic. Returns (topic_contexts, trusted_urls).
-    trusted_urls = union of REAL URLs from RSS/Jina/GitHub fetch layer across all
-    topics — passed downstream to validate_card so known-real URLs skip the
-    HEAD-check (some sites like vnexpress.net block bot HEAD/GET and would otherwise
-    be false-negative "dropped as dead")."""
+def fetch_contexts(topics: dict, month_year: str) -> tuple[dict, set[str], dict]:
+    """Fetch pre-search web context per topic.
+    Returns (topic_contexts, trusted_urls, image_map).
+    - trusted_urls = union of REAL URLs from RSS/Jina/GitHub fetch layer across all
+      topics — passed downstream to validate_card so known-real URLs skip the
+      HEAD-check (some sites like vnexpress.net block bot HEAD/GET and would otherwise
+      be false-negative "dropped as dead").
+    - image_map = {article_url: thumbnail_url} union across topics, applied by
+      enrich_images() after validate/dedup."""
     topic_contexts = {}
     trusted_urls: set[str] = set()
+    image_map: dict = {}
     for key, topic in topics.items():
-        ctx, urls = fetch_topic_context(topic, month_year)
+        ctx, urls, images = fetch_topic_context(topic, month_year)
         topic_contexts[key] = ctx
         trusted_urls |= urls
-    return topic_contexts, trusted_urls
+        for u, img in images.items():
+            image_map.setdefault(u, img)  # first non-empty wins
+    return topic_contexts, trusted_urls, image_map
 
 
 def empty_card(date_str: str, day_label: str, date_label: str, output_fields: list) -> dict:
@@ -154,6 +160,27 @@ def dedup_card(card_json: dict, output_fields: list, recent_urls: set,
         card_json[f] = kept
     if removed_url or removed_title:
         print(f"Dedup: dropped {removed_url} by URL + {removed_title} by title (window {DEDUP_DAYS} days)")
+    return card_json
+
+
+def enrich_images(card_json: dict, output_fields: list, image_map: dict) -> dict:
+    """Attach a thumbnail URL to each item whose article URL is in image_map.
+    Runs AFTER validate/dedup (both keep the `image` field untouched). Never
+    overwrites an image the LLM/source already provided; items with no match stay
+    imageless → frontend renders its monogram fallback. Topic-agnostic."""
+    if not image_map:
+        return card_json
+    attached = 0
+    for f in output_fields:
+        for x in card_json.get(f, []):
+            if not isinstance(x, dict) or x.get("image"):
+                continue
+            img = image_map.get((x.get("url") or "").strip())
+            if img:
+                x["image"] = img
+                attached += 1
+    if attached:
+        print(f"Images: attached {attached} thumbnails from feed media tags")
     return card_json
 
 
