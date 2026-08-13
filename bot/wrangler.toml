@@ -17,13 +17,13 @@ id = "REPLACE_WITH_KV_NAMESPACE_ID"
 # Public env (safe to commit — no secrets, no user-identifying data here)
 [vars]
 BOT_USERNAME       = "caman_bot"
-SITE_BASE_URL      = "https://minhducdl87-code.github.io/morning"
+SITE_BASE_URL      = "https://camandaulung.github.io/morning"
 GEMINI_MODEL       = "gemini-2.5-flash"
 OPENAI_CHAT_MODEL  = "gpt-4o-mini"
 OPENAI_DEEP_MODEL  = "gpt-4o"
 OPENAI_IMAGE_MODEL = "dall-e-3"
 OPENAI_STT_MODEL   = "whisper-1"
-GH_REPO            = "minhducdl87-code/morning"
+GH_REPO            = "camandaulung/morning"
 
 # Cron triggers (Kiểu A): Worker wakes up at these times and dispatches the
 # morning.yml GitHub Actions workflow (via GH_DISPATCH_TOKEN) instead of doing

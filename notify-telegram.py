@@ -4,7 +4,7 @@ import json, os, sys, urllib.request, urllib.parse
 from digest_utils import list_item_fields
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-PAGE_URL  = "https://minhducdl87-code.github.io/morning"
+PAGE_URL  = "https://camandaulung.github.io/morning"
 MODE      = os.environ.get("RUN_MODE", "morning")   # "morning" or "evening"
 
 if not BOT_TOKEN:
