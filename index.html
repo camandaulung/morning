@@ -8,11 +8,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=260729">
+  <link rel="stylesheet" href="styles.css?v=260813">
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
+      <a class="home-back" id="home-back" href="/" aria-label="Về trang chủ Cá Mặn" title="Về trang chủ Cá Mặn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>
+        <span class="home-back-label">Trang chủ</span>
+      </a>
       <button class="icon-button nav-toggle" id="nav-toggle" type="button" aria-label="Mở kho bản tin" aria-expanded="false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
@@ -94,5 +98,34 @@
   <script src="renderers.js?v=260729"></script>
   <script src="view-builder.js?v=260717b"></script>
   <script src="router-init.js?v=260717b"></script>
+  <script>
+    // Smart back-to-home nav for the Cá Mặn hub. The <a href="/"> works without JS;
+    // this enhances it: if the visitor arrived here FROM the home hub, step back in
+    // history so the hub restores instantly (scroll preserved via bfcache) instead of
+    // a fresh load. Direct visitors (bookmark, shared link) fall through to href="/".
+    (function () {
+      var btn = document.getElementById('home-back');
+      if (!btn) return;
+      btn.addEventListener('click', function (e) {
+        // Let modified clicks (new tab / new window / download) behave natively.
+        if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        var fromHome = false;
+        try {
+          var ref = document.referrer && new URL(document.referrer);
+          fromHome = !!ref && ref.origin === location.origin &&
+                     (ref.pathname === '/' || ref.pathname === '/index.html');
+        } catch (_) {}
+        if (fromHome && history.length > 1) {
+          e.preventDefault();
+          history.back();
+          // Guard: hash routing may have pushed intra-app entries, so back() could land
+          // on a previous card instead of the hub — force a clean nav if we're still here.
+          setTimeout(function () {
+            if (/\/morning(\/|$|\/index\.html)/.test(location.pathname)) location.assign('/');
+          }, 350);
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

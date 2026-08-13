@@ -90,6 +90,18 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   color: var(--surface);
   font: 600 20px/1 var(--font-display);
 }
+.home-back {
+  display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0;
+  height: 38px; padding: 0 12px 0 8px;
+  border: 1px solid var(--line); border-radius: 9px;
+  color: var(--muted); text-decoration: none;
+  font-size: 13px; font-weight: 600; letter-spacing: -0.01em;
+  transition: color .18s, background .18s, border-color .18s, transform .12s;
+}
+.home-back svg { width: 18px; height: 18px; transition: transform .18s; }
+.home-back:hover { color: var(--accent); background: var(--surface-soft); border-color: color-mix(in oklab, var(--accent) 45%, var(--line)); }
+.home-back:hover svg { transform: translateX(-2px); }
+.home-back:active { transform: scale(.97); }
 .brand-copy { min-width: 0; display: grid; line-height: 1.15; }
 .brand-copy strong { font-size: 14px; font-weight: 700; letter-spacing: -0.01em; }
 .brand-copy span { margin-top: 4px; color: var(--muted); font-size: 11px; letter-spacing: 0.02em; }
@@ -395,7 +407,8 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 @media (max-width: 900px) {
   :root { --topbar-height: 58px; }
   .topbar { grid-template-columns: auto minmax(120px, 1fr) auto; gap: 8px; padding-inline: 10px; }
-  .brand-copy, .text-button { display: none; }
+  .brand-copy, .text-button, .home-back-label { display: none; }
+  .home-back { padding: 0; width: 40px; justify-content: center; }
   .global-search { display: flex; height: 38px; }
   .global-search kbd { display: none; }
   .brand-mark { width: 32px; height: 32px; }
