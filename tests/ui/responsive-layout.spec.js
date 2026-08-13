@@ -528,7 +528,7 @@ test('search matches Vietnamese text without diacritics', async ({ page }) => {
 
 test('loading, empty search, and completed read states are actionable and announced', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 });
-  await page.route('**/cards.json?*', async route => {
+  await page.route('**/cards.json*', async route => {
     await new Promise(resolve => setTimeout(resolve, 500));
     await route.continue();
   });
@@ -555,7 +555,7 @@ test('loading, empty search, and completed read states are actionable and announ
 });
 
 test('critical data failure renders a clear retry state instead of an empty dashboard', async ({ page }) => {
-  await page.route('**/cards.json?*', route => route.fulfill({ status: 503, contentType: 'application/json', body: '{}' }));
+  await page.route('**/cards.json*', route => route.fulfill({ status: 503, contentType: 'application/json', body: '{}' }));
   await page.goto('/');
 
   await expect(page.locator('#feed-list')).toHaveAttribute('aria-busy', 'false');
@@ -563,6 +563,26 @@ test('critical data failure renders a clear retry state instead of an empty dash
   await expect(page.locator('[data-retry-load]')).toHaveText('Thử tải lại');
   await expect(page.locator('#feed-title')).toHaveText('Bản tin tạm gián đoạn');
   await expect(page.locator('[data-story-id]')).toHaveCount(0);
+});
+
+test('digest is cached locally and survives an offline reload (stale-while-revalidate)', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await waitForDigest(page);
+
+  // First load must have written the digest to localStorage for instant repeat paints.
+  const cached = await page.evaluate(() => localStorage.getItem('caman:data:cards.json'));
+  expect(cached).toBeTruthy();
+  expect(JSON.parse(cached).length).toBeGreaterThan(0);
+
+  // Fetches must NOT carry the old ?v= cache-buster (which defeated HTTP caching).
+  const urls = [];
+  page.on('request', req => { if (req.url().includes('cards.json')) urls.push(req.url()); });
+
+  // Kill the network for the data files and reload — the cached copy should still render.
+  await page.route('**/cards.json*', route => route.abort());
+  await page.reload();
+  await expect(page.locator('[data-story-id]').first()).toBeVisible();
+  expect(urls.every(u => !/[?&]v=\d/.test(u))).toBeTruthy();
 });
 
 test('current archive and topic selections expose semantic state', async ({ page }) => {

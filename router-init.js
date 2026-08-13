@@ -244,36 +244,79 @@ function bindEvents() {
   syncResponsivePaneState();
 }
 
-async function loadConfig() {
+// ── Data loading: localStorage stale-while-revalidate + conditional HTTP fetch ──
+// Files are served by GitHub Pages with ETag + Cache-Control: max-age=600. We drop
+// the old `?v=Date.now()` cache-buster (it made every URL unique, forcing a full
+// ~1MB re-download of cards.json on EVERY visit) and instead:
+//   1) paint instantly from a localStorage copy of the last good data, then
+//   2) revalidate over the network with `cache: 'no-cache'` — the browser sends
+//      If-None-Match and the server answers 304 (no body) when nothing changed —
+//      re-rendering only when the payload actually differs.
+// Result: the digest stays fresh (9h/22h updates) while repeat loads are instant
+// and cheap, even as the rolling archive grows.
+const DATA_CACHE_PREFIX = 'caman:data:';
+
+function readCache(path) {
   try {
-    const response = await fetch(`config.json?v=${Date.now()}`);
-    if (!response.ok) return;
-    CONFIG = await response.json();
-    TOPICS = {};
-    Object.values(CONFIG.topics || {}).forEach(topic => {
-      if (topic.output_field) TOPICS[topic.output_field] = topic;
-    });
-    const site = CONFIG.site || {};
-    if (site.title) {
-      const title = stripLeadingSymbols(site.title);
-      document.getElementById('site-title').textContent = title;
-      document.title = title;
-    }
-  } catch (error) {
-    console.warn('Không tải được config.json:', error);
-  }
+    const raw = localStorage.getItem(DATA_CACHE_PREFIX + path);
+    return raw ? JSON.parse(raw) : null;
+  } catch (_) { return null; }
 }
 
-async function loadJson(path, required = false) {
+function writeCache(path, data) {
   try {
-    const response = await fetch(`${path}?v=${Date.now()}`);
+    localStorage.setItem(DATA_CACHE_PREFIX + path, JSON.stringify(data));
+  } catch (_) { /* quota exceeded / private mode — HTTP cache still applies */ }
+}
+
+async function fetchJson(path, { required = false } = {}) {
+  try {
+    const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
-    return await response.json();
+    const data = await response.json();
+    writeCache(path, data);
+    return data;
   } catch (error) {
+    const cached = readCache(path);
+    if (cached) return cached;               // offline / transient error → last good copy
     if (required) throw new Error('Không thể kết nối tới dữ liệu bản tin.');
     console.warn(`Không tải được ${path}:`, error);
     return [];
   }
+}
+
+function applyConfig(config) {
+  if (!config || Array.isArray(config)) return;
+  CONFIG = config;
+  TOPICS = {};
+  Object.values(CONFIG.topics || {}).forEach(topic => {
+    if (topic.output_field) TOPICS[topic.output_field] = topic;
+  });
+  const site = CONFIG.site || {};
+  if (site.title) {
+    const title = stripLeadingSymbols(site.title);
+    const el = document.getElementById('site-title');
+    if (el) el.textContent = title;
+    document.title = title;
+  }
+}
+
+// Cheap change signature — skips a redundant re-render (and its flicker/scroll reset)
+// when revalidation returns data identical to what is already painted.
+function dataSig(daily, weekly, monthly) {
+  const first = (daily && daily[0]) || {};
+  const firstItems = Object.values(first).reduce((n, v) => n + (Array.isArray(v) ? v.length : 0), 0);
+  return [
+    (daily || []).length, first.date || '', firstItems, first.eveningNotified ? 1 : 0,
+    (weekly || []).length, (monthly || []).length
+  ].join('|');
+}
+
+function renderData(daily, weekly, monthly) {
+  STATE = buildViews(daily, weekly || [], monthly || []);
+  if (!location.hash && STATE.defaultId) history.replaceState(null, '', `#${STATE.defaultId}`);
+  renderActiveView();
+  return dataSig(daily, weekly, monthly);
 }
 
 async function init() {
@@ -283,14 +326,35 @@ async function init() {
   try { savedTheme = localStorage.getItem(THEME_STORE) || 'light'; } catch (_) {}
   setTheme(savedTheme);
   bindEvents();
-  await loadConfig();
 
-  const [daily, weekly, monthly] = await Promise.all([
-    loadJson('cards.json', true), loadJson('weekly.json'), loadJson('monthly.json')
-  ]);
-  STATE = buildViews(daily, weekly, monthly);
-  if (!location.hash && STATE.defaultId) history.replaceState(null, '', `#${STATE.defaultId}`);
-  renderActiveView();
+  // Config: instant from cache, revalidate in the background (title / topic labels).
+  applyConfig(readCache('config.json'));
+  fetchJson('config.json').then(applyConfig).catch(() => {});
+
+  const cachedDaily = readCache('cards.json');
+  const cachedWeekly = readCache('weekly.json');
+  const cachedMonthly = readCache('monthly.json');
+
+  // 1) Instant paint from the last good copy (if any) — zero network wait.
+  let renderedSig = '';
+  if (Array.isArray(cachedDaily) && cachedDaily.length) {
+    renderedSig = renderData(cachedDaily, cachedWeekly, cachedMonthly);
+  }
+
+  // 2) Revalidate today's digest (critical path) and paint it as soon as it lands,
+  //    reusing whatever weekly/monthly we have cached so it never blocks on them.
+  const daily = await fetchJson('cards.json', { required: !(cachedDaily && cachedDaily.length) });
+  if (dataSig(daily, cachedWeekly, cachedMonthly) !== renderedSig) {
+    renderedSig = renderData(daily, cachedWeekly, cachedMonthly);
+  }
+
+  // 3) Weekly + monthly only feed archive summaries / month views — load them in the
+  //    background and enrich the archive once, without delaying the daily digest.
+  Promise.all([fetchJson('weekly.json'), fetchJson('monthly.json')]).then(([weekly, monthly]) => {
+    if (dataSig(daily, weekly, monthly) !== renderedSig) {
+      renderData(daily, weekly, monthly);
+    }
+  }).catch(() => {});
 }
 
 init().catch(error => {
