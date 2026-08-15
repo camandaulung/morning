@@ -585,6 +585,34 @@ test('digest is cached locally and survives an offline reload (stale-while-reval
   expect(urls.every(u => !/[?&]v=\d/.test(u))).toBeTruthy();
 });
 
+test('a fresh load snaps to the latest digest even when the URL carries a stale day-hash', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await page.goto('/');
+  await expect(page.locator('[data-story-id]').first()).toBeVisible();
+  const latest = await page.evaluate(() => location.hash);
+  expect(latest).toMatch(/^#card-/);
+
+  // Grab an OLDER day link from the archive (a valid, non-latest #card- hash).
+  const stale = await page.locator('a[href^="#card-"]').evaluateAll(
+    (links, latest) => links.map(a => a.getAttribute('href')).find(h => h && h !== latest),
+    latest
+  );
+  test.skip(!stale, 'archive has only one day — no stale hash to exercise');
+
+  // Simulate reopening a bookmark/history entry that kept yesterday in the URL: put the
+  // stale hash on the URL, then do a real full reload so init() runs fresh (a plain
+  // same-document hash change would not re-run init).
+  await page.evaluate(h => { location.hash = h; }, stale);
+  await page.reload();
+  await expect(page.locator('[data-story-id]').first()).toBeVisible();
+  // It must snap back to the latest digest, not honor the stale day.
+  expect(await page.evaluate(() => location.hash)).toBe(latest);
+
+  // But in-app navigation to that older day must still work (not force-reset).
+  await page.locator(`a[href="${stale}"]`).first().click();
+  expect(await page.evaluate(() => location.hash)).toBe(stale);
+});
+
 test('current archive and topic selections expose semantic state', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 });
   await waitForDigest(page);

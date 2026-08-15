@@ -215,7 +215,10 @@ function bindEvents() {
     setTheme(document.body.dataset.theme === 'dark' ? 'light' : 'dark');
   });
 
-  window.addEventListener('hashchange', renderActiveView);
+  // A real hash change (archive click, story open, back/forward) marks the reader as
+  // having navigated — history.replaceState does NOT fire this event, so it cleanly
+  // distinguishes intentional navigation from our own programmatic view syncing.
+  window.addEventListener('hashchange', () => { userNavigated = true; renderActiveView(); });
   window.addEventListener('resize', () => {
     if (window.innerWidth > 1180) toggleArchive(false);
     syncResponsivePaneState();
@@ -312,9 +315,18 @@ function dataSig(daily, weekly, monthly) {
   ].join('|');
 }
 
-function renderData(daily, weekly, monthly) {
+// Set once the reader intentionally navigates (see hashchange listener), so a fresh
+// page load can snap to the latest digest without ever yanking an active reader.
+let userNavigated = false;
+
+function renderData(daily, weekly, monthly, forceLatest = false) {
   STATE = buildViews(daily, weekly || [], monthly || []);
-  if (!location.hash && STATE.defaultId) history.replaceState(null, '', `#${STATE.defaultId}`);
+  // Land on the newest card (today) when: the URL has no hash, OR this is a fresh load
+  // (forceLatest) and the reader hasn't navigated yet — this overrides a stale day-hash
+  // the browser carried over from a previous visit (e.g. .../morning/#card-2026-08-13).
+  if (STATE.defaultId && (!location.hash || (forceLatest && !userNavigated))) {
+    history.replaceState(null, '', `#${STATE.defaultId}`);
+  }
   renderActiveView();
   return dataSig(daily, weekly, monthly);
 }
@@ -338,14 +350,14 @@ async function init() {
   // 1) Instant paint from the last good copy (if any) — zero network wait.
   let renderedSig = '';
   if (Array.isArray(cachedDaily) && cachedDaily.length) {
-    renderedSig = renderData(cachedDaily, cachedWeekly, cachedMonthly);
+    renderedSig = renderData(cachedDaily, cachedWeekly, cachedMonthly, true);
   }
 
   // 2) Revalidate today's digest (critical path) and paint it as soon as it lands,
   //    reusing whatever weekly/monthly we have cached so it never blocks on them.
   const daily = await fetchJson('cards.json', { required: !(cachedDaily && cachedDaily.length) });
   if (dataSig(daily, cachedWeekly, cachedMonthly) !== renderedSig) {
-    renderedSig = renderData(daily, cachedWeekly, cachedMonthly);
+    renderedSig = renderData(daily, cachedWeekly, cachedMonthly, true);
   }
 
   // 3) Weekly + monthly only feed archive summaries / month views — load them in the
