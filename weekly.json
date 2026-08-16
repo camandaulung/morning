@@ -1,5 +1,71 @@
 [
   {
+    "weekLabel": "Tuần 33/2026",
+    "fromDate": "2026-08-10",
+    "toDate": "2026-08-16",
+    "highlights": [
+      {
+        "title": "🤖 Apple tự huấn luyện AI riêng cho thị trường Trung Quốc, có Alibaba hỗ trợ",
+        "desc": "Apple đang tự phát triển mô hình AI ngôn ngữ lớn riêng cho thị trường Trung Quốc, với sự hỗ trợ từ Alibaba, cho thấy chiến lược địa phương hóa mạnh mẽ.",
+        "tag": "api",
+        "tagLabel": "🔧 API",
+        "url": "https://tinhte.vn/thread/apple-tu-huan-luyen-mo-hinh-ai-rieng-cho-thi-truong-trung-quoc-co-alibaba-ho-tro.4169289/"
+      },
+      {
+        "title": "💸 YouTube thay đổi lớn điều kiện bật kiếm tiền từ 1/2/2027",
+        "desc": "YouTube công bố điều chỉnh lớn nhất Chương trình Đối tác (YPP) từ 2018, áp dụng toàn cầu từ 1/2/2027, ảnh hưởng đến hàng triệu nhà sáng tạo nội dung.",
+        "tag": "deadline",
+        "tagLabel": "⏰ DEADLINE",
+        "url": "https://cafebiz.vn/thay-doi-lon-tren-youtube-lien-quan-den-dieu-kien-bat-kiem-tien-ma-nhieu-nguoi-nen-biet-ro-176260816080337327.chn"
+      },
+      {
+        "title": "🚀 Starlink chính thức bán Internet vệ tinh tại Việt Nam",
+        "desc": "Dịch vụ Internet vệ tinh Starlink của Elon Musk đã chuyển trạng thái 'có sẵn' tại Việt Nam, bắt đầu nhận đặt hàng với giá 11,3 triệu đồng/tháng.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://genk.vn/starlink-gia-113-trieu-dong-moi-thang-dat-gap-6-lan-nhung-toc-do-chi-bang-1-3-goi-cap-quang-pho-thong-vay-ai-o-viet-nam-thuc-su-nen-mua-165260814080001008.chn"
+      },
+      {
+        "title": "📈 VN-Index 'Rơi' 64 Điểm Sau 2 Phiên, Vốn Hóa Bốc Hơi Hàng Tỷ USD",
+        "desc": "Thị trường chứng khoán Việt Nam chịu áp lực bán tháo mạnh, VN-Index mất 64 điểm sau hai phiên, vốn hóa toàn thị trường 'bốc hơi' hàng tỷ USD.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/co-phieu-tru-bi-ban-manh-vn-index-roi-64-diem-sau-2-phien-188260814183718232.chn"
+      },
+      {
+        "title": "🔥 Bánh flan khổng lồ 20.000 đồng gây sốt MXH",
+        "desc": "Một tiệm bánh flan ở Sài Gòn đang gây bão mạng xã hội với món bánh flan khổng lồ chỉ 20.000 đồng, thu hút sự chú ý lớn từ cộng đồng mạng.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOU1KM3otWEVmTW5YRmNGX0h2Zk1UTHlabFY0aTVCS0RSTzVxYmtkeE16dUM4OGY3b3FNbEhpTU1feU1QRHNZTHBNdjhBR1RsNllFOFhrcXRfWXAtNm5laDRtVzhjdwFybDJvWWpZVVdZODNvdWpnSlFFdGRSc00ybXRUYVk1b1FLRW4yeDdZWUNFMmxwR0ZCMVA1S250OU9aanVxN0J1b195RzFq?oc=5"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🎮 Tomb Raider: Legacy of Atlantis Hồi Sinh Huyền Thoại",
+        "desc": "Bản 'tái tưởng tượng' của Tomb Raider 1996, Legacy of Atlantis, hứa hẹn mang lại cảm giác phiêu lưu kinh điển cùng lối chơi hiện đại.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://www.ign.com/articles/tomb-raider-legacy-of-atlantis-the-first-preview"
+      },
+      {
+        "title": "🎮 Keanu Reeves đóng game John Wick mới",
+        "desc": "Keanu Reeves đã xác nhận sẽ lồng tiếng và thể hiện hình ảnh trong tựa game John Wick mới của Saber Interactive, hứa hẹn một trải nghiệm hành động đỉnh cao.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://www.ign.com/articles/saber-interactive-announces-new-john-wick-game-sony-state-of-play"
+      },
+      {
+        "title": "💻 Trend game mới trên Steam: Sắp xếp đồ vật nhàm chán",
+        "desc": "Các tựa game về việc sắp xếp hàng nghìn đồ vật hàng ngày lên kệ đang trở thành cơn sốt mới trên PC Gaming tuần qua, thu hút đông đảo người chơi.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-games-about-sorting-1000s-of-mundane-objects-onto-shelves-is-the-new-craze-sweeping-pc-gaming/"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 32/2026",
     "fromDate": "2026-08-03",
     "toDate": "2026-08-09",
