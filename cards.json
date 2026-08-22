@@ -1,5 +1,228 @@
 [
   {
+    "date": "2026-08-22",
+    "dayLabel": "Thứ Bảy",
+    "dateLabel": "22/08/2026",
+    "entertainment": [
+      {
+        "title": "📺 Erik bị chê 'thiếu nghiêm túc' ở Sao Nhập Ngũ",
+        "desc": "Ca sĩ Erik đang gây tranh cãi khi bị khán giả nhận xét trang điểm quá đà và tác phong rề rà, không phù hợp môi trường quân đội trong chương trình \"Sao nhập ngũ 2026\".",
+        "detail": "Erik, vốn nổi tiếng với loạt hit ballad và phong cách trình diễn chỉn chu, lần này lại vướng phải làn sóng phản ứng trái chiều từ công chúng. Nhiều người cho rằng hình ảnh của anh không phù hợp với kỷ luật quân đội, trong khi fan lại bênh vực rằng đó là cá tính riêng của nam ca sĩ. Dù sao thì, Erik vẫn là cái tên hot nhất nhì chương trình năm nay đấy bạn.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "22/08·VnExpress",
+        "url": "https://vnexpress.net/erik-bi-nhan-xet-thieu-nghiem-tuc-trong-saonhap-ngu-5111712.html"
+      },
+      {
+        "title": "💖 Cặp đôi VTV rộ tin chụp ảnh cưới",
+        "desc": "Cặp diễn viên đình đám của VTV vừa lên tiếng trước tin đồn đi chụp hình cưới, khiến dân tình xôn xao về cái kết đẹp cho chuyện tình của họ.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "22/08·Kenh14",
+        "url": "https://kenh14.vn/cap-dien-vien-dinh-dam-vtv-len-tieng-tin-di-chup-hinh-cuoi-215260821145104798.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/21/avatar1787307261577-1787307261834957956515-0-58-419-728-crop-17873073350871378858771.gif"
+      },
+      {
+        "title": "💔 Dương Mịch và Đường Yên cạch mặt vì 'đâm sau lưng bạn'",
+        "desc": "Từng là đôi bạn thân nổi tiếng Cbiz, Dương Mịch và Đường Yên giờ đây được cho là \"cạch mặt\" nhau, khiến Dương Mịch bị mỉa mai suốt nhiều năm.",
+        "detail": "Mối quan hệ rạn nứt của hai \"nữ thần\" màn ảnh Hoa ngữ luôn là đề tài nóng hổi. Mới đây, nguyên nhân sâu xa được hé lộ, cho thấy sự phức tạp trong giới giải trí. Việc này không chỉ ảnh hưởng đến tình bạn của họ mà còn khiến hình ảnh của Dương Mịch bị ảnh hưởng nghiêm trọng trong mắt công chúng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "22/08·Kenh14",
+        "url": "https://kenh14.vn/duong-mich-va-duong-yen-cach-mat-nhau-215260822013050171.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/21/duong-mich2a-17873368665741032447872-10-0-879-1390-crop-17873370175841200180241.jpg"
+      },
+      {
+        "title": "🎵 G-Dragon lại 'đập vỡ cây đàn' sau 10 năm",
+        "desc": "Sau 10 năm, thủ lĩnh BIGBANG G-Dragon lại tái hiện màn \"đập vỡ cây đàn\" kinh điển, khiến cộng đồng Kpop vỡ òa vì khoảnh khắc đầy cảm xúc này.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "21/08·Kenh14",
+        "url": "https://kenh14.vn/sau-15-nam-g-dragon-lai-dap-vo-cay-dan-215260821184950488.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/21/ava-tbtr-480-6-17873140780811167019234.gif"
+      },
+      {
+        "title": "💰 Nữ ca sĩ Việt là đại gia quyền lực, kiếm 47,8 tỷ/năm",
+        "desc": "Một nữ ca sĩ hàng đầu Vbiz vừa khiến công chúng choáng ngợp với khối tài sản trăm tỷ, sở hữu cơ ngơi hoành tráng giữa trung tâm TP.HCM và thu nhập khủng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "22/08·Kenh14",
+        "url": "https://kenh14.vn/ca-si-viet-la-dai-gia-quyen-luc-xay-co-ngoi-tram-ty-giua-trung-tam-tphcm-co-nam-kiem-ca-478-ty-dong-215260821221217909.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/21/rome-capture-2026-08-21-1787314853933272846118-0-27-260-443-crop-17873148603981784409702-1787324956775-1787324959831703877526-0-0-478-764-crop-17873250015481827936069.gif"
+      },
+      {
+        "title": "👰 Mỹ nhân bí ẩn Vbiz: Học cùng Chương Tử Di, bí mật kết hôn",
+        "desc": "Một nữ diễn viên Việt Nam đang gây chú ý khi được tiết lộ từng học cùng trường với các ngôi sao Hoa ngữ đình đám và bí mật kết hôn mà không ai hay biết.",
+        "detail": "Nữ diễn viên này được mệnh danh là \"mỹ nhân bí ẩn nhất Vbiz\" bởi cuộc sống cá nhân kín tiếng. Việc cô từng là bạn học của Chương Tử Di và Đường Yên tại Học viện Hý kịch Trung ương càng khiến công chúng tò mò về tài năng và mối quan hệ của cô trong giới giải trí. Chuyện tình cảm và hôn nhân của cô cũng là một ẩn số lớn, làm tăng thêm sức hút cho cái tên này.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "22/08·Kenh14",
+        "url": "https://kenh14.vn/my-nhan-bi-an-nhat-vbiz-hoc-cung-truong-voi-chuong-tu-di-va-duong-yen-bi-mat-ket-hon-khong-ai-hay-biet-215260822025941424.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/21/avatar1787342222122-17873422229361810528349-10-0-463-724-crop-17873422978771007681481.gif"
+      }
+    ],
+    "trending": [
+      {
+        "title": "🎭 TikToker hóa trang 'Ngưu Lai' bằng băng keo vàng",
+        "desc": "Bộ phim \"Ngưu Lai\" đang gây sốt phòng vé Trung Quốc mùa hè 2026, và giờ đây, một TikToker đã tạo trend hóa trang nhân vật này chỉ bằng băng keo vàng.",
+        "tag": "tiktok",
+        "tagLabel": "📱 TIKTOK",
+        "source": "22/08·Tin tức 24h",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOFpaYVBDdkNfY1ZLUXV0MzFBZjM5ZUMwcG8wLWF6cjNFMTV0QVRlRG4wX2RrRkJORzl2X3BxYm9DQjdIWXFJdHdFejdvdFFoRm5nay1mU1VYcVRUc2I2X191cXdONkctMmU4ZnN0cFZrZEMxdFNPWm1BVUxsa1RNc3lKVklRcTZWenZodGN4T1pFV2tTWGNZRXZTOHdrOTRRNGpFRzJvMGNVLWl5dksxNHZ5MVFwRWVsWUlqeTk0cw?oc=5"
+      },
+      {
+        "title": "👑 Cậu bé 13 tuổi Việt đăng quang Little Mr Universe 2026",
+        "desc": "Đoàn Ngọc Gia Bảo, 13 tuổi, vừa mang về vương miện Little Mr Universe 2026 tại Philippines, đánh dấu một thành công lớn cho tài năng nhí Việt Nam.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "22/08·Thanh Niên",
+        "url": "https://thanhnien.vn/cau-be-13-tuoi-va-hanh-trinh-tu-noi-mat-mat-den-vuong-mien-little-mr-universe-185260821140158655.htm",
+        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/8/21/17872421162981376764651860457986g119328167652287631024040348ca401c11bf586758809f56cf-1787295157847598245939-9-0-809-1280-crop-17873075738191492724206.jpg"
+      },
+      {
+        "title": "🏡 Căn nhà có cây chôm chôm 6.000m2 ở Lâm Đồng gây sốt",
+        "desc": "Một căn nhà ở Lâm Đồng với khuôn viên rộng 6.000m2 và cây chôm chôm cổ thụ đang khiến cộng đồng mạng \"khao khát\" vì vẻ đẹp bình yên và giá trị thừa kế.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "22/08·Kenh14",
+        "url": "https://kenh14.vn/can-nha-co-cay-chom-chom-ca-mxh-khao-khat-nam-giua-khuon-vien-6000m2-o-lam-dong-la-mon-qua-thua-ke-215260821205434349.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/21/ezgif-76ce72015af4e62b-17873210118291030954435-0-0-499-798-crop-17873210210181615648405.gif"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Người Việt ăn thịt gấp đôi, lười ăn rau",
+        "desc": "Người Việt đang tiêu thụ bình quân 136g thịt mỗi ngày, gần gấp đôi mức khuyến nghị, trong khi lượng rau củ quả chỉ đạt 70% nhu cầu cần thiết.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "22/08·VnExpress",
+        "url": "https://vnexpress.net/nguoi-viet-an-thit-gap-doi-muc-khuyen-nghi-luoi-an-rau-5111719.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/21/z5802575117279f0130c60a155e346-4472-7702-1787297411.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=prTNdhGKaml0lYzLV630gw"
+      },
+      {
+        "title": "😴 Vì sao càng gần sáng càng dễ tỉnh giấc?",
+        "desc": "Càng gần sáng, giấc ngủ của chúng ta càng nông, thời gian ngủ sâu giảm và cơ thể dần chuyển sang trạng thái tỉnh táo, khiến nhiều người dễ thức giấc.",
+        "detail": "Hiện tượng này là một phần của chu kỳ giấc ngủ tự nhiên của cơ thể, chịu ảnh hưởng bởi nhịp sinh học và ánh sáng. Để cải thiện chất lượng giấc ngủ, bạn có thể thử tạo môi trường ngủ tối hoàn toàn, tránh các thiết bị điện tử trước khi ngủ và duy trì giờ đi ngủ, thức dậy đều đặn. Nếu tình trạng mất ngủ kéo dài, hãy tham khảo ý kiến bác sĩ để được tư vấn cụ thể nhé.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "22/08·VnExpress",
+        "url": "https://vnexpress.net/vi-sao-cang-gan-sang-cang-de-tinh-giac-5111301.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/20/thuc-giac1-1787209874-8035-1787209917.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=nz9OYmO2qftFO3zLL8mgsA"
+      },
+      {
+        "title": "🍜 5 thực phẩm tàn phá thận hàng đầu cần tránh",
+        "desc": "Chuyên gia cảnh báo 5 món ăn phổ biến như mì gói, snack, đồ uống ngọt, đồ chiên rán và đồ hộp là những \"kẻ thù\" của thận mà bạn nên hạn chế.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "22/08·VnExpress",
+        "url": "https://vnexpress.net/chuyen-gia-canh-bao-5-thuc-pham-tan-pha-than-hang-dau-5111215.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/20/screenshot-at-1787198941-1964-1787198984.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=gcBMnFBbGYA0792UVBeq0w"
+      },
+      {
+        "title": "✈️ Khách Việt nhập cảnh Hải Nam không cần visa",
+        "desc": "Du khách Việt Nam có thể nhập cảnh đảo Hải Nam (Trung Quốc) theo diện miễn visa 30 ngày, mở ra cơ hội du lịch mới mẻ cho nhiều người.",
+        "detail": "Tuy nhiên, bạn cần tuân thủ các quy định về phạm vi địa lý và thông báo lưu trú để tránh các vấn đề phát sinh. Đây là một chính sách hấp dẫn, giúp việc khám phá \"Hawaii của Trung Quốc\" trở nên dễ dàng hơn bao giờ hết. Đừng quên tìm hiểu kỹ các thủ tục cần thiết trước khi lên đường nhé.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "21/08·VnExpress",
+        "url": "https://vnexpress.net/khach-viet-nhap-canh-dao-hai-nam-khong-can-visa-nhu-the-nao-5111693.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/08/21/savevid-to-n-1787290978-3565-1787291077.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QVsTLUO-mf1jXkIMwYswgg"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "⛈️ Bão cấp 8 gây mưa lớn cho miền Bắc",
+        "desc": "Bão số 4 đang di chuyển chậm trên vùng biển Quảng Ninh - Hải Phòng với quỹ đạo phức tạp, dự kiến gây mưa lớn cho miền Bắc trong những ngày tới.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "22/08·VnExpress",
+        "url": "https://vnexpress.net/bao-cap-8-gay-mua-lon-cho-mien-bac-5111918.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/22/Anh-chup-Man-hinh-2026-08-22-l-1870-3928-1787356516.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=3w1ToF1FwSkNW0VxwJB7Qw"
+      },
+      {
+        "title": "🚦 TP.HCM sửa cống cũ không đào đường, giảm kẹt xe",
+        "desc": "Khoảng 2,1 km cống thoát nước cũ, xuống cấp ở trung tâm TP.HCM sẽ được cải tạo từ bên trong, không cần đào mặt đường, giúp hạn chế kẹt xe và ảnh hưởng đến người dân.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "22/08·VnExpress",
+        "url": "https://vnexpress.net/tp-hcm-sua-cong-cu-o-trung-tam-ma-khong-dao-duong-5111856.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/21/wm1-wm1-ham2-1787311388-5772-1787311460.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=GGU3bVNIGmuXBAOgvaYajA"
+      },
+      {
+        "title": "🎆 Hà Nội sẽ bắn pháo hoa mừng Quốc khánh 2/9",
+        "desc": "Tối 2/9, Hà Nội sẽ tổ chức bắn pháo hoa từ 21h đến 21h15 tại nhiều điểm, mang đến không khí tưng bừng mừng ngày Quốc khánh.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "21/08·VnExpress",
+        "url": "https://vnexpress.net/ha-noi-se-ban-phao-hoa-mung-ngay-quoc-khanh-5111892.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/21/phaohoa-1787324133-9140-1787324318.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=OG-I8nw924ZgEVyG425OBw"
+      },
+      {
+        "title": "💸 Bộ Tài chính nghiên cứu nới ngưỡng tính thuế đơn giản lên 10 tỷ đồng",
+        "desc": "Bộ Tài chính đang nghiên cứu nâng ngưỡng áp dụng phương pháp tính thuế đơn giản từ 3 tỷ đồng lên 10 tỷ đồng doanh thu mỗi năm, giúp giảm chi phí tuân thủ cho hộ kinh doanh và doanh nghiệp nhỏ.",
+        "tag": "tax",
+        "tagLabel": "💸 THUẾ",
+        "source": "21/08·VnEconomy",
+        "url": "https://vneconomy.vn/bo-tai-chinh-se-nghien-cuu-noi-nguong-tinh-thue-don-gian-len-10-ty-dong.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/08/21/7e70a1e424ae4836b8e58044404739f0-113915.jpg?w=1200&h=630&mode=crop"
+      }
+    ],
+    "tech": [
+      {
+        "title": "💻 Lenovo ra mắt Yoga Pro 7a: Hiệu năng cao, tăng tốc AI",
+        "desc": "Lenovo vừa trình làng mẫu laptop Yoga Pro 7a mới, mở rộng đáng kể dòng Yoga với hiệu năng cao và khả năng tăng tốc AI vượt trội, hướng đến các nhà sáng tạo nội dung.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "22/08·GenK",
+        "url": "https://genk.vn/lenovo-trinh-lang-yoga-pro-7a-sang-tao-hieu-nang-cao-voi-kha-nang-tang-toc-ai-vuot-troi-16526082208492314.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/8/22/avatar1787363353705-1787363354316117375624.jpg"
+      },
+      {
+        "title": "📱 Galaxy S8/Note 8 bất ngờ có bản cập nhật mới",
+        "desc": "Samsung vừa bất ngờ phát hành một bản cập nhật mới cho Galaxy S8 và Note8, hai \"cựu binh\" ra mắt từ năm 2017, khiến nhiều người dùng ngạc nhiên.",
+        "detail": "Trước đó, bản cập nhật này đã được phát hành sớm tại Mỹ và giờ đây đã đến tay người dùng toàn cầu. Dù đã trở thành \"đồ cổ\" trong thế giới công nghệ, việc Samsung vẫn quan tâm và cung cấp bản vá mới cho các thiết bị cũ cho thấy cam kết hỗ trợ người dùng lâu dài. Đây là tin vui cho những ai vẫn đang gắn bó với bộ đôi flagship một thời này.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "21/08·Tinhte",
+        "url": "https://tinhte.vn/thread/galaxy-s8-note-8-bat-ngo-co-ban-cap-nhat.4171209/"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 Việt Nam chính thức sánh ngang Trung Quốc, Ấn Độ về nâng hạng thị trường",
+        "desc": "Đúng 1 tháng nữa, Việt Nam sẽ chính thức được nâng hạng lên thị trường mới nổi thứ cấp của FTSE Russell, sánh ngang với các nền kinh tế lớn như Trung Quốc và Ấn Độ.",
+        "detail": "Đây là một cột mốc quan trọng, khẳng định vị thế của thị trường chứng khoán Việt Nam trên bản đồ tài chính toàn cầu. Việc nâng hạng sẽ thu hút thêm dòng vốn đầu tư nước ngoài, mở ra nhiều cơ hội phát triển cho các doanh nghiệp và nhà đầu tư trong nước. Điều này cũng đồng nghĩa với việc thị trường sẽ có những thay đổi về quy mô và tính thanh khoản, đòi hỏi sự thích nghi từ các bên liên quan.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "22/08·CafeF",
+        "url": "https://cafef.vn/dung-1-thang-nua-viet-nam-se-chinh-thuc-sanh-ngang-trung-quoc-an-do-18826082123155854.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/8/21/dai-dien-1721815864570382363483-0-42-495-834-crop-1721815868101920227590-1787329164053296597520.jpg"
+      },
+      {
+        "title": "🪙 Giá vàng thế giới vượt 4.600 USD/ounce, người Anh tiếc nuối",
+        "desc": "Giá vàng thế giới tiếp tục tăng mạnh, vượt mốc 4.600 USD/ounce, đạt mức cao nhất 3 tháng, khiến một phần ba người Anh tiếc nuối vì bỏ lỡ \"cơn sóng\" tăng 128%.",
+        "detail": "Đồng USD yếu và các yếu tố kỹ thuật thuận lợi đã đẩy giá vàng lên cao, ghi nhận tuần tăng thứ 3 liên tiếp. Dù vậy, tâm lý tiếc nuối chưa đồng nghĩa với việc nhà đầu tư sẵn sàng phân bổ vốn vào kim loại quý, chỉ 25% người Anh cho biết có khả năng đưa tiền tiết kiệm vào vàng hoặc bạc trong 5 năm tới. Tại Việt Nam, giá vàng trong nước cũng bật tăng, chênh lệch với giá thế giới chỉ còn khoảng 520 nghìn đồng/lượng.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "22/08·VnEconomy",
+        "url": "https://vneconomy.vn/gia-vang-nhay-vot-qua-4600-usdoz-nho-dong-usd-yeu-spdr-gold-trust-mua-quyet-liet.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/08/22/fade398fbe0c4e87ae5048fb3f6ebbf4-113974.png?w=1200&h=630&mode=crop"
+      },
+      {
+        "title": "🏠 Ngân hàng cho vay BĐS hơn 2,5 triệu tỷ đồng trong 6 tháng",
+        "desc": "Tín dụng ngân hàng tiếp tục là nguồn vốn chủ lực của thị trường bất động sản, với dư nợ kinh doanh BĐS đạt hơn 2,5 triệu tỷ đồng đến cuối tháng 6, tăng 12,71% chỉ sau một quý.",
+        "detail": "Mặc dù trái phiếu doanh nghiệp và vốn FDI cũng đang phục hồi, nhưng có sự phân hóa mạnh, tập trung vào các dự án lớn. Điều này cho thấy sự phụ thuộc lớn của thị trường BĐS vào nguồn vốn ngân hàng, đặt ra cả cơ hội và thách thức về quản lý rủi ro. Các nhà đầu tư và người mua nhà cần theo dõi sát sao diễn biến này để đưa ra quyết định tài chính hợp lý.",
+        "tag": "realestate",
+        "tagLabel": "🏠 BĐS",
+        "source": "22/08·CafeBiz",
+        "url": "https://cafebiz.vn/ngan-hang-cho-vay-bat-dong-san-hon-25-trieu-ty-dong-trong-6-thang-176260822070458445.chn",
+        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/8/22/avatar1787357054604-17873570551881029304161.webp"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-08-21",
     "dayLabel": "Thứ Sáu",
     "dateLabel": "21/08/2026",
@@ -11971,451 +12194,6 @@
       }
     ],
     "sports": [],
-    "eveningDone": true
-  },
-  {
-    "date": "2026-07-23",
-    "dayLabel": "Thứ Năm",
-    "dateLabel": "23/07/2026",
-    "entertainment": [
-      {
-        "title": "🎬 Elon Musk dùng AI làm phim 'The Odyssey'",
-        "desc": "Tỷ phú Elon Musk gây sốc khi tuyên bố sẽ dùng AI Grok Imagine để sản xuất phim 'The Odyssey', hứa hẹn một trải nghiệm điện ảnh chưa từng có.",
-        "detail": "Sau nhiều tranh cãi về việc sử dụng AI trong nghệ thuật, Elon Musk lại một lần nữa khuấy động dư luận khi quyết định áp dụng công nghệ Grok Imagine của mình vào dự án phim kinh điển 'The Odyssey'. Động thái này được kỳ vọng sẽ mở ra kỷ nguyên mới cho ngành điện ảnh, nhưng cũng đặt ra nhiều câu hỏi về vai trò của con người trong sáng tạo. Liệu AI có thể thay thế hoàn toàn các nhà làm phim?",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "22/07·VnExpress",
-        "url": "https://vnexpress.net/elon-musk-se-dung-ai-lam-phim-the-odyssey-5100537.html"
-      },
-      {
-        "title": "⭐ Thang Duy sinh con ở tuổi 47",
-        "desc": "Nữ diễn viên Thang Duy vừa đón con trai thứ hai ở tuổi 47, khiến nhiều người hâm mộ bất ngờ và ngưỡng mộ.",
-        "detail": "Ngôi sao điện ảnh Trung Quốc Thang Duy đã chia sẻ tin vui về việc sinh con trai thứ hai, dù đã bước sang tuổi 47. Đây là một tin tức gây chú ý trong làng giải trí, không chỉ vì tuổi tác của cô mà còn vì sự kín tiếng của nữ diễn viên về đời tư. Nhiều khán giả đã gửi lời chúc mừng và bày tỏ sự ngưỡng mộ trước nghị lực của Thang Duy.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/thang-duy-sinh-con-o-tuoi-47-5100554.html"
-      },
-      {
-        "title": "🎵 Lisa (BLACKPINK) kiếm 285 tỷ đồng từ World Cup",
-        "desc": "Màn trình diễn của Lisa tại World Cup không chỉ bùng nổ mà còn mang về doanh thu khủng 285 tỷ đồng, khẳng định sức hút toàn cầu của cô.",
-        "tag": "music",
-        "tagLabel": "🎵 MUSIC",
-        "source": "22/07·Kenh14",
-        "url": "https://kenh14.vn/285-ty-dong-tu-man-trinh-dien-cua-lisa-blackpink-o-world-cup-215260722210417375.chn"
-      },
-      {
-        "title": "⭐ Mỹ nam phim hot bị xe tông khi đi nghỉ mát",
-        "desc": "Nam diễn viên chính của bộ phim 'càn quét' 75 quốc gia vừa gặp tai nạn xe tông khi đang đi nghỉ mát, khiến fan lo lắng.",
-        "detail": "Tin tức về việc mỹ nam của một bộ phim đang gây sốt toàn cầu bị xe tông khi đang tận hưởng kỳ nghỉ đã khiến cộng đồng mạng xôn xao. Hiện tại, tình trạng sức khỏe của anh đang được cập nhật, nhưng sự việc này đã làm dấy lên mối lo ngại về sự an toàn của các ngôi sao, đặc biệt khi họ đang trong thời gian nghỉ ngơi cá nhân. Mong anh sớm bình phục!",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/my-nam-dong-phim-hot-can-quet-75-quoc-gia-vua-bi-xe-tong-khi-dang-di-nghi-mat-215260723080540944.chn"
-      },
-      {
-        "title": "📺 BTC Hoa hậu lên tiếng vụ diễn áo tắm trước học sinh",
-        "desc": "Ban tổ chức Hoa hậu Du lịch bản sắc Việt Nam đã chính thức lên tiếng về vụ việc thí sinh trình diễn áo tắm trước mặt học sinh, gây tranh cãi.",
-        "detail": "Sự việc các thí sinh Hoa hậu Du lịch bản sắc Việt Nam trình diễn áo tắm tại một sự kiện có sự tham gia của học sinh đã tạo ra làn sóng phản đối mạnh mẽ trên mạng xã hội. Nhiều người cho rằng đây là hình ảnh không phù hợp với môi trường giáo dục. BTC đã phải đưa ra lời giải thích, nhưng vụ việc vẫn đang là tâm điểm bàn tán về cách tổ chức sự kiện và chuẩn mực hình ảnh trong các cuộc thi sắc đẹp.",
-        "tag": "show",
-        "tagLabel": "📺 SHOW",
-        "source": "22/07·Kenh14",
-        "url": "https://kenh14.vn/btc-hoa-hau-du-lich-ban-sac-viet-nam-len-tieng-vu-thi-sinh-dien-ao-tam-truoc-mat-hoc-sinh-215260722175237667.chn"
-      },
-      {
-        "title": "💰 Trương Bá Chi thừa kế 7000 tỷ từ Châu Tinh Trì?",
-        "desc": "Tin đồn Trương Bá Chi được Châu Tinh Trì để lại khối tài sản khổng lồ đang gây xôn xao, nguyên nhân được cho là từ một câu nói 25 năm trước.",
-        "detail": "Cộng đồng mạng đang 'sốt xình xịch' trước thông tin Trương Bá Chi có thể thừa kế 7000 tỷ đồng từ 'Vua hài' Châu Tinh Trì. Điều bất ngờ hơn là lý do đằng sau được hé lộ là một câu nói từ tận 25 năm trước, khiến ai cũng phải tò mò về mối quan hệ đặc biệt này. Liệu đây có phải là sự thật hay chỉ là tin đồn thổi?",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/hoa-ra-truong-ba-chi-duoc-thua-ke-7000-ty-tu-chau-tinh-tri-la-vi-1-cau-noi-tu-25-nam-truoc-215260723214645502.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "💔 Angelina Jolie phản ứng khi các con bỏ họ Brad Pitt",
-        "desc": "Nguồn tin thân cận tiết lộ thái độ của Angelina Jolie khi các con đồng loạt từ bỏ họ của Brad Pitt, gây chú ý lớn trong giới showbiz quốc tế.",
-        "detail": "Sau nhiều năm bất đồng, các con của Angelina Jolie và Brad Pitt được cho là đã đồng loạt bỏ họ cha. Nguồn tin nội bộ cho biết, Angelina Jolie không hề can thiệp vào quyết định này của các con, nhưng vẫn mong muốn gia đình có thể hàn gắn. Động thái này một lần nữa làm nóng lên cuộc chiến hậu ly hôn kéo dài của cặp đôi quyền lực Hollywood.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/thai-do-cua-angelina-jolie-khi-cac-con-dong-loat-bo-ho-brad-pitt-215260723175147648.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "👑 Vương miện 3 tỷ của Hoa hậu Vbiz bị tố hàng giả",
-        "desc": "Ồn ào về chiếc vương miện 3 tỷ đồng của một Hoa hậu Vbiz bị kiểm định là hàng giả bất ngờ xôn xao trở lại sau 3 năm, khiến công chúng hoang mang.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/moi-nhat-vu-1-hoa-hau-vbiz-mang-vuong-mien-3-ty-dong-duoc-kiem-dinh-la-hang-gia-215260723145544054.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "🎬 Phim Thanh Hằng chỉ bán 2 vé/ngày, đáng báo động!",
-        "desc": "Tình hình doanh thu của bộ phim do Thanh Hằng đầu tư và đóng nữ chính đang rất đáng quan ngại khi chỉ bán được 2 vé trong ngày.",
-        "detail": "Dự án phim mới của siêu mẫu Thanh Hằng đang đối mặt với nguy cơ thất bại nặng nề khi chỉ ghi nhận 2 vé bán ra trong một ngày. Con số 'thảm hại' này khiến nhiều người bất ngờ và lo lắng cho tương lai của bộ phim, cũng như đặt ra câu hỏi về sức hút của Thanh Hằng trên màn ảnh rộng hiện tại. Đây là một cú sốc lớn cho ê-kíp và những người hâm mộ cô.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/phim-cua-thanh-hang-chi-ban-duoc-2-ve-trong-ngay-215260723140930394.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "🎵 Fan SOOBIN 'dậy sóng' vì công ty quản lý",
-        "desc": "Cộng đồng fan SOOBIN đang náo loạn mạng xã hội vì những vấn đề liên quan đến công ty quản lý của nam ca sĩ, khiến SpaceSpeakers và Rhymastic phải lên tiếng.",
-        "detail": "Mâu thuẫn giữa fan SOOBIN và công ty quản lý SpaceSpeakers đang leo thang, khiến mạng xã hội 'dậy sóng' với hàng loạt bài đăng bày tỏ sự phẫn nộ. Các tin đồn liên quan đến kết quả ghi hình chương trình 'Anh Trai Vượt Ngàn Chông Gai' và thái độ làm việc của công ty đã khiến Rhymastic, một thành viên của SpaceSpeakers, phải lên tiếng trấn an. Tình hình này đang ảnh hưởng không nhỏ đến hình ảnh của SOOBIN và cả công ty.",
-        "tag": "music",
-        "tagLabel": "🎵 MUSIC",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/fan-soobin-phan-no-spacespeakers-rhymastic-len-tieng-nong-215260723123136173.chn",
-        "addedEvening": true
-      }
-    ],
-    "trending": [
-      {
-        "title": "😂 Michelin Boy là gì mà hot rần rần?",
-        "desc": "Cụm từ 'Michelin Boy' đang trở thành hot trend trên mạng xã hội, dùng để chỉ những chàng trai có thân hình mũm mĩm đáng yêu.",
-        "tag": "meme",
-        "tagLabel": "😂 MEME",
-        "source": "23/07·VOH",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1FhM2RwUlRfbzZvVEUwUHYzRG5jMkdsRkpwdnRpbldKcG1WTlNLN3dtVkhVZ3ZLeXdJQTJWcThFQzI1SHR5Sm1KRzN6eDByRVZaTkF2ZXhiZlUzM2RqdXhiMHNGMFg0aWlzSVlldTFacHdvZU9fcnphZ25vakdqeHNNQ0otdkpYSHgwY05lMHctV1NaZXJ6RDhZSWh5Q0hReUgxdGZLYjUtbnUyRDFDbmZR?oc=5"
-      },
-      {
-        "title": "🎯 Trend 'Nhiệm vụ hệ thống' phủ sóng MXH",
-        "desc": "Trào lưu 'Nhiệm vụ hệ thống' đang viral khắp các nền tảng mạng xã hội, biến cuộc sống hàng ngày thành một trò chơi.",
-        "detail": "Trend 'Nhiệm vụ hệ thống' đang thu hút đông đảo người dùng tham gia, đặc biệt là trên TikTok và Facebook. Người chơi sẽ tự đặt ra những 'nhiệm vụ' nhỏ trong cuộc sống hàng ngày, như 'Nhiệm vụ: dậy sớm tập thể dục', 'Nhiệm vụ: hoàn thành báo cáo đúng hạn', và quay lại quá trình thực hiện như một game thủ đang chinh phục thử thách. Trào lưu này không chỉ mang lại niềm vui, động lực mà còn giúp nhiều người biến những công việc nhàm chán thành điều thú vị hơn.",
-        "tag": "challenge",
-        "tagLabel": "🎯 CHALLENGE",
-        "source": "23/07·Kenh14",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWjF3Qy1Rc053VmRHLVdxUnY0UVVJaTBWbVpYbGxpbUJxY0ZBQS1ONDZiTjlPZ0xVZ0NtSXZDaVFKTjFUeHZGeE9reWNlLTVSWi1iODZVNXFpSFRTNERjeHkzdVBxSkZRWTZoUmNjUnJpSVMyTFpKNUJJb2tLNWxFNTJCQUY1bVFDQ2hUM1BYclV6QjlwQlQ4LXlQN1FvRnc?oc=5"
-      },
-      {
-        "title": "😴 Ngủ trước 10h tối: 'Flex' độ sang chảnh mới của hội 30s",
-        "desc": "Câu nói 'Tối nay mình ngủ trước 10 giờ rồi!' đang trở thành một kiểu 'flex' mới của những người ngoài 30 trên Xiaohongshu, thể hiện lối sống lành mạnh.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/vi-sao-ngu-truoc-10-gio-toi-lai-tro-thanh-cach-flex-do-sang-chanh-moi-cua-hoi-30s-215260723144320627.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "👰 Trend cưới 'đời đời kiếp kiếp' gây sốt xứ Trung",
-        "desc": "Giới trẻ Trung Quốc đang phát sốt với trend cưới 'đời đời kiếp kiếp', tạo ra những video ấn tượng chỉ trong vài phút nhưng đòi hỏi nhiều công sức.",
-        "detail": "Trào lưu quay video cưới theo concept 'đời đời kiếp kiếp' đang 'làm mưa làm gió' trên mạng xã hội Trung Quốc. Các cặp đôi đầu tư không ít thời gian, công sức và chi phí để tạo ra những thước phim ngắn nhưng cực kỳ công phu, thể hiện tình yêu vĩnh cửu. Những video này nhanh chóng viral, khiến người xem phải thốt lên 'Quá đỉnh' vì sự sáng tạo và độ hoành tráng.",
-        "tag": "tiktok",
-        "tagLabel": "📱 TIKTOK",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/trend-cuoi-doi-doi-kiep-kiep-khien-gioi-tre-xu-trung-phat-sot-xem-phai-giay-da-phai-thot-len-qua-dinh-215260723191612831.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "🍜 Chủ quán gỏi cuốn viral vì đơn hàng 26 chiếc 'khó nhằn'",
-        "desc": "Bài đăng của một chủ quán gỏi cuốn về đơn hàng 26 chiếc với yêu cầu ghi tên riêng và nước chấm khác nhau đang viral trên MXH, gây tò mò về lý do vẫn nhận đơn.",
-        "detail": "Một chủ quán gỏi cuốn bỗng dưng 'gây sốt' mạng xã hội khi chia sẻ câu chuyện về đơn hàng 'khó nhằn': 26 chiếc gỏi cuốn, mỗi chiếc ghi tên riêng từng người và kèm các loại nước chấm khác nhau. Điều khiến cộng đồng mạng bất ngờ là chủ quán vẫn vui vẻ nhận đơn và hoàn thành. Bài đăng này không chỉ thu hút sự chú ý mà còn là một cách quảng bá thương hiệu đầy khéo léo.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "23/07·Kenh14",
-        "url": "https://kenh14.vn/khach-dat-26-chiec-goi-cuon-yeu-cau-ghi-ten-rieng-tung-nguoi-kem-cac-loai-nuoc-cham-khac-nhau-chu-quan-noi-ly-do-van-nhan-don-215260723190919842.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "🍰 Bánh kem tóc rối: Trend 'kinh dị' nhất mạng xã hội",
-        "desc": "Trào lưu bánh kem tóc rối với tạo hình 'kinh dị' đang gây sốt trên mạng xã hội, dù nhìn có vẻ đáng sợ nhưng giới trẻ vẫn rủ nhau thử.",
-        "detail": "Món bánh kem tóc rối đang trở thành 'hot trend' mới trên các nền tảng mạng xã hội, đặc biệt là TikTok. Với tạo hình những sợi 'tóc' rối bù, trông khá 'kinh dị' và độc đáo, món bánh này thu hút sự tò mò của giới trẻ. Dù vẻ ngoài không mấy 'ngon mắt', nhiều người vẫn hào hứng thử nghiệm và chia sẻ trải nghiệm của mình, tạo nên một làn sóng bàn tán sôi nổi.",
-        "tag": "tiktok",
-        "tagLabel": "📱 TIKTOK",
-        "source": "23/07·Tin tức 24h",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNUNkblE2VTZrX0JnWXdTZ0xmaGU2Z1c1Q1RYaG9EUThRQzBuUUtob0swNkExT21IdXMtMFBIY002TTl5MGZRUDVRVm5FYUhPYzBVVHU2ZzlkRzV3MTBicnlBUnhYWUtHOFhhUXdYZ0lOcmFHd3hLLTRRUV9LMWp3aENOZnJFZjgwQzl0WWxybklvQ2c5bXBrc3ZhSkx4ZkFXZUJsTHkxVnJBV2xfcVRMbmJHVjB2VjZ1ekhxd3NjOGlRU3ktczdpN2JFNkpsZw?oc=5",
-        "addedEvening": true
-      }
-    ],
-    "gaming": [],
-    "lifestyle": [
-      {
-        "title": "💪 6 thói quen khiến bạn già nhanh hơn",
-        "desc": "Chuyên gia sinh học chỉ ra 6 thói quen hàng ngày tưởng vô hại nhưng lại đẩy nhanh quá trình lão hóa cơ thể.",
-        "detail": "Bạn có biết, những thói quen tưởng chừng nhỏ nhặt như thức khuya, ăn nhiều đồ ngọt, ít vận động, hay thậm chí là căng thẳng kéo dài, đều có thể là 'kẻ thù' thầm lặng của tuổi trẻ? Chuyên gia sinh học nổi tiếng đã cảnh báo về 6 thói quen phổ biến này, chúng không chỉ ảnh hưởng đến sức khỏe mà còn khiến cơ thể 'xuống cấp' nhanh chóng. Thay đổi những thói quen này ngay hôm nay để giữ gìn vẻ ngoài và sức khỏe bạn nhé!",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "22/07·VnExpress",
-        "url": "https://vnexpress.net/6-thoi-quen-hang-ngay-tuong-vo-hai-lai-khien-co-the-gia-nua-nhanh-hon-5100529.html"
-      },
-      {
-        "title": "✈️ Tàu xuyên núi trên cung đường đẹp nhất VN",
-        "desc": "Trải nghiệm đi tàu hỏa xuyên núi trên cung đường Huế - Đà Nẵng, được mệnh danh là đẹp nhất Việt Nam, đang thu hút du khách.",
-        "detail": "Cung đường sắt từ Huế đến Đà Nẵng, với những đoạn tàu xuyên núi và ôm trọn bờ biển, từ lâu đã nổi tiếng là một trong những hành trình đẹp nhất Việt Nam. Ngồi trên tàu, bạn sẽ được chiêm ngưỡng khung cảnh thiên nhiên hùng vĩ, từ những dãy núi xanh mướt đến bãi biển trong xanh. Đây là một trải nghiệm du lịch chậm rãi, cho phép bạn tận hưởng trọn vẹn vẻ đẹp của dải đất miền Trung, rất đáng để thử nếu bạn muốn tìm một chuyến đi thư giãn.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "22/07·VnExpress",
-        "url": "https://vnexpress.net/tau-xuyen-nui-tren-cung-duong-dep-nhat-viet-nam-5100418.html"
-      },
-      {
-        "title": "💪 Buồn bã sau quan hệ có phải bị bệnh?",
-        "desc": "Hiện tượng buồn bã, ủ rũ sau quan hệ tình dục không phải là hiếm và có thể là dấu hiệu của một số vấn đề tâm lý.",
-        "detail": "Nếu bạn hoặc đối tác thường cảm thấy buồn bã, ủ rũ, hoặc thậm chí là lo âu sau khi quan hệ tình dục, đừng vội lo lắng mình bị bệnh. Đây là một hiện tượng có tên khoa học là Post-coital Dysphoria (PCD), có thể liên quan đến sự thay đổi hormone, yếu tố tâm lý hoặc trải nghiệm cá nhân. Việc trò chuyện cởi mở với đối tác và tìm kiếm sự tư vấn từ chuyên gia có thể giúp bạn hiểu rõ hơn và cải thiện tình trạng này.",
-        "tag": "wellness",
-        "tagLabel": "🧘 WELLNESS",
-        "source": "21/07·VnExpress",
-        "url": "https://vnexpress.net/buon-ba-sau-quan-he-co-phai-bi-benh-5094412.html"
-      },
-      {
-        "title": "🍜 Chú mèo Thái Lan dẫn khách đi mua đồ ăn",
-        "desc": "Một chú mèo ở Thái Lan bỗng nổi tiếng khắp mạng xã hội vì thói quen đặc biệt: 'dẫn đường' cho du khách đi mua đồ ăn.",
-        "detail": "Trên đảo Phi Phi (Thái Lan), một chú mèo béo ú đã trở thành 'hướng dẫn viên du lịch' bất đắc dĩ, nổi tiếng với khả năng dẫn du khách đến các quán ăn ngon. Nhiều người đã thích thú quay lại cảnh chú mèo đi trước, ngoái đầu lại như thể đang chờ đợi và chỉ đường. Hiện tượng này không chỉ mang lại tiếng cười mà còn là một điểm nhấn độc đáo, thu hút thêm nhiều du khách đến với hòn đảo xinh đẹp này.",
-        "tag": "food",
-        "tagLabel": "🍜 FOOD",
-        "source": "22/07·VnExpress",
-        "url": "https://vnexpress.net/chu-meo-thai-lan-noi-tieng-vi-dan-du-khach-di-mua-do-an-5100191.html"
-      },
-      {
-        "title": "🏝️ Phú Quốc lọt Top 10 đảo được quan tâm nhất thế giới",
-        "desc": "Phú Quốc đã nổi lên là một trong 10 hòn đảo hấp dẫn nhất toàn cầu năm 2026, nhờ những trải nghiệm cao cấp với mức giá hợp lý.",
-        "detail": "Đảo ngọc Phú Quốc tiếp tục khẳng định vị thế trên bản đồ du lịch thế giới khi lọt vào top 10 đảo được quan tâm nhất. Điểm cộng lớn là khả năng mang đến các trải nghiệm sang trọng, đẳng cấp quốc tế nhưng vẫn giữ được mức giá phải chăng, phù hợp với nhiều đối tượng du khách. Đây là tin vui cho ngành du lịch Việt Nam, hứa hẹn thu hút thêm nhiều khách quốc tế đến khám phá.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/phu-quoc-trong-top-10-dao-duoc-quan-tam-nhat-the-gioi-5100716.html",
-        "addedEvening": true
-      },
-      {
-        "title": "☕ Uống cà phê khi đói có an toàn không?",
-        "desc": "Nhiều người có thói quen uống cà phê khi bụng đói vào cuối giờ chiều để tỉnh táo, nhưng liệu điều này có an toàn cho sức khỏe?",
-        "detail": "Việc uống cà phê khi đói, đặc biệt là vào cuối giờ chiều, có thể gây ra một số tác động không mong muốn đến hệ tiêu hóa và sức khỏe tổng thể. Các chuyên gia khuyến cáo nên ăn nhẹ trước khi uống cà phê để tránh tình trạng cồn ruột, khó chịu hoặc tăng axit dạ dày. Nếu bạn thường xuyên uống cà phê khi đói, hãy cân nhắc thay đổi thói quen để bảo vệ sức khỏe dạ dày của mình.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/uong-ca-phe-khi-doi-co-an-toan-5100308.html",
-        "addedEvening": true
-      },
-      {
-        "title": "🏋️‍♀️ Squat vẩy tay kiểu Nhật: Giảm 10kg, eo thon đùi gọn",
-        "desc": "Động tác 'squat vẩy tay' từ Nhật Bản đang được nhiều chị em truyền tai nhau như bí quyết giảm 10 kg, giúp eo thon, đùi gọn mà ít áp lực lên khớp gối.",
-        "detail": "Nếu bạn đang tìm kiếm một phương pháp giảm cân hiệu quả mà không gây áp lực quá lớn lên khớp gối, 'squat vẩy tay' kiểu Nhật có thể là lựa chọn lý tưởng. Động tác này kết hợp squat truyền thống với chuyển động vẩy tay, giúp tăng cường đốt cháy calo, săn chắc cơ bắp và đặc biệt hiệu quả trong việc làm thon gọn vòng eo và đùi. Nhiều phụ nữ đã áp dụng và đạt được kết quả đáng kinh ngạc.",
-        "tag": "wellness",
-        "tagLabel": "🧘 WELLNESS",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/squat-vay-tay-kieu-nhat-bi-quyet-giup-giam-10-kg-eo-thon-dui-gon-5100689.html",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ Vé máy bay nội địa 'rẻ hiếm thấy' giữa hè",
-        "desc": "Giá vé máy bay trên nhiều chặng nội địa đang giảm 30-50% so với đầu hè, tạo cơ hội vàng cho những chuyến du lịch cuối mùa.",
-        "detail": "Giữa mùa cao điểm hè, giá vé máy bay nội địa lại bất ngờ 'hạ nhiệt' đáng kể, giảm từ 30-50% so với thời điểm đầu mùa. Nguyên nhân là do chi phí nhiên liệu giảm, nguồn cung chuyến bay tăng và các hãng hàng không đẩy mạnh cạnh tranh. Đây là cơ hội tuyệt vời để bạn và gia đình lên kế hoạch cho những chuyến đi cuối hè mà không lo 'cháy túi' vì vé máy bay.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/ve-may-bay-trong-nuoc-re-hiem-thay-giua-he-5100545.html",
-        "addedEvening": true
-      }
-    ],
-    "vietnam": [
-      {
-        "title": "🏙️ Rạch ô nhiễm ở TP.HCM trước cải tạo",
-        "desc": "Nhiều đoạn rạch ở trung tâm TP.HCM đang ngập rác thải và ô nhiễm nặng nề, chuẩn bị cho dự án cải tạo lớn.",
-        "detail": "Trước thềm dự án cải tạo lớn, nhiều con rạch ở trung tâm TP.HCM như rạch Bùi Viện, rạch Cầu Sơn đang trong tình trạng ô nhiễm nghiêm trọng, rác thải phủ kín mặt nước. Tình trạng này không chỉ ảnh hưởng đến môi trường sống của người dân mà còn làm mất mỹ quan đô thị. Dự án cải tạo được kỳ vọng sẽ 'hồi sinh' những con rạch này, mang lại không gian xanh sạch đẹp hơn cho thành phố, nhưng cũng đặt ra thách thức lớn về việc duy trì sau khi hoàn thành.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/rach-o-nhiem-o-trung-tam-tp-hcm-truoc-cuoc-cai-tao-5100114.html"
-      },
-      {
-        "title": "📜 Hà Nội nghiên cứu khu dịch vụ giải trí đêm có kiểm soát",
-        "desc": "Hà Nội đang nghiên cứu mô hình khu dịch vụ giải trí đêm có kiểm soát, nhằm phát triển kinh tế đêm và quản lý chặt chẽ hơn.",
-        "detail": "Để thúc đẩy kinh tế đêm và đáp ứng nhu cầu giải trí của người dân, Hà Nội đang xem xét xây dựng các khu dịch vụ giải trí đêm có kiểm soát. Mô hình này được kỳ vọng sẽ tạo ra không gian vui chơi lành mạnh, an toàn, đồng thời giúp chính quyền dễ dàng quản lý các hoạt động kinh doanh. Đây là một bước đi quan trọng nhằm nâng cao chất lượng cuộc sống đô thị và thu hút du khách, nhưng cũng cần có quy định rõ ràng để tránh những hệ lụy tiêu cực.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "22/07·VnExpress",
-        "url": "https://vnexpress.net/ha-noi-nghien-cuu-mo-hinh-khu-dich-vu-giai-tri-dem-co-kiem-soat-5100518.html"
-      },
-      {
-        "title": "🚦 Bộ Xây dựng thống nhất mở tuyến xe buýt sân bay Tân Sơn Nhất - Long Thành",
-        "desc": "Bộ Xây dựng đã thống nhất đề xuất mở tuyến xe buýt kết nối hai sân bay lớn Tân Sơn Nhất và Long Thành, giúp hành khách di chuyển thuận tiện hơn.",
-        "detail": "Việc kết nối giao thông giữa sân bay Tân Sơn Nhất và sân bay Long Thành luôn là vấn đề được quan tâm. Mới đây, Bộ Xây dựng đã đồng ý với đề xuất mở tuyến xe buýt chuyên dụng, hứa hẹn giảm tải áp lực cho giao thông đường bộ và tạo điều kiện thuận lợi cho hành khách di chuyển giữa hai cảng hàng không. Đây là một tin vui cho người dân và du khách, đặc biệt khi sân bay Long Thành đi vào hoạt động, giúp tối ưu hóa hành trình và giảm chi phí đi lại.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "23/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/bo-xay-dung-thong-nhat-de-xuat-mo-tuyen-xe-buyt-noi-san-bay-tan-son-nhat-va-long-thanh-100260723070158828.htm"
-      },
-      {
-        "title": "💼 Giá thuê đất công nghiệp miền Nam cao hơn miền Bắc 44 USD/m²",
-        "desc": "Giá thuê đất công nghiệp tại miền Nam đang cao hơn miền Bắc 44 USD/m², phản ánh sự chênh lệch về sức hút đầu tư.",
-        "detail": "Theo báo cáo mới nhất, giá thuê đất công nghiệp tại các tỉnh phía Nam đang ở mức cao hơn đáng kể so với miền Bắc, với mức chênh lệch lên tới 44 USD/m². Điều này cho thấy sức hút và tiềm năng phát triển công nghiệp mạnh mẽ ở khu vực phía Nam, đồng thời cũng đặt ra thách thức cho các doanh nghiệp khi tìm kiếm mặt bằng sản xuất. Sự chênh lệch này có thể ảnh hưởng đến quyết định đầu tư và chiến lược mở rộng của nhiều công ty trong thời gian tới.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "23/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/tin-tuc-sang-23-7-gia-thue-dat-cong-nghiep-tai-mien-nam-cao-hon-mien-bac-44-usd-m-100260722204843008.htm"
-      },
-      {
-        "title": "💸 860 công nhân bị nợ gần 60 tỷ đồng lương, BHXH",
-        "desc": "Một doanh nghiệp dừng hoạt động nhưng nợ gần 60 tỷ đồng tiền lương và BHXH của 860 lao động, gây ảnh hưởng nghiêm trọng đến đời sống công nhân.",
-        "detail": "Tình trạng nợ lương và BHXH của gần 860 công nhân tại một doanh nghiệp vừa dừng hoạt động đang gây bức xúc dư luận. Tổng số tiền nợ lên tới gần 60 tỷ đồng, bao gồm 25 tỷ tiền lương và hơn 32 tỷ các khoản BHXH. Vụ việc này không chỉ ảnh hưởng trực tiếp đến cuộc sống của hàng trăm gia đình mà còn đặt ra vấn đề lớn về trách nhiệm của doanh nghiệp và cơ quan quản lý trong việc bảo vệ quyền lợi người lao động.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/860-cong-nhan-bi-no-gan-60-ty-dong-tien-luong-bhxh-5100911.html",
-        "addedEvening": true
-      },
-      {
-        "title": "📜 Đề xuất trẻ dưới 16 tuổi chỉ được chơi game 60 phút/ngày",
-        "desc": "Dự thảo Nghị định 147 (sửa đổi) đề xuất giới hạn thời gian chơi game của trẻ dưới 16 tuổi chỉ còn 60 phút mỗi ngày, thay vì 180 phút như hiện hành.",
-        "detail": "Dự thảo Nghị định 147 (sửa đổi) đang gây tranh cãi khi đề xuất giảm mạnh thời gian chơi game của trẻ em dưới 16 tuổi từ 180 phút xuống chỉ còn 60 phút mỗi ngày. Nếu được thông qua, quy định này sẽ có tác động lớn đến thói quen giải trí của trẻ em và cách quản lý của phụ huynh. Mục tiêu là nhằm bảo vệ sức khỏe và khuyến khích các hoạt động khác, nhưng cũng đặt ra thách thức về việc thực thi và giám sát.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/de-xuat-tre-em-chi-duoc-choi-game-60-phut-moi-ngay-5100959.html",
-        "addedEvening": true
-      },
-      {
-        "title": "📜 Đề xuất cấm trẻ dưới 16 tuổi bình luận, chia sẻ trên MXH",
-        "desc": "Dự thảo sửa đổi Nghị định 147/2024 đề xuất cấm trẻ dưới 16 tuổi đăng bài, bình luận hay chia sẻ trên mạng xã hội, gây nhiều tranh cãi.",
-        "detail": "Một đề xuất mới trong dự thảo sửa đổi Nghị định 147/2024 về quản lý Internet đang thu hút sự chú ý: trẻ em dưới 16 tuổi sẽ không được phép đăng bài, bình luận hay chia sẻ trên mạng xã hội. Mục đích là bảo vệ trẻ em khỏi các nguy cơ trên không gian mạng, nhưng cũng dấy lên lo ngại về việc hạn chế quyền tự do ngôn luận và khả năng tiếp cận thông tin của giới trẻ. Quy định này có thể ảnh hưởng lớn đến cách trẻ em tương tác trực tuyến.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "23/07·VnExpress",
-        "url": "https://vnexpress.net/de-xuat-cam-tre-duoi-16-tuoi-binh-luan-chia-se-tren-mang-xa-hoi-5100915.html",
-        "addedEvening": true
-      },
-      {
-        "title": "🚦 TP.HCM định hướng làm công viên, đô thị TOD sau di dời cảng ICD Trường Thọ",
-        "desc": "Khu đất 63ha cảng ICD Trường Thọ sẽ được chuyển đổi thành đô thị hỗn hợp, ưu tiên không gian công cộng, công viên và mô hình TOD sau khi di dời.",
-        "detail": "Sau khi cụm cảng ICD Trường Thọ được di dời theo lộ trình, TP.HCM sẽ chuyển đổi khu đất vàng rộng khoảng 63ha này thành đô thị hỗn hợp hiện đại. Kế hoạch ưu tiên phát triển không gian công cộng, công viên và mô hình TOD (phát triển đô thị định hướng giao thông công cộng), cùng các công trình phục vụ cộng đồng. Điều này hứa hẹn tạo ra một diện mạo mới cho khu vực, nâng cao chất lượng sống và thu hút đầu tư.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "23/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/sau-di-doi-cang-icd-truong-tho-tphcm-dinh-huong-lam-cong-vien-do-thi-tod-100260723175202758.htm",
-        "addedEvening": true
-      }
-    ],
-    "tech": [
-      {
-        "title": "🚀 Samsung ra mắt Galaxy Z Flip8 màn hình gần như không nếp gấp",
-        "desc": "Galaxy Z Flip8 vừa ra mắt với thiết kế mỏng hơn và màn hình gập gần như không còn nếp gấp, nâng tầm trải nghiệm người dùng.",
-        "detail": "Samsung tiếp tục khẳng định vị thế dẫn đầu thị trường điện thoại gập với Galaxy Z Flip8. Điểm nhấn lớn nhất của mẫu điện thoại này là màn hình gập được cải tiến đáng kể, gần như loại bỏ hoàn toàn nếp gấp khó chịu, mang lại trải nghiệm thị giác liền mạch hơn. Ngoài ra, thiết kế mỏng nhẹ cùng nhiều nâng cấp về hiệu năng và camera cũng khiến Z Flip8 trở thành lựa chọn hấp dẫn cho những ai yêu thích sự độc đáo và tiện lợi của smartphone gập.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "21/07·VnExpress",
-        "url": "https://vnexpress.net/galaxy-z-flip8-ra-mat-voi-man-hinh-gan-nhu-khong-nep-gap-5100148.html"
-      },
-      {
-        "title": "🤖 Cuộc đua AI Mỹ - Trung gay cấn với Kimi K3 và Qwen 3.8",
-        "desc": "Các mô hình AI mới như Kimi K3 và Qwen 3.8 đang đẩy cuộc cạnh tranh AI giữa Mỹ và Trung Quốc lên một tầm cao mới.",
-        "detail": "Thị trường AI toàn cầu đang chứng kiến sự cạnh tranh khốc liệt giữa Mỹ và Trung Quốc, với sự xuất hiện của các mô hình ngôn ngữ lớn (LLM) mới như Kimi K3 và Qwen 3.8. Những công nghệ này không chỉ thể hiện khả năng xử lý ngôn ngữ vượt trội mà còn mở ra nhiều ứng dụng tiềm năng trong các lĩnh vực khác nhau. Sự phát triển nhanh chóng này cho thấy cả hai cường quốc đang dồn lực vào AI, hứa hẹn những đột phá công nghệ lớn trong tương lai gần.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "23/07·GenK",
-        "url": "https://genk.vn/kimi-k3-va-qwen-38-khien-cuoc-dua-ai-giua-my-va-trung-quoc-gay-can-hon-165260723080742442.chn"
-      },
-      {
-        "title": "🚀 Samsung lần đầu dùng chip Qualcomm cho Galaxy Watch",
-        "desc": "Samsung gây bất ngờ khi lần đầu tiên trang bị chip Qualcomm cho dòng Galaxy Watch mới, hứa hẹn hiệu năng và thời lượng pin tốt hơn.",
-        "detail": "Trong một động thái đáng chú ý, Samsung đã quyết định sử dụng chip Qualcomm cho các mẫu Galaxy Watch mới nhất của mình, thay vì chip Exynos 'cây nhà lá vườn' như trước đây. Quyết định này được kỳ vọng sẽ mang lại hiệu năng vượt trội, khả năng tối ưu pin tốt hơn và mở rộng tính tương thích với các thiết bị khác. Đây có thể là một bước ngoặt quan trọng, giúp Galaxy Watch cạnh tranh mạnh mẽ hơn trong thị trường đồng hồ thông minh đầy khốc liệt.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "22/07·VnExpress",
-        "url": "https://vnexpress.net/samsung-lan-dau-dung-chip-qualcomm-cho-galaxy-watch-5100150.html"
-      },
-      {
-        "title": "📱 Galaxy Z Fold8: Tỷ lệ màn hình mới 'quá đã'",
-        "desc": "Samsung Galaxy Z Fold8 ra mắt với tỷ lệ màn hình mới, mang lại trải nghiệm sử dụng ấn tượng hơn hẳn so với các phiên bản trước.",
-        "detail": "Phiên bản tiêu chuẩn của Galaxy Z Fold8 vừa được trên tay nhanh và gây ấn tượng mạnh với tỷ lệ màn hình mới. Sau nhiều năm định hình vị thế, dòng Fold của Samsung tiếp tục cải tiến để tối ưu hóa trải nghiệm người dùng, đặc biệt là về hiển thị. Tỷ lệ màn hình được tinh chỉnh giúp việc xem nội dung, làm việc đa nhiệm trở nên thoải mái và 'đã' mắt hơn, khẳng định vị thế dẫn đầu của Samsung trong phân khúc điện thoại gập.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "23/07·Tinhte",
-        "url": "https://tinhte.vn/thread/top-nhung-diem-minh-an-tuong-nhat-tren-galaxy-z-fold8-ti-le-man-hinh-moi-qua-daaa.4163270/",
-        "addedEvening": true
-      },
-      {
-        "title": "⌚ Galaxy Watch9: Đo chỉ số sinh tồn, Running Coach",
-        "desc": "Samsung Galaxy Watch9 giữ nguyên thiết kế nhưng nâng cấp mạnh mẽ phần mềm, tập trung vào sức khỏe với tính năng đo chỉ số sinh tồn và Running Coach.",
-        "detail": "Galaxy Watch9 tiếp tục khẳng định hướng đi của Samsung trong lĩnh vực thiết bị theo dõi sức khỏe. Dù thiết kế không thay đổi so với Watch8, nhưng các tính năng bên trong được nâng cấp đáng kể. Điểm nhấn là khả năng đo chỉ số sinh tồn, cung cấp dữ liệu sức khỏe chuyên sâu và Running Coach giúp tối ưu hóa quá trình luyện tập. Chiếc đồng hồ này hứa hẹn trở thành 'trợ lý' sức khỏe đắc lực cho người dùng.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "23/07·Tinhte",
-        "url": "https://tinhte.vn/thread/tren-tay-samsung-galaxy-watch9-do-chi-so-sinh-ton-running-coach-thiet-ke-khong-doi.4162899/",
-        "addedEvening": true
-      },
-      {
-        "title": "🔌 Ổ cắm hẹn giờ giá từ 120.000đ: Giải pháp cho người hay quên tắt điện",
-        "desc": "Loạt ổ cắm hẹn giờ thông minh với giá chỉ từ 120.000đ giúp tự động bật/tắt các thiết bị điện, giải quyết nỗi lo hay quên của nhiều gia đình.",
-        "detail": "Nếu bạn thường xuyên quên tắt quạt, bình nước nóng hay đèn khi ra khỏi nhà, những chiếc ổ cắm hẹn giờ này chính là 'cứu cánh'. Với mức giá phải chăng, chỉ từ 120.000đ, bạn có thể dễ dàng cài đặt thời gian bật/tắt tự động cho mọi thiết bị điện trong nhà. Giải pháp này không chỉ giúp tiết kiệm điện mà còn mang lại sự tiện lợi, an tâm cho những người bận rộn.",
-        "tag": "deal",
-        "tagLabel": "💸 DEAL",
-        "source": "23/07·GenK",
-        "url": "https://genk.vn/hay-quen-tat-dien-loat-o-cam-hen-gio-gia-tu-120000d-nay-se-tu-bat-tat-moi-thu-theo-y-ban-165262307185012216.chn",
-        "addedEvening": true
-      }
-    ],
-    "finance": [
-      {
-        "title": "📈 Chứng khoán Việt Nam mất 1,3 triệu tỷ đồng vốn hóa",
-        "desc": "Thị trường chứng khoán Việt Nam vừa trải qua phiên giao dịch tồi tệ, khiến vốn hóa toàn thị trường 'bốc hơi' 1,3 triệu tỷ đồng.",
-        "detail": "VN-Index đã giảm mạnh gần 260 điểm so với đỉnh, kéo theo sự sụt giảm nghiêm trọng của vốn hóa toàn thị trường chứng khoán, ước tính lên tới 1,3 triệu tỷ đồng. Đây là một cú sốc lớn đối với các nhà đầu tư, đặc biệt là những người mới tham gia thị trường. Các chuyên gia khuyến nghị nhà đầu tư cần thận trọng, hạn chế margin và tập trung vào các cổ phiếu có nền tảng cơ bản tốt trong giai đoạn biến động này.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "22/07·CafeF",
-        "url": "https://cafef.vn/chung-khoan-viet-nam-mat-13-trieu-ty-dong-von-hoa-188260722225851876.chn"
-      },
-      {
-        "title": "💵 Tiền chờ trên tài khoản chứng khoán thấp nhất 6 quý",
-        "desc": "Lượng tiền mặt nằm chờ trên tài khoản chứng khoán của nhà đầu tư đã giảm xuống mức thấp nhất trong 6 quý gần đây.",
-        "detail": "Chỉ trong vòng 3 tháng, số dư tiền gửi của khách hàng tại các công ty chứng khoán đã giảm mạnh, đạt mức thấp nhất trong 6 quý. Điều này cho thấy nhà đầu tư đang rút tiền khỏi thị trường hoặc đã giải ngân vào cổ phiếu, phản ánh tâm lý thận trọng hoặc tìm kiếm cơ hội trong bối cảnh thị trường biến động. Việc dòng tiền chờ giảm có thể ảnh hưởng đến thanh khoản và xu hướng chung của thị trường trong thời gian tới.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "22/07·CafeF",
-        "url": "https://cafef.vn/tien-nam-cho-tren-tai-khoan-chung-khoan-thap-nhat-6-quy-188260722231319651.chn"
-      },
-      {
-        "title": "🪙 Giá vàng thế giới tăng, trong nước giảm 1 triệu đồng/lượng",
-        "desc": "Giá vàng thế giới tiếp tục tăng mạnh, nhưng giá vàng miếng SJC trong nước lại giảm 1 triệu đồng/lượng, giãn rộng chênh lệch mua - bán.",
-        "detail": "Trong khi giá vàng thế giới duy trì đà tăng, đạt mức cao nhất trong 2 tuần, giá vàng miếng SJC tại Việt Nam lại bất ngờ giảm 1 triệu đồng/lượng so với buổi sáng. Điều này khiến chênh lệch giữa giá mua và bán giãn rộng lên tới 4-5 triệu đồng/lượng, gây khó khăn cho người dân có nhu cầu giao dịch. Sự biến động trái chiều này phản ánh những yếu tố đặc thù của thị trường vàng trong nước, bao gồm cả chính sách quản lý và tâm lý nhà đầu tư.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "22/07·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/gia-vang-the-gioi-tang-manh-trong-nuoc-giam-vi-sao-100260722212607477.htm"
-      },
-      {
-        "title": "📉 Kinh tế tăng trưởng cao, chứng khoán vẫn giảm mạnh?",
-        "desc": "Kinh tế Việt Nam tăng trưởng hơn 8% và tín dụng được bơm thêm gần 1,46 triệu tỷ đồng, nhưng thị trường chứng khoán lại diễn biến kém tích cực.",
-        "detail": "Một nghịch lý đang diễn ra trên thị trường tài chính Việt Nam: dù kinh tế tăng trưởng ấn tượng hơn 8% và dòng tiền tín dụng được bơm mạnh, chứng khoán vẫn giảm sâu. Các chuyên gia chỉ ra rằng tăng trưởng kinh tế vẫn phụ thuộc chủ yếu vào tín dụng ngân hàng, trong khi các yếu tố khác chưa đủ mạnh để thúc đẩy thị trường chứng khoán. Điều này đặt ra câu hỏi lớn về tính bền vững của tăng trưởng và rủi ro tiềm ẩn cho nhà đầu tư.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "23/07·CafeF",
-        "url": "https://cafef.vn/kinh-te-tang-truong-cao-vi-sao-chung-khoan-van-giam-manh-188260723194013793.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "🪙 Mua vàng SJC hôm nay có thể lỗ ngay 7 triệu đồng/lượng",
-        "desc": "Giá vàng SJC lao dốc tới 7 triệu đồng/lượng chỉ trong buổi sáng 23/7, khiến khách hàng mua vàng đầu giờ có thể lỗ nặng.",
-        "detail": "Thị trường vàng miếng SJC chứng kiến biến động mạnh trong ngày 23/7 khi giá vàng giảm tới 7 triệu đồng/lượng chỉ trong vài tiếng buổi sáng. Điều này có nghĩa là những người mua vàng vào đầu giờ sáng đã phải chịu khoản lỗ đáng kể ngay lập tức. Diễn biến này cho thấy rủi ro cao khi đầu tư vào vàng trong bối cảnh thị trường nhiều biến động, và nhà đầu tư cần hết sức thận trọng.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "23/07·CafeF",
-        "url": "https://cafef.vn/mua-vang-sjc-hom-nay-co-the-lo-ngay-7-trieu-dong-moi-luong-188260723181206949.chn",
-        "addedEvening": true
-      },
-      {
-        "title": "💵 Lãi suất tiết kiệm ngân hàng nào cao nhất tháng 7/2026?",
-        "desc": "Lãi suất huy động trực tuyến bình quân của 36 ngân hàng đạt 6,16%/năm (6 tháng) và 6,39%/năm (12 tháng) tính đến 23/7, chỉ 2 ngân hàng tăng lãi suất.",
-        "detail": "Trong bối cảnh thị trường tài chính có nhiều biến động, lãi suất tiết kiệm vẫn là mối quan tâm hàng đầu của người dân. Tính đến ngày 23/7, lãi suất huy động trực tuyến bình quân tại các ngân hàng đạt 6,16%/năm cho kỳ hạn 6 tháng và 6,39%/năm cho kỳ hạn 12 tháng. Đáng chú ý, chỉ có 2 ngân hàng điều chỉnh tăng lãi suất so với cuối tháng 6, cho thấy mặt bằng lãi suất đang khá ổn định. Người gửi tiền nên tìm hiểu kỹ để chọn ngân hàng có mức lãi suất tốt nhất.",
-        "tag": "rate",
-        "tagLabel": "💵 LÃI SUẤT",
-        "source": "23/07·VnEconomy",
-        "url": "https://vneconomy.vn/lai-suat-tiet-kiem-ngan-hang-nao-cao-nhat-thang-72026.htm",
-        "addedEvening": true
-      }
-    ],
-    "sports": [
-      {
-        "title": "⚽ Derby V-League Hà Nội - Công an Hà Nội căng thẳng",
-        "desc": "Trận derby V-League giữa Hà Nội và Công an Hà Nội diễn ra cực kỳ căng thẳng, với những pha ăn miếng trả miếng ở khu trung tuyến.",
-        "detail": "Trận đấu được mong chờ giữa hai đội bóng thủ đô, Hà Nội FC và Công an Hà Nội, đã không làm người hâm mộ thất vọng với những diễn biến kịch tính ngay từ đầu. Cả hai đội đều nhập cuộc đầy quyết tâm, tạo ra nhiều pha bóng nguy hiểm và tranh chấp quyết liệt ở khu vực giữa sân. Đây không chỉ là một trận đấu giành điểm mà còn là cuộc chiến khẳng định vị thế, hứa hẹn sẽ còn nhiều bất ngờ trong hiệp đấu tiếp theo.",
-        "tag": "football",
-        "tagLabel": "⚽ BÓNG ĐÁ",
-        "source": "23/07·24h.com.vn",
-        "url": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-ha-noi-cong-an-ha-noi-ruc-lua-derby-xay-chac-ngoi-dau-v-league-c48a1743022.html"
-      }
-    ],
     "eveningDone": true
   }
 ]
