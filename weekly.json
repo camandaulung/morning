@@ -1,5 +1,64 @@
 [
   {
+    "weekLabel": "Tuần 34/2026",
+    "fromDate": "2026-08-17",
+    "toDate": "2026-08-23",
+    "highlights": [
+      {
+        "title": "👑 Ông Nawat đòi bắt khẩn cấp Hoa hậu Hoàn vũ",
+        "desc": "Chủ tịch Miss Grand International, ông Nawat, có động thái cực căng khi ra văn bản xúc tiến bắt khẩn cấp Đương kim Hoa hậu Hoàn vũ, gây chấn động giới sắc đẹp.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/ong-nawat-da-cang-ra-van-ban-xuc-tien-bat-khan-cap-duong-kim-hoa-hau-hoan-vu-21526082308333627.chn"
+      },
+      {
+        "title": "📈 Việt Nam chính thức sánh ngang Trung Quốc, Ấn Độ về nâng hạng thị trường",
+        "desc": "Việt Nam sẽ chính thức được nâng hạng lên thị trường mới nổi thứ cấp của FTSE Russell, sánh ngang với các nền kinh tế lớn như Trung Quốc và Ấn Độ, hứa hẹn thu hút hàng tỷ USD vốn đầu tư.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/dung-1-thang-nua-viet-nam-se-chinh-thuc-sanh-ngang-trung-quoc-an-do-18826082123155854.chn"
+      },
+      {
+        "title": "🎵 BIGBANG 'sold out' 2 đêm concert Hà Nội chỉ trong 1 tiếng rưỡi",
+        "desc": "Toàn bộ vé của hai đêm concert BIGBANG tại Hà Nội (24 và 25/10) đã 'cháy hàng' chỉ sau 1 tiếng rưỡi mở bán đợt cuối, khẳng định sức hút khủng khiếp của nhóm nhạc huyền thoại này.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/giai-ma-hien-tuong-chay-ve-bigbang-215260820170741772.chn"
+      },
+      {
+        "title": "🤖 AI Trung Quốc tự học cách hack",
+        "desc": "Z.ai công bố GLM-5.3, một mô hình AI có khả năng tự học cách hack, gây bất ngờ cho cả nhà phát triển và đặt ra nhiều câu hỏi về an ninh mạng.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/ai-trung-quoc-tu-hoc-duoc-cach-hack-165260820065004243.chn"
+      },
+      {
+        "title": "💸 Người Việt đầu tiên thành Partner quỹ tỷ đô Phố Wall",
+        "desc": "Đỗ Hồng Anh, người Việt đầu tiên, đã trở thành Partner tại một quỹ phòng hộ quản lý tài sản hơn 6 tỷ USD ở Phố Wall, đánh dấu một thành tựu lớn trong lĩnh vực tài chính quốc tế.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/bi-mat-cua-nguoi-viet-dau-tien-tro-thanh-partner-quy-phong-ho-ty-do-pho-wall-18826082221500741.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🎮 Trend Người Nhện đen trắng",
+        "desc": "Bộ ảnh Người Nhện đen trắng vẫn gây sốt, khiến cộng đồng game thủ náo loạn vì quá 'cuốn'.",
+        "tag": "social",
+        "tagLabel": "🎰 SOCIAL",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUzFBNEwwZkFMWDJqMW8ya3ByX3M4NUVCVDUyV2lKVS1YSFBvZGJzVlFlcVJVamRneUlFaDVQNTA4ei1WTXVZNUZxaEQtTFFwWmFVMmxEMnVhNldHNzNxSXJmaGJidjJZRkVJTFFMUVFvOUV4VDg4NnBqMDQ4RlhTS2h4X2xQazJfR3JFamdmT3d0UlJxOWFndlhzZWxMYlE2SHlEdHpuanVQSzlxNWk4cVdjcjNEU25hVjkySDl4UjdLVU9HRzRlT3NkRDhEMEI4WnYxbFZJTzg?oc=5"
+      },
+      {
+        "title": "🕷️ Trend Người Nhện đen trắng 'cuốn' anh em game thủ",
+        "desc": "Dù 'trễ nhất' trend, một bộ ảnh Người Nhện đen trắng mới xuất hiện vẫn khiến cộng đồng game thủ 'náo loạn' vì quá 'cuốn'.",
+        "tag": "social",
+        "tagLabel": "🎰 SOCIAL",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUzFBNEwwZkFMWDJqMW8ya3ByX3M4NUVCVDUyV2lKVS1YSFBvZGJzVlFlcVJVamRneUlFaDVQNTA4ei1WTXVZNUZxaHQtTFFwWmFVMmxEMnVhNldHNzNxSXJmaGJidjJZRkVJTFFMUVFvOUV4VDg4NnBqMDQ4RlhTS2h4X2xQazJfR3JFamdmT3d0UlJxOWFndlhzZWxMYlE2SHlEdHpuanVQSzlxNWk4cVdjcjNEU25hVjkySDl4UjdLVU9HRzRlT3NkRDhEMEI4WnYxbFZJTzg?oc=5"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 33/2026",
     "fromDate": "2026-08-10",
     "toDate": "2026-08-16",
