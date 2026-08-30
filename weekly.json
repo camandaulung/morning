@@ -1,5 +1,57 @@
 [
   {
+    "weekLabel": "Tuần 35/2026",
+    "fromDate": "2026-08-24",
+    "toDate": "2026-08-30",
+    "highlights": [
+      {
+        "title": "💔 Tỷ phú tiền ảo: \"Mong Cảnh Điềm sống tốt\"",
+        "desc": "Sau lùm xùm kiện đòi sính lễ, tỷ phú Tôn Vũ Thần bất ngờ lên tiếng, nói không muốn bạn gái cũ lo sợ mà chỉ mong cô sống tốt, gây chú ý dư luận.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/ty-phu-tien-ao-mong-canh-diem-song-tot-5115115.html"
+      },
+      {
+        "title": "🌐 4 tuyến cáp quang biển gặp sự cố",
+        "desc": "Bốn tuyến cáp quang biển chính kết nối Internet Việt Nam đi quốc tế đồng loạt gặp sự cố, ảnh hưởng nghiêm trọng đến tốc độ truy cập mạng trong nước.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/bon-tuyen-cap-quang-bien-ket-noi-internet-viet-nam-di-quoc-te-cung-gap-su-co-165260830080436316.chn"
+      },
+      {
+        "title": "🏆 Việt Nam vô địch ASEAN Cup 2026, biển người 'đi bão' xuyên đêm",
+        "desc": "Hàng chục nghìn người hâm mộ trên khắp cả nước đã đổ xuống đường 'đi bão' xuyên đêm, hò reo và vẫy cờ mừng tuyển Việt Nam vô địch ASEAN Cup 2026.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/di-bao-xuyen-dem-mung-viet-nam-vo-dich-5113851.html"
+      },
+      {
+        "title": "🍎 Apple sắp ra mắt kính thông minh AI không màn hình",
+        "desc": "Apple đang rục rịch phát triển mẫu kính thông minh AI đầu tiên dự kiến ra mắt vào năm sau, với cách tiếp cận thực tế và không có màn hình hiển thị.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://tinhte.vn/thread/apple-sap-lam-kinh-thong-minh-ai-khong-co-man-hinh.4173291/"
+      },
+      {
+        "title": "📜 Quy định mới về lắp camera an ninh",
+        "desc": "Nghị định 330/2026/NĐ-CP về an ninh mạng và bảo vệ dữ liệu cá nhân đã có hiệu lực, quy định rõ về việc lắp đặt camera, vi phạm có thể bị phạt tiền lên đến 50 triệu đồng.",
+        "tag": "deadline",
+        "tagLabel": "⏰ DEADLINE",
+        "url": "https://genk.vn/tat-ca-nhung-ai-dang-lap-camera-can-luu-y-quy-dinh-moi-vua-duoc-ap-dung-vi-pham-co-the-bi-phat-tien-len-den-50-trieu-dong-165260830083156816.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "⚠️ Cảnh báo: Đừng dại cài GTA VI 113GB đang leak!",
+        "desc": "Một 'bộ cài' GTA VI dung lượng 113GB đang rò rỉ trên mạng nhưng thực chất là 'pha kè' chứa mã độc, anh em game thủ cần cẩn trọng để tránh bị lừa đảo.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://tinhte.vn/thread/dung-dai-cai-gta-vi-113gb-dang-leak-pha-ke-ma-doc.4171563/"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 34/2026",
     "fromDate": "2026-08-17",
     "toDate": "2026-08-23",
