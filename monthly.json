@@ -1,5 +1,149 @@
 [
   {
+    "monthLabel": "Tháng 8/2026",
+    "fromDate": "2026-08-01",
+    "toDate": "2026-08-31",
+    "topNews": [
+      {
+        "title": "⚽ Ronaldo sắp cưới vợ người mẫu",
+        "desc": "Siêu sao bóng đá Cristiano Ronaldo và người mẫu Georgina Rodriguez sẽ kết hôn vào ngày 8/8 tới đây trên một hòn đảo ở Bồ Đào Nha.",
+        "detail": "Tin vui từ cặp đôi quyền lực này đang khiến fan hâm mộ toàn cầu xôn xao. Đám cưới được mong chờ sẽ diễn ra riêng tư nhưng vẫn thu hút sự chú ý lớn từ truyền thông và người hâm mộ. Đây là một trong những sự kiện được mong đợi nhất trong giới thể thao và giải trí.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/08·VnExpress",
+        "url": "https://vnexpress.net/cristiano-ronaldo-sap-lam-dam-cuoi-voi-vo-nguoi-mau-5104380.html"
+      },
+      {
+        "title": "🏠 Mẹ đơn thân 9x được tặng biệt thự 10 tỷ",
+        "desc": "Một mẹ đơn thân sinh năm 1996 vừa được nam nghệ sĩ 67 tuổi tặng căn biệt thự trị giá hơn 10 tỷ đồng ở TP.HCM nhân dịp sinh nhật.",
+        "detail": "Hành động 'khủng' này của nam nghệ sĩ đình đám dành cho người đẹp kém 37 tuổi đang gây bão mạng xã hội. Nhiều người bày tỏ sự ngưỡng mộ trước tình cảm và sự hào phóng của nam nghệ sĩ, đồng thời tò mò về danh tính của cặp đôi này. Đây chắc chắn là chủ đề 'buôn chuyện' nóng hổi đầu tuần.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/08·Kenh14",
+        "url": "https://kenh14.vn/me-don-than-sn-1996-duoc-nam-nghe-si-67-tuoi-tang-sinh-nhat-1-can-biet-thu-o-tphcm-215260803080220083.chn"
+      },
+      {
+        "title": "💔 Nam diễn viên 38 tuổi tử vong sau bê bối",
+        "desc": "Một nam diễn viên 38 tuổi vừa được phát hiện bất tỉnh tại nhà riêng và tử vong trên đường đi cấp cứu, sau khi đánh mất sự nghiệp vì bê bối.",
+        "detail": "Thông tin này khiến nhiều người hâm mộ bàng hoàng. Nam diễn viên từng có sự nghiệp đỉnh cao nhưng phải chuyển sang lĩnh vực vận tải để mưu sinh sau khi vướng vào scandal. Câu chuyện buồn này là lời nhắc nhở về áp lực và những góc khuất trong giới giải trí.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/08·Kenh14",
+        "url": "https://kenh14.vn/nam-dien-vien-38-tuoi-duoc-phat-hien-bat-tinh-o-nha-rieng-tu-vong-tren-duong-di-cap-cuu-215260803075640488.chn"
+      },
+      {
+        "title": "🎤 BTS 'thay áo' sân Chung kết World Cup",
+        "desc": "Nhóm nhạc toàn cầu BTS vừa biến sân Chung kết World Cup thành một biển người hâm mộ với 90.000 khán giả phủ kín khán đài.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "03/08·Kenh14",
+        "url": "https://kenh14.vn/san-chung-ket-world-cup-thay-ao-ruc-ro-vi-bts-90000-nguoi-phu-kin-khan-dai-dang-cap-nhom-nhac-toan-cau-la-day-chu-dau-215260803011120114.chn"
+      },
+      {
+        "title": "💰 Top 10 nữ diễn viên giàu nhất Hàn Quốc 2026",
+        "desc": "Danh sách 10 nữ diễn viên giàu nhất Hàn Quốc năm 2026 vừa được công bố, với Song Hye Kyo xếp thứ 3 dù sở hữu 1500 tỷ đồng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/08·Kenh14",
+        "url": "https://kenh14.vn/10-nu-dien-vien-giau-nhat-han-quoc-2026-song-hye-kyo-co-1500-ty-cung-chi-xep-thu-3-hang-1-thang-doi-tuyet-doi-215260803015555754.chn"
+      },
+      {
+        "title": "🎬 Ramayana bản điện ảnh 500 triệu USD",
+        "desc": "Đạo diễn Nitesh Tiwari đang rục rịch làm phim về sử thi \"Ramayana\" với kinh phí khủng 500 triệu USD.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "03/08·VnExpress",
+        "url": "https://vnexpress.net/dao-dien-an-do-lam-phim-ve-su-thi-ramayana-5104372.html",
+        "addedEvening": true
+      },
+      {
+        "title": "📺 Chung Thanh Phong biến sàn diễn thành \"Hành tinh hoa lan\"",
+        "desc": "NTK Chung Thanh Phong vừa gây choáng với show diễn Haute Couture hoành tráng, huy động 500 nhân sự và dựng catwalk mô phỏng hành tinh hoa lan.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "03/08·VnExpress",
+        "url": "https://vnexpress.net/hanh-tinh-hoa-lan-cua-chung-thanh-phong-5104714.html",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Ngô Thanh Vân tổ chức thôi nôi ấm cúng cho bé Gạo",
+        "desc": "Vợ chồng Ngô Thanh Vân và Huy Trần vừa tổ chức tiệc sinh nhật đầu đời cho con gái bé bỏng, với sự góp mặt của nhiều bạn bè thân thiết.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/08·VnExpress",
+        "url": "https://vnexpress.net/ngo-thanh-van-to-chuc-tiec-thoi-noi-cho-con-gai-5104642.html",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Thư Kỳ tiết lộ không cần cầu hôn vẫn cưới Phùng Đức Luân",
+        "desc": "Minh tinh Hoa ngữ Thư Kỳ gây bất ngờ khi chia sẻ cô bằng lòng làm vợ tài tử Phùng Đức Luân mà không cần nghi thức cầu hôn.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/08·VnExpress",
+        "url": "https://vnexpress.net/thu-ky-chong-khong-lam-le-cau-hon-toi-5104683.html",
+        "addedEvening": true
+      },
+      {
+        "title": "🎭 Sân khấu kịch Thiên Đăng đóng cửa, nghệ sĩ ngậm ngùi chia tay",
+        "desc": "Sân khấu kịch Thiên Đăng, một địa chỉ quen thuộc của TP.HCM, vừa chính thức đóng cửa, khiến nhiều nghệ sĩ gạo cội như Thành Lộc, Hữu Châu phải nói lời tạm biệt khán giả.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "03/08·VnExpress",
+        "url": "https://vnexpress.net/nghe-si-chia-tay-san-khau-thien-dang-5104534.html",
+        "addedEvening": true
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "💻 Steam tặng 6 game miễn phí mới",
+        "desc": "Steam tiếp tục chiều lòng game thủ khi tung ra 6 tựa game miễn phí mới với rating cực cao, nhận một lần là sở hữu vĩnh viễn.",
+        "detail": "Đây là cơ hội vàng cho anh em game thủ PC mở rộng thư viện game của mình mà không tốn một xu. Các tựa game này được đánh giá cao về chất lượng, hứa hẹn mang lại những giờ phút giải trí đỉnh cao. Đừng bỏ lỡ cơ hội này để khám phá những siêu phẩm mới nhé!",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "10/08·GameK",
+        "url": "https://gamek.vn/steam-tiep-tuc-mang-toi-6-tua-game-mien-phi-moi-rating-cuc-cao-nhan-mot-lan-la-so-huu-vinh-vien-178260810095909098.chn"
+      },
+      {
+        "title": "🎮 Keanu Reeves đóng game John Wick mới",
+        "desc": "Keanu Reeves đã xác nhận sẽ lồng tiếng và thể hiện hình ảnh trong tựa game John Wick mới của Saber Interactive, hứa hẹn một trải nghiệm hành động đỉnh cao.",
+        "detail": "Tin tức này chắc chắn sẽ khiến các fan của John Wick và Keanu Reeves đứng ngồi không yên. Với sự tham gia của nam tài tử, tựa game được kỳ vọng sẽ tái hiện chân thực thế giới ngầm đầy kịch tính và những pha hành động mãn nhãn của sát thủ John Wick. Đây là một bước tiến lớn cho dòng game chuyển thể từ phim ảnh.",
+        "tag": "console",
+        "tagLabel": "🎮 CONSOLE",
+        "source": "IGN",
+        "url": "https://www.ign.com/articles/saber-interactive-announces-new-john-wick-game-sony-state-of-play"
+      },
+      {
+        "title": "📱 Pokemon Go tiếp tục với sự kiện tháng 7",
+        "desc": "Mùa 'Forever Forward' của Pokemon Go tiếp tục sôi động trong tháng 7 với hàng loạt sự kiện kỷ niệm và nhiệm vụ Timed Research đặc biệt.",
+        "detail": "Dù đã ra mắt được một thời gian, Pokemon Go vẫn giữ vững sức hút với cộng đồng game thủ mobile. Các sự kiện hàng tháng, đặc biệt là Go Fest, luôn mang đến những Pokemon hiếm và cơ hội để người chơi giao lưu, kết nối. Hãy chuẩn bị sẵn sàng để bắt thêm nhiều Pokemon mới và hoàn thành các thử thách nhé!",
+        "tag": "mobile",
+        "tagLabel": "📱 MOBILE",
+        "source": "GameSpot",
+        "url": "https://www.gamespot.com/articles/pokemon-go-july-2026-events-raids-spotlight-hours-go-fest-and-more/"
+      },
+      {
+        "title": "🎮 Humble Choice tháng 8: Có ngay Like a Dragon: Infinite Wealth",
+        "desc": "Gói Humble Choice tháng 8/2026 đã ra mắt, mang đến hàng trăm USD giá trị game Steam, nổi bật là 'Like a Dragon: Infinite Wealth'.",
+        "detail": "Đây là cơ hội tuyệt vời cho các game thủ PC để sở hữu những tựa game chất lượng với mức giá ưu đãi. 'Like a Dragon: Infinite Wealth' là một trong những game được mong chờ nhất, hứa hẹn mang lại trải nghiệm nhập vai sâu sắc. Việc Humble Choice liên tục cập nhật các tựa game đình đám giúp cộng đồng game thủ luôn có những lựa chọn mới mẻ và hấp dẫn để khám phá.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "14/08·IGN",
+        "url": "https://www.ign.com/articles/humble-choice-august-2026-is-live-and-it-includes-like-a-dragon-infinite-wealth",
+        "addedEvening": true
+      },
+      {
+        "title": "💻 Game sắp ra mắt 2026: Star Wars Zero Company và Metal Gear Solid 4",
+        "desc": "Tháng 8 là khoảng lặng trước 'cơn bão' game cuối năm, nhưng vẫn có những cái tên đáng chú ý như 'Star Wars Zero Company' và 'Metal Gear Solid 4'.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "14/08·PC Gamer",
+        "url": "https://www.pcgamer.com/games/pc-game-release-dates-august-2026/",
+        "addedEvening": true
+      }
+    ]
+  },
+  {
     "monthLabel": "Tháng 7/2026",
     "fromDate": "2026-07-01",
     "toDate": "2026-07-31",
