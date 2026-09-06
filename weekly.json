@@ -1,5 +1,64 @@
 [
   {
+    "weekLabel": "Tuần 36/2026",
+    "fromDate": "2026-08-31",
+    "toDate": "2026-09-06",
+    "highlights": [
+      {
+        "title": "🇻🇳 Bảo Ngọc lập kỷ lục Top 6 Miss World!",
+        "desc": "Đại diện Việt Nam Lê Nguyễn Bảo Ngọc đã có hành trình đáng tự hào, xuất sắc dừng chân ở Top 6 Miss World 2026, tạo nên kỷ lục mới cho nhan sắc Việt trên đấu trường quốc tế.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/hanh-trinh-cham-tay-den-top-6-miss-world-cua-le-nguyen-bao-ngoc-21526090606412585.chn"
+      },
+      {
+        "title": "🤖 Elon Musk dự báo 1 tỷ robot hình người trong 10 năm tới",
+        "desc": "Tại Hội nghị G20, Elon Musk gây sốc khi dự báo thế giới sẽ có 1 tỷ robot hình người trong 10 năm tới, tạo ra năng suất vượt toàn bộ nhân loại và mở ra kỷ nguyên mới cho công nghệ.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/elon-musk-du-bao-1-ty-robot-hinh-nguoi-se-xuat-hien-trong-10-nam-toi-tao-ra-nang-suat-vuot-toan-bo-nhan-loai-165260906082017939.chn"
+      },
+      {
+        "title": "💸 Cổ Thiên Lạc bị kiện đòi nợ 19 triệu USD",
+        "desc": "Tài tử Hong Kong Cổ Thiên Lạc đang đối mặt với vụ kiện đòi nợ gốc và lãi lên đến 149 triệu HKD (tương đương 19 triệu USD), gây xôn xao dư luận và giới giải trí.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/co-thien-lac-bi-kien-doi-no-5116793.html"
+      },
+      {
+        "title": "🚨 Bắt Thứ trưởng Bộ Y tế Trần Văn Thuấn",
+        "desc": "Thứ trưởng Bộ Y tế Trần Văn Thuấn bị khởi tố, bắt tạm giam liên quan đến Công ty CP đầu tư y tế Việt Mỹ, thu hút sự chú ý lớn từ công chúng và truyền thông.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://tuoitre.vn/vu-bat-thu-truong-bo-y-te-tran-van-thuan-diem-chu-y-o-tai-chinh-doanh-nghiep-trung-tam-vu-an-100260902173847159.htm"
+      },
+      {
+        "title": "🍎 Tim Cook rời ghế CEO Apple, John Ternus kế nhiệm",
+        "desc": "Ngày 1/9/2026, Tim Cook chính thức kết thúc 15 năm làm CEO Apple, chuyển giao vị trí cho John Ternus, đánh dấu một kỷ nguyên mới cho gã khổng lồ công nghệ.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/apple-chinh-thuc-co-ceo-moi-tu-hom-nay-khep-lai-15-nam-cua-tim-cook-16526090102003569.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🎮 Acer giới thiệu máy chơi game cầm tay chạy chip Intel Arc",
+        "desc": "Tại IFA 2026, Acer gây bất ngờ khi ra mắt Project DualPlay Mini, máy chơi game cầm tay đầu tiên trên thị trường dùng chip Intel Arc, hứa hẹn trải nghiệm chơi game di động mạnh mẽ.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://genk.vn/acer-ra-mat-may-choi-game-cam-tay-dau-tien-chay-chip-intel-arc-165260903074242383.chn"
+      },
+      {
+        "title": "🤖 GTA 6 tuyên bố 'không dùng AI', gây chấn động ngành game",
+        "desc": "Rockstar Games khẳng định chế độ chơi đơn của bom tấn GTA VI hoàn toàn do con người sáng tạo, không ứng dụng AI, đi ngược lại xu hướng chung của ngành game và gây chấn động dư luận.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://genk.vn/bom-tan-gta-6-gay-chan-dong-sau-tuyen-bo-hoan-toan-do-nguoi-lam-khong-dung-ai-165260901083801647.chn"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 35/2026",
     "fromDate": "2026-08-24",
     "toDate": "2026-08-30",
