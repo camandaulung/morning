@@ -1,5 +1,57 @@
 [
   {
+    "weekLabel": "Tuần 37/2026",
+    "fromDate": "2026-09-07",
+    "toDate": "2026-09-13",
+    "highlights": [
+      {
+        "title": "📱 iPhone Duo: Apple 'thẳng thừng' tố đối thủ sao chép",
+        "desc": "Apple cáo buộc nhiều đối thủ sao chép thiết kế iPhone Duo, đặc biệt là tỷ lệ màn hình, sau khi hãng ra mắt smartphone gập đầu tiên của mình.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/apple-thang-thung-to-doi-thu-sao-chep-iphone-duo-co-qua-nhieu-su-trung-hop-165260911191808106.chn"
+      },
+      {
+        "title": "💼 Hai con trai ông Phạm Nhật Vượng nắm giữ vị trí CEO VinFast và Green SM",
+        "desc": "Sau loạt thay đổi nhân sự, hai con trai của tỷ phú Phạm Nhật Vượng là Phạm Nhật Quân Anh và Phạm Nhật Minh Hoàng đang trở thành CEO VinFast và Green SM toàn cầu, đánh dấu bước chuyển giao thế hệ quan trọng.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/hai-con-trai-ong-pham-nhat-vuong-dang-nam-nhung-vi-tri-nao-trong-he-sinh-thai-vingroup-188260912224520937.chn"
+      },
+      {
+        "title": "🤖 AI lần đầu hỗ trợ mổ não trực tiếp trên người",
+        "desc": "Công nghệ AI vừa được thử nghiệm hỗ trợ mổ não trực tiếp trên người, mở ra kỷ nguyên mới cho phẫu thuật y tế và tiềm năng ứng dụng AI trong y học.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/ai-lan-dau-ho-tro-mo-nao-truc-tiep-tren-nguoi-cuoc-thu-nghiem-co-the-thay-doi-cach-bac-si-phau-thuat-165260907070302828.chn"
+      },
+      {
+        "title": "💔 Showbiz Việt chung tay vì diễn viên Bảo Bảo",
+        "desc": "Cả showbiz Việt đang hướng về diễn viên Bảo Bảo, người đang trong tình trạng nguy kịch, với nhiều nghệ sĩ chung tay hỗ trợ và kêu gọi cộng đồng giúp đỡ.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/binh-tinh-cau-nguyen-cho-bao-bao-ca-showbiz-chung-tay-ho-tro-nam-dien-vien-dang-nguy-kich-21526091308484733.chn"
+      },
+      {
+        "title": "💸 Một người Việt mất 42.000 tỷ đồng sau 6 tiếng!",
+        "desc": "Áp lực chốt lời khiến một người Việt mất 42.000 tỷ đồng chỉ trong 6 tiếng giao dịch đầu tuần, cho thấy sự biến động mạnh của thị trường chứng khoán.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/mot-nguoi-viet-vua-mat-42000-ty-dong-sau-6-tieng-188260907173158187.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🎮 Nintendo tung Switch 2 bản 40 năm Zelda, ấn định ngày Ocarina of Time làm lại",
+        "desc": "Nintendo vừa tổ chức Direct mừng 40 năm Zelda, công bố Switch 2 phiên bản đặc biệt và ngày ra mắt bản làm lại của 'Ocarina of Time', gây phấn khích cho cộng đồng game thủ.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://tinhte.vn/thread/nintendo-tung-switch-2-phien-ban-40-nam-zelda-an-dinh-ngay-ocarina-of-time-ban-lam-lai-ra-mat.4175642/"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 36/2026",
     "fromDate": "2026-08-31",
     "toDate": "2026-09-06",
@@ -499,40 +551,6 @@
         "name": "alirezarezvani/claude-skills",
         "url": "https://github.com/alirezarezvani/claude-skills",
         "desc": "Kho lưu trữ khổng lồ với hơn 232 kỹ năng và plugin agent cho Claude Code, cung cấp khả năng mở rộng mạnh mẽ cho các tác nhân AI.",
-        "stars": "N/A",
-        "verdict": "yes"
-      }
-    ],
-    "topGaming": [],
-    "news": [],
-    "gamingNews": [],
-    "topNews": [],
-    "repos": []
-  },
-  {
-    "weekLabel": "Tuần 16/2026",
-    "fromDate": "2026-04-10",
-    "toDate": "2026-04-16",
-    "highlights": [],
-    "topRepos": [
-      {
-        "name": "ComposioHQ/open-claude-cowork",
-        "url": "https://github.com/ComposioHQ/open-claude-cowork",
-        "desc": "Phiên bản mã nguồn mở của Claude Cowork với hơn 500 tích hợp, nhận được sự quan tâm lớn khi Claude Cowork ra mắt chính thức và Enterprise.",
-        "stars": "N/A",
-        "verdict": "yes"
-      },
-      {
-        "name": "zcaceres/markdownify-mcp",
-        "url": "https://github.com/zcaceres/markdownify-mcp",
-        "desc": "Một máy chủ Model Context Protocol (MCP) để chuyển đổi hầu hết mọi thứ sang Markdown, được nhắc đến nhiều lần trong tuần này vì tính hữu ích trong việc chuẩn hóa dữ liệu cho các mô hình AI.",
-        "stars": "N/A",
-        "verdict": "yes"
-      },
-      {
-        "name": "zebbern/claude-code-guide",
-        "url": "https://github.com/zebbern/claude-code-guide",
-        "desc": "Hướng dẫn toàn diện cho Claude Code, bao gồm cài đặt, lệnh và quy trình làm việc, trở thành tài nguyên quan trọng cho người dùng mới và hiện tại của Claude Code.",
         "stars": "N/A",
         "verdict": "yes"
       }
