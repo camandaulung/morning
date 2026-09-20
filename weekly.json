@@ -1,5 +1,49 @@
 [
   {
+    "weekLabel": "Tuần 38/2026",
+    "fromDate": "2026-09-14",
+    "toDate": "2026-09-20",
+    "highlights": [
+      {
+        "title": "👑 Mỹ nhân Mỹ đăng quang Miss International Queen 2026",
+        "desc": "Lo Colby từ Mỹ xuất sắc giành vương miện Hoa hậu Chuyển giới Quốc tế 2026, trong khi đại diện Việt Nam Minh Anh dừng chân ở Top 12.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/nguoi-dep-my-dang-quang-minh-anh-dung-o-top-12-hoa-hau-chuyen-gioi-quoc-te-2026-215260920082500464.chn"
+      },
+      {
+        "title": "📈 Chứng khoán Việt Nam chính thức 'lên hạng'!",
+        "desc": "Thị trường chứng khoán Việt Nam chính thức gia nhập rổ chỉ số toàn cầu FTSE Russell, chuyển từ thị trường cận biên lên thị trường mới nổi, thu hút hàng tỷ USD vốn ngoại.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/chung-khoan-viet-nam-chinh-thuc-gia-nhap-ro-chi-so-toan-cau-ftse-russell-18826091820182807.chn"
+      },
+      {
+        "title": "📱 iPhone 18 Pro Max chính thức mở bán, giá chênh 9 triệu",
+        "desc": "iPhone 18 Pro Max đã chính thức mở bán tại Việt Nam, với các suất mua màu mới bị rao chênh đến 9 triệu đồng so với giá niêm yết, thu hút sự quan tâm lớn từ người dùng.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/iphone-18-pro-max-duoc-rao-chenh-9-trieu-dong-so-voi-gia-niem-yet-5121515.html"
+      },
+      {
+        "title": "🔥 Cháy nhà 4 tầng ở Hà Nội, 5 người tử vong",
+        "desc": "Một vụ hỏa hoạn nghiêm trọng xảy ra rạng sáng 16/9 tại ngôi nhà 4 tầng trong ngõ Văn Cao, phường Tây Hồ, Hà Nội, khiến 5 người thiệt mạng, gây chấn động dư luận.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/chay-nha-o-ha-noi-5-nguoi-chet-5120735.html"
+      },
+      {
+        "title": "☔ Website 'Nước lên' gây sốt, cứu cánh ngày ngập lụt Hà Nội",
+        "desc": "Một website do cựu sinh viên công nghệ tạo ra, 'Nước lên', đang 'gây sốt' mạng xã hội vì cung cấp giải pháp hữu ích cho người dân Hà Nội trong những ngày ngập lụt.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNS2ZzSTFoRjNWTHhTSFpicTF0aTFXV1hESzJDZ3lQbXp2WHA4MnpMeU9NLVVSTFBqMlN0cmxiR1phSWJKMHhfZlk1cmlCMVBtQVFDZUNUSKzNaMkRVdklMVTVPSEZCT3dNLTdMNFladU16WXFuRXJiQ3JpNkpNTE51RWRidkllLThPWlJSanBtZ0xfbmY0a1ktREpCOURPOHVWR21QTUVkcENrRExxcldLUTQ2bVlGVEdlY3Ywcm1XTWI0b0dDalh4UEtmZVhHWlRtcWJzS3VEUQ?oc=5"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": []
+  },
+  {
     "weekLabel": "Tuần 37/2026",
     "fromDate": "2026-09-07",
     "toDate": "2026-09-13",
@@ -521,40 +565,6 @@
     "toDate": "2026-04-27",
     "highlights": [],
     "topRepos": [],
-    "topGaming": [],
-    "news": [],
-    "gamingNews": [],
-    "topNews": [],
-    "repos": []
-  },
-  {
-    "weekLabel": "Tuần 17/2026",
-    "fromDate": "2026-04-17",
-    "toDate": "2026-04-23",
-    "highlights": [],
-    "topRepos": [
-      {
-        "name": "anthropics/claude-code",
-        "url": "https://github.com/anthropics/claude-code",
-        "desc": "Công cụ lập trình agentic CLI chính thức của Anthropic, tiếp tục là tâm điểm với nhiều cập nhật và tính năng mới trong tuần này.",
-        "stars": "N/A",
-        "verdict": "yes"
-      },
-      {
-        "name": "webfuse-com/awesome-claude",
-        "url": "https://github.com/webfuse-com/awesome-claude",
-        "desc": "Danh sách tuyển chọn các tài nguyên và công cụ tuyệt vời liên quan đến Claude, được cập nhật thường xuyên và rất hữu ích cho cộng đồng.",
-        "stars": "N/A",
-        "verdict": "yes"
-      },
-      {
-        "name": "alirezarezvani/claude-skills",
-        "url": "https://github.com/alirezarezvani/claude-skills",
-        "desc": "Kho lưu trữ khổng lồ với hơn 232 kỹ năng và plugin agent cho Claude Code, cung cấp khả năng mở rộng mạnh mẽ cho các tác nhân AI.",
-        "stars": "N/A",
-        "verdict": "yes"
-      }
-    ],
     "topGaming": [],
     "news": [],
     "gamingNews": [],
