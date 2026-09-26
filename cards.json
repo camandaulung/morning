@@ -1,5 +1,200 @@
 [
   {
+    "date": "2026-09-26",
+    "dayLabel": "Thứ Bảy",
+    "dateLabel": "26/09/2026",
+    "entertainment": [
+      {
+        "title": "⭐ Đen Vâu hoài niệm tuổi trẻ cơ cực",
+        "desc": "Rapper Đen Vâu bất ngờ chia sẻ về quá khứ làm công nhân vệ sinh môi trường tại Hạ Long, khiến nhiều fan xúc động.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/rapper-den-vau-nho-tuoi-tre-co-cuc-tai-ha-long-5123434.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/25/wm1-wm1-1790355175-4600-1790355197.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=at2KPCXR84D6ax3xEVVizg"
+      },
+      {
+        "title": "🎬 Điện ảnh Việt: Hút khách nhưng 'dễ dãi'?",
+        "desc": "Phim Việt đang thu hút doanh thu vượt bom tấn Hollywood nhưng nhiều đề tài đời sống bị lặp lại, đôi khi 'dễ dãi'.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/xu-huong-binh-dan-cua-dien-anh-viet-5122126.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/19/tran-thanh-phim-viet-178978529-2145-3312-1789785386.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=GApX2UcoyAsJBtfUyJdblA"
+      },
+      {
+        "title": "⭐ Jungkook (BTS) gây tranh cãi visual",
+        "desc": "Loạt ảnh chưa chỉnh sửa của Jungkook (BTS) đang là chủ đề tranh cãi căng thẳng trên mạng xã hội X.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "26/09·Kenh14",
+        "url": "https://kenh14.vn/boc-tran-visual-jungkook-bts-qua-anh-chua-chinh-sua-co-dep-nhu-mo-215260925221535697.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/25/2yu3-1790331190658301024245-0-0-418-669-crop-17903311976661756679903-1790349199657-1790349200668396988271-0-0-477-763-crop-17903492662591649998730.jpg"
+      },
+      {
+        "title": "🎬 Phim 18+ Hàn Quốc 23 năm vẫn 'đỉnh'",
+        "desc": "Dù ra mắt 23 năm, 'Nỗi Ô Nhục Họ Cho' vẫn đủ sức lấn át màn tái xuất của Son Ye Jin, gây sốt trở lại.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "26/09·Kenh14",
+        "url": "https://kenh14.vn/phim-18-noi-o-nhuc-ho-cho-cai-bong-23-nam-tuoi-ma-son-ye-jin-ji-chang-wook-khong-the-dap-do-215260926000801339.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/25/thiet-ke-chua-co-ten-2-235518-1790355571614-1790355573064338372286-11-17-600-960-crop-17903556915591320578285.jpg"
+      },
+      {
+        "title": "⭐ Quách Ngọc Tuyên báo hiếu cha mẹ",
+        "desc": "Diễn viên Quách Ngọc Tuyên xúc động chia sẻ đã hoàn thành tâm nguyện xây ngôi nhà 10 phòng ở quê cho cha mẹ dưỡng già.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/quach-ngoc-tuyen-toi-hanh-phuc-khi-xay-nha-bao-hieu-cha-me-5124817.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/25/quach-ngoc-tuyen-1790335911-3695-1790336888.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dd2mueFtGJm5pQbcHYy-kg"
+      }
+    ],
+    "trending": [
+      {
+        "title": "🎵 Concert 'Thanh âm Lên đàng' hút 100.000 thanh niên",
+        "desc": "Concert 'Thanh âm Lên đàng' tại TP.HCM dự kiến thu hút hơn 100.000 thanh niên với dàn nghệ sĩ trending.",
+        "tag": "music",
+        "tagLabel": "🎵 NHẠC",
+        "source": "26/09·Thanh Niên",
+        "url": "https://thanhnien.vn/concert-thanh-am-len-dang-co-gi-ma-du-kien-hut-hon-100000-thanh-nien-tphcm-185260925220436529.htm",
+        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/25/tnw-dai-nhac-hoi-hua-hen-se-bung-no-sac-mau-thanh-nien-tphcmanh-nu-vuong-17903483469771321451780-0-83-588-1024-crop-17903556307731398110595.jpg"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Mẹ bỉm sữa Sơn La giảm 18kg mỡ thừa",
+        "desc": "Bùi Thị Hồng Nhung, 25 tuổi, đã giảm thành công 18kg từ gần 74kg xuống 56kg nhờ ăn thâm hụt calo và tập luyện tại nhà.",
+        "detail": "Sau khi tăng cân mất kiểm soát và phải nhập viện vì khó thở, Hồng Nhung đã quyết tâm thay đổi. Cô kiên trì áp dụng chế độ ăn thâm hụt calo, kết hợp các bài tập tại nhà. Câu chuyện của cô là nguồn cảm hứng cho nhiều mẹ bỉm sữa khác, chứng minh rằng với sự quyết tâm, ai cũng có thể đạt được vóc dáng mong muốn và cải thiện sức khỏe.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/cach-an-giup-me-bim-sua-son-la-trut-bo-18-kg-mo-thua-5123036.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/21/807888059-n-1789995358-8296-1789995609.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=RSAT8cXi_Bxpgi9uuLRMYw"
+      },
+      {
+        "title": "💪 Cảnh báo thói quen 'lành mạnh' hủy hoại thận",
+        "desc": "Chuyên gia Mỹ cảnh báo việc ăn quá nhiều đạm, tưởng chừng lành mạnh, có thể âm thầm hủy hoại thận.",
+        "detail": "Nhiều người lầm tưởng rằng càng ăn nhiều đạm thì càng tốt cho sức khỏe, đặc biệt là trong các chế độ ăn kiêng. Tuy nhiên, các chuyên gia từ Mỹ khuyến cáo thói quen này nếu kéo dài có thể gây áp lực lớn lên thận, dẫn đến suy giảm chức năng thận nghiêm trọng. Bạn nên cân bằng lượng đạm nạp vào cơ thể để bảo vệ sức khỏe thận lâu dài.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/chuyen-gia-my-canh-bao-thoi-quen-tuong-lanh-manh-am-tham-huy-hoai-than-5124487.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/25/screenshot-at-1790295643-6270-1790295737.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=7cHDS3YkC5A3rjaOdZP31w"
+      },
+      {
+        "title": "✈️ 'Con đường mùa thu' TP.HCM hút khách check-in",
+        "desc": "Hàng cây lộc vừng dọc kênh Nhiêu Lộc - Thị Nghè chuyển màu lá, thu hút hàng trăm khách đến tham quan và chụp ảnh.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "25/09·VnExpress",
+        "url": "https://vnexpress.net/do-xo-di-check-in-con-duong-mua-thu-o-tp-hcm-5124766.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/25/2HGb6FCMp7PBOvMDDCnNpAKm0ISN7NfZUnK4-1790322861.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=HRkdCufK_MBxK5Iy8Et0mA"
+      },
+      {
+        "title": "🍜 Hải sản nấu chín để tủ lạnh được bao lâu?",
+        "desc": "Hải sản nấu chín như tôm, cua, mực... có thể bảo quản trong tủ lạnh từ 3-4 ngày nếu đúng cách.",
+        "detail": "Để đảm bảo an toàn thực phẩm, hải sản nấu chín nên được cho vào hộp kín và bảo quản trong ngăn mát tủ lạnh càng sớm càng tốt sau khi nguội. Thời gian tối đa là 3-4 ngày. Nếu muốn giữ lâu hơn, bạn có thể đông lạnh, nhưng chất lượng và hương vị có thể bị ảnh hưởng. Luôn kiểm tra mùi và màu sắc trước khi ăn để tránh ngộ độc.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/hai-san-nau-chin-de-duoc-bao-lau-5124051.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/24/buoc-1790214323-3259-1790214330.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=I5kOBBxoa1lWaVpISl3J6A"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "🏙️ TP.HCM sắp hoàn thành dự án chống ngập 10.000 tỷ",
+        "desc": "Dự án chống ngập 10.000 tỷ đồng cho 6,5 triệu dân TP.HCM đạt 95% tiến độ, dự kiến về đích vào tháng 11.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "26/09·VnExpress",
+        "url": "https://vnexpress.net/du-an-chong-ngap-cho-6-5-trieu-dan-tp-hcm-truoc-ngay-ve-dich-5124086.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/26/wm1-dsc08711-1790385831.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bkwIlBy9jBwf9zn5xU_FHQ"
+      },
+      {
+        "title": "📜 Cả nước giảm 41.511 thôn, tổ dân phố",
+        "desc": "Việt Nam đã giảm 41.511 thôn, tổ dân phố, đồng thời thu được hơn 452.000 tỷ đồng bảo hiểm xã hội.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "26/09·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/tin-tuc-sang-26-9-ca-nuoc-giam-41511-thon-to-dan-pho-bao-hiem-xa-hoi-thu-duoc-hon-452000-ti-dong-100260925220059216.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/25/base64-17836786243082459930-1790348209553894904322-93-0-1343-2000-crop-17903496782671790630888.jpeg"
+      },
+      {
+        "title": "📜 Ông Lương Hoàng Thái làm Thứ trưởng Công Thương",
+        "desc": "Ông Lương Hoàng Thái, Cục trưởng Phòng vệ thương mại, được bổ nhiệm giữ chức Thứ trưởng Bộ Công Thương.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "25/09·VnExpress",
+        "url": "https://vnexpress.net/ong-luong-hoang-thai-lam-thu-truong-cong-thuong-5124868.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/25/wm6-wm6-17903273147973900204836532-6322-2137-1790338452.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Kto2HiKvHZW9P5YfuK-sHg"
+      },
+      {
+        "title": "💼 Nông sản Việt cần tìm đầu ra trước khi sản xuất",
+        "desc": "Phó Thủ tướng Thường trực Phạm Gia Túc yêu cầu ngành nông nghiệp thay đổi tư duy, tìm thị trường trước khi quy hoạch sản xuất.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "25/09·VnExpress",
+        "url": "https://vnexpress.net/pho-thu-tuong-nong-san-viet-can-tim-dau-ra-truoc-khi-san-xuat-5124834.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/25/wm31-wm31-base641790318728796129689-8625-4806-1790331031.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=3Onr56FCKZPegQF8lDuv2A"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🚀 Meta biến AI thành móc chìa khóa",
+        "desc": "Meta đang thử nghiệm đưa trợ lý AI ra khỏi màn hình điện thoại bằng một thiết bị nhỏ gọn như móc chìa khóa.",
+        "detail": "Tham vọng của Meta là biến AI thành một giao diện luôn hiện diện bên người dùng, không chỉ giới hạn trong smartphone. Thiết bị AI dạng móc chìa khóa này cho thấy một hướng đi mới trong công nghệ, nơi AI có thể trở thành một phần không thể thiếu trong cuộc sống hàng ngày, hỗ trợ người dùng mọi lúc mọi nơi mà không cần đến màn hình. Đây có thể là cuộc chơi mới sau kỷ nguyên smartphone.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "26/09·GenK",
+        "url": "https://genk.vn/meta-bien-ai-thanh-mon-do-moc-chia-khoa-lieu-day-co-tro-thanh-cuoc-choi-moi-sau-smartphone-165260926081030073.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/26/avatar1790384991363-17903849918261224791283.png"
+      },
+      {
+        "title": "⭐ AirPods cuối cùng có EQ tùy chỉnh",
+        "desc": "Sau nhiều năm chờ đợi, AirPods cuối cùng cũng được trang bị tính năng EQ tùy chỉnh 3 dải, không cần app bên thứ ba.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "26/09·Tinhte",
+        "url": "https://tinhte.vn/thread/airpods-cuoi-cung-cung-co-eq-tuy-chinh-du-chi-la-3-dai.4179609/"
+      },
+      {
+        "title": "🤖 VNPT và Qualcomm mở rộng hợp tác AI biên",
+        "desc": "VNPT và Qualcomm Technologies mở rộng hợp tác chiến lược, thúc đẩy đổi mới AI biên tại Việt Nam.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "25/09·GenK",
+        "url": "https://genk.vn/vnpt-va-qualcomm-technologies-mo-rong-hop-tac-chien-luoc-thuc-day-doi-moi-ai-bien-165260925193018625.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/25/photo1790313257312-1790313257694447981062-1790339422523405659676.jpg"
+      }
+    ],
+    "finance": [
+      {
+        "title": "🪙 Người mua vàng SJC từ đầu năm 'lỗ nặng'",
+        "desc": "Giá vàng miếng SJC giảm 24,5% so với đỉnh cuối tháng 1, khiến người mua lỗ gần 50 triệu đồng/lượng nếu bán ra.",
+        "detail": "Thị trường vàng trong nước chứng kiến sự sụt giảm mạnh của giá vàng miếng SJC. So với mức đỉnh thiết lập hồi cuối tháng 1, giá vàng đã 'bốc hơi' 24,5%, tương đương gần 50 triệu đồng mỗi lượng. Điều này gây thiệt hại lớn cho những nhà đầu tư mua vàng ở vùng giá cao, đặc biệt là trong bối cảnh mối lo lãi suất cao hơn kéo dài đang khiến giá vàng toàn cầu tụt dốc.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "26/09·CafeBiz",
+        "url": "https://cafebiz.vn/nguoi-mua-vang-tu-dau-nam-lo-hay-lai-176260926073857758.chn",
+        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/9/26/avatar1790383082103-17903830829201630841096.jpg"
+      },
+      {
+        "title": "💼 VietinBank Capital nâng sở hữu Xếp dỡ Hải An",
+        "desc": "VietinBank Capital đã nâng sở hữu lên hơn 17% vốn Xếp dỡ Hải An (HAH) sau khi mua vào 15 triệu cổ phiếu.",
+        "detail": "Trong phiên giao dịch ngày 23/9/2026, VietinBank Capital đã mua vào một lượng lớn cổ phiếu HAH, đưa tổng tỷ lệ sở hữu lên 17,2%. Động thái này cho thấy sự tin tưởng của quỹ đầu tư vào tiềm năng tăng trưởng của ngành logistics và vận tải biển, đặc biệt là với một doanh nghiệp có vị thế như Xếp dỡ Hải An. Đây có thể là tín hiệu tích cực cho các nhà đầu tư quan tâm đến nhóm cổ phiếu cảng biển.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "26/09·CafeF",
+        "url": "https://cafef.vn/vietinbank-capital-nang-so-huu-vuot-17-von-xep-do-hai-an-188260926075706686.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/26/avatar1790384173829-1790384175176180765508.jpg"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-09-25",
     "dayLabel": "Thứ Sáu",
     "dateLabel": "25/09/2026",
@@ -12716,429 +12911,6 @@
         "source": "28/08·CafeF",
         "url": "https://cafef.vn/chung-khoan-an-binh-huong-ung-xu-huong-ha-lai-suat-trien-khai-margin-69-plus-188260828164715764.chn",
         "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/8/28/photo1787903427431-17879034276231864438634-17879104385312083484058.png",
-        "addedEvening": true
-      }
-    ],
-    "sports": [],
-    "eveningDone": true,
-    "eveningNotified": true
-  },
-  {
-    "date": "2026-08-27",
-    "dayLabel": "Thứ Năm",
-    "dateLabel": "27/08/2026",
-    "entertainment": [
-      {
-        "title": "💖 Hoàng Oanh và thủ môn Lê Giang Patrik công khai tình cảm",
-        "desc": "MC Hoàng Oanh và bạn trai tin đồn, thủ môn Lê Giang Patrik, đã chính thức công khai mối quan hệ bằng nụ hôn ngọt ngào ngay trên sân Mỹ Đình sau chiến thắng của tuyển Việt Nam.",
-        "detail": "Sau nhiều đồn đoán, cặp đôi đã không ngần ngại trao nhau nụ hôn ăn mừng chức vô địch ASEAN Cup 2026 của đội tuyển Việt Nam. Hình ảnh này nhanh chóng lan truyền, xác nhận hạnh phúc mới của Hoàng Oanh và nhận được nhiều lời chúc phúc từ người hâm mộ. Đây là một khoảnh khắc đáng nhớ, không chỉ cho bóng đá mà còn cho chuyện tình cảm của Vbiz.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "27/08·VnExpress, Kênh14",
-        "url": "https://kenh14.vn/mc-hoang-oanh-va-le-giang-patrik-hon-nhau-an-mung-viet-nam-vo-dich-215260827084911571.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/avatar1787795184540-17877951848881326634157.gif"
-      },
-      {
-        "title": "🎬 Tài tử 'Ở Nhà Một Mình' đột ngột qua đời",
-        "desc": "Nam diễn viên nổi tiếng với vai diễn trong phim 'Ở Nhà Một Mình' đã qua đời đột ngột vào sáng nay, gây sốc lớn cho người hâm mộ toàn cầu.",
-        "detail": "Thông tin về sự ra đi của tài tử này đang khiến cộng đồng mạng và giới giải trí bàng hoàng. Dù chưa có thông tin chi tiết về nguyên nhân, đây là một mất mát lớn đối với những khán giả đã gắn bó với các tác phẩm kinh điển của anh. Nhiều người đang bày tỏ sự tiếc thương và hoài niệm về những ký ức tuổi thơ gắn liền với bộ phim.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "27/08·Kênh14",
-        "url": "https://kenh14.vn/tai-tu-o-nha-mot-minh-qua-doi-dot-ngot-trong-sang-27-8-21526082708430993.chn"
-      },
-      {
-        "title": "✈️ Tuấn Hưng quyết định đưa 3 con sang Mỹ sinh sống",
-        "desc": "Ca sĩ Tuấn Hưng vừa gây chú ý khi chia sẻ trên Facebook về quyết định đưa cả ba con sang Mỹ học tập và sinh sống.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "27/08·Kênh14",
-        "url": "https://kenh14.vn/tuan-hung-mang-3-con-sang-my-song-215260827074743859.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/avatar1787791560326-1787791560945409535058-13-0-388-600-crop-17877916294421525279310.jpg"
-      },
-      {
-        "title": "🕵️‍♀️ Á hậu Việt làm mẹ đơn thân vướng tin hẹn hò cầu thủ",
-        "desc": "Một Á hậu 9x từng làm mẹ đơn thân đang gây xôn xao khi vướng tin đồn hẹn hò với một cầu thủ điển trai, và cô đã xác nhận có tình yêu mới vào Lễ tình nhân 2026.",
-        "detail": "Câu chuyện tình cảm của Á hậu này thu hút sự quan tâm lớn từ công chúng, đặc biệt là sau khi cô trải qua giai đoạn làm mẹ đơn thân. Việc cô xác nhận có tình yêu mới với cầu thủ điển trai cho thấy cuộc sống của cô đang bước sang một trang mới, đầy hạnh phúc và hy vọng. Netizen đang tích cực 'soi' và chúc phúc cho cặp đôi này.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "27/08·Kênh14",
-        "url": "https://kenh14.vn/a-hau-viet-lam-me-don-than-sinh-con-khong-co-chong-ben-canh-nay-vuong-tin-hen-ho-cau-thu-dien-trai-21526082708420993.chn"
-      },
-      {
-        "title": "⭐ Chương Tử Di: Mập lên chứ không 'dao kéo'!",
-        "desc": "Minh tinh Chương Tử Di vừa lên tiếng phủ nhận tin đồn phẫu thuật thẩm mỹ, khẳng định gương mặt căng tròn là do tăng cân.",
-        "detail": "Sau nhiều lời bàn tán về sự thay đổi trên gương mặt, Chương Tử Di đã chính thức giải thích. Cô cho biết việc tăng cân khiến gương mặt cô trông đầy đặn hơn, chứ không phải do tiêm botox hay chỉnh sửa. Nữ diễn viên cũng chia sẻ cô đang nuôi con gái riêng của chồng cũ từ năm 8 tuổi đến nay đã 18 tuổi, cho thấy cuộc sống gia đình hạnh phúc.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/chuong-tu-di-guong-mat-toi-thay-doi-do-map-5114174.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/27/toptudi1-1787821556-2366-1787822182.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=USQwdnL2Q-YaTfnULya-cw",
-        "addedEvening": true
-      },
-      {
-        "title": "🎬 Phim Trung Quốc gây sốc với cảnh 18+ nóng bỏng",
-        "desc": "Một bộ phim Trung Quốc đang gây xôn xao vì những cảnh 18+ táo bạo đến mức diễn viên chính xem lại cũng phải ngượng.",
-        "detail": "Khán giả không khỏi bất ngờ khi một bộ phim Trung Quốc lại có những phân cảnh nóng bỏng đến vậy, phá vỡ định kiến về phim ảnh nước này. Đôi diễn viên chính khi xem lại còn tỏ ra ngượng ngùng, thậm chí nhà gái phải lấy tay bịt mắt. Điều này đang tạo nên làn sóng tranh cãi và bàn luận sôi nổi trên các diễn đàn phim ảnh.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "27/08·Kenh14",
-        "url": "https://kenh14.vn/khong-dam-tin-phim-trung-quoc-lai-co-canh-18-nong-co-nay-doi-chinh-xem-lai-con-nguong-nha-gai-lay-tay-bit-mat-215260827171551241.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/avatar1787825545376-17878255457491206697745-33-0-430-635-crop-17878256495631453076184.gif",
-        "addedEvening": true
-      },
-      {
-        "title": "🎵 Ca khúc Việt đạt 2 tỷ view, cứ viral là cả nước đổ mưa!",
-        "desc": "Một ca khúc Việt Nam vừa cán mốc 2 tỷ lượt xem sau 4 năm, trở thành hiện tượng mỗi khi viral là y như rằng trời mưa.",
-        "detail": "Đây là một thành tích nhạc số đáng nể mà ít ca sĩ Việt nào đạt được. Dù đã ra mắt 4 năm, bài hát vẫn liên tục lội ngược dòng và gây sốt trở lại, đặc biệt là với 'lời nguyền' cứ viral là cả nước lại đổ mưa. Chủ nhân ca khúc có lẽ không cần làm gì nhiều vẫn có thể ổn định cuộc sống nhờ nguồn thu khủng từ nhạc số.",
-        "tag": "music",
-        "tagLabel": "🎵 MUSIC",
-        "source": "27/08·Kenh14",
-        "url": "https://kenh14.vn/ca-khuc-viet-vua-dat-2-ty-view-sau-4-nam-loi-nguoc-dong-ngoan-muc-cu-viral-la-ca-nuoc-do-mua-215260827182826398.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/ava-tbtr-480-20-1787819777992748470287-1787829907132-17878299077141298812510.gif",
-        "addedEvening": true
-      },
-      {
-        "title": "⭐ Kim Soo Hyun thắng kiện 10,7 tỷ đồng sau 1,5 năm ở ẩn",
-        "desc": "Nam tài tử Kim Soo Hyun đã giành chiến thắng trong vụ kiện trị giá 10,7 tỷ đồng, đánh dấu sự trở lại mạnh mẽ sau thời gian ở ẩn.",
-        "detail": "Sau hơn một năm rưỡi vắng bóng khỏi showbiz vì những cáo buộc hẹn hò trẻ vị thành niên, Kim Soo Hyun đang dần lấy lại vị thế. Việc thắng kiện với số tiền lớn không chỉ giúp anh minh oan mà còn mở đường cho các hoạt động nghệ thuật sắp tới. Người hâm mộ đang rất mong chờ sự trở lại chính thức của nam diễn viên.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "27/08·Kenh14",
-        "url": "https://kenh14.vn/kim-soo-hyun-thang-lon-trong-vu-kien-107-ty-dong-215260827182006147.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/ns-agency-wins-570-million-lawsuit-over-mido-contract-deposit-1-17878245685411878781910-1787829423677-17878294257541691121910-9-0-846-1339-crop-1787829487434118789715.png",
-        "addedEvening": true
-      },
-      {
-        "title": "📺 Nửa showbiz hội tụ chúc mừng Phương Mỹ Chi",
-        "desc": "Phương Mỹ Chi vừa tổ chức sự kiện hoành tráng quy tụ nửa showbiz Việt, với sự góp mặt của Tóc Tiên, Chi Pu, Phương Ly và nhiều nghệ sĩ khác.",
-        "detail": "Sự kiện của Phương Mỹ Chi đã trở thành tâm điểm khi hàng loạt sao Việt đình đám cùng tề tựu. Tóc Tiên, Chi Pu, Phương Ly gây ấn tượng với visual 'dân chơi' khét lẹt, cho thấy sự ủng hộ nhiệt tình dành cho 'cô bé dân ca' ngày nào. Đây là minh chứng cho sức ảnh hưởng và mối quan hệ rộng rãi của Phương Mỹ Chi trong làng giải trí.",
-        "tag": "show",
-        "tagLabel": "📺 SHOW",
-        "source": "27/08·Kenh14",
-        "url": "https://kenh14.vn/nua-showbiz-hoi-tu-vi-phuong-my-chi-toc-tien-chi-pu-phuong-ly-khoe-visual-dan-choi-khet-let-215260827192742278.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/thumb-6-17878344274631569464077.gif",
-        "addedEvening": true
-      }
-    ],
-    "trending": [
-      {
-        "title": "📱 KOL Summit 2026: Định hình vai trò mới của người ảnh hưởng",
-        "desc": "Hội nghị KOL Summit 2026 đang diễn ra, tập trung vào việc định vị lại vai trò của người ảnh hưởng trong hệ sinh thái số, không chỉ là tạo nội dung mà còn kiến tạo niềm tin.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "27/08·Kênh14",
-        "url": "https://kenh14.vn/kol-summit-2026-co-gi-he-lo-noi-dung-hoi-nghi-va-chuoi-hoat-dong-dang-chu-y-215260826235452174.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/26/avatar1787763082314-17877630829331842665893.png"
-      },
-      {
-        "title": "🍜 'Quán bánh Huế dưới tán mít' gây sốt mạng xã hội",
-        "desc": "Một quán bánh Huế với không gian đẹp như tranh vẽ, dưới tán cây mít cổ thụ, đang 'gây bão' trên mạng xã hội và thu hút đông đảo thực khách.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "26/08·Thanh Niên",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGh3ODNwMm5wZWF4V0pxWmZXYnNGSkpIYkd1ejJfX1Btb3lSWXlKblE3MmVmdFZ3cnlWWE1iODFtM2FLMFFZQzllemgxSFlRWDlwX2ZIeEoyaXY3STUwYWUwUmdiMENON1hTa0VLd1BKVGJmNUt1a1pOQWI0dkpjME9SVERjLXd1SGcxZHZPdTNrdFhZX1NoZXZNS3U5N25zQTRoSG9MRmVfN0otMURjLWFjNA?oc=5"
-      },
-      {
-        "title": "🔥 Đình Bắc 'hot' nhất mạng xã hội sau ASEAN Cup",
-        "desc": "Cầu thủ Đình Bắc đang là cái tên được nhắc đến nhiều nhất trên mạng xã hội sau chiến thắng của đội tuyển Việt Nam tại ASEAN Cup.",
-        "detail": "Sau màn trình diễn ấn tượng và góp công lớn vào chức vô địch ASEAN Cup 2026 của đội tuyển Việt Nam, Đình Bắc bỗng chốc trở thành hiện tượng mạng. Từ những khoảnh khắc trên sân cỏ đến đời tư, mọi thông tin về anh đều được dân mạng săn lùng. Thậm chí, ca sĩ Nhật Kim Anh còn đăng status tag thẳng tên Đình Bắc và khoe được anh ký tặng, cho thấy sức hút không thể chối từ của chàng cầu thủ trẻ.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "27/08·Tiền Phong",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zSjl4S1F2cmtoNmlQajNSeWpQM3pGdFRZVDlpbjhBaWR0Z0RXc3UtN3plcUk2bURSR2FoaGdYYW95aFRSNkxPb0hoYVdwS0htem1IMEF2RkZ4Q2JqVzE0SEpwVDVvTTRlRGJsd0Zra2lKWFU3?oc=5",
-        "addedEvening": true
-      },
-      {
-        "title": "☕ Giới trẻ 'chill' tại quầy NESCAFÉ ở Fandom Yêu Nước",
-        "desc": "Quầy NESCAFÉ tại sự kiện Fandom Yêu Nước đã trở thành điểm đến 'cực chill' cho giới trẻ nạp năng lượng trong concert 'Tổ Quốc Trong Tim'.",
-        "detail": "Trong không khí sôi động của concert 'Tổ Quốc Trong Tim' tại phố đi bộ Nguyễn Huệ, quầy NESCAFÉ đã thu hút đông đảo bạn trẻ ghé thăm. Đây là 'trạm dừng chân' lý tưởng để nạp năng lượng, giao lưu và tận hưởng những khoảnh khắc đáng nhớ. Sự kiện này không chỉ tạo không gian giải trí mà còn kết nối cộng đồng yêu nước, thể hiện tinh thần nhiệt huyết của giới trẻ Việt.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "27/08·Kenh14",
-        "url": "https://kenh14.vn/gioi-tre-do-bo-quay-nescafe-nap-nang-luong-cuc-chill-tai-fandom-yeu-nuoc-215260827111300309.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/27/avatar1787803630600-1787803631361325502826.png",
-        "addedEvening": true
-      }
-    ],
-    "gaming": [],
-    "lifestyle": [
-      {
-        "title": "💪 5 thói quen đơn giản giúp sống lâu, khỏe mạnh",
-        "desc": "Các bác sĩ tiết lộ 5 thói quen nhỏ hàng ngày như ngồi bệt, giữ vệ sinh răng miệng, theo dõi nhịp tim, đứng một chân và đi bộ nhanh có thể kéo dài tuổi thọ.",
-        "detail": "Những thói quen này nghe có vẻ đơn giản nhưng lại có tác động lớn đến sức khỏe tổng thể và tuổi thọ. Ví dụ, ngồi bệt giúp tăng cường sự linh hoạt, đứng một chân cải thiện khả năng giữ thăng bằng, và đi bộ nhanh giúp tăng cường sức khỏe tim mạch. Việc duy trì những thói quen này mỗi ngày có thể giúp bạn sống khỏe mạnh và năng động hơn trong dài hạn.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/bac-si-tiet-lo-5-thoi-quen-don-gian-giup-song-lau-khoe-manh-5113625.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/26/dsc01201-jpg-1787727330-1255-1787736031.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Pdc9rsbmd7E14SHNS_dnrw"
-      },
-      {
-        "title": "⚠️ Coi chừng 'rước bệnh' vì uống nước muối 'thanh lọc cơ thể' theo TikTok",
-        "desc": "Nhiều người, trong đó có chị Hà 32 tuổi, đã phải nhập viện vì rối loạn điện giải và kích ứng tiêu hóa do uống nước muối pha ấm để 'thải độc' theo các video TikTok.",
-        "detail": "Trào lưu 'thanh lọc cơ thể' bằng nước muối trên TikTok đang tiềm ẩn nhiều rủi ro sức khỏe. Các chuyên gia y tế cảnh báo việc uống nước muối không đúng cách có thể gây mất cân bằng điện giải nghiêm trọng, ảnh hưởng đến chức năng thận và hệ tiêu hóa. Bạn nên tham khảo ý kiến bác sĩ trước khi áp dụng bất kỳ phương pháp thải độc nào để tránh những hậu quả đáng tiếc.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/mat-tien-ruoc-benh-vi-uong-nuoc-muoi-thanh-loc-co-the-5112551.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/24/nu-o-c-muo-i-1787538899-2464-1787561996.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WpMvdtRj01lHghtJv7HyMw"
-      },
-      {
-        "title": "🍚 3 sai lầm bảo quản cơm thừa dễ gây hại sức khỏe",
-        "desc": "Để cơm thừa bên ngoài quá lâu, cho cơm quá nóng vào tủ lạnh hoặc hâm đi hâm lại nhiều lần là 3 sai lầm phổ biến dễ khiến vi khuẩn phát triển, gây hại sức khỏe.",
-        "detail": "Cơm là món ăn quen thuộc nhưng việc bảo quản không đúng cách có thể biến nó thành nguồn gây bệnh. Vi khuẩn Bacillus cereus có thể phát triển nhanh chóng trong cơm để nguội, sản sinh độc tố gây ngộ độc thực phẩm. Để đảm bảo an toàn, bạn nên làm nguội cơm nhanh chóng trước khi cho vào tủ lạnh, và chỉ hâm nóng một lần, tránh hâm đi hâm lại nhiều lần.",
-        "tag": "food",
-        "tagLabel": "🍜 FOOD",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/3-sai-lam-bao-quan-com-thua-tuong-vo-hai-de-ruoc-benh-5113024.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/25/z5797596297568c753bcd4b108-178-1980-8860-1787647123.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=6nMOjP2mQRREU93jFdonOA"
-      },
-      {
-        "title": "😴 4 loại trái cây giúp bạn ngủ ngon hơn vào buổi tối",
-        "desc": "Trái anh đào, xoài, chuối và kiwi là những loại trái cây chứa melatonin cùng các dưỡng chất liên quan đến giấc ngủ, có thể giúp bạn ngon giấc hơn.",
-        "detail": "Nếu bạn thường xuyên gặp khó khăn trong việc đi vào giấc ngủ, việc bổ sung những loại trái cây này vào bữa tối có thể là một giải pháp tự nhiên hiệu quả. Melatonin là hormone điều hòa giấc ngủ, và các dưỡng chất khác như magiê, kali trong chuối hay vitamin C trong kiwi cũng góp phần thư giãn cơ thể và tinh thần. Hãy thử thêm chúng vào thực đơn buổi tối để cải thiện chất lượng giấc ngủ nhé!",
-        "tag": "wellness",
-        "tagLabel": "🧘 WELLNESS",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/4-loai-trai-cay-an-vao-buoi-toi-giup-ngu-ngon-hon-5113212.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/25/chuoi-1787643644.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=WwH3xArK8a0buGBSos6qSg"
-      },
-      {
-        "title": "💪 Thai nhi nhỏ nhất được sửa dị tật tim trong bụng mẹ",
-        "desc": "Một thai nhi 26 tuần tuổi đã được các bác sĩ can thiệp thành công dị tật tim ngay từ trong bụng mẹ, mở ra hy vọng sống mới.",
-        "detail": "Đây là một ca phẫu thuật hiếm gặp và đầy thử thách, khi thai nhi mới 26 tuần tuổi đã bị bít van tim, khiến buồng tim ngày càng nhỏ. Các bác sĩ đã phải khẩn cấp can thiệp xuyên tử cung mẹ để sửa chữa dị tật, giúp bé có cơ hội phát triển khỏe mạnh. Thành công của ca phẫu thuật này là một bước tiến lớn trong y học, mang lại niềm vui cho gia đình và cộng đồng.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/thai-nhi-nho-nhat-duoc-sua-di-tat-tim-tu-trong-bung-me-5114124.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/27/tho-ng-tim-jpeg-1787816643-1525-1787816716.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VkES3R8f9hhxUdhKxLsVZw",
-        "addedEvening": true
-      },
-      {
-        "title": "🍜 Cải thảo ngâm hóa chất gây ung thư: Lỗ hổng quản lý thực phẩm",
-        "desc": "Bê bối cải thảo bị nhúng hóa chất gây ung thư đang phơi bày những lỗ hổng nghiêm trọng trong quản lý thực phẩm tại Việt Nam.",
-        "detail": "Vụ việc cải thảo bị nhúng hóa chất gây ung thư không chỉ khiến người tiêu dùng hoang mang mà còn cho thấy sự thiếu sót trong kiểm định tại các chợ đầu mối và sự phối hợp lỏng lẻo giữa các cơ quan quản lý nông sản. Hàn Quốc đã ngay lập tức yêu cầu xét nghiệm formaldehyde mọi lô cải thảo nhập từ Trung Quốc. Đây là hồi chuông cảnh tỉnh về an toàn thực phẩm, đòi hỏi các cơ quan chức năng phải siết chặt quản lý để bảo vệ sức khỏe cộng đồng.",
-        "tag": "food",
-        "tagLabel": "🍜 FOOD",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/cai-thao-ngam-hoa-chat-gay-ung-thu-phoi-bay-lo-hong-quan-ly-thuc-pham-5113916.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/27/rau-1787804589-7922-1787805189.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=YTfy3qSaqfVA-1u_iaU6Tg",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ Việt Nam định vị 'du lịch MICE' là sản phẩm chiến lược",
-        "desc": "Việt Nam đang đẩy mạnh phát triển du lịch MICE (Hội nghị, Hội thảo, Khen thưởng, Triển lãm) như một sản phẩm chiến lược để nâng tầm ngành du lịch.",
-        "detail": "Với tiềm năng lớn về cảnh quan, văn hóa và cơ sở hạ tầng đang được đầu tư, Việt Nam đặt mục tiêu thu hút khách đoàn MICE. Đây là hướng đi chiến lược nhằm nâng cao chất lượng dịch vụ du lịch và mở rộng dư địa cho các điểm đến. Tuy nhiên, các chuyên gia cho rằng để 'ghi điểm' với khách MICE, Việt Nam cần bán được 'cái riêng' của mình, không chỉ dừng lại ở hạ tầng mà còn ở trải nghiệm độc đáo và chuyên nghiệp.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/viet-nam-dinh-vi-du-lich-mice-la-san-pham-chien-luoc-5114254.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/08/27/r63l0776-jpg-1787833888-4833-1787833926.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=LvI2yAq_oLfYGHIqcC-Syg",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ Hà Nội miễn phí loạt điểm tham quan dịp 2/9",
-        "desc": "Hà Nội sẽ mở cửa miễn phí nhiều danh lam thắng cảnh, di tích lịch sử và công trình văn hóa trong ngày Quốc khánh 2/9.",
-        "detail": "Đây là tin vui cho những ai muốn khám phá Thủ đô mà không tốn kém trong dịp lễ 2/9 sắp tới. Các điểm tham quan nổi tiếng sẽ được miễn phí vé vào cửa, tạo điều kiện cho người dân và du khách trải nghiệm văn hóa, lịch sử. Bên cạnh đó, các điểm đến bình yên gần Hà Nội như Hồ Mắt Ngọc, Đà Bắc, Bản Hốc cũng là lựa chọn lý tưởng cho những ai muốn tránh xa sự ồn ào của phố thị.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/ha-noi-mien-phi-loat-diem-tham-quan-ngay-2-9-5113647.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/08/27/chuahuong1-1787813488-2567-1787813502.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=XBWTTnuy6LZP6USo3lF_Yw",
-        "addedEvening": true
-      }
-    ],
-    "vietnam": [
-      {
-        "title": "⚽ Việt Nam vô địch ASEAN Cup 2026, biển người 'đi bão' xuyên đêm",
-        "desc": "Hàng chục nghìn người hâm mộ trên khắp cả nước đã đổ xuống đường 'đi bão' xuyên đêm, hò reo và vẫy cờ mừng tuyển Việt Nam vô địch ASEAN Cup 2026 sau chiến thắng trước Thái Lan.",
-        "detail": "Từ Hà Nội, TP HCM đến Hải Phòng, các tuyến phố trung tâm ngập tràn sắc đỏ của cờ Tổ quốc, tiếng kèn, trống và những bài hát cổ vũ vang dội. Đây là khoảnh khắc lịch sử, thể hiện tinh thần đoàn kết và niềm tự hào dân tộc mãnh liệt của người Việt Nam. Niềm vui chiến thắng đã lan tỏa khắp mọi ngóc ngách, tạo nên một đêm không ngủ đầy cảm xúc.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "27/08·VnExpress, Tuổi Trẻ",
-        "url": "https://vnexpress.net/di-bao-xuyen-dem-mung-viet-nam-vo-dich-5113851.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/27/wm1-bongda-1787765565.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fHJtocsgANi9lIoNgIPEVA"
-      },
-      {
-        "title": "💼 TP.HCM đề xuất lương CEO trung tâm tài chính quốc tế lên đến 850 triệu đồng/tháng",
-        "desc": "TP.HCM đề xuất mức lương CEO cho Trung tâm Tài chính Quốc tế Việt Nam (VIFC - HCMC) có thể lên đến 850 triệu đồng/tháng, theo cơ chế thị trường.",
-        "detail": "Mức lương 'khủng' này được đưa ra nhằm thu hút nhân sự cấp cao, có chuyên môn, kinh nghiệm quốc tế và am hiểu sâu rộng về lĩnh vực tài chính để vận hành VIFC - HCMC. Đây là một phần trong nỗ lực của TP.HCM nhằm xây dựng một trung tâm tài chính tầm cỡ khu vực, đòi hỏi những cá nhân xuất sắc nhất. Đề xuất này cũng phản ánh sự cạnh tranh gay gắt trong việc thu hút nhân tài ở lĩnh vực tài chính toàn cầu.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "27/08·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/tphcm-de-xuat-luong-ceo-trung-tam-tai-chinh-quoc-te-len-den-850-trieu-dong-thang-100260826232909334.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/27/anh-man-hinh-2026-08-26-luc-23-03-02-17877613783441960711362-102-326-1148-2000-crop-17877903235151259440024.png"
-      },
-      {
-        "title": "📜 TP.HCM dự kiến bắt buộc phân loại rác tại nguồn vào 2027",
-        "desc": "Sở Nông nghiệp và Môi trường TP.HCM cho biết việc phân loại rác tại nguồn dự kiến sẽ được triển khai bắt buộc trên toàn thành phố vào năm 2027.",
-        "detail": "Đây là một bước đi quan trọng nhằm giải quyết bài toán rác thải nhựa và thúc đẩy kinh tế tuần hoàn tại TP.HCM. Việc phân loại rác tại nguồn không chỉ giúp giảm lượng rác thải chôn lấp mà còn tạo điều kiện thuận lợi cho quá trình tái chế. Tuy nhiên, để thực hiện hiệu quả, cần có sự đồng bộ về hạ tầng thu gom, công nghệ tái chế và đặc biệt là ý thức của người dân.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/tp-hcm-du-kien-bat-buoc-phan-loai-rac-tai-nguon-vao-2027-5113793.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/26/wm1-wm1-233a6428-1787744073-3296-1787744482.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nzihbenm2mqKv1TCvzsOBQ"
-      },
-      {
-        "title": "🚦 Quốc lộ 26 quá tải vì 'thủ phủ' sầu riêng vào vụ",
-        "desc": "Đăk Lăk, 'thủ phủ' sầu riêng lớn nhất cả nước, đang vào chính vụ khiến Quốc lộ 26 ùn ứ nghiêm trọng do hàng loạt xe container và ôtô tải đổ về thu mua.",
-        "detail": "Tình trạng quá tải trên Quốc lộ 26 đang gây khó khăn lớn cho việc vận chuyển sầu riêng và các loại nông sản khác, ảnh hưởng đến hoạt động kinh doanh của các doanh nghiệp và người dân. Dòng xe nối dài nhiều km không chỉ làm chậm trễ quá trình lưu thông mà còn tiềm ẩn nguy cơ tai nạn giao thông. Các cơ quan chức năng đang tìm giải pháp để giảm tải và đảm bảo an toàn giao thông trong mùa vụ cao điểm này.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/thu-phu-sau-rieng-vao-vu-quoc-lo-26-qua-tai-5113377.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/26/wm1-dji-fly-photo-jpeg-1787734788.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ruo4TgESKufqKA-NMLqWBQ"
-      },
-      {
-        "title": "🚦 Hà Nội ngập nặng, giao thông rối loạn giờ tan tầm",
-        "desc": "Nhiều tuyến phố Hà Nội ngập sâu 20-40 cm trong cơn mưa giông chiều tối 27/8, gây ùn tắc kéo dài và rối loạn giao thông.",
-        "detail": "Cơn mưa lớn bất ngờ vào giờ tan tầm đã biến nhiều tuyến đường huyết mạch như Nguyễn Trãi, Cầu Giấy, Phạm Hùng, Hồ Tùng Mậu thành 'sông'. Mực nước ngập có nơi lên đến 40 cm khiến các phương tiện di chuyển khó khăn, ùn tắc kéo dài hàng giờ. Theo chuyên gia khí tượng, đây là do dải hội tụ nhiệt đới đi qua Bắc Bộ và thủ đô rơi vào vùng đối lưu phát triển mạnh. Người dân cần lưu ý tình hình thời tiết để có kế hoạch di chuyển hợp lý trong những ngày tới, đặc biệt là dịp nghỉ lễ 2/9.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/mua-lon-gio-tan-tam-giao-thong-ha-noi-roi-loan-5114244.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/27/783985024-n-1787831913-1635-1787831920.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KgvLTw-1UyjTH1SyZB30EA",
-        "addedEvening": true
-      },
-      {
-        "title": "📜 Dùng số định danh thay mã BHXH từ 1/9",
-        "desc": "Từ ngày 1/9, người dân sẽ dùng số định danh cá nhân hoặc căn cước công dân thay thế mã số bảo hiểm xã hội trong các giao dịch.",
-        "detail": "Đây là một bước tiến quan trọng trong việc số hóa và đơn giản hóa thủ tục hành chính, giúp người dân thuận tiện hơn khi thực hiện các giao dịch liên quan đến bảo hiểm xã hội. Hệ thống Bảo hiểm xã hội Việt Nam đang tập trung chuyển đổi và chuẩn hóa dữ liệu để đảm bảo việc áp dụng diễn ra suôn sẻ. Việc này cũng giúp tăng cường quản lý thông tin cá nhân và giảm thiểu sai sót.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/dung-so-dinh-danh-thay-ma-so-bao-hiem-xa-hoi-tu-ngay-1-9-5114171.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/27/IMG0290-1787821365-4970-1787821915.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=tYwSS81AwqldtSS1YsUKzQ",
-        "addedEvening": true
-      },
-      {
-        "title": "💼 Vợ ông Phạm Nhật Vượng thành người giàu thứ hai Việt Nam",
-        "desc": "Với tài sản tăng hơn 265 triệu USD, bà Phạm Thu Hương, vợ ông Phạm Nhật Vượng, đã vượt qua bà Nguyễn Thị Phương Thảo để trở thành người giàu thứ hai Việt Nam.",
-        "detail": "Sự tăng trưởng mạnh mẽ của cổ phiếu Vingroup (VIC) đã giúp tài sản của Phó chủ tịch Vingroup Phạm Thu Hương tăng vọt, đạt khoảng 35,5 tỷ USD chỉ sau một ngày. Điều này không chỉ là tin vui cho gia đình tỷ phú mà còn phản ánh đà tăng trưởng tích cực của tập đoàn. Cổ phiếu VIC cũng lập đỉnh mới, góp phần đưa vốn hóa Vingroup vượt 1,8 triệu tỷ đồng, tương đương hơn 20% tổng vốn hóa sàn HoSE.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/vo-ong-pham-nhat-vuong-tro-thanh-nguoi-giau-thu-hai-viet-nam-5114180.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/27/ba-pham-thu-huong-1787819888-2750-1787819950.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=axBd9_sCEvqP_H9Xj0kcUg",
-        "addedEvening": true
-      },
-      {
-        "title": "🏙️ Sắp khởi công loạt dự án tại sân bay quốc tế Đà Nẵng",
-        "desc": "Sân bay quốc tế Đà Nẵng sẽ khởi công cải tạo, mở rộng nhà ga T1 và sân đỗ máy bay, nâng công suất lên 14 triệu hành khách/năm.",
-        "detail": "Tổng công ty Cảng hàng không Việt Nam (ACV) cùng UBND TP Đà Nẵng vừa công bố triển khai dự án cải tạo, mở rộng nhà ga T1 và mở rộng sân đỗ máy bay giai đoạn 1. Với tổng vốn đầu tư 9.900 tỷ đồng, dự án này sẽ nâng công suất sân bay lên 14 triệu hành khách/năm, đáp ứng nhu cầu tăng trưởng hàng không và du lịch. Đây là động thái quan trọng nhằm phát triển hạ tầng giao thông, thúc đẩy kinh tế khu vực miền Trung.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/sap-khoi-cong-loat-du-an-tai-san-bay-quoc-te-da-nang-5114257.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/27/maybay-1787830363-4809-1787830418.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FQRa9vAEW8lvL8zqZAOs9Q",
-        "addedEvening": true
-      }
-    ],
-    "tech": [
-      {
-        "title": "🚀 Apple xác nhận ra mắt iPhone 18 và iPhone gập vào 9/9",
-        "desc": "Apple vừa gửi thư mời sự kiện ra mắt thế hệ iPhone 18 mới và đặc biệt là chiếc iPhone gập đầu tiên của hãng vào ngày 9/9 tới.",
-        "detail": "Đây là một tin tức cực kỳ nóng hổi, đánh dấu lần đầu tiên Apple tách lịch ra mắt iPhone, dồn toàn bộ sân khấu cho dòng Pro và mẫu gập. iPhone gập được kỳ vọng sẽ tạo ra một cuộc cách mạng trong thị trường smartphone, cạnh tranh trực tiếp với các đối thủ Android. Sự kiện 9/9 chắc chắn sẽ thu hút sự chú ý của toàn bộ giới công nghệ và người dùng trên thế giới.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "27/08·VnExpress, GenK",
-        "url": "https://genk.vn/chinh-thuc-9-9-ra-mat-iphone-moi-se-co-ca-iphone-gap-165260826232105592.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/8/26/surprise-and-shine-feature-0-104-1125-1904-crop-1787761130956956277223.jpg"
-      },
-      {
-        "title": "🤖 Thế vận hội Robot hình người 2026: Loạt kỷ lục mới và sự cố hài hước",
-        "desc": "Đại hội World Humanoid Robot Games 2026 tại Bắc Kinh đã khép lại với hàng nghìn robot hình người tham gia, thiết lập nhiều kỷ lục mới nhưng cũng không thiếu những sự cố đáng yêu.",
-        "detail": "Hơn 2.000 robot từ 666 đội đến từ 16 quốc gia đã tranh tài trong 5 ngày, thể hiện sự tiến bộ vượt bậc của công nghệ robot hình người. Bên cạnh những màn trình diễn ấn tượng, các sự cố hài hước như robot vấp ngã hay không hoàn thành nhiệm vụ đã mang lại tiếng cười và cho thấy chặng đường phát triển của AI và robot vẫn còn dài. Đây là một sân chơi quan trọng để thúc đẩy nghiên cứu và ứng dụng robot trong tương lai.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "27/08·VnExpress, Tinh Tế",
-        "url": "https://vnexpress.net/robot-hinh-nguoi-tien-xa-the-nao-tai-the-van-hoi-whrg-5113880.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/27/settophumanoidgames-1787765015-3987-1787765034.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=96sdXOnaf9STxqhTyd1Dkg&t=image"
-      },
-      {
-        "title": "🔋 Lời khuyên giúp pin Android 'sống' thêm 2 giờ",
-        "desc": "Một vài thay đổi nhỏ trong cài đặt có thể giúp người dùng Android kéo dài thời lượng pin điện thoại thêm đến 2 giờ.",
-        "detail": "Lời khuyên này tập trung vào việc tối ưu hóa các cài đặt ngầm và ứng dụng chạy nền, vốn là những 'kẻ ngốn pin' thầm lặng. Bằng cách điều chỉnh độ sáng màn hình, tắt các tính năng không cần thiết như GPS khi không dùng, hoặc hạn chế thông báo từ các ứng dụng ít quan trọng, bạn có thể cải thiện đáng kể thời lượng sử dụng pin. Đây là mẹo hữu ích giúp bạn duy trì kết nối lâu hơn mà không cần sạc.",
-        "tag": "review",
-        "tagLabel": "⭐ REVIEW",
-        "source": "27/08·GenK",
-        "url": "https://genk.vn/loi-khuyen-cho-tat-ca-nguoi-dung-android-pin-dien-thoai-co-the-cong-them-2-gio-neu-ban-biet-cach-cai-dat-165260827080844937.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/8/27/avatar1787792888043-17877928884841963164649.jpg"
-      },
-      {
-        "title": "🚀 Galaxy S26 FE ra mắt: Thiết kế cao cấp, nhiều AI, giá từ 18,99 triệu",
-        "desc": "Samsung vừa trình làng Galaxy S26 FE với thiết kế đồng bộ dòng S26, màn hình 120Hz, camera ba tiêu cự và nhiều tính năng AI, giá từ 18,99 triệu đồng.",
-        "detail": "Dòng Fan Edition của Samsung tiếp tục công thức quen thuộc: giữ lại trải nghiệm cốt lõi của Galaxy S nhưng điều chỉnh cấu hình để có mức giá dễ tiếp cận hơn. Galaxy S26 FE gây ấn tượng với màu Mint 'cưng xỉu', camera đủ dùng và One UI 9 ngon hơn. Đặc biệt, máy tích hợp nhiều tính năng AI, mang đến trải nghiệm thông minh cho người dùng. Đây là lựa chọn hấp dẫn cho những ai muốn sở hữu một chiếc smartphone cao cấp với mức giá phải chăng.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "27/08·GenK",
-        "url": "https://genk.vn/can-canh-galaxy-s26-fe-chat-galaxy-s-cao-cap-ngay-cang-ro-ret-nhieu-tinh-nang-ai-gia-tu-1899-trieu-dong-165260827202343488.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/8/27/avatar1787836873679-1787836874302830199445-64-0-1314-2000-crop-17878369953571020606754.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🌐 Internet Việt Nam bị ảnh hưởng do tuyến cáp quang biển thứ tư gặp sự cố",
-        "desc": "Sau AAE-1, AAG và IA, đến lượt tuyến cáp quang biển SJC2 gặp sự cố, khiến kết nối Internet Việt Nam đi quốc tế tiếp tục bị ảnh hưởng.",
-        "detail": "Tình trạng đứt cáp quang biển liên tục đang gây ra nhiều khó khăn cho người dùng Internet tại Việt Nam. Việc tuyến SJC2 gặp sự cố sau khi ba tuyến cáp lớn khác đã bị lỗi khiến tốc độ truy cập quốc tế chậm đi đáng kể. Điều này ảnh hưởng trực tiếp đến công việc, học tập và giải trí của hàng triệu người. Các nhà mạng đang nỗ lực khắc phục, nhưng đây cũng là lời nhắc nhở về sự cần thiết phải đa dạng hóa và tăng cường hạ tầng cáp quang biển để đảm bảo kết nối ổn định.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/tuyen-cap-quang-bien-thu-tu-gap-su-co-internet-viet-nam-bi-anh-huong-5114250.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/27/lq-1787828723-4286-1787828851.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dMScJXrb30p4fQ4N0xTSVA",
-        "addedEvening": true
-      }
-    ],
-    "finance": [
-      {
-        "title": "📈 Gần 5.600 tỷ đồng có thể chảy vào chứng khoán Việt Nam tháng tới",
-        "desc": "ACBS ước tính khoảng 5.588 tỷ đồng có thể được các quỹ thụ động mua ròng vào 27 cổ phiếu Việt Nam trong kỳ cơ cấu tháng 9/2026.",
-        "detail": "Dòng tiền lớn này được dự báo sẽ tập trung vào các nhóm vốn hóa lớn, vừa và nhỏ, mang lại kỳ vọng tích cực cho thị trường chứng khoán Việt Nam. Đặc biệt, các công ty chứng khoán cũng chỉ ra 3 bluechips có khả năng 'hút tiền' mạnh nhất. Đây là thông tin quan trọng cho các nhà đầu tư đang tìm kiếm cơ hội trong bối cảnh thị trường có dấu hiệu hồi phục và lực cầu đang dần quay trở lại.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "27/08·CafeF",
-        "url": "https://cafef.vn/gan-5600-ty-dong-co-the-chay-vao-chung-khoan-viet-nam-trong-thang-toi-ctck-chi-ra-3-bluechips-hut-tien-manh-nhat-188260826223440168.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/8/26/avatar1787758441336-17877584447192105418924.jpg"
-      },
-      {
-        "title": "🪙 Giá vàng tăng nóng, chuyên gia bất ngờ thay đổi dự báo",
-        "desc": "Giá vàng thế giới đã tăng nóng từ đầu tháng 8, khiến các chuyên gia phải điều chỉnh lại triển vọng lãi suất và dự báo về kim loại quý này.",
-        "detail": "Sau khi để mất mốc 4.600 USD/oz vào đêm qua, giá vàng đã lấy lại mốc này vào sáng nay, cho thấy sự biến động mạnh mẽ. Đà tăng của vàng được cho là do dữ liệu kinh tế không như kỳ vọng, khiến thị trường phải đánh giá lại chính sách lãi suất. Các nhà đầu tư cần theo dõi sát sao các báo cáo lạm phát và động thái của Fed để đưa ra quyết định phù hợp.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "27/08·CafeF, VnEconomy",
-        "url": "https://cafef.vn/gia-vang-tang-nong-chuyen-gia-bat-ngo-thay-doi-du-bao-188260826222647069.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/8/26/avatar1787757991009-1787757991370177425835.jpg"
-      },
-      {
-        "title": "🏠 Hiện trạng 2 khu đất hàng chục nghìn tỷ tại Thủ Thiêm",
-        "desc": "Hai khu đất đắt giá tại Thủ Thiêm, gắn liền với các giao dịch tài chính khổng lồ lên tới hàng chục nghìn tỷ đồng, đang có diễn biến rất khác nhau.",
-        "detail": "Một khu đất đã đóng hơn 17.500 tỷ đồng tiền thuế, trong khi khu còn lại có giao dịch chuyển nhượng vốn hơn 7.000 tỷ đồng. Sự khác biệt này phản ánh những thách thức và cơ hội riêng biệt trong thị trường bất động sản Thủ Thiêm. Các nhà đầu tư và người dân đang theo dõi sát sao để đánh giá tiềm năng và rủi ro của các dự án tại khu vực này, vốn được coi là trung tâm tài chính mới của TP.HCM.",
-        "tag": "realestate",
-        "tagLabel": "🏠 BĐS",
-        "source": "27/08·CafeBiz",
-        "url": "https://cafebiz.vn/hien-trang-2-khu-dat-moi-co-bien-dong-hang-chuc-nghin-ty-tai-thu-thiem-noi-dong-hon-17500-ty-tien-thue-noi-chuyen-nhuong-von-hon-7000-ty-dong-176260827075152802.chn",
-        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/8/27/avatar1787791862745-17877918640381009622411.jpg"
-      },
-      {
-        "title": "📈 Tỷ phú Phạm Nhật Vượng có thêm 1,1 tỷ USD, VIC lập đỉnh mới",
-        "desc": "Cổ phiếu VIC của Vingroup lập đỉnh mới trong phiên giao dịch 27/8, giúp tài sản của tỷ phú Phạm Nhật Vượng tăng thêm 1,1 tỷ USD, đạt khoảng 35,5 tỷ USD.",
-        "detail": "Đà tăng mạnh của cổ phiếu VIC đã kéo VN-Index tăng hơn 10 điểm, dù thị trường chung có dấu hiệu 'xanh vỏ, đỏ lòng'. Vốn hóa của Vingroup hiện đã vượt 1,8 triệu tỷ đồng, chiếm hơn 20% tổng vốn hóa sàn HoSE. Đây là tin vui lớn cho các cổ đông Vingroup và cho thấy sức hút mạnh mẽ của tập đoàn trên thị trường chứng khoán, dù có những biến động chung.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "27/08·CafeF",
-        "url": "https://cafef.vn/vic-lap-dinh-moi-ty-phu-pham-nhat-vuong-co-them-11-ty-usd-188260827183719233.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/8/27/avatar1787830578877-17878305792151248351490.webp",
-        "addedEvening": true
-      },
-      {
-        "title": "💸 Home Credit Việt Nam lãi hơn 9 tỷ đồng mỗi ngày",
-        "desc": "Home Credit Việt Nam ghi nhận lợi nhuận trước thuế gần 1.680 tỷ đồng trong nửa đầu năm, tương đương bình quân 9,3 tỷ đồng mỗi ngày.",
-        "detail": "Kết quả kinh doanh ấn tượng này cho thấy sự phát triển mạnh mẽ của Home Credit Việt Nam trong lĩnh vực tài chính tiêu dùng. Mức lợi nhuận khủng này không chỉ củng cố vị thế của công ty mà còn phản ánh nhu cầu vay tiêu dùng đang tăng cao. Đây là một con số đáng chú ý trong bối cảnh thị trường tài chính đang có nhiều biến động, cho thấy khả năng thích ứng và hiệu quả hoạt động của doanh nghiệp.",
-        "tag": "rate",
-        "tagLabel": "💵 LÃI SUẤT",
-        "source": "27/08·VnExpress",
-        "url": "https://vnexpress.net/binh-quan-moi-ngay-home-credit-viet-nam-lai-hon-9-ty-dong-5114027.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/08/27/HomeCredit-1787801589-7999-1787801701.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=8qJyuH254z70efWC-JeA0w",
         "addedEvening": true
       }
     ],
