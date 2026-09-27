@@ -1,5 +1,71 @@
 [
   {
+    "weekLabel": "Tuần 39/2026",
+    "fromDate": "2026-09-21",
+    "toDate": "2026-09-27",
+    "highlights": [
+      {
+        "title": "🤖 Thiên tài AI 29 tuổi được Zuckerberg chi 371 nghìn tỷ đồng",
+        "desc": "Alexandr Wang, 29 tuổi, Giám đốc AI của Meta, được Mark Zuckerberg chi 14,3 tỷ USD (hơn 371 nghìn tỷ đồng) để chiêu dụ về Meta, cho thấy tầm quan trọng của nhân tài AI.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/chan-dung-alexandr-wang-thien-tai-ai-duoc-zuckerberg-chi-371-nghin-ty-dong-chieu-du-ve-meta-165260927082059853.chn"
+      },
+      {
+        "title": "💸 Giá RAM laptop tăng sáu lần sau một năm",
+        "desc": "Giá RAM DDR5 SO-DIMM cho laptop đã tăng gấp sáu lần trong 12 tháng qua, dự kiến tiếp tục khan hiếm trong năm 2027, ảnh hưởng lớn đến thị trường công nghệ.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/gia-ram-laptop-tang-sau-lan-sau-mot-nam-5124978.html"
+      },
+      {
+        "title": "📈 Đại 'di cư' cổ phiếu từ HNX sang HoSE",
+        "desc": "Hơn 300 mã cổ phiếu đang trong giai đoạn nước rút chuyển giao từ HNX sang HoSE, mở ra không gian thanh khoản mới và cơ hội cho nhà đầu tư.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://cafef.vn/dai-di-cu-co-phieu-don-dong-tien-lon-qua-mang-loc-khat-khe-188260927081652141.chn"
+      },
+      {
+        "title": "📜 Đề xuất sàn giao đồ ăn liên đới bồi thường ATTP",
+        "desc": "Bộ Công Thương đề xuất sàn giao đồ ăn phải liên đới bồi thường khi vi phạm an toàn thực phẩm, nhằm bảo vệ quyền lợi người tiêu dùng và nâng cao trách nhiệm của các nền tảng.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://tuoitre.vn/tin-tuc-sang-27-9-de-xuat-san-giao-do-an-lien-doi-boi-thuong-khi-vi-pham-an-toan-thuc-pham-100260926225812029.htm"
+      },
+      {
+        "title": "⭐ Nửa giới giải trí tiếc thương Lưu Hoan",
+        "desc": "Ca sĩ Lưu Hoan, người thể hiện 'Hảo hán ca' trong phim 'Thủy hử', đột ngột qua đời ở tuổi 63, để lại niềm tiếc thương vô hạn trong giới giải trí.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://kenh14.vn/nua-gioi-giai-tri-tiec-thuong-nghe-si-luu-hoan-qua-doi-215260926224010952.chn"
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🏆 Esports Việt làm nên lịch sử tại ASIAD 20",
+        "desc": "Đội tuyển Esports Việt Nam đã có màn ra quân ấn tượng tại ASIAD 20, hứa hẹn nhiều chiến tích lớn trong tương lai.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://gamek.vn/esports-viet-lam-nen-lich-su-tai-asiad-20-cho-doi-loat-chien-tich-khac-178260924221915934.chn"
+      },
+      {
+        "title": "💻 Khủng hoảng PUBG PC: Hơn 6000 tỷ vốn hoá bốc hơi",
+        "desc": "Vụ khủng hoảng PUBG PC tại Việt Nam đã khiến Krafton mất hơn 6000 tỷ vốn hoá, đối mặt nguy cơ bị chặn toàn diện.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://gamek.vn/tu-tien-le-an-do-den-khung-hoang-pubg-pc-o-viet-nam-cua-krafton-hon-6000-ty-von-hoa-boc-hoi-kho-long-quay-tro-lai-178260924193030729.chn"
+      },
+      {
+        "title": "💻 Drama PUBG: Sự nghiệp Himass và TanVuu khép lại",
+        "desc": "Sự nghiệp PUBG của hai tuyển thủ Việt Nam Himass và TanVuu đã chính thức kết thúc sau những lùm xùm gần đây.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://gamek.vn/su-nghiep-pubg-cua-cap-tuyen-thu-viet-nam-chinh-thuc-khep-lai-178260923170726943.chn"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 38/2026",
     "fromDate": "2026-09-14",
     "toDate": "2026-09-20",
@@ -558,17 +624,5 @@
     "highlights": [],
     "topRepos": [],
     "topGaming": []
-  },
-  {
-    "weekLabel": "Tuần 18/2026",
-    "fromDate": "2026-04-21",
-    "toDate": "2026-04-27",
-    "highlights": [],
-    "topRepos": [],
-    "topGaming": [],
-    "news": [],
-    "gamingNews": [],
-    "topNews": [],
-    "repos": []
   }
 ]
