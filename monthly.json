@@ -1,5 +1,143 @@
 [
   {
+    "monthLabel": "Tháng 9/2026",
+    "fromDate": "2026-09-01",
+    "toDate": "2026-09-30",
+    "topNews": [
+      {
+        "title": "🎬 'Hộ Linh Tráng Sĩ' tiếp tục gây tranh cãi",
+        "desc": "Phim 'Hộ Linh Tráng Sĩ: Bí Ẩn Mộ Vua Đinh' vẫn là chủ đề nóng với hơn 1.000 bài tranh luận trên mạng xã hội sau khi ra rạp bản 135 phút.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "01/09/2026·kenh14.vn",
+        "url": "https://kenh14.vn/hon-1000-bai-tranh-luan-ve-ho-linh-trang-si-bi-an-mo-vua-dinh-215260901212256952.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/avatar1788272408448-1788272408984755608986-0-134-630-1142-crop-17882724951381747549463.webp"
+      },
+      {
+        "title": "⭐ Lisa (BLACKPINK) và 'tình mới phi công' gây bão",
+        "desc": "Động thái mới nhất của Blue Pongtiwat dành cho Lisa (BLACKPINK) đang vấp phải phản ứng gay gắt từ dư luận.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/09/2026·kenh14.vn",
+        "url": "https://kenh14.vn/tinh-moi-phi-cong-cua-lisa-blackpink-khong-he-don-gian-215260902084402218.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/2/avatar1788313240304-1788313241797838004306-0-0-400-640-crop-1788313319622844878878.jpg"
+      },
+      {
+        "title": "🎵 Duyên Quỳnh ra MV 'Việt Nam gấm vóc rạng ngời'",
+        "desc": "Ca sĩ Duyên Quỳnh vừa phát hành MV 'Việt Nam gấm vóc rạng ngời' nhân dịp Quốc khánh 2/9, giới thiệu cảnh đẹp ba miền.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "02/09/2026·vnexpress.net",
+        "url": "https://vnexpress.net/duyen-quynh-ra-mv-viet-nam-gam-voc-rang-ngoi-5115685.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/01/batchTVL04715-1788280153-4093-1788281063.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=tuL9s1fYSXInpDh4AlJT0g"
+      },
+      {
+        "title": "⭐ Jang Won Young mừng sinh nhật tuổi 22 hoành tráng",
+        "desc": "Jang Won Young (IVE) đón tuổi 22 với nhan sắc đỉnh cao, sự nghiệp rực rỡ và khối tài sản đáng mơ ước, khẳng định vị thế 'công chúa Kpop'.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/09/2026·kenh14.vn",
+        "url": "https://kenh14.vn/jang-won-young-mung-sinh-nhat-22-tuoi-qua-hoanh-trang-bao-sao-la-cong-chua-kpop-215260901224045806.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/ezgif-1317aea7986b46fe-17882650183891650950534-139-0-589-720-crop-1788265044257743223902-1788277064371-178827706808052554873.gif"
+      },
+      {
+        "title": "🎬 Phim Việt 'Hộ linh tráng sĩ' hụt hơi phòng vé",
+        "desc": "Dù là dịp lễ Quốc khánh, phim 'Hộ linh tráng sĩ' chỉ thu về 25 tỷ đồng sau một tuần, xếp sau hai đối thủ khác.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "02/09·VnExpress",
+        "url": "https://vnexpress.net/ho-linh-trang-si-hut-hoi-tren-phong-ve-dip-le-5115836.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/02/ho-linh-trang-si-phong-ve-jpeg-1163-7505-1788347445.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=JQydsLFBkzG5T1PyG2Mwxw",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Travis Kelce tậu biệt thự triệu đô cho Taylor Swift",
+        "desc": "Cầu thủ bóng bầu dục Travis Kelce vừa chi 5,35 triệu USD mua khu bất động sản làm nơi nghỉ dưỡng cho anh và vợ Taylor Swift.",
+        "detail": "Chuyện tình của cặp đôi đình đám Travis Kelce và Taylor Swift tiếp tục gây chú ý khi Travis mạnh tay mua một khu bất động sản trị giá 5,35 triệu USD. Đây được xem là tổ ấm mới để cả hai cùng nghỉ dưỡng, tận hưởng những khoảnh khắc riêng tư sau lịch trình bận rộn. Fan hâm mộ đang rất mong chờ những hình ảnh đầu tiên của cặp đôi tại biệt thự sang trọng này.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/09·VnExpress",
+        "url": "https://vnexpress.net/travis-kelce-mua-biet-thu-trieu-usd-nghi-duong-cung-taylor-5115794.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/02/traviskelcecauhontaylorsw53468-6684-2937-1788334997.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=5A8ZPMSp1PHJE5f51lY34A",
+        "addedEvening": true
+      },
+      {
+        "title": "👑 Hoa hậu Thế giới 2016 Stephanie Del Valle đến Việt Nam",
+        "desc": "Hoa hậu Thế giới 2016 Stephanie Del Valle, người Puerto Rico, gây chú ý với vẻ ngọt ngào khi tới Việt Nam đồng hành cuộc thi Miss World 2026.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/09·VnExpress",
+        "url": "https://vnexpress.net/hoa-hau-the-gioi-stephanie-del-valle-sau-10-nam-dang-quang-5115810.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/02/Stephanie-Del-Valle-33-1788336636.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=iBxRAZB9oCDNZWWicwsmdQ",
+        "addedEvening": true
+      },
+      {
+        "title": "📺 Sao Hàn hạng S gây sốt khi xuất hiện ở Sài Gòn",
+        "desc": "Một nam tài tử hạng S đình đám của Hàn Quốc vừa bị bắt gặp ở trung tâm thương mại Sài Gòn, khiến mạng xã hội dậy sóng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/09·Kenh14",
+        "url": "https://kenh14.vn/bat-gap-sao-hang-s-dinh-dam-han-quoc-o-trung-tam-thuong-mai-sai-gon-di-den-dau-hao-quang-toa-ra-den-do-215260902182153362.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/2/avatar1788347878313-1788347878981278490494-54-0-504-720-crop-1788348030309988288366.gif",
+        "addedEvening": true
+      },
+      {
+        "title": "🎵 Phương Mỹ Chi lên tiếng về tranh cãi khăn Piêu",
+        "desc": "Phương Mỹ Chi đã chính thức lên tiếng về ồn ào liên quan đến chi tiết trang phục lấy cảm hứng từ khăn Piêu trong album 'Dân Chơi Dân Ca'.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "02/09·Kenh14",
+        "url": "https://kenh14.vn/phuong-my-chi-len-tieng-ve-tranh-cai-lien-quan-chiec-khan-pieu-xin-tiep-nhan-bang-su-cau-thi-nhat-215260902184206992.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/2/avatar1788349162377-17883491628142125312587.png",
+        "addedEvening": true
+      },
+      {
+        "title": "👑 Á hậu Ngô Bảo Ngọc đặt mục tiêu Top 5 Miss Grand International All Stars",
+        "desc": "Á hậu Ngô Bảo Ngọc, 31 tuổi, tự tin đặt mục tiêu vào top 5 Miss Grand International All Stars 2026, học hỏi từ đàn chị Hương Giang.",
+        "detail": "Ngô Bảo Ngọc, Á hậu 3 Miss Grand Vietnam 2024, đang dồn hết tâm huyết cho Miss Grand International All Stars 2026. Ở tuổi 31, cô chia sẻ không sợ thất bại và học được sự tự tin từ Hoa hậu Hương Giang. Với kinh nghiệm và sự chuẩn bị kỹ lưỡng, Bảo Ngọc đặt mục tiêu cao, hy vọng mang về thành tích tốt cho Việt Nam tại đấu trường nhan sắc quốc tế này.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "02/09·VnExpress",
+        "url": "https://vnexpress.net/ngo-bao-ngoc-toi-khong-so-that-bai-5106086.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/08/23/NgBoNgoc3-1787481504-6791-1787481866.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7p3337c_YztvwAAJIq_ESA",
+        "addedEvening": true
+      }
+    ],
+    "topRepos": [],
+    "topGaming": [
+      {
+        "title": "🏆 Esports Việt làm nên lịch sử tại ASIAD 20",
+        "desc": "Đội tuyển Esports Việt Nam đã có màn ra quân ấn tượng tại ASIAD 20, hứa hẹn nhiều chiến tích lớn trong tương lai.",
+        "detail": "Esports Việt Nam đang tạo nên dấu ấn lịch sử tại ASIAD 20 với những màn trình diễn xuất sắc. Sự khởi đầu tốt đẹp này không chỉ mang lại niềm tự hào cho người hâm mộ mà còn khẳng định vị thế của thể thao điện tử Việt Nam trên đấu trường quốc tế. Cộng đồng đang đặt nhiều kỳ vọng vào việc các tuyển thủ sẽ tiếp tục gặt hái thêm nhiều huy chương và vinh quang.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "24/09·GameK",
+        "url": "https://gamek.vn/esports-viet-lam-nen-lich-su-tai-asiad-20-cho-doi-loat-chien-tich-khac-178260924221915934.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/9/24/avatar1790262974401-1790262974836847080057.png"
+      },
+      {
+        "title": "💻 Khủng hoảng PUBG PC: Hơn 6000 tỷ vốn hoá bốc hơi",
+        "desc": "Vụ khủng hoảng PUBG PC tại Việt Nam đã khiến Krafton mất hơn 6000 tỷ vốn hoá, đối mặt nguy cơ bị chặn toàn diện.",
+        "detail": "Chỉ trong một tuần, PUBG PC đã từ game sinh tồn hàng đầu Việt Nam rơi vào khủng hoảng nghiêm trọng, với hơn 6000 tỷ vốn hoá của Krafton 'bốc hơi'. Tình hình phức tạp hơn nhiều so với tiền lệ ở Ấn Độ, nơi Krafton từng quay lại sau 10 tháng đàm phán. Ba lý do chính khiến phiên bản PC của PUBG khó lòng trở lại lần này, đẩy cộng đồng game thủ vào tình thế hoang mang và thất vọng.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "24/09·GameK",
+        "url": "https://gamek.vn/tu-tien-le-an-do-den-khung-hoang-pubg-pc-o-viet-nam-cua-krafton-hon-6000-ty-von-hoa-boc-hoi-kho-long-quay-tro-lai-178260924193030729.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/9/24/avatar1790252774460-17902527759581237880647-0-90-630-1098-crop-1790252830363145221851.jpg"
+      },
+      {
+        "title": "💻 Drama PUBG: Sự nghiệp Himass và TanVuu khép lại",
+        "desc": "Sự nghiệp PUBG của hai tuyển thủ Việt Nam Himass và TanVuu đã chính thức kết thúc sau những lùm xùm gần đây.",
+        "detail": "Sau loạt drama liên quan đến giải PUBG ALL STARS, hai tuyển thủ Himass và TanVuu đã không thể có kết quả tốt đẹp, buộc phải khép lại sự nghiệp thi đấu chuyên nghiệp của mình. Đây là một thông tin đáng buồn cho cộng đồng PUBG Việt Nam, đặc biệt là những người hâm mộ đã theo dõi và ủng hộ hai tuyển thủ này. Vụ việc cũng là lời cảnh tỉnh về những hệ lụy từ các drama trong giới Esports.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "23/09·GameK",
+        "url": "https://gamek.vn/su-nghiep-pubg-cua-cap-tuyen-thu-viet-nam-chinh-thuc-khep-lai-178260923170726943.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/9/23/avatar1790157962247-17901579627991326193284.png"
+      }
+    ]
+  },
+  {
     "monthLabel": "Tháng 8/2026",
     "fromDate": "2026-08-01",
     "toDate": "2026-08-31",
