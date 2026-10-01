@@ -1,5 +1,199 @@
 [
   {
+    "date": "2026-10-01",
+    "dayLabel": "Thứ Năm",
+    "dateLabel": "01/10/2026",
+    "entertainment": [
+      {
+        "title": "🎬 Đạo diễn Quang Dũng tiết kiệm chục tỷ nhờ AI!",
+        "desc": "Công nghệ AI đang thay đổi ngành điện ảnh Việt, giúp đạo diễn Quang Dũng tiết kiệm hàng chục tỷ đồng và hiện thực hóa ước mơ làm phim hoạt hình.",
+        "detail": "Đạo diễn Quang Dũng chia sẻ việc ứng dụng AI vào quy trình sản xuất phim đã mang lại hiệu quả kinh tế bất ngờ, giảm đáng kể chi phí sản xuất. Điều này mở ra cơ hội lớn cho các dự án phim hoạt hình vốn đòi hỏi nguồn lực khổng lồ. Đây là một tín hiệu tích cực cho sự phát triển của điện ảnh Việt Nam trong kỷ nguyên số, cho thấy AI không chỉ là công cụ mà còn là động lực sáng tạo.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/dao-dien-quang-dung-toi-tiet-kiem-hang-chuc-ty-dong-nho-ai-5126729.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/30/daodienquangdungt-1790761023-9000-1790761440.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xBDsby9ZTEu5fsOWUB4RGg"
+      },
+      {
+        "title": "⭐ Hồng Đào U65 gây sốt với 'Xuân thì'!",
+        "desc": "Diễn viên Hồng Đào, ở tuổi 64, nhận 'cơn mưa' lời khen khi thể hiện nhạc phẩm 'Xuân thì' đầy cảm xúc tại một show nhạc.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/hong-dao-duoc-khen-khi-hat-xuan-thi-5126692.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/30/HongDao15-1790758333-6575-1790760013.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=DpiFL3UyELqimykqAOc8qw"
+      },
+      {
+        "title": "🎵 Lisa (BLACKPINK) 'càn quét' trời Tây, vẫn mang 'mác' Kpop?",
+        "desc": "Lisa liên tục xuất hiện trên các sân khấu lớn ở Mỹ, đạt thành tích Billboard và thắng Best Pop tại VMAs 2026 nhưng vẫn chưa thoát khỏi cái mác 'ngôi sao Kpop'.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "01/10·Kenh14",
+        "url": "https://kenh14.vn/tinh-the-hien-tai-cua-lisa-blackpink-215261001075721847.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/1/avatar1790816039357-1790816040349118851802-0-134-630-1142-crop-17908161329311108909838.webp"
+      },
+      {
+        "title": "⭐ Vua Càn Long Trương Thiết Lâm: Sự nghiệp 'đóng băng' vì bê bối tình ái!",
+        "desc": "Nam diễn viên Trương Thiết Lâm, nổi tiếng với vai Càn Long, đang đối mặt với sự nghiệp 'đóng băng' do bê bối bạc tình gây chấn động.",
+        "detail": "Từng là gương mặt quen thuộc và được yêu mến khắp châu Á, đặc biệt qua vai Càn Long trong 'Hoàn Châu cách cách', Trương Thiết Lâm giờ đây lại vướng vào lùm xùm đời tư nghiêm trọng. Scandal này đã ảnh hưởng nặng nề đến hình ảnh và các hoạt động nghệ thuật của ông, khiến nhiều dự án bị đình trệ. Đây là một lời nhắc nhở về tầm quan trọng của đạo đức nghệ sĩ trong mắt công chúng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "01/10·Kenh14",
+        "url": "https://kenh14.vn/vua-can-long-kinh-dien-cua-man-anh-su-nghiep-dong-bang-vi-be-boi-bac-tinh-21526100107595492.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/1/avatar1790816267458-1790816268024522019029.jpg"
+      },
+      {
+        "title": "🎬 Phim AI Trung Quốc 'Hợp long' được khen 'như điện ảnh'!",
+        "desc": "Phim ngắn AI 'Hợp long' sản xuất chỉ trong 7 ngày đã thắng giải tại Trung Quốc, gây ấn tượng mạnh với giới chuyên môn về câu chuyện và mỹ thuật.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "30/09·VnExpress",
+        "url": "https://vnexpress.net/hop-long-phim-ai-trung-quoc-duoc-khen-nhu-dien-anh-5126520.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/30/phim-jfif-1790750984-9907-1790751264.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9rplBh3Gfzee2-chWlNy1Q"
+      }
+    ],
+    "trending": [],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "💪 Bữa sáng 'chuẩn bài' cho sức khỏe!",
+        "desc": "Chuyên gia gợi ý bữa sáng cân bằng với công thức '2 tinh bột, 2 đạm, 1 rau, 1 trái cây' để tối ưu sức khỏe và năng lượng.",
+        "detail": "Một bữa sáng đầy đủ dưỡng chất là chìa khóa cho một ngày làm việc hiệu quả. Công thức này giúp bạn có đủ năng lượng, duy trì đường huyết ổn định và tránh cảm giác thèm ăn vặt. Đồng thời, chuyên gia cũng khuyên bạn nên tránh xa các thực phẩm nhiều đường, dầu mỡ vào buổi sáng để bảo vệ sức khỏe lâu dài và ngăn ngừa các bệnh mạn tính.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/bua-sang-an-the-nao-tot-nhat-cho-suc-khoe-5126343.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/29/gemini-generated-image-a5fnuea-6314-6486-1790678522.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=J_eW25HvB7I70P_jPMYbJw"
+      },
+      {
+        "title": "💪 Ngôi sao Hollywood John Goodman giảm 89kg ở tuổi 74!",
+        "desc": "Diễn viên John Goodman, 74 tuổi, gây sốc với màn 'lột xác' ngoạn mục khi giảm tới 89 kg, từ 181 kg xuống vóc dáng thon gọn.",
+        "detail": "Sự thay đổi đáng kinh ngạc của John Goodman là nguồn cảm hứng lớn cho nhiều người. Ông từng nặng 181 kg và được biết đến với hình ảnh 'tròn trịa' trên màn ảnh. Việc giảm cân thành công ở tuổi U80 không chỉ cải thiện sức khỏe mà còn chứng minh ý chí kiên cường, cho thấy không bao giờ là quá muộn để bắt đầu hành trình chăm sóc bản thân.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/man-lot-xac-giam-89-kg-o-tuoi-74-cua-ngoi-sao-hollywood-5126449.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/30/3-1790733146-7119-1790735016.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XQH0-VVf414gueJkFil85w"
+      },
+      {
+        "title": "🍜 Phở gà Michelin Hàng Hòm: Ngon, đông khách và giá 'linh hoạt'!",
+        "desc": "Quán phở gà Hàng Hòm, được Michelin 2026 vinh danh, tấp nập khách từ sáng đến đêm nhờ hương vị ngon và thái độ phục vụ niềm nở, giá bán linh hoạt.",
+        "detail": "Nằm trong danh sách 'ngon, giá hợp lý' của Michelin, phở gà Hàng Hòm không chỉ thu hút thực khách bởi chất lượng món ăn mà còn bởi sự thoải mái trong cách phục vụ. Việc quán có thể điều chỉnh giá bán linh hoạt tùy theo yêu cầu của khách hàng là một điểm cộng lớn, tạo cảm giác gần gũi và chiều lòng thực khách. Đây là một địa điểm không thể bỏ qua khi muốn thưởng thức ẩm thực Hà Nội.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/quan-pho-ga-michelin-chieu-khach-ban-gia-linh-hoat-5121989.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/26/pho-ga-ha-ng-ho-m-of-1790387814.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dD5VmC3ASW6H3O0-mZl_RQ"
+      },
+      {
+        "title": "✈️ Khách Nga 'xếp hàng' rút tiền ở ATM Nha Trang!",
+        "desc": "Do hạn chế sử dụng thẻ thanh toán quốc tế, nhiều khách Nga phải xếp hàng 15 phút trước trụ ATM ở Nha Trang để rút tiền mặt.",
+        "detail": "Tình trạng này phản ánh một thách thức nhỏ trong trải nghiệm du lịch của khách Nga tại Việt Nam, đặc biệt là ở các điểm đến phổ biến như Nha Trang. Dù vậy, sự kiên nhẫn của du khách và nỗ lực của các ngân hàng trong việc duy trì dịch vụ ATM cho thấy nhu cầu giao dịch tiền mặt vẫn còn cao. Đây cũng là một lời nhắc nhở cho các nhà cung cấp dịch vụ du lịch về việc đa dạng hóa phương thức thanh toán.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "30/09·VnExpress",
+        "url": "https://vnexpress.net/khach-nga-xep-hang-rut-tien-o-cay-atm-nha-trang-5126779.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/30/2aobor2fcnqw5ievp0u7cur3wlh2gw-6797-7432-1790767966.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=j_139Xot1pt_aN2oy7U8iQ"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "📜 Chính sách mới có hiệu lực từ tháng 10: Tăng trợ cấp, luật sư công!",
+        "desc": "Nhiều chính sách nổi bật có hiệu lực từ tháng 10/2026, bao gồm tăng chuẩn trợ giúp xã hội, trợ cấp người có công và thí điểm luật sư công.",
+        "detail": "Những thay đổi này sẽ tác động trực tiếp đến đời sống của nhiều người dân, đặc biệt là các đối tượng yếu thế và người có công. Việc tăng trợ cấp thể hiện sự quan tâm của nhà nước đến an sinh xã hội, trong khi cơ chế đặc thù phát triển đô thị và thí điểm luật sư công hứa hẹn mang lại những cải thiện trong quản lý và dịch vụ pháp lý. Anh chị em nên tìm hiểu kỹ để nắm bắt các quyền lợi và quy định mới.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/chinh-sach-noi-bat-co-hieu-luc-tu-thang-10-5126672.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/tphcm-1790811187-4954-1790811197.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xV2Zd7GV6xWUWU-jwZmnwQ"
+      },
+      {
+        "title": "💸 Giá vàng SJC tăng 1,6 triệu/lượng, thế giới vẫn giảm!",
+        "desc": "Sáng 1/10, giá vàng miếng SJC bất ngờ tăng 1,6 triệu đồng/lượng lên 144,1 triệu đồng, trong khi vàng thế giới tiếp tục giảm về 4.143 USD/ounce.",
+        "detail": "Sự chênh lệch lớn giữa giá vàng trong nước và thế giới tiếp tục là điểm nóng trên thị trường. Trong khi vàng thế giới chịu áp lực từ lợi suất trái phiếu Mỹ và kỳ vọng Fed tăng lãi suất, vàng SJC lại có đà tăng mạnh, khiến nhà đầu tư trong nước cần cân nhắc kỹ lưỡng. Diễn biến này cho thấy thị trường vàng Việt Nam vẫn có những yếu tố đặc thù, ít bị ảnh hưởng bởi xu hướng toàn cầu.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "01/10·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/gia-vang-hom-nay-1-10-vang-trong-nuoc-tang-16-trieu-dong-luong-trong-khi-the-gioi-van-giam-100261001081249922.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/1/2025-12-18t193137z462853303rc2y6camggeprtrmadp3commodities-research-goldman-sachs-17663753585812114100501-214-0-1814-2560-crop-17908170557421421821908.jpg"
+      },
+      {
+        "title": "🏙️ TP.HCM tăng 17 bậc xếp hạng trung tâm tài chính toàn cầu!",
+        "desc": "TP.HCM đã tăng 17 bậc trong bảng xếp hạng trung tâm tài chính toàn cầu, trong khi Đà Nẵng lần đầu tiên góp mặt ở vị trí 71.",
+        "detail": "Đây là một tín hiệu tích cực cho sự phát triển kinh tế của Việt Nam, cho thấy nỗ lực của TP.HCM trong việc cải thiện môi trường đầu tư và thu hút vốn ngoại đã mang lại hiệu quả. Việc Đà Nẵng cũng lần đầu tiên được công nhận là trung tâm tài chính toàn cầu càng khẳng định tiềm năng và vị thế ngày càng tăng của Việt Nam trên bản đồ kinh tế thế giới. Điều này có thể mở ra nhiều cơ hội mới cho các doanh nghiệp và nhà đầu tư.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "01/10·VnExpress",
+        "url": "https://vnexpress.net/tp-hcm-tang-17-bac-xep-hang-trung-tam-tai-chinh-toan-cau-5126671.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/30/wm1-wm1-mung1tet-1790753568-7540-1790777670.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ShLP9ODVEzgrW806a6opmA"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🚀 Apple chốt ngày ra mắt màn hình nhà thông minh 'HomePad'!",
+        "desc": "Apple dự kiến ra mắt màn hình nhà thông minh 'HomePad' vào ngày 13/10, với thiết kế lấy cảm hứng từ iMac G4.",
+        "detail": "Đây là bước đi mới của Apple vào thị trường nhà thông minh, hứa hẹn mang đến một thiết bị tích hợp nhiều tính năng điều khiển và giải trí. Với thiết kế độc đáo gợi nhớ đến iMac G4 huyền thoại, HomePad có thể sẽ tạo ra một xu hướng mới trong các sản phẩm smart home. Sự kiện này được giới công nghệ và người dùng mong đợi, đặc biệt là những ai yêu thích hệ sinh thái Apple.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "01/10·Tinhte.vn",
+        "url": "https://tinhte.vn/thread/apple-chot-ngay-13-10-ra-mat-man-hinh-nha-thong-minh-homepad-thiet-ke-lay-cam-hung-tu-imac-g4.4180714/"
+      },
+      {
+        "title": "⭐ Trên tay Samsung Galaxy Tab S12 Ultra và S12+: Nâng cấp pin, cấu hình!",
+        "desc": "Samsung vừa ra mắt Galaxy Tab S12 Ultra và S12+ với nhiều nâng cấp về pin, cấu hình và bàn phím thiết kế mới, bỏ qua phiên bản thường.",
+        "detail": "Hai mẫu tablet cao cấp này tập trung vào hiệu năng mạnh mẽ và trải nghiệm người dùng tối ưu, đặc biệt là với bàn phím được thiết kế lại, hứa hẹn mang lại sự tiện lợi và thoải mái hơn cho công việc và giải trí. Việc Samsung chỉ tập trung vào các phiên bản Plus và Ultra cho thấy hãng đang hướng đến phân khúc người dùng chuyên nghiệp và yêu cầu cao về công nghệ. Đây là lựa chọn đáng cân nhắc cho anh chị em cần một thiết bị di động mạnh mẽ thay thế laptop.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "01/10·Tinhte.vn",
+        "url": "https://tinhte.vn/thread/tren-tay-samsung-galaxy-tab-s12-ultra-va-tab-s12-nang-cap-pin-cau-hinh-ban-phim-thiet-ke-moi.4180629/",
+        "image": "https://imgproxy7.tinhte.vn/awXyvZQXxcbHjjaxeL2UiDHF8e9VcpmVIEGW2SLzqfo/w:400/plain/https://photo2.tinhte.vn/data/attachment-files/2026/09/9105756_trentay-galaxy-tabs12ultra-tabs12plus-tinhte1.jpeg"
+      },
+      {
+        "title": "🤖 Báo Mỹ cảnh báo lừa đảo ngân hàng 'núp bóng' AI!",
+        "desc": "Báo Mỹ cảnh báo thủ đoạn lừa đảo ngân hàng truyền thống đang 'núp bóng' công nghệ AI, chỉ cần một cú quét mã QR giả là có thể mất tiền.",
+        "detail": "Kẻ gian ngày càng tinh vi hơn khi lợi dụng sự phát triển của AI để tạo ra các chiêu trò lừa đảo mới, khiến người dùng khó lòng phân biệt thật giả. Một cú quét mã QR trên thẻ ngân hàng giả mạo có thể mở cửa cho kẻ gian truy cập thông tin cá nhân và tài khoản của bạn. Anh chị em cần hết sức cảnh giác, luôn kiểm tra kỹ nguồn gốc và tính xác thực của các yêu cầu giao dịch để bảo vệ tài sản của mình.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "01/10·GenK",
+        "url": "https://genk.vn/bao-my-canh-bao-thu-doan-lua-dao-ngan-hang-truyen-thong-nup-bong-cong-nghe-ai-165261001080930552.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/1/avatar1790816935240-1790816935765955986351.png"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 Nhà đầu tư nước ngoài 'buồn' với PNJ, lỗ 13.900 tỷ!",
+        "desc": "Nhà đầu tư nước ngoài vẫn nắm hơn 200 triệu cổ phiếu PNJ, nhưng giá trị hiện tại thấp hơn tới 13.900 tỷ so với đỉnh đầu năm 2026.",
+        "detail": "Đây là một khoản lỗ đáng kể cho các quỹ ngoại, cho thấy sự biến động mạnh của thị trường chứng khoán Việt Nam. Dù PNJ là một trong những doanh nghiệp đầu ngành, việc giá cổ phiếu giảm sâu đã ảnh hưởng lớn đến danh mục đầu tư của các 'cá mập' tỷ USD. Điều này cũng là lời nhắc nhở cho nhà đầu tư cá nhân về rủi ro khi đầu tư vào cổ phiếu, ngay cả với những mã blue-chip.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "01/10·CafeF",
+        "url": "https://cafef.vn/buon-cua-nha-dau-tu-nuoc-ngoai-van-con-nam-hon-200-trieu-co-phieu-pnj-188260930234034885.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/30/anh-chatgpt-234102-30-thg-9-2026-1790786513166338949616-71-0-947-1402-crop-1790786522422454486081.png"
+      },
+      {
+        "title": "💸 VinFast tuyển 2.000 người, thu nhập tới 18 triệu/tháng!",
+        "desc": "Tỷ phú Phạm Nhật Vượng thông báo VinFast tuyển dụng 2.000 nhân sự với mức thu nhập hấp dẫn lên đến 18 triệu đồng/tháng, có vị trí chỉ cần 'biết đọc biết viết'.",
+        "detail": "Cơ hội việc làm lớn này của VinFast không chỉ mở ra triển vọng cho người lao động mà còn cho thấy sự mở rộng mạnh mẽ của tập đoàn. Với mức lương cạnh tranh và yêu cầu tuyển dụng linh hoạt, VinFast đang thu hút một lượng lớn ứng viên, góp phần giải quyết vấn đề việc làm và thúc đẩy phát triển kinh tế địa phương. Đây là tin vui cho những ai đang tìm kiếm công việc ổn định và có thu nhập tốt.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "01/10·CafeF",
+        "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-tuyen-2000-nguoi-cho-vinfast-thu-nhap-toi-18-trieu-dong-thang-188260930225743362.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/30/avatar1790783815843-1790783816722934537622.png"
+      },
+      {
+        "title": "💸 F88 phát hành thêm hơn 11 triệu cổ phiếu, dự kiến vượt 30% kế hoạch lợi nhuận!",
+        "desc": "Hơn 11 triệu cổ phiếu phát hành thêm của F88 chính thức giao dịch trên UPCoM, trong bối cảnh lợi nhuận trước thuế năm 2026 dự báo vượt 30% kế hoạch.",
+        "detail": "Việc bổ sung nguồn vốn thông qua phát hành cổ phiếu sẽ giúp F88 tăng cường hiệu quả vận hành và đẩy nhanh kế hoạch chuyển sang niêm yết trên HOSE. Thành tích kinh doanh ấn tượng, vượt xa mục tiêu đề ra, cho thấy sự tăng trưởng bền vững của F88 trong lĩnh vực tài chính. Đây là thông tin quan trọng cho các nhà đầu tư quan tâm đến cổ phiếu của các doanh nghiệp đang trên đà phát triển mạnh mẽ.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "30/09·CafeF",
+        "url": "https://cafef.vn/hon-11-trieu-co-phieu-f88-phat-hanh-them-chinh-thuc-giao-dich-tren-upcom-188260930201629746.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/30/photo1790766432324-1790766432509395711561-1790774194460953842648.jpg"
+      }
+    ],
+    "sports": []
+  },
+  {
     "date": "2026-09-30",
     "dayLabel": "Thứ Tư",
     "dateLabel": "30/09/2026",
@@ -12729,426 +12923,6 @@
         "source": "02/09·CafeF",
         "url": "https://cafef.vn/gia-vang-sjc-tiep-tuc-di-ngang-vang-nhan-tai-nhieu-thuong-hieu-dong-loat-ha-nhiet-188260902093802353.chn",
         "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/2/avatar1788316622085-17883166224661328730497.jpg",
-        "addedEvening": true
-      }
-    ],
-    "sports": [],
-    "eveningDone": true,
-    "eveningNotified": true
-  },
-  {
-    "date": "2026-09-01",
-    "dayLabel": "Thứ Ba",
-    "dateLabel": "01/09/2026",
-    "entertainment": [
-      {
-        "title": "💍 Khả Ngân và Nhan Phúc Vinh: Cầu hôn xong, có tin vui luôn?",
-        "desc": "Cặp đôi Khả Ngân và Nhan Phúc Vinh gây sốt khi công khai cầu hôn, đồng thời rộ tin đồn Khả Ngân đang mang thai con đầu lòng.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "01/09·VnExpress, Kênh14",
-        "url": "https://vnexpress.net/tinh-yeu-kin-tieng-cua-nhan-phuc-vinh-kha-ngan-5115483.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/01/Kha-Ngan-Nhan-Phuc-Vinh-2222-1788199682.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QgWsXHi0A1ACm3DVLA1qfA"
-      },
-      {
-        "title": "💔 Jennie (BLACKPINK) đối mặt tranh cãi sau EP 'Fallen Angel'",
-        "desc": "Thành tích của Jennie đang tuột dốc và hình tượng 'thiên thần sa ngã' trong EP mới gây nhiều tranh cãi.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "31/08·Kênh14",
-        "url": "https://kenh14.vn/jennie-thanh-tich-tuot-doc-tranh-cai-bua-vay-hinh-tuong-thien-than-sa-nga-215260831152033379.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/31/avatar1788164190522-1788164196345982125251-37-0-412-600-crop-17881643530752104222140.gif"
-      },
-      {
-        "title": "💸 Biệt thự 300 tỷ của Việt Hương gây choáng",
-        "desc": "Việt Hương và ông xã mất hơn một năm để hoàn thiện nội thất cho căn biệt thự trị giá gần 300 tỷ đồng của mình.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "01/09·Kênh14",
-        "url": "https://kenh14.vn/biet-thu-gan-300-ty-cua-viet-huong-215260831161512665.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/31/c532725f671ae744be0b-1788179545628284355965-0-0-802-1284-crop-17881795510651089722898.jpg"
-      },
-      {
-        "title": "🎬 Phim AI đầu tiên lên sóng truyền hình Trung Quốc",
-        "desc": "Bộ phim dài tập 'Hậu Tây Du Ký' do AI sản xuất hoàn toàn đã chính thức lên sóng truyền hình Trung Quốc, mở ra kỷ nguyên mới cho ngành điện ảnh.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/hau-tay-du-ky-phim-dai-ai-dau-tien-len-truyen-hinh-trung-quoc-5115566.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/01/hau7-1788247455-6728-1788248125.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=r8DMEXXoJB3NzVVdPLplpA",
-        "addedEvening": true
-      },
-      {
-        "title": "⭐ Gia đình Son Ye Jin - Hyun Bin gây sốt với ảnh du lịch Nhật",
-        "desc": "Đại gia đình Son Ye Jin và Hyun Bin vừa lộ diện trong chuyến du lịch Nhật Bản, khiến cộng đồng mạng xôn xao vì sự đáng yêu và hạnh phúc.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "01/09·Kenh14",
-        "url": "https://kenh14.vn/nhin-anh-son-ye-jin-hyun-bin-dua-con-trai-di-du-lich-nhat-ma-giat-ca-minh-21526090121170218.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/son811-178827206890270995974-0-0-367-587-crop-1788272073519177310508.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🎵 Vụ án Tupac Shakur có lời giải sau gần 30 năm",
-        "desc": "Bí ẩn lớn nhất lịch sử hip-hop về vụ ám sát huyền thoại nhạc rap Tupac Shakur đã có bước ngoặt mới sau gần 30 năm, với một cựu thủ lĩnh băng đảng bị kết tội chủ mưu.",
-        "tag": "music",
-        "tagLabel": "🎵 MUSIC",
-        "source": "01/09·Kenh14",
-        "url": "https://kenh14.vn/loi-giai-cho-vu-am-sat-bi-an-nhat-lich-su-hip-hop-sau-gan-30-nam-215260901144647146.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/t5jpg-1788252527362381580601-0-0-377-603-crop-1788252534680680414258.png",
-        "addedEvening": true
-      },
-      {
-        "title": "🎬 Sao Hàn đổ bộ TP.HCM quay phim 'HOPE'",
-        "desc": "Dàn sao hạng A Hàn Quốc như Lee Yoo Mi (Squid Game) và Jo In Sung đã có mặt tại TP.HCM để quay phim 'HOPE', thu hút sự chú ý lớn từ người hâm mộ Việt.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "01/09·Kenh14",
-        "url": "https://kenh14.vn/dan-sao-hang-a-han-quoc-dang-o-sai-gon-my-nhan-squid-game-do-sac-voi-nang-mo-jo-in-sung-tre-dep-phat-hon-215260901211938809.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/avatar1788272087463-17882720883861635056002-0-0-375-600-crop-17882722057381857570232.png",
-        "addedEvening": true
-      },
-      {
-        "title": "🎬 Hậu trường 'Hộ Linh Tráng Sĩ': Diễn viên chấn thương vì cảnh võ thuật",
-        "desc": "Phim 'Hộ Linh Tráng Sĩ' hé lộ hậu trường đầy cam go với các cảnh võ thuật, khiến diễn viên Tuấn Trần bị đứt dây chằng và Hiền Ngô chấn thương cổ tay.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/hau-truong-vo-thuat-trong-ho-linh-trang-si-5115492.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/01/ho-linh-tra-ng-si-1788225293-5989-1788225743.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=5g0d7T3NW99320ZcjKq34g",
-        "addedEvening": true
-      }
-    ],
-    "trending": [
-      {
-        "title": "💖 Á hậu được 'đẩy thuyền' với Đình Bắc gây viral",
-        "desc": "Hai mỹ nhân rước cúp tại một sự kiện đang gây sốt mạng xã hội, đặc biệt là ánh mắt liếc ngang của Á hậu khiến dân tình 'đẩy thuyền' với cầu thủ Đình Bắc.",
-        "detail": "Tại một sự kiện trao cúp, hai mỹ nhân với nhan sắc nổi bật đã nhanh chóng trở thành tâm điểm chú ý. Tuy nhiên, điều khiến cộng đồng mạng 'rần rần' hơn cả là khoảnh khắc Á hậu liếc ngang đầy ẩn ý, khiến nhiều người liên tưởng và 'đẩy thuyền' cô với cầu thủ Đình Bắc. Hình ảnh này đang lan truyền mạnh mẽ, tạo nên một chủ đề bàn tán sôi nổi.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "01/09·Kênh14",
-        "url": "https://kenh14.vn/2-my-nhan-ruoc-cup-dang-len-viral-a-hau-duoc-day-thuyen-voi-dinh-bac-bi-tom-anh-mat-liec-ngang-215260831203203848.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/8/31/avatar1788182943305-1788182943578589662898.gif"
-      },
-      {
-        "title": "🔥 Gen Z 'Tắt màn hình, bật đời thực'",
-        "desc": "Giới trẻ đang có xu hướng quay lưng với màn hình điện thoại để tìm kiếm những trải nghiệm thực tế, kết nối xã hội và khám phá bản thân.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "01/09·Vietnam.vn",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92VEtGcTNHS2xMdGl4SFF4SFl1MWNlMWdqaHRKTkMyazZ3b3pvNkFYcC1aakR0MEktU3lWcHp3STg0SThjNlB2TnNBMEFCX2c3OVVhOUlQVExLUVdONDRuVFBUeHlJbGtHX3hFd2tpNE4yOGoySTh3dDd2SQ?oc=5",
-        "addedEvening": true
-      },
-      {
-        "title": "🔥 Hội Tóc Bạc Lấp Lánh 'ăn chơi' dịp 2/9",
-        "desc": "Hội Tóc Bạc Lấp Lánh Hà Nội gây sốt mạng xã hội khi rủ nhau mặc áo dài, chụp ảnh và đi bộ trên phố dịp nghỉ lễ 2/9, thể hiện tinh thần sống trẻ trung, năng động.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "01/09·Kenh14",
-        "url": "https://kenh14.vn/di-tu-quy-nhon-ra-ha-noi-gap-dong-bac-dip-2-9-hoi-toc-bac-lap-lanh-an-choi-co-nao-215260901175339337.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/avatar1788259820610-17882598213191049806143-201-0-1451-2000-crop-1788259963096958456791.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🔥 Căn nhà chôm chôm trĩu quả gây sốt mạng",
-        "desc": "Căn nhà của cặp vợ chồng trẻ bỏ phố về quê với cây chôm chôm chín rực đỏ trĩu quả đã 'gây sốt' cộng đồng mạng, trở thành biểu tượng của cuộc sống bình yên, gần gũi thiên nhiên.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "01/09·Thanh Niên",
-        "url": "https://thanhnien.vn/can-nha-cua-vo-chong-tre-gay-sot-voi-cay-chom-chom-triu-qua-185260901153522097.htm",
-        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/9/1/anh-1-34-1788251112936814505141-1145-0-2345-1920-crop-17882515719701257653340.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🔥 Tiệm gội đầu TP.HCM hút 1,5 triệu lượt xem",
-        "desc": "Một đoạn clip ghi lại cảnh tượng bất ngờ trong tiệm gội đầu tại TP.HCM đã nhanh chóng thu hút 1,5 triệu lượt xem, khiến cộng đồng mạng thích thú và tò mò.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "01/09·Kenh14",
-        "url": "https://kenh14.vn/canh-tuong-bat-ngo-trong-tiem-goi-dau-tai-tphcm-hut-15-trieu-luot-xem-215260901152146091.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/1/avatar1788250382193-1788250382687161355134.gif",
-        "addedEvening": true
-      }
-    ],
-    "gaming": [],
-    "lifestyle": [
-      {
-        "title": "🥤 Uống nước ngọt mỗi ngày: Nguy cơ ung thư dạ dày tăng gấp 3!",
-        "desc": "Thói quen uống một ly nước ngọt hoặc đồ uống có đường mỗi ngày có thể tăng gấp ba lần nguy cơ mắc ung thư dạ dày.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/thoi-quen-uong-nuoc-ngot-hang-ngay-lam-tang-nguy-co-ung-thu-da-day-5111368.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/20/sugar-sweetened-beverage-17872-2600-2059-1787214377.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=nz27XHi7Ogilz5-lNF1tyQ"
-      },
-      {
-        "title": "🏃‍♀️ Tập luyện đúng cách để xương khớp khỏe mạnh",
-        "desc": "Khởi động kỹ, kết hợp bài tập sức mạnh và tăng cường độ từ từ là chìa khóa để bảo vệ xương khớp khi tập luyện.",
-        "detail": "Để tránh chấn thương và duy trì sức khỏe xương khớp, việc tập luyện cần có phương pháp. Các chuyên gia khuyến nghị luôn khởi động kỹ trước khi bắt đầu, xen kẽ các bài tập sức mạnh và giữ thăng bằng, đồng thời tăng cường độ tập luyện một cách từ từ. Điều này giúp cơ thể thích nghi, giảm áp lực lên khớp và tăng cường độ bền bỉ.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/tap-luyen-the-nao-de-bao-ve-xuong-khop-5113384.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/27/the-du-c-o-so-ng-ha-n-a-nh-ngu-5476-3997-1787827468.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=5lXG4cA_L1b9bje5-y6Tpw"
-      },
-      {
-        "title": "🥚 5 điều cần biết khi chọn mua trứng",
-        "desc": "Từ kiểm tra vỏ đến đọc nhãn mác, có 5 điều quan trọng bạn cần biết để chọn được trứng tươi ngon và phù hợp nhu cầu dinh dưỡng.",
-        "detail": "Chọn trứng tưởng chừng đơn giản nhưng lại có nhiều mẹo hay ho. Bạn nên kiểm tra độ nguyên vẹn của vỏ, không quá chú trọng màu sắc, đọc kỹ nhãn omega-3 nếu quan tâm, và hiểu đúng về trứng hữu cơ. Những lưu ý này sẽ giúp bạn chọn được những quả trứng chất lượng, đảm bảo dinh dưỡng cho bữa ăn gia đình.",
-        "tag": "food",
-        "tagLabel": "🍜 FOOD",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/5-dieu-can-biet-khi-lua-chon-trung-5115008.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/08/30/a-nh-ma-n-hi-nh-lu-1788094396-3135-1788094769.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=u9yJPrHALhAeaGlRFIafUA"
-      },
-      {
-        "title": "✈️ Du khách đổ về Quảng trường Ba Đình chụp ảnh áo dài dịp 2/9",
-        "desc": "Quảng trường Ba Đình nhộn nhịp du khách mặc áo dài chụp ảnh, tạo nên khung cảnh đẹp mắt trong kỳ nghỉ lễ 2/9.",
-        "detail": "Trong những ngày nghỉ lễ Quốc khánh 2/9, Quảng trường Ba Đình trở thành điểm đến thu hút đông đảo người dân và du khách. Đặc biệt, nhiều người đã chọn mặc áo dài truyền thống để chụp ảnh, tạo nên một không gian văn hóa vừa trang nghiêm vừa rực rỡ sắc màu. Đây là một cách ý nghĩa để thể hiện lòng yêu nước và lưu giữ những khoảnh khắc đẹp trong dịp lễ.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "31/08·VnExpress",
-        "url": "https://vnexpress.net/du-khach-do-den-quang-truong-ba-dinh-chup-anh-voi-ao-dai-5115321.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/08/31/gifezgifcomresize-1788142056-2963-1788142148.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=cYGSsxzY9WOcOMUgdlmxEQ&t=image"
-      },
-      {
-        "title": "💪 Ngộ độc methanol, suy thận cấp sau uống rượu",
-        "desc": "Một người đàn ông 39 tuổi bị mờ mắt, nôn ói, khó thở và được chẩn đoán ngộ độc methanol, suy thận cấp sau khi uống nửa lít vodka mua ở tiệm tạp hóa.",
-        "detail": "Đây là một lời cảnh báo nghiêm trọng về nguy cơ từ rượu không rõ nguồn gốc. Ngộ độc methanol có thể gây tổn thương nặng nề cho các cơ quan nội tạng, đặc biệt là mắt và thận, thậm chí dẫn đến tử vong. Bạn nên tuyệt đối tránh mua và sử dụng các loại rượu không có tem mác, nguồn gốc xuất xứ rõ ràng để bảo vệ sức khỏe của bản thân và gia đình.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/mo-mat-suy-than-cap-sau-uong-ruou-5115551.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/01/233a1820-1788237983-9225-1788238182.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Rl470fnCJS21wiPU_H92zA",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ Núi Bà Đen kẹt cứng khách leo núi dịp 2/9",
-        "desc": "Lượng khách đổ về núi Bà Đen (Tây Ninh) tăng đột biến dịp 2/9, khiến các tuyến đường trekking ùn ứ, du khách phải xếp hàng chờ nhiều tiếng để lên đỉnh.",
-        "detail": "Dù thời tiết nắng nóng, hàng nghìn người vẫn chọn núi Bà Đen làm điểm đến cho kỳ nghỉ lễ. Tình trạng quá tải cho thấy sức hút của địa điểm này nhưng cũng đặt ra vấn đề về quản lý và quy hoạch du lịch. Nếu bạn có ý định đi leo núi vào các dịp lễ lớn, hãy chuẩn bị tinh thần cho việc đông đúc và lên kế hoạch kỹ lưỡng để tránh mất thời gian chờ đợi.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/ket-duong-leo-nui-ba-den-dip-2-9-5115639.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/01/2aoboqvauxyc7qdbw5cjvxnp2qs9rq-8369-3617-1788259453.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ML-7wh-VrBtzteCxSQRC8g",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ Thảo Cầm Viên hút hàng chục nghìn khách xem diễu hành động vật",
-        "desc": "Hàng chục nghìn khách đã đổ về Thảo Cầm Viên Sài Gòn dịp 2/9 để xem diễu hành động vật với những chiếc xe được trang trí sinh động.",
-        "detail": "Chương trình diễu hành độc đáo này đã trở thành điểm nhấn thu hút đông đảo gia đình và trẻ em trong kỳ nghỉ lễ. Các con vật được trang trí ngộ nghĩnh, tạo không khí vui tươi, giúp du khách có những trải nghiệm đáng nhớ. Đây là một lựa chọn tuyệt vời cho những ai muốn tận hưởng không khí lễ hội mà không cần di chuyển quá xa khỏi trung tâm thành phố.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/hang-chuc-nghin-khach-do-den-thao-cam-vien-xem-dieu-hanh-dong-vat-5115607.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/01/233a7962-1788261407.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=__2SymBBiEFlhUDs3IGgQw",
-        "addedEvening": true
-      }
-    ],
-    "vietnam": [
-      {
-        "title": "📜 Nhiều chính sách mới có hiệu lực từ tháng 9",
-        "desc": "Tháng 9 này, nhiều chính sách quan trọng sẽ có hiệu lực, từ việc thành lập thành phố mới đến trả lương hưu qua VNeID và định danh thửa đất.",
-        "detail": "Từ ngày 1/9, hàng loạt chính sách mới sẽ chính thức được áp dụng, ảnh hưởng trực tiếp đến đời sống người dân và doanh nghiệp. Đáng chú ý là việc thành lập thêm hai thành phố thuộc Trung ương, quy định trả lương hưu qua ứng dụng VNeID, và việc định danh thửa đất bằng mã số. Những thay đổi này hứa hẹn mang lại nhiều tiện ích nhưng cũng đòi hỏi người dân cần cập nhật thông tin để thực hiện đúng quy định.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/chinh-sach-noi-bat-co-hieu-luc-tu-thang-9-5115118.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/08/30/vneid-1788056003-9057-1788056260.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=v9MqrYYEZwyEUdqMmJXXUw"
-      },
-      {
-        "title": "🚨 Cháy chợ ở Lâm Đồng, 16 ki-ốt bị thiêu rụi, thiệt hại 4 tỷ đồng",
-        "desc": "Một vụ cháy lớn tại chợ Đăk Săk (Lâm Đồng) đã thiêu rụi 16 ki-ốt của tiểu thương, gây thiệt hại ước tính hơn 4 tỷ đồng.",
-        "detail": "Lửa bùng lên từ quầy hàng gia dụng tại chợ Đăk Săk vào sáng sớm nay và nhanh chóng lan rộng, gây thiệt hại nặng nề cho các tiểu thương. Tổng cộng 16 ki-ốt đã bị thiêu rụi hoàn toàn, với tổng giá trị thiệt hại ước tính lên tới hơn 4 tỷ đồng. Vụ việc này là một cú sốc lớn đối với những người kinh doanh tại chợ, ảnh hưởng trực tiếp đến sinh kế của nhiều gia đình.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/chay-cho-o-lam-dong-16-ki-ot-bi-thieu-rui-5115500.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/01/chaychogfgif-1788223701-5593-1788224014.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=o-ztMOOKELvfstgJQuFmEA&t=image"
-      },
-      {
-        "title": "💼 Haidilao Việt Nam thu hơn 8 tỷ đồng mỗi ngày, tăng trưởng vượt trội",
-        "desc": "Chuỗi lẩu Haidilao tại Việt Nam đạt doanh thu hơn 1.500 tỷ đồng trong 6 tháng đầu năm, tương đương 8,3 tỷ đồng mỗi ngày, vượt xa các thị trường khác.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "01/09·VnExpress, CafeBiz",
-        "url": "https://vnexpress.net/chu-chuoi-haidilao-thu-hon-8-ty-dong-moi-ngay-o-viet-nam-5115484.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/01/thongtinvitricuahaidilaonowzon-8007-9329-1788200979.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=kIYTMsHL_Q9JxWdgTJqUbw"
-      },
-      {
-        "title": "🌧️ Áp thấp nhiệt đới khả năng mạnh thành bão số 5 trên Biển Đông",
-        "desc": "Một áp thấp nhiệt đới hình thành từ cơn bão trước đó có khả năng mạnh lên thành bão số 5 trên Biển Đông trong hôm nay, 1/9.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "01/09·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/thoi-tiet-hom-nay-1-9-ap-thap-kha-nang-manh-thanh-bao-so-5-100260831155814295.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/nang-nong-ha-noi-4-17796095466992010851466-99-664-589-1449-crop-1788166613080103602108.jpg"
-      },
-      {
-        "title": "🚦 Cao tốc kẹt cứng 'ngày về', CSGT mở làn khẩn cấp",
-        "desc": "Dòng xe từ các tỉnh miền Đông và miền Tây đổ về TP.HCM, Hà Nội trước ngày cuối kỳ nghỉ 2/9 gây ùn tắc nghiêm trọng, CSGT phải mở làn khẩn cấp để giảm tải.",
-        "detail": "Nhiều đoạn cao tốc như TP.HCM - Trung Lương, Cao Bồ - Đại Xuyên đã xảy ra ùn tắc kéo dài. Tại Hà Nội, thậm chí cả hai chiều cao tốc Cao Bồ - Đại Xuyên được dành cho xe về Thủ đô. Tình trạng này cho thấy áp lực giao thông lớn vào các dịp lễ, đòi hỏi người dân cần chủ động sắp xếp lịch trình và theo dõi thông tin để tránh kẹt xe.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/nguoi-dan-do-ve-tp-hcm-som-csgt-mo-lan-khan-cap-5115660.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/01/2aoboqvc29fypk2lvi4xno4yiumvy3-3766-3224-1788268305.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BAvGlLZ4ko3gH5lY4V7bSw",
-        "addedEvening": true
-      },
-      {
-        "title": "📜 Đánh giá kỹ quy định giữ khoảng cách trên cao tốc",
-        "desc": "Phó thủ tướng Thường trực Phạm Gia Túc yêu cầu đánh giá lại mức phạt và tính khả thi của quy định giữ khoảng cách giữa các xe trên cao tốc sau nhiều phản ánh.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/danh-gia-ky-quy-dinh-giu-khoang-cach-tren-cao-toc-5115588.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/01/caotoc-1788241163-8482-1788241291.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nVaC31E2Yh0vM6_fWzeMPw",
-        "addedEvening": true
-      },
-      {
-        "title": "💼 Bốn nhà máy Samsung Việt Nam lãi hơn 2 tỷ USD",
-        "desc": "Bốn nhà máy của Samsung tại Việt Nam báo lãi 2,31 tỷ USD trong nửa đầu năm 2026, tăng 23,5% so với cùng kỳ năm ngoái.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/bon-nha-may-samsung-viet-nam-lai-hon-2-ty-usd-5115624.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/01/samsung-thai-nguyen-1788253269-1582-1788253302.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=er5dDkMyHUV0JXMxLaii0g",
-        "addedEvening": true
-      },
-      {
-        "title": "⛈️ Áp thấp nhiệt đới mạnh lên thành bão Saudel",
-        "desc": "Áp thấp nhiệt đới trên vùng biển phía tây Bắc Biển Đông đã mạnh lên thành bão Saudel, trở thành cơn bão thứ 5 trong năm nay.",
-        "detail": "Cơn bão Saudel đang di chuyển và có thể ảnh hưởng đến các tỉnh ven biển Việt Nam. Người dân và các địa phương cần chủ động theo dõi diễn biến của bão, chuẩn bị các biện pháp phòng chống để giảm thiểu thiệt hại về người và tài sản. Đây là lời nhắc nhở về sự khắc nghiệt của thời tiết và tầm quan trọng của việc ứng phó kịp thời.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "01/09·VnExpress",
-        "url": "https://vnexpress.net/ap-thap-nhiet-doi-manh-len-thanh-bao-5115515.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/01/screenshot-1788226648-9943-1788226769.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=pJW8hV3Rd-5vHG9hyv8RUw",
-        "addedEvening": true
-      }
-    ],
-    "tech": [
-      {
-        "title": "🤖 GTA 6 tuyên bố 'không dùng AI', gây chấn động ngành game",
-        "desc": "Rockstar Games khẳng định chế độ chơi đơn của bom tấn GTA VI hoàn toàn do con người sáng tạo, không ứng dụng AI, đi ngược xu hướng ngành.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "01/09·GenK",
-        "url": "https://genk.vn/bom-tan-gta-6-gay-chan-dong-sau-tuyen-bo-hoan-toan-do-nguoi-lam-khong-dung-ai-165260901083801647.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/1/avatar1788226638989-17882266394322090997360-0-28-826-1350-crop-1788226656326944640411.png"
-      },
-      {
-        "title": "🍎 Tim Cook rời ghế CEO Apple, John Ternus kế nhiệm",
-        "desc": "Hôm nay, 1/9/2026, Tim Cook chính thức kết thúc 15 năm làm CEO Apple, chuyển giao vị trí cho John Ternus.",
-        "detail": "Sau 15 năm dẫn dắt Apple đạt được những thành công vang dội, Tim Cook đã chính thức từ nhiệm vị trí CEO. Người kế nhiệm ông là John Ternus, người sẽ đối mặt với thách thức lớn khi Apple chuẩn bị cho sự kiện quan trọng nhất năm chỉ 8 ngày sau khi ông nhậm chức. Sự thay đổi này đánh dấu một kỷ nguyên mới cho gã khổng lồ công nghệ, thu hút sự chú ý của giới công nghệ toàn cầu.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "01/09·GenK, Tinhte",
-        "url": "https://genk.vn/apple-chinh-thuc-co-ceo-moi-tu-hom-nay-khep-lai-15-nam-cua-tim-cook-16526090102003569.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/8/31/image20260831015903-0-70-892-1497-crop-17882027519081657218148.png"
-      },
-      {
-        "title": "🇹🇭 Thái Lan phát AI miễn phí cho 5 triệu dân với ngân sách 1.300 tỷ đồng",
-        "desc": "Chính phủ Thái Lan triển khai nền tảng AI miễn phí cho 5 triệu người dân, thu hút hơn 300.000 lượt đăng ký chỉ trong nửa ngày.",
-        "detail": "Với ngân sách khổng lồ 1.300 tỷ đồng, Thái Lan đã ra mắt nền tảng AI miễn phí cho người dân, thể hiện quyết tâm đẩy mạnh công nghệ. Chỉ trong nửa ngày mở cửa, dự án đã thu hút hơn 300.000 lượt đăng ký, cho thấy nhu cầu và sự quan tâm lớn từ công chúng. Tuy nhiên, dự án này cũng đang đối mặt với yêu cầu điều tra từ phe đối lập tại Quốc hội về tính minh bạch và hiệu quả.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "01/09·GenK",
-        "url": "https://genk.vn/thai-lan-phat-ai-mien-phi-cho-5-trieu-dan-ngan-sach-1300-ty-dong-165260901014721393.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/8/31/hqz2xijbcaadlfl-83-0-1333-2000-crop-1788201816901291660301.jpg"
-      },
-      {
-        "title": "🚀 Xiaomi ra mắt flagship POCO giá 25,99 triệu đồng",
-        "desc": "Xiaomi vừa trình làng mẫu flagship POCO mới với chip Snapdragon 8 Elite Gen 5, pin 8.050mAh và loa Bose tích hợp, có giá 25,99 triệu đồng tại Việt Nam.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "01/09·GenK",
-        "url": "https://genk.vn/xiaomi-lai-co-flagship-moi-snapdragon-8-elite-gen-5-pin-8050mah-loa-bose-tich-hop-gia-2599-trieu-dong-165260901185746566.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/1/genk-poco-f9-ultra-1-1788263245280562124139-166-109-1006-1454-crop-17882639124571514939004.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🤖 Robot lau sàn biến hình xLean TR1 tại IFA 2026",
-        "desc": "xLean chuẩn bị mang robot lau sàn biến hình TR1 đến IFA 2026 sau khi gọi vốn thành công hơn 2 triệu USD, hứa hẹn một giải pháp vệ sinh nhà cửa thông minh.",
-        "detail": "Robot TR1 được kỳ vọng sẽ mang đến công nghệ lau sàn tiên tiến, có khả năng biến hình để phù hợp với nhiều không gian và nhu cầu khác nhau. Sự xuất hiện tại IFA, một trong những triển lãm công nghệ lớn nhất thế giới, cho thấy tiềm năng của sản phẩm này. Với những người bận rộn, đây có thể là một trợ thủ đắc lực giúp tiết kiệm thời gian và công sức dọn dẹp nhà cửa.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "01/09·Tinhte",
-        "url": "https://tinhte.vn/thread/moi-thay-xlean-chuan-bi-mang-robot-lau-san-bien-hinh-tr1-den-ifa-2026.4172904/",
-        "addedEvening": true
-      },
-      {
-        "title": "🤖 Robot cắt cỏ XcanMow Mix 2000 ra mắt tại IFA",
-        "desc": "Xcanbot sẽ giới thiệu robot cắt cỏ XcanMow Mix 2000 tại IFA Berlin 2026, nổi bật với công nghệ định vị không cần dây viền hay ăng-ten RTK.",
-        "detail": "Điểm đặc biệt của XcanMow Mix 2000 là cách giải quyết vấn đề định vị, giúp người dùng không cần phải chôn dây viền quanh vườn hay lo lắng về việc mất sóng ăng-ten RTK. Điều này giúp việc lắp đặt và sử dụng trở nên dễ dàng hơn rất nhiều. Đối với những gia đình có sân vườn rộng, đây sẽ là một thiết bị thông minh đáng cân nhắc để giảm bớt gánh nặng chăm sóc cảnh quan.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "01/09·Tinhte",
-        "url": "https://tinhte.vn/thread/moi-thay-xcanbot-dem-con-robot-cat-co-xcanmow-mix-2000-toi-ifa-berlin-2026.4173296/",
-        "addedEvening": true
-      }
-    ],
-    "finance": [
-      {
-        "title": "📈 Việt Nam có 63 doanh nghiệp tỷ USD trên sàn chứng khoán",
-        "desc": "Thị trường chứng khoán Việt Nam hiện có 63 doanh nghiệp đạt giá trị tỷ USD, với tổng giá trị hơn 8,5 triệu tỷ đồng, thêm 6 tân binh trong 1 năm.",
-        "detail": "Bản đồ doanh nghiệp tỷ USD trên sàn chứng khoán Việt Nam ngày càng đa dạng, trải rộng từ ngân hàng, bất động sản đến viễn thông, năng lượng, bán lẻ và du lịch. Trong vòng một năm, thị trường đã chào đón 6 tân binh với tổng giá trị hơn 500.000 tỷ đồng, nâng tổng số lên 63 doanh nghiệp tỷ USD. Điều này cho thấy sự phát triển mạnh mẽ và tiềm năng của kinh tế Việt Nam.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "01/09·CafeBiz",
-        "url": "https://cafebiz.vn/viet-nam-co-63-dn-ty-usd-tren-san-chung-khoan-gia-tri-hon-85-trieu-ty-dong-1-nam-co-them-6-tan-binh-tri-gia-hon-500000-ty-176260901070138879.chn",
-        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/9/1/avatar1788220859561-17882208601631700957923.png"
-      },
-      {
-        "title": "🪙 Giá vàng thế giới lao dốc, về sát 4.400 USD/ounce",
-        "desc": "Giá vàng thế giới tiếp tục giảm mạnh, có lúc xuống sát 4.400 USD/ounce, do lo ngại lãi suất Fed có thể tăng.",
-        "detail": "Giá vàng thế giới đã có một phiên đầu tuần đầy biến động khi giảm hơn 40 USD, có lúc chạm mốc 4.420 USD/ounce. Mối lo ngại về khả năng Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất đã đẩy lợi suất trái phiếu kho bạc Mỹ và tỷ giá đồng USD tăng mạnh, gây áp lực lên giá vàng. Tuy nhiên, giới phân tích vẫn kỳ vọng vàng sẽ tăng giá trong thời gian tới do lo ngại về khối nợ công khổng lồ của Mỹ.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "01/09·VnEconomy, Tuổi Trẻ",
-        "url": "https://vneconomy.vn/moi-lo-lai-suat-tang-day-gia-vang-xuong-day-2-tuan.htm",
-        "image": "https://premedia.vneconomy.vn/files/uploads/2026/09/01/6662b71690254da18714b0442f7389c2-116136.png?w=1200&h=630&mode=crop"
-      },
-      {
-        "title": "💸 VNDirect bị truy thu, phạt thuế gần 7 tỷ đồng",
-        "desc": "Công ty Chứng khoán VNDirect bị cơ quan thuế truy thu, xử phạt và tính tiền chậm nộp với tổng số tiền gần 7 tỷ đồng.",
-        "tag": "tax",
-        "tagLabel": "💸 THUẾ",
-        "source": "01/09·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/vndirect-bi-truy-thu-phat-thue-gan-7-ti-dong-100260831221159401.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/490269626240859366176751586528831352833802986n-1788187706661905145417-278-294-853-1214-crop-1788188454954641910231.jpg"
-      },
-      {
-        "title": "🪙 Giá vàng tăng hơn 10 triệu đồng/lượng trong tháng 8",
-        "desc": "Giá vàng miếng trong nước đã có tháng 8 'nóng' khi tăng hơn 10 triệu đồng/lượng, có thời điểm vượt mốc 150,6 triệu đồng/lượng.",
-        "detail": "Dù đã hạ nhiệt vào cuối tháng, nhiều chuyên gia và tổ chức quốc tế vẫn nhận định giá vàng còn dư địa tăng trong tháng 9. Điều này khiến nhiều nhà đầu tư băn khoăn về việc nên tiếp tục nắm giữ hay chốt lời. Việc theo dõi sát sao các yếu tố kinh tế vĩ mô và tình hình địa chính trị là rất quan trọng để đưa ra quyết định đầu tư vàng hợp lý.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "01/09·CafeF",
-        "url": "https://cafef.vn/vang-tang-hon-10-trieu-dong-luong-trong-thang-8-thang-9-lieu-con-nong-18826090116162466.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/1/avatar1788254159751-1788254159910190816920.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "💵 Lãi suất tiết kiệm ACB cao nhất 7,8%/năm",
-        "desc": "Mặt bằng lãi suất huy động trực tuyến đầu tháng 9 tiếp tục phân hóa, với ACB niêm yết mức cao nhất 7,8%/năm cho kỳ hạn 12 tháng.",
-        "detail": "Trong khi Sacombank đứng thứ hai với 7,5%/năm, LPBank và Saigonbank cùng ở mức 7,2%/năm, thì nhóm Big4 (Agribank, Vietcombank, BIDV, VietinBank) duy trì lãi suất 6,8%/năm. Sự chênh lệch này tạo cơ hội cho người gửi tiền lựa chọn ngân hàng có mức lãi suất hấp dẫn nhất, đặc biệt với những khoản tiền lớn. Tuy nhiên, bạn cũng cần cân nhắc các yếu tố khác như uy tín và dịch vụ của ngân hàng.",
-        "tag": "rate",
-        "tagLabel": "💵 LÃI SUẤT",
-        "source": "01/09·CafeBiz",
-        "url": "https://cafebiz.vn/lai-suat-ngan-hang-1-9-tai-agribank-vietcombank-bidv-vietinbank-mb-sacombank-hdbank-17626090119442483.chn",
-        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/9/1/avatar1788266636895-17882666372251840494321.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "💼 Thù lao lãnh đạo Đạm Phú Mỹ tăng gần 57%",
-        "desc": "Trong 6 tháng đầu năm 2026, Đạm Phú Mỹ (DPM) đã chi hơn 23,38 tỷ đồng cho lãnh đạo cấp cao, tăng gần 57% so với cùng kỳ năm trước.",
-        "detail": "Đáng chú ý, thu nhập của một thành viên HĐQT tăng hơn 14,6 lần, trong khi nhiều lãnh đạo khác cũng ghi nhận mức tăng từ 40-80%. Sự gia tăng đáng kể này phản ánh kết quả kinh doanh khả quan của DPM trong nửa đầu năm, đồng thời cho thấy chính sách đãi ngộ nhân sự cấp cao của công ty. Đây là thông tin quan trọng cho các nhà đầu tư quan tâm đến hiệu quả hoạt động và quản trị của doanh nghiệp.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "01/09·CafeF",
-        "url": "https://cafef.vn/thu-lao-lanh-dao-cap-cao-dam-phu-my-dpm-tang-gan-57-co-truong-hop-tang-hon-146-lan-188260901161427988.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/1/avatar1788254038165-178825403842563086892.jpg",
         "addedEvening": true
       }
     ],
