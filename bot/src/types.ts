@@ -45,6 +45,10 @@ export interface DigestItem {
   stars?: string;
   verdict?: string;
   reason?: string;
+  detail?: string;
+  // Set by rag.retrieveContext: source card date (YYYY-MM-DD) + topic label.
+  date?: string;
+  topic?: string;
 }
 
 export interface DailyCard {

@@ -1,45 +1,82 @@
-// RAG helper — extract relevant items from digest based on user query.
-// Applies recency decay + optional hard date filter so old items don't beat
-// current-day items on keyword ties.
+// RAG helper — pick the digest items the chatbot answers from.
+// Understands day scopes ("hnay", "sáng nay", "hôm qua", "08/10"), overview
+// questions ("hôm nay có tin gì") that should return a whole day's card, topic
+// mentions ("tin tài chính", "github"), and accent-less typing ("gia vang").
+// Never returns an empty context while the store has items: when nothing
+// matches, it falls back to the latest card so the bot can still talk about it.
 import type { DigestData, DigestItem, DailyCard, WeeklyCard, MonthlyCard } from './types';
 
-const VN_STOPWORDS = new Set([
-  'và','của','với','để','cho','là','có','bị','được','đã','sẽ','đang','một','các','những',
-  'này','đó','về','từ','trong','ngoài','trên','dưới','hoặc','hay','khi','nếu','thì','vì',
-  'bởi','do','giờ','đến','tại','theo','như','the','a','an','of','to','for','with','in',
-  'on','at','and','or','but','is','are','was','were','be','have','has','had','tôi','em','anh',
-  'gì','sao','thế','nào','bao','giờ','nhé','ạ','không','có','ko','ai','đâu','làm','ra','cần',
+const VN_OFFSET_MS = 7 * 3600 * 1000;
+const OVERVIEW_TOP_K = 40;
+
+// Folded (accent-less) so they match folded query tokens.
+const STOPWORDS = new Set([
+  'va','cua','voi','de','cho','la','co','bi','duoc','da','se','dang','mot','cac','nhung',
+  'nay','do','ve','tu','trong','ngoai','tren','duoi','hoac','hay','khi','neu','thi','vi',
+  'boi','gio','den','tai','theo','nhu','the','an','of','to','for','with','in',
+  'on','at','and','or','but','is','are','was','were','be','have','has','had','toi','em','anh','chi',
+  'gi','sao','the','nao','bao','nhe','khong','ko','ai','dau','lam','ra','can','oi','nhi',
+  'a','u','vay','day','minh','ban','xem','doc','biet','hoi','noi','ke','cho','giup','voi',
 ]);
 
-// Tag items with the source card's date so we can apply time-decay later.
-type Tagged = DigestItem & { _srcDate: string };
+// Words that only express "give me the news" — removed before keyword scoring.
+const OVERVIEW_WORDS = new Set([
+  'tin','tuc','ban','digest','news','bai','post','dang','moi','nhat','vua','tong','hop','tom','tat',
+  'liet','ke','diem','may','nhung','cac','het','tat','ca','gi','nao','hom','nay','qua','sang','toi',
+  'trua','chieu','hnay','hqua','today','yesterday','latest','kho','ca','man','summary',
+]);
 
-function tokens(s: string): Set<string> {
-  const norm = (s || '')
+const OVERVIEW_RE = /(tin gi|co gi|tom tat|tong hop|diem tin|ban tin|digest|liet ke|may tin|cac tin|nhung tin|tin nao|het tin|tat ca|vua post|vua dang|moi post|tin moi|summary|what.?s new)/;
+
+type Tagged = DigestItem & { _srcDate: string; _field: string; _kind: 'daily' | 'rollup' };
+
+export function fold(s: string): string {
+  return (s || '')
     .toLowerCase()
-    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
-    .split(/\s+/)
-    .filter(w => w.length > 1 && !VN_STOPWORDS.has(w));
-  return new Set(norm);
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/đ/g, 'd');
 }
 
-// Detect time-window hints in the user query — hard-filter by max age.
-// Returns max allowed age in days (Infinity = no filter).
-function detectTimeWindow(qRaw: string): number {
-  if (/\b(hôm nay|today|hôm qua|yesterday)\b/i.test(qRaw)) return 2;
-  if (/\b(tuần này|tuần qua|this week|past week|7 ngày)\b/i.test(qRaw)) return 8;
-  if (/\b(tháng này|tháng qua|this month|past month|30 ngày)\b/i.test(qRaw)) return 32;
-  if (/\btrending\b/i.test(qRaw)) return 8;   // trending → tuần này
-  if (/\bmới nhất\b/i.test(qRaw)) return 3;    // mới nhất → 3 ngày
-  return Infinity;
+function tokens(s: string, extraStop?: Set<string>): Set<string> {
+  return new Set(
+    fold(s)
+      .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+      .split(/\s+/)
+      .filter(w => w.length > 1 && !STOPWORDS.has(w) && !(extraStop && extraStop.has(w))),
+  );
 }
 
-function daysBetween(dateStr: string, today: Date): number {
+function vnDate(now: Date, minusDays = 0): string {
+  return new Date(now.getTime() + VN_OFFSET_MS - minusDays * 86400000).toISOString().slice(0, 10);
+}
+
+type Scope = { date: string } | { maxAge: number } | null;
+
+// Detect a time scope in the (folded) query.
+export function detectScope(q: string, now: Date): Scope {
+  if (/\b(hom nay|hnay|sang nay|trua nay|chieu nay|toi nay|today|vua post|vua dang|moi post|sang gio)\b/.test(q)) {
+    return { date: vnDate(now) };
+  }
+  if (/\b(hom qua|hqua|yesterday)\b/.test(q)) return { date: vnDate(now, 1) };
+  const dm = q.match(/\b(\d{1,2})[/-](\d{1,2})(?:[/-](\d{4}))?\b/);
+  if (dm) {
+    const year = dm[3] || vnDate(now).slice(0, 4);
+    return { date: `${year}-${dm[2].padStart(2, '0')}-${dm[1].padStart(2, '0')}` };
+  }
+  if (/\b(tuan nay|tuan qua|this week|past week|7 ngay)\b/.test(q)) return { maxAge: 8 };
+  if (/\b(thang nay|thang qua|this month|past month|30 ngay)\b/.test(q)) return { maxAge: 32 };
+  if (/\b(trending)\b/.test(q)) return { maxAge: 8 };
+  if (/\bmoi nhat\b/.test(q)) return { maxAge: 3 };
+  return null;
+}
+
+function daysBetween(dateStr: string, todayVn: string): number {
   if (!dateStr) return 9999;
-  const d = new Date(dateStr + 'T00:00:00Z');
-  if (isNaN(d.getTime())) return 9999;
-  const diffMs = today.getTime() - d.getTime();
-  return Math.max(0, Math.round(diffMs / 86400000));
+  const d = Date.parse(dateStr + 'T00:00:00Z');
+  const t = Date.parse(todayVn + 'T00:00:00Z');
+  if (isNaN(d)) return 9999;
+  return Math.max(0, Math.round((t - d) / 86400000));
 }
 
 // Half-life 7 days: today=1.0, week ago=0.5, 2 weeks=0.25, month=~0.06
@@ -47,11 +84,12 @@ function recencyWeight(ageDays: number): number {
   return Math.pow(0.5, ageDays / 7);
 }
 
-function scoreItem(item: Tagged, queryTokens: Set<string>, queryRaw: string, ageDays: number): number {
-  const bag = tokens(`${item.title || ''} ${item.name || ''} ${item.desc || ''} ${item.reason || ''}`);
+function scoreItem(item: Tagged, queryTokens: Set<string>, queryFolded: string, ageDays: number): number {
+  const bag = tokens(`${item.title || ''} ${item.name || ''} ${item.desc || ''} ${item.detail || ''} ${item.reason || ''} ${item.tagLabel || ''}`);
   let overlap = 0;
   for (const t of queryTokens) if (bag.has(t)) overlap++;
-  const substrBoost = queryRaw && (item.title?.toLowerCase().includes(queryRaw) || item.name?.toLowerCase().includes(queryRaw)) ? 3 : 0;
+  const head = fold(`${item.title || ''} ${item.name || ''}`);
+  const substrBoost = queryFolded && head.includes(queryFolded) ? 3 : 0;
   const base = overlap + substrBoost;
   if (base === 0) return 0;
   return base * recencyWeight(ageDays);
@@ -63,71 +101,141 @@ function listFields<T extends Record<string, unknown>>(obj: T): string[] {
   );
 }
 
-// Card → representative date (daily uses .date, weekly/monthly use .toDate).
 function cardDate(card: DailyCard | WeeklyCard | MonthlyCard): string {
   return (card as DailyCard).date || (card as WeeklyCard | MonthlyCard).toDate || '';
 }
 
-export function retrieveContext(data: DigestData, query: string, topK = 12): DigestItem[] {
-  const qTokens = tokens(query);
-  const qRaw = query.toLowerCase().trim();
-  const today = new Date();
-  const maxAge = detectTimeWindow(qRaw);
+// output_field → section label, from the site's config.json.
+function topicLabels(data: DigestData): Record<string, string> {
+  const out: Record<string, string> = {};
+  const topics = (data.config && data.config.topics) || {};
+  for (const t of Object.values(topics) as { output_field?: string; section_label?: string }[]) {
+    if (t && t.output_field) out[t.output_field] = t.section_label || t.output_field;
+  }
+  return out;
+}
+
+// Fields whose label or name the query mentions ("tin tài chính" → finance).
+function detectTopics(qFolded: string, labels: Record<string, string>, fields: Set<string>): Set<string> {
+  const hits = new Set<string>();
+  for (const f of fields) {
+    const label = fold(labels[f] || '');
+    const words = [fold(f), label, ...label.split(/[\s/&]+/).filter(w => w.length > 3)];
+    if (words.some(w => w && new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(qFolded))) hits.add(f);
+  }
+  return hits;
+}
+
+function sortByDateThenOrder(items: Tagged[]): Tagged[] {
+  return items
+    .map((it, i) => ({ it, i }))
+    .sort((a, b) => (b.it._srcDate || '').localeCompare(a.it._srcDate || '') || a.i - b.i)
+    .map(x => x.it);
+}
+
+export function retrieveContext(data: DigestData, query: string, topK = 12, now: Date = new Date()): DigestItem[] {
+  const qFolded = fold(query).trim();
+  const todayVn = vnDate(now);
+  const labels = topicLabels(data);
   const pool: Tagged[] = [];
 
-  const collect = (arr: (DailyCard|WeeklyCard|MonthlyCard)[]) => {
-    for (const card of arr) {
+  const collect = (arr: (DailyCard | WeeklyCard | MonthlyCard)[], kind: Tagged['_kind']) => {
+    for (const card of arr || []) {
       const srcDate = cardDate(card);
       for (const f of listFields(card as unknown as Record<string, unknown>)) {
         const items = (card as unknown as Record<string, DigestItem[]>)[f];
-        for (const it of items) if (it?.title || it?.name) pool.push({ ...it, _srcDate: srcDate });
+        for (const it of items) if (it?.title || it?.name) pool.push({ ...it, _srcDate: srcDate, _field: f, _kind: kind });
       }
     }
   };
-  collect(data.daily); collect(data.weekly); collect(data.monthly);
+  collect(data.daily, 'daily'); collect(data.weekly, 'rollup'); collect(data.monthly, 'rollup');
 
-  // Dedup by URL, keep first (which is newest since data is newest-first)
+  // Dedup by URL, keep first (newest, since data is newest-first)
   const seen = new Set<string>();
-  const uniq: Tagged[] = [];
+  let uniq: Tagged[] = [];
   for (const it of pool) {
     const k = (it.url || it.title || it.name || '').toLowerCase();
     if (k && !seen.has(k)) { seen.add(k); uniq.push(it); }
   }
+  if (!uniq.length) return [];
 
-  // Apply hard time-window filter if query hints at recency
-  const filtered = maxAge === Infinity
-    ? uniq
-    : uniq.filter(it => daysBetween(it._srcDate, today) <= maxAge);
+  const finish = (items: Tagged[], k: number) => items.slice(0, k).map(it => stripInternal(it, labels));
 
-  const workingSet = filtered.length ? filtered : uniq;   // fallback if filter empties pool
-
-  // No query terms → return most recent (sort by srcDate desc, tie-break original order)
-  if (qTokens.size === 0) {
-    return workingSet
-      .slice()
-      .sort((a, b) => (b._srcDate || '').localeCompare(a._srcDate || ''))
-      .slice(0, topK)
-      .map(stripInternal);
+  // Topic filter ("tin tài chính", "github gamedev")
+  const topicHits = detectTopics(qFolded, labels, new Set(uniq.map(it => it._field)));
+  if (topicHits.size) {
+    const narrowed = uniq.filter(it => topicHits.has(it._field));
+    if (narrowed.length) uniq = narrowed;
   }
 
-  const scored = workingSet
-    .map(it => ({ it, score: scoreItem(it, qTokens, qRaw, daysBetween(it._srcDate, today)) }))
-    .filter(x => x.score > 0)
-    .sort((a, b) => b.score - a.score);
+  // Time scope
+  const scope = detectScope(qFolded, now);
+  let working = uniq;
+  if (scope && 'date' in scope) {
+    let day = uniq.filter(it => it._kind === 'daily' && it._srcDate === scope.date);
+    // "hôm nay" before today's card exists (or 0-9h) → latest daily card instead
+    if (!day.length && scope.date === todayVn) {
+      const latest = (data.daily || []).map(c => c.date).find(Boolean);
+      day = uniq.filter(it => it._kind === 'daily' && it._srcDate === latest);
+    }
+    if (day.length) working = day;
+  } else if (scope && 'maxAge' in scope) {
+    const recent = uniq.filter(it => daysBetween(it._srcDate, todayVn) <= scope.maxAge);
+    if (recent.length) working = recent;
+  }
 
-  return scored.slice(0, topK).map(x => stripInternal(x.it));
+  const qTokens = tokens(query, OVERVIEW_WORDS);
+  for (const f of topicHits) for (const w of tokens(`${f} ${labels[f] || ''}`)) qTokens.delete(w);
+  const isOverview = OVERVIEW_RE.test(qFolded) || (qTokens.size === 0 && (scope !== null || topicHits.size > 0));
+
+  // Overview / scope-only question → the whole slice, newest first, in card order
+  if (isOverview || qTokens.size === 0) {
+    const k = isOverview || scope || topicHits.size ? Math.max(topK, OVERVIEW_TOP_K) : topK;
+    return finish(sortByDateThenOrder(working), k);
+  }
+
+  const scored = working
+    .map(it => ({ it, score: scoreItem(it, qTokens, qFolded, daysBetween(it._srcDate, todayVn)) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map(x => x.it);
+
+  if (scored.length) return finish(scored, topK);
+  // Nothing matched → still give the bot the newest items of the current slice
+  return finish(sortByDateThenOrder(working), topK);
 }
 
-function stripInternal(it: Tagged): DigestItem {
-  const { _srcDate: _drop, ...rest } = it;
-  return rest;
+function stripInternal(it: Tagged, labels: Record<string, string>): DigestItem {
+  const { _srcDate, _field, _kind: _drop, ...rest } = it;
+  return { ...rest, date: _srcDate, topic: labels[_field] || _field };
+}
+
+function shortDate(iso?: string): string {
+  const m = (iso || '').match(/^\d{4}-(\d{2})-(\d{2})$/);
+  return m ? `${m[2]}/${m[1]}` : '';
 }
 
 export function formatContextForPrompt(items: DigestItem[]): string {
   if (!items.length) return '(Không có tin liên quan trong digest gần đây.)';
   return items.map((it, i) => {
     const title = it.title || it.name || '';
+    const meta = [shortDate(it.date), it.topic, it.stars ? `⭐ ${it.stars}` : ''].filter(Boolean).join(' · ');
     const desc = (it.desc || it.reason || '').slice(0, 150);
-    return `[${i+1}] ${title}\n    URL: ${it.url || ''}\n    ${desc}`;
+    const detail = (it.detail || '').slice(0, 400);
+    return `[${i+1}] ${meta ? `(${meta}) ` : ''}${title}\n    URL: ${it.url || ''}\n    ${desc}${detail ? `\n    Chi tiết: ${detail}` : ''}`;
   }).join('\n');
+}
+
+// Header for the system prompt: what "today" is and what the store holds.
+export function digestOverview(data: DigestData, now: Date = new Date()): string {
+  const daily = data.daily || [];
+  const latest = daily[0];
+  const dates = daily.map(c => c.date).filter(Boolean);
+  const count = latest ? listFields(latest as unknown as Record<string, unknown>)
+    .reduce((n, f) => n + ((latest as unknown as Record<string, unknown[]>)[f] || []).length, 0) : 0;
+  return [
+    `Hôm nay (giờ VN): ${vnDate(now)}.`,
+    latest ? `Bản tin mới nhất trong kho: ${latest.date} (${count} tin).` : 'Kho chưa có bản tin.',
+    dates.length ? `Kho có ${dates.length} bản tin ngày, từ ${dates[dates.length - 1]} đến ${dates[0]}, cộng tổng kết tuần/tháng.` : '',
+  ].filter(Boolean).join('\n');
 }
