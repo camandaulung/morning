@@ -95,15 +95,18 @@ def validate_news_items(items: list, live_map: dict, trusted_urls: set | None = 
     return cleaned
 
 
-def validate_repo_items(items: list, live_map: dict) -> list:
-    """Drop repo items whose URL is not github.com/owner/repo OR is dead."""
+def validate_repo_items(items: list, live_map: dict, trusted_urls: set | None = None) -> list:
+    """Drop repo items whose URL is not github.com/owner/repo OR is dead.
+    URLs in trusted_urls came straight from the GitHub API, so they skip the
+    HEAD-check (validate_card never puts them in live_map)."""
+    trusted_urls = trusted_urls or set()
     cleaned = []
     for r in items:
         url = (r.get("url") or "").strip()
         if not GITHUB_REPO_RE.match(url):
             print(f"  [validate] dropped repo (bad format): {url}")
             continue
-        if not live_map.get(url, False):
+        if url not in trusted_urls and not live_map.get(url, False):
             print(f"  [validate] dropped repo (dead URL): {url}")
             continue
         cleaned.append(r)

@@ -132,7 +132,7 @@ def validate_card(card_json: dict, output_fields: list, repo_fields: list,
 
     for f in output_fields:
         if f in repo_fields:
-            card_json[f] = validate_repo_items(card_json.get(f, []), live_map)
+            card_json[f] = validate_repo_items(card_json.get(f, []), live_map, trusted_urls)
         else:
             items = validate_news_items(card_json.get(f, []), live_map, trusted_urls)
             card_json[f] = [sanitize_reader_detail(item) for item in items]

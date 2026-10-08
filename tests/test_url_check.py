@@ -335,3 +335,18 @@ class TestValidateRepoItems:
         live_map = {"https://github.com/user/repo": True}
         result = validate_repo_items(items, live_map)
         assert len(result) == 1
+
+    def test_trusted_repo_skips_live_map(self):
+        """Repos straight from the GitHub API are trusted even though validate_card
+        never HEAD-checks them (so they are absent from live_map)."""
+        items = [
+            {"url": "https://github.com/user/trusted"},
+            {"url": "https://github.com/user/unknown"},
+        ]
+        result = validate_repo_items(items, {}, {"https://github.com/user/trusted"})
+        assert [r["url"] for r in result] == ["https://github.com/user/trusted"]
+
+    def test_trusted_repo_still_needs_valid_format(self):
+        """Trust does not bypass the owner/repo format check."""
+        url = "https://github.com/user/repo/issues/1"
+        assert validate_repo_items([{"url": url}], {}, {url}) == []

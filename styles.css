@@ -287,6 +287,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .topic-gaming { background-color: #4e5f86; }
 .topic-lifestyle { background-color: #6d6642; }
 .topic-vietnam { background-color: #316b66; }
+.topic-gamedev { background-color: #5b4a7e; }
 
 .story-hero,
 .story-hero.read { min-height: 400px; border-radius: 22px; background: #173f37; color: #f7fbf8; }

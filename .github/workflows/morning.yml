@@ -74,6 +74,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_card.py
 
       - name: Notify Telegram
@@ -114,6 +115,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_card.py
 
       - name: Notify Telegram

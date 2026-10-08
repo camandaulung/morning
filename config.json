@@ -186,6 +186,28 @@
       ],
       "prompt_instruction": "Tin thể thao nổi bật: bóng đá VN + quốc tế, tennis, các môn khác. Ưu tiên trận đấu vừa/sắp diễn ra, chuyển nhượng lớn, kết quả gây bất ngờ. URL chỉ từ Dữ liệu tìm kiếm.",
       "schema": "{\"title\":\"emoji+tên\",\"desc\":\"tiếng Việt max 2 câu, có tỉ số/tên đội\",\"tag\":\"football|tennis|other|transfer\",\"tagLabel\":\"⚽ BÓNG ĐÁ|🎾 TENNIS|🏆 KHÁC|🔄 CHUYỂN NHƯỢNG\",\"source\":\"ngày·nguồn\",\"url\":\"\"}"
+    },
+    "gamedev_repos": {
+      "enabled": true,
+      "data_source": "github_api",
+      "output_field": "gamedev",
+      "emoji": "🕹️",
+      "section_label": "GitHub GameDev",
+      "min_items": 3,
+      "max_items": 5,
+      "pushed_days": 14,
+      "created_days": 60,
+      "github_per_query": 8,
+      "github_queries": [
+        "claude game in:name,description,topics pushed:>{cutoff_date}",
+        "claude godot in:name,description,topics pushed:>{cutoff_date}",
+        "unity mcp in:name,description pushed:>{cutoff_date} stars:>20",
+        "topic:game-development created:>{created_cutoff} stars:>20",
+        "topic:gamedev created:>{created_cutoff} stars:>50"
+      ],
+      "search_queries": [],
+      "prompt_instruction": "Repo GitHub đang trending hữu ích cho người làm game (game dev, engine, tool, asset pipeline, AI cho game). Chỉ chọn repo từ 'Dữ liệu GitHub' bên dưới — name, url, stars PHẢI lấy nguyên xi, KHÔNG thêm repo ngoài danh sách. ƯU TIÊN CAO NHẤT repo gắn [CLAUDE] (Claude Code skill/agent/plugin, MCP server cho Unity/Godot/Unreal/Blender, workflow làm game bằng Claude) — nếu có thì ít nhất một nửa số item là repo [CLAUDE]. Sau đó tới repo mới tạo đang tăng sao nhanh, rồi tool/engine thực dụng. Bỏ awesome-list chung chung không liên quan game, repo chỉ là game demo không có giá trị tham khảo. desc nói repo làm được gì; detail tóm tắt tính năng chính, cách dùng/stack, ai nên thử; reason nêu vì sao đáng để mắt với team làm game.",
+      "schema": "{\"title\":\"🕹️ owner/repo\",\"name\":\"owner/repo\",\"url\":\"https://github.com/owner/repo\",\"stars\":\"12K+\",\"desc\":\"tiếng Việt 1-2 câu repo làm được gì\",\"detail\":\"tiếng Việt 3-5 câu: tính năng chính, stack/engine hỗ trợ, ai nên thử, không lặp desc\",\"reason\":\"1 câu vì sao đáng chú ý cho game dev\",\"tag\":\"claude|mcp|engine|tool|ai|asset\",\"tagLabel\":\"🤖 CLAUDE|🔌 MCP|⚙️ ENGINE|🛠️ TOOL|🧠 AI|🎨 ASSET\",\"source\":\"⭐ stars · GitHub\"}"
     }
   },
   "tone_guidance": "TONE: người viết 30-40 tuổi VN, vui vẻ, đời, chuyên nghiệp nhưng không cứng nhắc. Xưng 'bạn' hoặc 'anh chị'. Tránh teen slang quá đà và CAPS. Cho phép tin showbiz/phim/nhạc/trending/gaming hấp dẫn, viết bắt trend miễn có nguồn đàng hoàng — không chọn tin rác/clickbait trắng trợn. 1 emoji đầu title, tối đa 1 emoji trong desc. Câu ngắn, thông tin đậm, có con số cụ thể khi có. Ngôn ngữ: chủ yếu Việt Nam, cho phép mix Anh khi giữ tên riêng/thuật ngữ."
