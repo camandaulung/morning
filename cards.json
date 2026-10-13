@@ -1,5 +1,230 @@
 [
   {
+    "date": "2026-10-13",
+    "dayLabel": "Thứ Ba",
+    "dateLabel": "13/10/2026",
+    "entertainment": [
+      {
+        "title": "🎬 Ben Affleck: Ông trùm AI Hollywood?",
+        "desc": "Tài tử Ben Affleck không chỉ giỏi diễn xuất mà còn am hiểu công nghệ, đứng sau thương vụ bán startup AI hàng trăm triệu USD cho Netflix.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "13/10·VnExpress",
+        "url": "https://vnexpress.net/ben-affleck-nguoi-don-dau-lan-song-ai-o-hollywood-5131078.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/12/ap26275087355062-1791791027-7301-1791791414.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1pF0Xchg6NcPdr4KIQSWvA"
+      },
+      {
+        "title": "🎵 Britney Spears tung nhạc cũ với Justin Timberlake",
+        "desc": "Sau 25 năm cất kho, Britney Spears bất ngờ phát hành ca khúc 'She'll Never Be Me' do cô và người yêu cũ Justin Timberlake sáng tác.",
+        "detail": "Fan hâm mộ của 'công chúa nhạc Pop' Britney Spears đang xôn xao khi cô quyết định tung ra một bản nhạc chưa từng công bố, 'She'll Never Be Me'. Điều đặc biệt là ca khúc này được sáng tác cùng Justin Timberlake từ 25 năm trước, thời điểm cả hai còn là cặp đôi vàng của làng nhạc. Đây chắc chắn là một món quà bất ngờ và đầy hoài niệm cho những ai yêu mến cả hai nghệ sĩ.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "12/10·VnExpress",
+        "url": "https://vnexpress.net/britney-spears-ra-nhac-viet-cung-justin-timberlake-25-nam-truoc-5131245.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/12/afpyw297-v1-highres-crossroads-4350-5199-1791794881.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=PPBRpjh9WKIM3sDcQMjRNw"
+      },
+      {
+        "title": "⭐ Kim Hyun Joong 'Vườn Sao Băng' lộ diện cùng vợ con",
+        "desc": "Nam thần Kim Hyun Joong lần đầu xuất hiện công khai cùng vợ và con gái út, thu hút sự chú ý về nhan sắc bí ẩn của nửa kia.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "13/10·Kenh14",
+        "url": "https://kenh14.vn/kim-hyun-joong-vuon-sao-bang-lan-dau-tien-xuat-hien-cung-vo-va-con-gai-ut-nhan-sac-nua-kia-bi-an-gay-chu-y-215261013071918491.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/13/download-2-17917973296631363541725-0-0-398-636-crop-17917974274392079145025-1791850476645-1791850478702837206435.gif"
+      },
+      {
+        "title": "📺 Á hậu Trịnh Mỹ Anh xin lỗi vì ồn ào nhóm chat",
+        "desc": "Á hậu 1 Miss Universe Vietnam 2026 Trịnh Mỹ Anh đã chính thức lên tiếng xin lỗi sau khi những đoạn tin nhắn nói xấu đồng nghiệp bị lan truyền.",
+        "detail": "Ồn ào nhóm chat nói xấu đồng nghiệp đã khiến Á hậu 1 Miss Universe Vietnam 2026 Trịnh Mỹ Anh phải đối mặt với làn sóng chỉ trích. Cô đã thừa nhận những lời nói thiếu cân nhắc của mình có thể gây tổn thương và gửi lời xin lỗi. Sự việc này một lần nữa nhắc nhở về tầm quan trọng của phát ngôn trên mạng xã hội, đặc biệt với những người của công chúng.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "13/10·Kenh14",
+        "url": "https://kenh14.vn/a-hau-1-miss-universe-vietnam-2026-trinh-my-anh-xin-loi-sau-on-ao-nhom-chat-noi-xau-dong-nghiep-215261013062827282.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/12/avatar1791847629081-17918476296191168062857-0-108-419-778-crop-1791847658892528048420.jpg"
+      },
+      {
+        "title": "🎬 Tom Cruise 'Digger' thua lỗ 245 triệu USD",
+        "desc": "Bộ phim 'Digger' của Tom Cruise tiếp tục lao dốc doanh thu trong tuần công chiếu thứ hai, dự báo lỗ tới 245 triệu USD dù được nhiều người nổi tiếng kêu gọi ủng hộ.",
+        "detail": "Dù có sự góp mặt của siêu sao Tom Cruise, bộ phim 'Digger' đang đối mặt với thất bại nặng nề tại phòng vé. Sau tuần công chiếu thứ hai, doanh thu tiếp tục giảm mạnh, ước tính thua lỗ lên tới 245 triệu USD. Ngay cả những lời kêu gọi ủng hộ từ các ngôi sao khác cũng không thể cứu vãn tình hình, cho thấy thị hiếu khán giả ngày càng khó đoán định.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "12/10·Kenh14",
+        "url": "https://kenh14.vn/khong-cuu-noi-tom-cruise-215261012093918716.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/12/avatar1791772541281-1791772542182309227899.webp"
+      },
+      {
+        "title": "🎵 Phát động cuộc thi sáng tác 'Thanh âm Việt Nam'",
+        "desc": "Bộ Văn hóa, Thể thao và Du lịch phát động chương trình 'Thanh âm Việt Nam' khuyến khích mọi người ghi lại âm thanh đời sống và chia sẻ ký ức âm nhạc.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "13/10·VnExpress",
+        "url": "https://vnexpress.net/phat-dong-cuoc-thi-sang-tac-thanh-am-viet-nam-5131344.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/12/nghe-si-xua-n-ba-c-1791793040-1481-1791793075.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=4zHjea35-o0DGJnM5qvhOQ"
+      }
+    ],
+    "trending": [
+      {
+        "title": "📱 Trend 'chụp ảnh trần nhà' nhận thông điệp vũ trụ",
+        "desc": "Giới trẻ đang rầm rộ 'đu trend' chụp ảnh trần nhà để nhận thông điệp từ vũ trụ, thể hiện sự 'bị cuộc đời dí' đến mức nào.",
+        "detail": "Một trào lưu mới đang gây sốt trên mạng xã hội là 'chụp ảnh trần nhà để nhận thông điệp từ vũ trụ'. Người tham gia sẽ chụp lại trần nhà của mình và chia sẻ cùng những dòng trạng thái hài hước, thể hiện sự mệt mỏi, áp lực từ cuộc sống. Trend này nhanh chóng lan rộng vì đánh trúng tâm lý của nhiều người trẻ đang đối mặt với những lo toan, muốn tìm một chút 'thông điệp' giải thoát hay đơn giản là đồng cảm với nhau.",
+        "tag": "tiktok",
+        "tagLabel": "📱 TIKTOK",
+        "source": "13/10·Kenh14",
+        "url": "https://kenh14.vn/mot-chiec-trend-dang-viral-chup-anh-tran-nha-de-nhan-thong-diep-tu-vu-tru-ban-bi-cuoc-doi-di-toi-muc-nay-roi-sao-215261013063429553.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/12/photo2026-10-1220-39-41-17918124434411639011138-1791847876682-17918478794361767930158.jpg"
+      },
+      {
+        "title": "🔥 Cưới xin '3 không' của giới trẻ Trung Quốc",
+        "desc": "Giới trẻ Trung Quốc đang chuộng kiểu cưới '3 không': không vay nợ, không tiệc tùng xa hoa, không áp lực, nhằm giảm gánh nặng tài chính.",
+        "detail": "Trong bối cảnh kinh tế khó khăn và áp lực tài chính ngày càng tăng, giới trẻ Trung Quốc đang tạo ra một trào lưu mới trong hôn nhân: cưới xin '3 không'. Đó là không vay nợ, không tổ chức tiệc tùng xa hoa và không chịu áp lực từ gia đình. Xu hướng này phản ánh mong muốn của thế hệ trẻ về một cuộc sống đơn giản, thực tế hơn, tập trung vào giá trị tình cảm thay vì vật chất.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "12/10·VIETTIMES",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb3ZFWEh0NExDckhjTWhyNkZDcTZVMGpOb0M0a0xiRGdHYzY2NkVpOTBKQl9BY1ExYTJBVWlIeTF0a29lS2U4VjZRbTNnWFk2WHJsUUJndlp4LVZtQTUwWmVnWjV1QlJ6SHF5MHFQbWgwY1R0R3l1UkVfM2JEekxBajEydEJTMzZPTGNHdUt5bGhHejVQQ0QtODZQcU92bGpEaWxxMzF2RHZVTDQ?oc=5"
+      }
+    ],
+    "gaming": [],
+    "lifestyle": [
+      {
+        "title": "🍜 Bánh tôm gần 40 năm cạnh phủ Tây Hồ",
+        "desc": "Quán bánh tôm Hòa Nhã, gần phủ Tây Hồ, đã trở thành địa chỉ quen thuộc với thực khách Hà Nội gần 40 năm nhờ hương vị thơm ngậy, bánh giòn rụm và tôm tươi chắc thịt.",
+        "detail": "Nếu bạn là tín đồ ẩm thực Hà Nội, đừng bỏ qua quán bánh tôm Hòa Nhã. Với gần 40 năm tuổi đời, quán đã chinh phục nhiều thế hệ thực khách bởi món bánh tôm đặc trưng. Bánh được chiên giòn rụm, thơm ngậy, kết hợp với tôm tươi chắc thịt, mỏng vỏ, tạo nên hương vị khó quên. Đây là lựa chọn lý tưởng cho một bữa ăn nhẹ hoặc khám phá ẩm thực truyền thống bên cạnh danh thắng phủ Tây Hồ.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "13/10·VnExpress",
+        "url": "https://vnexpress.net/quan-banh-tom-gan-40-nam-canh-phu-tay-ho-5129300.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/07/wm1-huy-1791354153-1791355002.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dGhbFrRi_FypsB-h9bamWw"
+      },
+      {
+        "title": "✈️ Nga miễn visa 30 ngày cho công dân Việt Nam",
+        "desc": "Từ 15/10, công dân Việt Nam có thể nhập cảnh Nga không cần visa và lưu trú tối đa 30 ngày cho mục đích du lịch, thăm thân hoặc công tác.",
+        "detail": "Tin vui cho những ai đang ấp ủ chuyến đi đến xứ sở bạch dương! Nga sẽ miễn thị thực 30 ngày cho công dân Việt Nam từ ngày 15/10/2026. Chính sách này áp dụng cho các mục đích du lịch, thăm thân hoặc công tác, mở ra nhiều cơ hội khám phá văn hóa và cảnh đẹp nước Nga mà không cần lo lắng về thủ tục visa phức tạp. Hãy chuẩn bị hành lý và lên kế hoạch cho chuyến đi của mình nhé!",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "12/10·VnExpress",
+        "url": "https://vnexpress.net/nga-mien-visa-30-ngay-cho-cong-dan-viet-nam-tu-15-10-5131486.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/12/598365474-1791820157-9900-1791820234.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=6ENZW_AkyQIBw1L9efsgOQ"
+      },
+      {
+        "title": "✈️ Khánh Hòa miễn thị thực cho khách Trung Quốc đi tour",
+        "desc": "Khách Trung Quốc đi du lịch theo đoàn đến Khánh Hòa được miễn thị thực từ 12/10/2026 đến hết năm 2027, với điều kiện bay thẳng đến Cam Ranh và mua tour trọn gói.",
+        "detail": "Nhằm thúc đẩy du lịch, Khánh Hòa đã áp dụng chính sách miễn thị thực cho khách Trung Quốc đi theo đoàn từ hai người trở lên. Điều kiện là du khách phải bay thẳng đến sân bay Cam Ranh và mua tour trọn gói. Chính sách này có hiệu lực từ 12/10/2026 đến hết năm 2027, hứa hẹn sẽ thu hút lượng lớn du khách Trung Quốc, góp phần tăng trưởng ngành du lịch địa phương.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "13/10·VnExpress",
+        "url": "https://vnexpress.net/mien-thi-thuc-cho-khach-trung-quoc-di-tour-den-khanh-hoa-5131483.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/13/a3-1791825637-1920-1791825784.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=aPrs578gYWBctEje9EjQ9g"
+      },
+      {
+        "title": "💪 Người phụ nữ già nhất chinh phục Everest ở tuổi 64",
+        "desc": "Ở tuổi 64, bà Steinwald đã trở thành người phụ nữ Mỹ già nhất chinh phục đỉnh Everest, vượt qua nỗi đau mất chồng để tìm lại lẽ sống.",
+        "detail": "Câu chuyện của bà Steinwald là minh chứng cho sức mạnh ý chí phi thường. Sau khi chồng qua đời, bà đã tìm thấy động lực và lẽ sống mới trên hành trình chinh phục đỉnh Everest. Ở tuổi 64, bà không chỉ hoàn thành mục tiêu cá nhân mà còn lập kỷ lục là người phụ nữ Mỹ lớn tuổi nhất đạt được thành tích này. Đây là nguồn cảm hứng lớn cho bất kỳ ai đang đối mặt với khó khăn và muốn vượt lên chính mình.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "12/10·VnExpress",
+        "url": "https://vnexpress.net/vuot-noi-dau-mat-chong-thanh-nguoi-gia-nhat-chinh-phuc-everest-5131254.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/12/download-1791781623-3464-1791781640.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=3WvjBc-tDw6c6-i60yh8Og"
+      }
+    ],
+    "vietnam": [
+      {
+        "title": "📜 Thủ tướng yêu cầu rà soát dự án điện chậm tiến độ",
+        "desc": "Thủ tướng yêu cầu làm rõ các dự án điện chậm tiến độ, không khả thi để điều chỉnh hoặc thay thế, đảm bảo đủ điện phục vụ tăng trưởng hai chữ số.",
+        "detail": "Trong bối cảnh nhu cầu điện ngày càng tăng, Thủ tướng đã chỉ đạo rà soát khẩn cấp các dự án điện đang chậm tiến độ hoặc không khả thi. Mục tiêu là đề xuất điều chỉnh, bổ sung hoặc thay thế các dự án này nhằm đảm bảo cung ứng đủ điện, phục vụ mục tiêu tăng trưởng kinh tế hai chữ số của đất nước. Đây là động thái quyết liệt nhằm giải quyết bài toán năng lượng, tránh tình trạng thiếu điện ảnh hưởng đến sản xuất và đời sống.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "13/10·VnExpress",
+        "url": "https://vnexpress.net/thu-tuong-yeu-cau-ra-soat-cac-du-an-dien-cham-tien-do-khong-kha-thi-5131475.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/10/12/wm31-wm31-base641791806152088177618-5644-8525-1791818139.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=4eImznM73L-_3bG9RmPSBg"
+      },
+      {
+        "title": "🏙️ Quy hoạch công viên Thủ Lệ 'vừa mở vừa đóng'",
+        "desc": "Công viên Thủ Lệ được đề xuất dỡ rào, mở khoảng 70% diện tích cho người dân vui chơi, giữ 30% làm khu bảo tồn động vật có kiểm soát.",
+        "detail": "Hà Nội đang có kế hoạch quy hoạch lại công viên Thủ Lệ theo mô hình 'vừa mở vừa đóng' đầy sáng tạo. Khoảng 70% diện tích công viên sẽ được dỡ rào, tạo không gian mở cho người dân tự do vui chơi, giải trí. Trong khi đó, 30% còn lại sẽ được giữ lại làm khu nuôi dưỡng, bảo tồn và trưng bày động vật có kiểm soát. Mục tiêu là vừa tạo thêm không gian xanh cho cộng đồng, vừa đảm bảo công tác bảo tồn động vật hoang dã.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "13/10·VnExpress",
+        "url": "https://vnexpress.net/quy-hoach-cong-vien-thu-le-theo-mo-hinh-vua-mo-vua-dong-5131480.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/hothule-1791821199-8216-1791821625.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=bzI0IsKWyFkMw6euzbnrAw"
+      },
+      {
+        "title": "🚦 Bay kiểm tra thiết bị sân bay Long Thành tháng 10",
+        "desc": "Cục Hàng không Việt Nam phê duyệt kế hoạch bay kiểm tra, hiệu chuẩn hệ thống dẫn đường và đèn tín hiệu đường cất hạ cánh tại sân bay Long Thành từ 11 đến 19/10.",
+        "detail": "Sân bay Long Thành đang tiến gần hơn đến ngày hoàn thiện khi Cục Hàng không Việt Nam đã phê duyệt kế hoạch bay kiểm tra và hiệu chuẩn các thiết bị dẫn đường, đèn tín hiệu đường cất hạ cánh. Hoạt động này sẽ diễn ra từ ngày 11 đến 19/10, là bước quan trọng để đảm bảo an toàn và hiệu quả hoạt động của sân bay. Đây là tín hiệu tích cực cho thấy dự án trọng điểm này đang đi đúng tiến độ.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "12/10·VnExpress",
+        "url": "https://vnexpress.net/bay-kiem-tra-thiet-bi-dan-duong-tai-san-bay-long-thanh-trong-thang-10-5131302.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/4558448792264828424-1791788824-4780-1791788834.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=W3uyuP82foHDHGDHXfTpmg"
+      }
+    ],
+    "tech": [
+      {
+        "title": "🚀 iPhone Duo ra mắt tại Việt Nam với giá 65 triệu",
+        "desc": "iPhone Duo sắp lên kệ tại Việt Nam với giá khởi điểm gần 65 triệu đồng, sở hữu thiết kế gập độc đáo và màn hình gần như không lộ nếp gấp.",
+        "detail": "Thị trường smartphone Việt Nam sắp đón chào một siêu phẩm mới: iPhone Duo. Với mức giá khởi điểm gần 65 triệu đồng, chiếc điện thoại này gây ấn tượng mạnh với thiết kế gập độc đáo và công nghệ màn hình tiên tiến, gần như không để lộ nếp gấp. Đây là một bước tiến lớn của Apple trong phân khúc điện thoại gập, hứa hẹn mang lại trải nghiệm cao cấp và khác biệt cho người dùng Việt.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "13/10·GenK",
+        "url": "https://genk.vn/ngam-can-canh-iphone-duo-truoc-ngay-mo-ban-tai-viet-nam-165261013082320609.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/avatar1791854203510-17918542037921112926377.jpg"
+      },
+      {
+        "title": "🤖 Phát minh kim loại 'tự phục hồi' của Nga",
+        "desc": "Nga vừa công bố phát minh kim loại có khả năng tự vá vết nứt, tự phục hồi, hứa hẹn giảm đáng kể chi phí sửa chữa và thay thế máy móc công nghiệp.",
+        "detail": "Một phát minh đột phá từ Nga đang gây chấn động ngành vật liệu: kim loại 'biết tự chữa lành'. Loại vật liệu này có khả năng tự phục hồi các vết nứt, kéo dài tuổi thọ của máy móc và thiết bị công nghiệp. Công nghệ này không chỉ giúp giảm chi phí bảo trì, sửa chữa mà còn mở ra tiềm năng ứng dụng rộng rãi trong nhiều lĩnh vực, từ hàng không vũ trụ đến xây dựng, mang lại hiệu quả kinh tế và an toàn cao hơn.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "13/10·GenK",
+        "url": "https://genk.vn/phat-minh-moi-cua-nga-lam-rung-chuyen-nganh-vat-lieu-tao-ra-kim-loai-tu-phuc-hoi-tu-va-vet-nut-giam-chi-phi-sua-chua-va-thay-the-165261013082413986.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/avatar1791854619222-17918546195791823409167.jpg"
+      },
+      {
+        "title": "⭐ Samsung dẫn đầu thị trường smartphone Q3/2026",
+        "desc": "Samsung chiếm 23% thị phần smartphone toàn cầu trong quý 3/2026 nhờ thành công của Z Fold8, dù lượng xuất xưởng toàn cầu giảm 20%.",
+        "detail": "Theo ước tính sơ bộ từ Counterpoint Research, Samsung đã xuất sắc dẫn đầu thị trường smartphone toàn cầu trong quý 3/2026 với 23% thị phần. Thành công này phần lớn nhờ vào sự đón nhận tích cực của mẫu Z Fold8. Tuy nhiên, bức tranh chung của thị trường không mấy khả quan khi lượng smartphone xuất xưởng toàn cầu giảm khoảng 20% so với cùng kỳ năm trước, xuống mức thấp nhất trong quý. Điều này cho thấy sự cạnh tranh khốc liệt và những thách thức mà các nhà sản xuất đang phải đối mặt.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "12/10·Tinhte",
+        "url": "https://tinhte.vn/thread/smartphone-q3-2026-samsung-dan-dau-voi-23-nho-z-fold8-toan-cau-giam-20.4183656/"
+      }
+    ],
+    "finance": [
+      {
+        "title": "📈 VN-Index giữ vững vùng hỗ trợ 1.720 điểm",
+        "desc": "VN-Index có thể xuất hiện nhịp hồi từ vùng 1.720 điểm, nhưng thị trường chứng khoán vẫn chưa xuất hiện tín hiệu tạo đáy rõ ràng.",
+        "detail": "Thị trường chứng khoán Việt Nam đang trải qua giai đoạn đầy biến động. Sau khi giảm liên tục 4 phiên và có thời điểm thủng mốc 1.720 điểm, VN-Index đã xuống mức thấp nhất từ cuối tháng 7. Các công ty chứng khoán nhận định chỉ số có thể có nhịp hồi từ vùng hỗ trợ 1.720 điểm. Tuy nhiên, áp lực xả hàng ở nhóm Vingroup và lãi suất huy động neo cao vẫn khiến thanh khoản thị trường xuống đáy hơn một năm, tạo ra làn sóng bán giải chấp và khiến nhà đầu tư ngập ngừng.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "13/10·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/chung-khoan-13-10-vn-index-giu-vung-vung-ho-tro-1720-diem-thi-truong-da-tao-day-100261013070433417.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/12/img8536-1791849056006427544070.jpg"
+      },
+      {
+        "title": "🪙 Giá vàng thế giới giảm sâu sau khi vượt 4.200 USD",
+        "desc": "Giá vàng thế giới vừa vượt mốc 4.200 USD/ounce đã nhanh chóng mất đà, giảm gần 33 USD trong 24 giờ, xuống 4.162 USD/ounce sáng 13/10.",
+        "detail": "Thị trường vàng đang chứng kiến những biến động mạnh. Sau khi chạm mốc 4.200 USD/ounce, giá vàng thế giới đã đảo chiều giảm sâu, mất gần 33 USD chỉ trong 24 giờ, xuống còn 4.162 USD/ounce vào sáng 13/10. Nguyên nhân chính được cho là do đồng USD tăng giá và những lo ngại về lạm phát tiếp tục chi phối thị trường. Điều này cho thấy sự nhạy cảm của vàng trước các yếu tố kinh tế vĩ mô toàn cầu.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "13/10·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/gia-vang-hom-nay-13-10-vua-vuot-4200-usd-vang-the-gioi-da-dao-chieu-giam-sau-100261013075210568.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/13/gia-vang-13102026-17918539937461439886636-26-0-1626-2560-crop-179185406887834390957.jpg"
+      },
+      {
+        "title": "🏠 BĐS hạ giá 5-20% nhưng vắng bóng lướt sóng",
+        "desc": "Mặt bằng giá bất động sản giảm 5-20% và chính sách giãn tiến độ thanh toán nhưng người mua vẫn ngập ngừng vì lãi suất vay neo cao 13-15%.",
+        "detail": "Thị trường bất động sản đang trong giai đoạn trầm lắng, dù mặt bằng giá đã giảm từ 5-20% và các chủ đầu tư liên tục tung ra chính sách giãn tiến độ thanh toán. Tuy nhiên, thanh khoản thị trường vẫn chưa thể bứt phá do rào cản lớn từ lãi suất vay thả nổi neo cao, dao động từ 13-15%. Điều này khiến người mua nhà, đặc biệt là những người có nhu cầu thực, phải ngập ngừng, không dám xuống tiền, làm cho hoạt động 'lướt sóng' gần như vắng bóng.",
+        "tag": "realestate",
+        "tagLabel": "🏠 BĐS",
+        "source": "13/10·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/vang-bong-luot-song-du-bat-dong-san-ha-gia-5-20-nguoi-mua-ngap-ngung-vi-lai-suat-100261012220552485.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/13/bat-dong-san-2-edit-17918543034011428320552-315-0-1915-2560-crop-1791854361548510627414.jpeg"
+      }
+    ],
+    "sports": [],
+    "gamedev": []
+  },
+  {
     "date": "2026-10-12",
     "dayLabel": "Thứ Hai",
     "dateLabel": "12/10/2026",
@@ -12771,421 +12996,6 @@
         "source": "14/09·VnEconomy",
         "url": "https://vneconomy.vn/gia-dau-tang-manh-thu-thach-kha-nang-ho-tro-tang-truong-cua-chinh-sach-tien-te.htm",
         "image": "https://premedia.vneconomy.vn/files/uploads/2026/09/11/bcc0b5de1d944e1f8836890d7b8159ff-118269.jpg?w=1200&h=630&mode=crop",
-        "addedEvening": true
-      }
-    ],
-    "sports": [],
-    "eveningDone": true,
-    "eveningNotified": true
-  },
-  {
-    "date": "2026-09-13",
-    "dayLabel": "Chủ Nhật",
-    "dateLabel": "13/09/2026",
-    "entertainment": [
-      {
-        "title": "💔 Showbiz Việt chung tay vì diễn viên Bảo Bảo",
-        "desc": "Cả showbiz Việt đang hướng về diễn viên Bảo Bảo, người đang trong tình trạng nguy kịch, với nhiều nghệ sĩ chung tay hỗ trợ viện phí.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "13/09·Kenh14",
-        "url": "https://kenh14.vn/binh-tinh-cau-nguyen-cho-bao-bao-ca-showbiz-chung-tay-ho-tro-nam-dien-vien-dang-nguy-kich-21526091308484733.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/13/ava-082537-1789263680834-1789263693019688067455-22-0-522-800-crop-1789263798994423251680.jpg"
-      },
-      {
-        "title": "💍 Hoài Lâm bất ngờ công khai ảnh cưới",
-        "desc": "Hoài Lâm vừa gây sốt khi công khai ảnh cưới cùng bạn gái Nguyễn Thị Ngọc Trinh, cô dâu sinh năm 2004, kém nam ca sĩ 9 tuổi và không hoạt động nghệ thuật.",
-        "detail": "Sau nhiều đồn đoán, Hoài Lâm đã chính thức xác nhận chuyện tình cảm bằng việc đăng tải ảnh cưới với Ngọc Trinh. Cô dâu quê Vĩnh Long, sinh năm 2004, không phải người trong giới giải trí. Thông tin này nhanh chóng thu hút sự chú ý của cộng đồng mạng, đặc biệt là khi Hoài Lâm cũng vừa chia sẻ hình ảnh căn nhà hai tầng gần 200m² ở miền Tây, được xây dựng theo phong cách hiện đại trên khuôn viên đất rộng, cho thấy cuộc sống riêng tư của anh đang dần ổn định và hạnh phúc.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "13/09·Kenh14",
-        "url": "https://kenh14.vn/hoai-lam-cong-khai-anh-cuoi-voi-ngoc-trinh-co-dau-sinh-nam-2004-que-vinh-long-215260913070530524.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/13/ava-17892578151121077080985-79-0-579-800-crop-17892578232802851317.png"
-      },
-      {
-        "title": "🎬 Phim tài liệu về nữ tỷ phú lừa đảo gây sốt",
-        "desc": "Dự án tài liệu 'You Can See Everything' kể về Elizabeth Holmes, cựu CEO Theranos bị bắt vì lừa đảo, đang nhận 'mưa' lời khen từ khán giả và giới phê bình.",
-        "detail": "Bộ phim tài liệu 'You Can See Everything' đang trở thành tâm điểm chú ý khi khai thác sâu vào cuộc đời và sự nghiệp đầy tai tiếng của Elizabeth Holmes, người từng là CEO hãng xét nghiệm máu Theranos. Cô bị bắt vì tội lừa đảo và câu chuyện của cô đã thu hút sự quan tâm lớn. Phim được đánh giá cao về cách kể chuyện và độ chân thực, khiến khán giả không khỏi tò mò về những góc khuất đằng sau vụ bê bối chấn động này.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "12/09·VnExpress",
-        "url": "https://vnexpress.net/phim-ve-nu-ty-phu-lua-dao-gay-so-5119055.html"
-      },
-      {
-        "title": "📺 'Anh Trai Vượt Ngàn Chông Gai' đưa chèo, cải lương lên sân khấu",
-        "desc": "Tập 11 'Anh Trai Vượt Ngàn Chông Gai' gây bất ngờ khi Huỳnh Lập, Jun Phạm thể hiện vọng cổ, Hoàng Dũng hát then, mang đến những tiết mục đậm màu sắc dân gian.",
-        "detail": "Chương trình 'Anh Trai Vượt Ngàn Chông Gai' tiếp tục tạo điểm nhấn với sự kết hợp độc đáo giữa các thể loại âm nhạc truyền thống. Huỳnh Lập và Jun Phạm đã thử sức với vọng cổ, trong khi Hoàng Dũng mang đến làn điệu then, tạo nên một bức tranh âm nhạc đa sắc màu, vừa hiện đại vừa giữ gìn bản sắc văn hóa Việt. Tuy nhiên, chương trình cũng chứng kiến thêm 2 nghệ sĩ rời cuộc chơi, khiến khán giả tiếc nuối và chờ đợi những diễn biến tiếp theo.",
-        "tag": "show",
-        "tagLabel": "📺 SHOW",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/cheo-cai-luong-len-san-khau-anh-trai-vuot-ngan-chong-gai-5119624.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/12/ogn-jpeg-1789226781.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WFjby7_PZbaV51YJ5vBadA"
-      },
-      {
-        "title": "🚨 Cựu thành viên BIGBANG gây chú ý: Seungri bị điều tra, T.O.P hủy concert",
-        "desc": "Hai cựu thành viên BIGBANG đang là tâm điểm chú ý khi Seungri đối mặt cuộc điều tra mới vì cáo buộc hành hung, còn T.O.P bất ngờ hủy đêm diễn tại Indonesia sát ngày tổ chức.",
-        "detail": "Showbiz Hàn lại dậy sóng với thông tin về hai cựu thành viên nhóm nhạc đình đám BIGBANG. Seungri đang bị điều tra sau những cáo buộc liên quan đến hành hung, khiến dư luận một lần nữa xôn xao về những bê bối của anh. Cùng lúc đó, T.O.P cũng gây bất ngờ khi hủy đêm diễn tại Indonesia chỉ vài ngày trước khi sự kiện diễn ra, làm dấy lên nhiều câu hỏi từ người hâm mộ.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "12/09·Kenh14",
-        "url": "https://kenh14.vn/hai-cuu-thanh-vien-bigbang-gay-chu-y-seungri-bi-dieu-tra-top-huy-concert-21526091211455682.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/12/avatar1789188199283-17891881997961394999898.jpg"
-      },
-      {
-        "title": "👰 Jisoo (BLACKPINK) lên xe hoa vào 19/9?",
-        "desc": "Tin đồn hẹn hò chưa kịp lắng, Jisoo (BLACKPINK) đã bị đồn sẽ kết hôn với một chuyên gia tài chính vào ngày 19/9 tới.",
-        "detail": "Thông tin này đang khiến cộng đồng fan Kpop xôn xao, đặc biệt khi Jisoo vừa vướng tin đồn tình cảm với một nhân vật bí ẩn. Dù chưa có xác nhận chính thức từ YG Entertainment hay chính chủ, nhưng nếu đây là sự thật, showbiz Hàn sẽ có thêm một đám cưới đình đám trong năm nay. Cùng chờ xem nhé!",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "13/09·Kenh14",
-        "url": "https://kenh14.vn/jisoo-ket-hon-voi-chuyen-gia-tai-chinh-vao-ngay-19-9-215260913152612818.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/13/avatar1789287780570-1789287780848953727271-0-0-325-520-crop-1789287795533656102952.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🎬 Phim Hàn đầu tiên giành Sư Tử Bạc tại LHP Venice",
-        "desc": "Một bộ phim Hàn Quốc vừa làm nên lịch sử khi lần đầu tiên giành giải Sư Tử Bạc tại Liên hoan phim Venice danh giá.",
-        "detail": "Không chỉ đạt giải thưởng lớn, tác phẩm này còn được chấm điểm tuyệt đối trên Rotten Tomatoes, khẳng định chất lượng và sức hút không thể bàn cãi. Với dàn cast toàn sao hạng S, bộ phim hứa hẹn sẽ là một siêu phẩm mà bạn không thể bỏ lỡ. Phim Hàn đang ngày càng khẳng định vị thế trên bản đồ điện ảnh thế giới!",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "13/09·Kenh14",
-        "url": "https://kenh14.vn/lan-dau-tien-co-phim-han-gianh-giai-su-tu-bac-tai-lhp-venice-dan-cast-toan-sao-hang-s-nghe-ten-phai-lao-vao-xem-215260913173217447.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/13/avatar1789295383077-17892953857572121993068.gif",
-        "addedEvening": true
-      },
-      {
-        "title": "🏡 Chồng Taylor Swift sở hữu 3 biệt thự triệu USD",
-        "desc": "Siêu sao bóng bầu dục Travis Kelce, chồng của Taylor Swift, đang sở hữu khối tài sản bất động sản đáng nể với 3 biệt thự triệu USD.",
-        "detail": "Trong đó, biệt thự ngoại ô trị giá 6 triệu USD là tổ ấm tân hôn của cặp đôi quyền lực này. Điều này cho thấy cuộc sống xa hoa của cặp đôi nổi tiếng nhất nhì thế giới, với những căn nhà sang trọng và tiện nghi. Đúng là 'power couple' có khác!",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/3-biet-thu-trieu-usd-cua-chong-taylor-swift-5119136.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/11/BitthcaTravisKelce-1789112531-9086-1789115397.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=RpIpMIKtyVlPS5Wf0dY8Ag",
-        "addedEvening": true
-      },
-      {
-        "title": "🤰 Khả Ngân lộ bụng bầu trong clip mới?",
-        "desc": "Nữ diễn viên Khả Ngân đang khiến dân tình xôn xao với nghi vấn mang thai khi lộ rõ dấu hiệu phụ nữ có tin vui trong clip mới nhất.",
-        "detail": "Dù chưa có bất kỳ xác nhận nào từ phía Khả Ngân hay quản lý, nhưng những hình ảnh này đang được chia sẻ rầm rộ trên mạng xã hội. Nếu đây là sự thật, showbiz Việt sẽ có thêm một tin vui lớn. Cùng chờ đợi phản hồi chính thức từ cô nàng nhé!",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "13/09·Kenh14",
-        "url": "https://kenh14.vn/kha-ngan-cong-khai-ro-bung-bau-21526091317313332.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/13/avatar1789295280033-1789295284247941461356.gif",
-        "addedEvening": true
-      },
-      {
-        "title": "🎵 Soobin ra mắt phim về concert đầu tay",
-        "desc": "Ca sĩ Soobin vừa ra mắt bộ phim tài liệu về concert đầu tay 'All-Rounder', đánh dấu 15 năm làm nghề đầy cảm xúc.",
-        "detail": "Anh chia sẻ sự xúc động khi cùng đồng nghiệp và fan xem lại những khoảnh khắc đáng nhớ trên màn ảnh rộng. Đây là một cột mốc quan trọng trong sự nghiệp của Soobin, thể hiện sự trưởng thành và nỗ lực không ngừng nghỉ của anh trong âm nhạc. Fan chắc chắn sẽ rất tự hào!",
-        "tag": "music",
-        "tagLabel": "🎵 MUSIC",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/soobin-ra-phim-ve-concert-dau-tay-all-rounder-5119091.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/09/11/Soobin-ra-mat-phim-ve-concert-dau-tay-1-1789096260.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bQU4nL8Mf68K17LLy428Bw",
-        "addedEvening": true
-      }
-    ],
-    "trending": [
-      {
-        "title": "🏠 Thuê biệt thự 38 triệu/tháng trong 10 năm: Lối sống mới của người trẻ",
-        "desc": "Một bạn trẻ 28 tuổi gây chú ý khi chọn thuê biệt thự 38 triệu/tháng trong 10 năm thay vì mua nhà, tự thiết kế không gian sống theo gu riêng.",
-        "detail": "Thay vì dồn tiền mua nhà, Trần Dữ Trần, 28 tuổi, đã chọn một hướng đi khác: thuê dài hạn một căn biệt thự có sân vườn với giá 38 triệu đồng/tháng trong 10 năm. Cô tự tay thiết kế và cải tạo không gian sống theo đúng sở thích của mình. Lối sống này đang nhận được nhiều sự quan tâm, đặc biệt là từ những người trẻ đang tìm kiếm sự linh hoạt và trải nghiệm sống độc đáo, không bị ràng buộc bởi áp lực sở hữu bất động sản.",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "13/09·Kenh14",
-        "url": "https://kenh14.vn/28-tuoi-ky-hop-dong-thue-biet-thu-38-trieu-thang-trong-10-nam-cai-hay-cua-viec-o-thue-dai-han-21526091218202088.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/9/13/ava-16-17892621771181013361015.png"
-      },
-      {
-        "title": "🍎 Công ty Trung Quốc tặng iPhone Duo cho mọi nhân viên",
-        "desc": "Một công ty ở Trung Quốc gây sốt mạng xã hội khi tặng iPhone Duo, mẫu điện thoại gập mới nhất của Apple, cho tất cả nhân viên.",
-        "detail": "Hành động 'chịu chơi' này nhanh chóng viral, khiến nhiều người không khỏi ngưỡng mộ và ao ước được làm việc tại đây. Đây không chỉ là một món quà giá trị mà còn là cách công ty thể hiện sự quan tâm, khích lệ tinh thần nhân viên, đồng thời tạo hiệu ứng truyền thông mạnh mẽ. Đúng là 'công ty nhà người ta'!",
-        "tag": "viral",
-        "tagLabel": "🔥 VIRAL",
-        "source": "13/09·Tin tức 24h",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRXRNT0l0RkJFalhWQWYzaWg1U1Q5RlhWNHUtVXJyakFjRHozQk5uUTFHZlE1ekdJSXZ3dENmOHJ0SmhsakMtS2JpUEhic3N1OFd6M1NIRHZ4bHAybm4xZXo5YjFISm5WbEMxU29QTFdKYjAzQVc3ZWIzNEEtbmpSR2I1Tnd4UWVIanB6aFlWczFDMXlPcW8xcWpZU0t0NkNtdmYtcHZhUXQtb2VGalpQYW9tc0QwNjhvMEE1dzlsWDNuLTl1MWpV?oc=5",
-        "addedEvening": true
-      }
-    ],
-    "gaming": [],
-    "lifestyle": [
-      {
-        "title": "💊 BHYT đề xuất chi trả thêm 129 thuốc y học cổ truyền",
-        "desc": "Bộ Y tế vừa đề xuất bổ sung 129 thuốc dược liệu, thuốc cổ truyền và 35 thuốc kết hợp dược chất với dược liệu vào danh mục được Quỹ BHYT chi trả sau 11 năm chưa cập nhật.",
-        "detail": "Đây là một tin vui cho những ai đang sử dụng hoặc có ý định dùng thuốc y học cổ truyền. Việc mở rộng danh mục chi trả BHYT sẽ giúp giảm gánh nặng tài chính cho người bệnh, đồng thời khuyến khích phát triển và ứng dụng y học cổ truyền trong chăm sóc sức khỏe cộng đồng. Đề xuất này được đưa ra sau 11 năm danh mục chưa được cập nhật, cho thấy sự quan tâm của Bộ Y tế đến việc đa dạng hóa các phương pháp điều trị và hỗ trợ người dân.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/bo-y-te-de-xuat-bhyt-chi-tra-them-129-thuoc-y-hoc-co-truyen-5119675.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/13/1-1789261738-4405-1789261752.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=anV11AYKzaXnfZQceQ_VHA"
-      },
-      {
-        "title": "⚠️ Cảnh báo nguy cơ lọc máu từ 5 nhóm thực phẩm qua đêm",
-        "desc": "Bác sĩ Trung Quốc cảnh báo thói quen giữ lại thức ăn thừa rồi hâm nóng cho bữa sau tiềm ẩn rủi ro lớn đối với người mắc bệnh thận mạn tính.",
-        "detail": "Thói quen ăn thức ăn thừa qua đêm, đặc biệt là 5 nhóm thực phẩm cụ thể, có thể gây hại nghiêm trọng cho sức khỏe, đặc biệt là với những người có bệnh thận mạn tính. Các bác sĩ khuyến cáo nên hạn chế tối đa việc này để tránh nguy cơ phải lọc máu. Việc bảo quản và chế biến thực phẩm đúng cách là vô cùng quan trọng để đảm bảo an toàn và sức khỏe cho cả gia đình.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/bac-si-trung-quoc-canh-bao-nguy-co-loc-mau-tu-5-nhom-thuc-pham-qua-dem-5119120.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/11/3-1789097528-8530-1789097593.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dLk3iVn9VhsRW3dOdIsEeg"
-      },
-      {
-        "title": "😴 Mẹo giúp bạn ngủ xuyên đêm",
-        "desc": "Giữ giờ ngủ đều đặn, hạn chế caffeine và rượu, vận động phù hợp, giảm ánh sáng trước khi ngủ là những mẹo đơn giản giúp bạn có giấc ngủ liền mạch hơn.",
-        "detail": "Một giấc ngủ ngon và sâu là yếu tố quan trọng cho sức khỏe. Để có thể ngủ xuyên đêm, bạn nên tạo thói quen đi ngủ và thức dậy vào cùng một giờ mỗi ngày, kể cả cuối tuần. Hạn chế các chất kích thích như caffeine và rượu vào buổi tối, đồng thời tập thể dục đều đặn nhưng tránh tập quá sát giờ ngủ. Ngoài ra, việc giảm ánh sáng xanh từ các thiết bị điện tử trước khi ngủ cũng góp phần đáng kể vào việc cải thiện chất lượng giấc ngủ của bạn.",
-        "tag": "wellness",
-        "tagLabel": "🧘 WELLNESS",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/meo-giup-ban-ngu-xuyen-dem-5119251.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/11/ngu-ngon1-1789115118-7132-1789115142.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=NUJLVlGqReP4AYBKJKRqIA"
-      },
-      {
-        "title": "✈️ Ô Trấn - 'Venice phương Đông' hút khách du lịch",
-        "desc": "Ô Trấn, cổ trấn trên nước hình thành từ hơn 1.300 năm trước, được mệnh danh 'Venice phương Đông', là một trong những điểm đến hấp dẫn nhất tại Trung Quốc.",
-        "detail": "Nếu bạn đang tìm kiếm một điểm đến yên bình và cổ kính, Ô Trấn chắc chắn là một lựa chọn tuyệt vời. Với lịch sử hơn 1.300 năm, cổ trấn này giữ nguyên vẻ đẹp kiến trúc truyền thống với những con kênh uốn lượn, cầu đá cổ kính và những ngôi nhà gỗ ven sông. Du khách đến đây có thể trải nghiệm cuộc sống chậm rãi, thưởng thức ẩm thực địa phương và khám phá văn hóa độc đáo, mang lại cảm giác như lạc vào một bảo tàng sống giữa lòng Trung Hoa.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/o-tran-bao-tang-song-cua-nhung-co-tran-trung-hoa-5118475.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/12/9714c789acde2c8075cf-178919814-9668-2189-1789198405.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WCpgViwJwx1zxV1YK7QQjQ"
-      },
-      {
-        "title": "💔 Suy tim: Nguy hiểm hơn nhiều loại ung thư",
-        "desc": "Bác sĩ Bệnh viện Chợ Rẫy cảnh báo suy tim có tỷ lệ tử vong cao hơn nhiều loại ung thư, cướp đi sinh mạng 50% bệnh nhân trong 5 năm đầu.",
-        "detail": "Suy tim thường tiến triển âm thầm từ các bệnh quen thuộc như tăng huyết áp hay tiểu đường, khiến nhiều người chủ quan. Việc phát hiện sớm và điều trị kịp thời là cực kỳ quan trọng để kéo dài tuổi thọ và nâng cao chất lượng sống. Bạn nên đi khám định kỳ và chú ý các dấu hiệu bất thường của cơ thể nhé.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/bac-si-cho-ray-tu-vong-do-suy-tim-cao-hon-nhieu-loai-ung-thu-5119768.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/13/can-thie-p-cr-1789294992-7388-1789295149.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=eAFH1HpHmRaFVniau663zw",
-        "addedEvening": true
-      },
-      {
-        "title": "🚫 3 thói quen buổi tối 'hại gan' bạn cần tránh",
-        "desc": "Ăn khuya, uống rượu bia và thức khuya là 3 thói quen buổi tối dễ khiến gan suy yếu, ảnh hưởng nghiêm trọng đến sức khỏe.",
-        "detail": "Ăn khuya có thể làm rối loạn nhịp sinh học của gan và tăng đường huyết, trong khi rượu bia khiến gan quá tải trong quá trình thải độc. Thức khuya cũng làm gan không có đủ thời gian nghỉ ngơi và phục hồi. Để bảo vệ lá gan của mình, bạn nên cố gắng duy trì lối sống lành mạnh, ăn uống điều độ và ngủ đủ giấc nhé.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/ba-thoi-quen-buoi-toi-de-khien-gan-suy-yeu-5118637.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/10/353f8d53-e8f4fb57-a8671192d700-4992-1531-1789002175.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=aSy9kWisEsaVlIOBqvl6DQ",
-        "addedEvening": true
-      },
-      {
-        "title": "☕ Uống cà phê đúng cách: Bảo vệ tim mạch, giảm tử vong",
-        "desc": "Uống cà phê sáng và pha qua giấy lọc không chỉ giúp bảo vệ tim mạch mà còn giảm nguy cơ tử vong, tránh tăng huyết áp và cholesterol xấu.",
-        "detail": "Nhiều nghiên cứu đã chỉ ra rằng cà phê có thể mang lại nhiều lợi ích cho sức khỏe nếu được sử dụng đúng cách. Việc pha cà phê qua giấy lọc giúp loại bỏ các chất có thể làm tăng cholesterol. Hãy biến thói quen uống cà phê thành một phần lành mạnh trong ngày của bạn, nhưng nhớ là đừng lạm dụng nhé!",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/thoi-diem-uong-ca-phe-giup-bao-ve-tim-mach-giam-nguy-co-tu-vong-5118371.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/09/09/screenshot-at-1788937812-4088-1788938089.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=KXwJxqBz8lpYJrdtTjD3Vg",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ 11 'điểm du lịch đẹp nhất Việt Nam' trên tạp chí Anh",
-        "desc": "Các điểm đến quen thuộc như Huế, Hà Nội, Đà Nẵng được tạp chí The Times (Anh) vinh danh trong danh sách 11 điểm đẹp và đáng khám phá nhất Việt Nam năm 2026.",
-        "detail": "Đây là một tin vui cho ngành du lịch Việt Nam, khẳng định sức hút của đất nước ta trên trường quốc tế. Danh sách này sẽ là gợi ý tuyệt vời cho những ai đang lên kế hoạch khám phá vẻ đẹp của Việt Nam, từ những thành phố cổ kính đến những bãi biển thơ mộng. Bạn đã ghé thăm được bao nhiêu địa điểm rồi?",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/11-diem-du-lich-dep-nhat-viet-nam-tren-tap-chi-anh-5119711.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/09/13/584505973-n-1789271899.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=AWGR1Z7NBjDCXIts2fTIEQ",
-        "addedEvening": true
-      }
-    ],
-    "vietnam": [
-      {
-        "title": "📜 Đề án cải cách tiền lương và mô hình đơn vị hành chính cấp xã",
-        "desc": "Phó Thủ tướng Phạm Thị Thanh Trà yêu cầu Bộ Nội vụ chuẩn bị hồ sơ về đề án cải cách chính sách tiền lương, bảo hiểm xã hội và hoàn thiện mô hình đơn vị hành chính cấp xã.",
-        "detail": "Đây là thông tin quan trọng ảnh hưởng trực tiếp đến người lao động và hệ thống hành chính. Việc cải cách chính sách tiền lương và bảo hiểm xã hội được kỳ vọng sẽ nâng cao đời sống cho cán bộ, công chức, viên chức và người lao động. Đồng thời, việc hoàn thiện mô hình đơn vị hành chính cấp xã mang tính hạt nhân sẽ góp phần tinh gọn bộ máy, nâng cao hiệu quả quản lý nhà nước ở cơ sở.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "13/09·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/thong-tin-moi-ve-de-an-cai-cach-tien-luong-mo-hinh-don-vi-hanh-chinh-cap-xa-mang-tinh-hat-nhan-100260913074125143.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/13/pham-thi-thanh-tra-1789259652726507133048-124-0-1062-1500-crop-17892596717221412349685.jpg"
-      },
-      {
-        "title": "🚦 Cao tốc Vĩnh Hảo - Phan Thiết ùn tắc kéo dài vì xe tải lật",
-        "desc": "Sáng 13/9, một xe tải tông dải phân cách rồi lật ngang, chắn cả hai chiều cao tốc Vĩnh Hảo - Phan Thiết, gây ùn tắc giao thông nhiều km.",
-        "detail": "Vụ tai nạn nghiêm trọng trên cao tốc Vĩnh Hảo - Phan Thiết đã khiến giao thông tê liệt, ảnh hưởng lớn đến việc di chuyển của người dân và hoạt động vận tải hàng hóa. Lực lượng chức năng đang khẩn trương xử lý hiện trường để sớm thông tuyến. Sự cố này một lần nữa gióng lên hồi chuông cảnh báo về an toàn giao thông trên các tuyến cao tốc, đặc biệt là trong những ngày cuối tuần khi lượng phương tiện tăng cao.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/xe-tai-lat-chan-cao-toc-vinh-hao-phan-thiet-un-tac-keo-dai-5119674.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/13/Xe-lat-tren-cao-toc-1789259926-9784-1789260177.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=JBt-tUl058e9-NjrveeGSQ"
-      },
-      {
-        "title": "⛈️ Miền Trung mưa lớn do áp thấp nhiệt đới, Quảng Trị di dời dân",
-        "desc": "Hôm nay 13/9, áp thấp nhiệt đới sát bờ gây mưa lớn tập trung ở miền Trung, khiến Quảng Trị phải di dời hàng trăm hộ dân ở xã biên giới Lao Bảo.",
-        "detail": "Tình hình thời tiết đang diễn biến phức tạp tại miền Trung khi áp thấp nhiệt đới gây mưa lớn kéo dài, đặc biệt là tại Quảng Trị. Mực nước sông Sê Pôn dâng cao nhanh chóng từ rạng sáng 13/9 đã khiến hàng chục hộ dân ở xã Lao Bảo bị ngập sâu, buộc lực lượng chức năng phải xuyên đêm hỗ trợ người dân di dời đến nơi an toàn. Đà Nẵng cũng đã yêu cầu các hồ thủy điện không để xảy ra 'lũ nhân tạo' cho hạ du, nhằm giảm thiểu thiệt hại cho người dân.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "13/09·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/mua-lu-dang-nhanh-trong-dem-quang-tri-di-doi-hang-tram-ho-dan-o-xa-bien-gioi-100260913071807026.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/13/mua-lu-lao-bao6-17892585466822124708511-200-371-461-788-crop-17892597931961267298751.jpg"
-      },
-      {
-        "title": "💼 Grab chuyển sang cơ chế tính phí 'linh hoạt', tài xế thực nhận 50-75%",
-        "desc": "Từ mức hưởng cố định 70-75% cước xe trước đây, mức thực nhận của tài xế Grab chỉ còn 50-75% sau khi nền tảng này chuyển sang cơ chế tính phí 'linh hoạt'.",
-        "detail": "Thay đổi trong cơ chế tính phí của Grab đang gây ra nhiều tranh cãi và ảnh hưởng trực tiếp đến thu nhập của tài xế. Với cơ chế 'linh hoạt' mới, tỷ lệ thực nhận của tài xế có thể dao động từ 50-75% cước xe, thấp hơn so với mức cố định trước đây. Điều này khiến nhiều tài xế lo ngại về sự ổn định thu nhập, trong khi Grab khẳng định tài xế vẫn có quyền chủ động tắt ứng dụng và lựa chọn thời gian, khu vực hoạt động.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/moi-cuoc-grab-tai-xe-thuc-nhan-bao-nhieu-5119283.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/13/settopgrab-1789235866-9037-1789236500.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=ddCJmZZHb8ntB3yoSTYLGg"
-      },
-      {
-        "title": "🌧️ Áp thấp nhiệt đới gây mưa lớn, ngập lụt ở miền Trung",
-        "desc": "Áp thấp nhiệt đới đã vào đất liền Quảng Trị chiều 13/9, gây mưa tới 480 mm và ngập 409 nhà, dự kiến mưa lớn sẽ lan ra Bắc Bộ từ sáng 14/9.",
-        "detail": "Tình hình thời tiết đang diễn biến phức tạp, khiến nhiều khu vực ở miền Trung chịu ảnh hưởng nặng nề. Chính quyền Quảng Trị đã phải di dời 145 hộ dân vùng biên tránh lũ. Người dân các tỉnh miền Trung và Bắc Bộ cần chủ động theo dõi thông tin thời tiết và có biện pháp phòng tránh kịp thời để đảm bảo an toàn cho bản thân và gia đình.",
-        "tag": "society",
-        "tagLabel": "🏙️ XÃ HỘI",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/ap-thap-nhiet-doi-vao-mien-trung-mua-lan-ra-bac-bo-5119792.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/13/screenshot-1789296542-4441-1789296548.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=ME3k76lX3o5Df7dasVYV9A",
-        "addedEvening": true
-      },
-      {
-        "title": "💸 Đề xuất giảm 30% thuế cho doanh nghiệp, hộ kinh doanh",
-        "desc": "Bộ Tài chính đề xuất giảm 30% thuế ngay trong kỳ kê khai cho doanh nghiệp và hộ kinh doanh có doanh thu tối đa 10 tỷ đồng/năm.",
-        "detail": "Đây là một tin vui cho cộng đồng doanh nghiệp nhỏ và hộ kinh doanh, giúp họ giảm bớt gánh nặng tài chính và có thêm nguồn lực để phát triển. Thay vì chờ quyết toán cuối năm, việc giảm thuế ngay trong kỳ kê khai sẽ mang lại hiệu quả thiết thực hơn, đặc biệt trong bối cảnh kinh tế hiện nay. Hy vọng đề xuất này sẽ sớm được thông qua!",
-        "tag": "tax",
-        "tagLabel": "💸 THUẾ",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/de-xuat-doanh-nghiep-ho-kinh-doanh-duoc-giam-30-thue-hang-ky-ke-khai-5119771.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/09/13/wm1-wm1-dsc2035-1789288776-6344-1789288972.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=46JlVkWE2JOAV6E3vzEL1Q",
-        "addedEvening": true
-      },
-      {
-        "title": "🍲 Thủ tướng yêu cầu không chọn suất ăn học sinh chỉ vì giá thấp",
-        "desc": "Thủ tướng Chính phủ yêu cầu các địa phương chọn nhà cung cấp suất ăn học sinh dựa trên an toàn, dinh dưỡng và năng lực, không chỉ vì giá thấp.",
-        "detail": "Chỉ đạo này nhằm đảm bảo chất lượng bữa ăn cho học sinh, tránh tình trạng vì chạy theo giá rẻ mà bỏ qua yếu tố vệ sinh an toàn thực phẩm và dinh dưỡng. Đây là một vấn đề quan trọng, ảnh hưởng trực tiếp đến sức khỏe và sự phát triển của thế hệ trẻ. Các bậc phụ huynh chắc chắn sẽ rất đồng tình với quyết định này.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "13/09·VnExpress",
-        "url": "https://vnexpress.net/thu-tuong-khong-chon-nha-cung-cap-suat-an-chi-vi-gia-thap-5119786.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/09/13/2aoboqxbaqaeg9ujbxz6vmc9s8q61k-2181-2546-1789295164.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=ps27fh24OYTJa9E9QzKvFw",
-        "addedEvening": true
-      }
-    ],
-    "tech": [
-      {
-        "title": "🤖 Ngành CNTT Ấn Độ chao đảo vì AI, thời kỹ sư giá rẻ sắp kết thúc?",
-        "desc": "Ngành CNTT Ấn Độ trị giá 315 tỷ USD đang đối mặt với thách thức lớn từ AI, có thể chấm dứt kỷ nguyên của hàng triệu kỹ sư giá rẻ.",
-        "detail": "Trí tuệ nhân tạo đang tạo ra một nghịch lý trong ngành công nghệ thông tin. AI giúp các công ty làm việc hiệu quả hơn, nhưng chính năng suất đó lại khiến khách hàng đặt câu hỏi về mức phí cũ. Điều này đang gây ra sự chao đảo lớn cho ngành CNTT Ấn Độ, nơi nổi tiếng với lực lượng kỹ sư dồi dào và chi phí thấp. Các chuyên gia nhận định, thời đại của hàng triệu kỹ sư giá rẻ có thể sắp kết thúc, buộc các công ty phải tái cấu trúc và đầu tư vào các giải pháp AI để duy trì cạnh tranh.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "13/09·GenK",
-        "url": "https://genk.vn/nganh-cntt-an-do-tri-gia-315-ty-usd-chao-dao-vi-ai-thoi-cua-hang-trieu-ky-su-gia-re-co-the-sap-ket-thuc-165260913081231519.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/13/avatar1789261931019-1789261931575442531803.png"
-      },
-      {
-        "title": "📱 eTax Mobile cập nhật quan trọng, cá nhân/hộ kinh doanh cần kiểm tra ngay",
-        "desc": "Ứng dụng eTax Mobile vừa có cập nhật tiện ích giúp người nộp thuế kiểm tra thông tin tổ chức, doanh nghiệp liên quan và phản ánh trực tuyến nếu bị lấy cắp/mạo danh thông tin cá nhân.",
-        "detail": "Đây là một cập nhật cực kỳ hữu ích cho tất cả cá nhân và hộ kinh doanh đang sử dụng eTax Mobile. Tiện ích mới giúp người nộp thuế dễ dàng kiểm tra các thông tin liên quan đến tổ chức, doanh nghiệp của mình, từ đó phát hiện sớm các dấu hiệu bị lấy cắp hoặc mạo danh thông tin cá nhân. Việc này không chỉ tăng cường bảo mật mà còn giúp người dân chủ động hơn trong việc quản lý nghĩa vụ thuế, tránh những rắc rối không đáng có sau này.",
-        "tag": "review",
-        "tagLabel": "⭐ REVIEW",
-        "source": "13/09·GenK",
-        "url": "https://genk.vn/etax-mobile-vua-co-cap-nhat-quan-trong-tat-ca-ca-nhan-ho-kinh-doanh-can-kiem-tra-ngay-thong-tin-sau-de-tranh-gap-rac-roi-sau-nay-165260913080654165.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/13/avatar1789261592929-1789261593345171608978.jpg"
-      },
-      {
-        "title": "📱 iPhone 18 Pro và Pro Max mở đặt trước, ưu đãi đến 5 triệu",
-        "desc": "Thế hệ iPhone 18 Pro và 18 Pro Max chính hãng đã chính thức mở đặt trước tại Việt Nam với ưu đãi hấp dẫn lên đến 5 triệu đồng.",
-        "detail": "Khách hàng có thể đặt trước từ ngày 12/09 và máy sẽ mở bán vào ngày 18/09 tại hơn 180 cửa hàng trên toàn quốc. Dù thiết kế không đổi nhiều so với iPhone 17 Pro, nhưng Dynamic Island nhỏ hơn 25%, camera khẩu độ biến thiên cùng ba màu mới hứa hẹn sẽ thu hút nhiều tín đồ Apple. Người Việt đã chi hơn 300 tỷ đồng đặt cọc chỉ trong chưa đầy một ngày!",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "13/09·GenK",
-        "url": "https://genk.vn/dat-truoc-iphone-18-pro-iphone-18-pro-max-chinh-hang-uu-dai-den-5-trieu-165260913194346802.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/13/photo1789288169839-17892881700421579759541-17893034291871449941637.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🤖 AI bị lạm dụng: Claude AI biến thành 'cỗ máy' lừa đảo hẹn hò",
-        "desc": "Claude AI đang bị biến tướng thành 'cỗ máy' lừa đảo hàng loạt, với 20 ứng dụng hẹn hò Trung Quốc tạo ra 4.700 'người yêu ảo' và gửi 2,36 triệu tin nhắn trong 2 tuần.",
-        "detail": "Sự hỗ trợ của AI đã giúp hoạt động lừa đảo trực tuyến mở rộng quy mô chưa từng có và được tự động hóa đến mức khó nhận biết. Điều này đặt ra thách thức lớn về an ninh mạng và đạo đức trong phát triển AI. Người dùng cần cảnh giác cao độ khi tương tác với các ứng dụng hẹn hò và thông tin trên mạng xã hội để tránh trở thành nạn nhân của những chiêu trò tinh vi này.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "13/09·GenK",
-        "url": "https://genk.vn/claude-ai-bi-bien-thanh-co-may-lua-dao-hang-loat-20-ung-dung-hen-ho-trung-quoc-tao-ra-4700-nguoi-yeu-ao-gui-236-trieu-tin-nhan-trong-2-tuan-165260913174931997.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/13/avatar1789296543359-17892965440661843132074.png",
-        "addedEvening": true
-      },
-      {
-        "title": "🎧 Trên tay JBL Quantum 950: Tai nghe gaming 'đỉnh cao'",
-        "desc": "JBL Quantum 950 là tai nghe gaming mới với nhiều tính năng ấn tượng như hotswap pin, head tracking, ANC và driver carbon 50mm.",
-        "detail": "Nếu bạn nghĩ JBL chỉ mạnh về loa di động, thì dòng Quantum của họ đang chứng minh điều ngược lại. Quantum 950 mang đến trải nghiệm âm thanh sống động, chân thực, cùng khả năng chống ồn chủ động (ANC) giúp game thủ tập trung tối đa. Tính năng hotswap pin cũng là một điểm cộng lớn, đảm bảo bạn không bao giờ bị gián đoạn cuộc chơi. Đây chắc chắn là một lựa chọn đáng cân nhắc cho các game thủ chuyên nghiệp.",
-        "tag": "review",
-        "tagLabel": "⭐ REVIEW",
-        "source": "13/09·Tinhte",
-        "url": "https://tinhte.vn/thread/tren-tay-jbl-quantum-950-hotswap-pin-co-head-tracking-anc-driver-carbon-50mm.4175630/",
-        "addedEvening": true
-      }
-    ],
-    "finance": [
-      {
-        "title": "📈 FPTS muốn vay 2.300 tỷ đồng tại ACB, SSI mua 5 triệu cổ phiếu",
-        "desc": "HĐQT FPTS đã thông qua tổng hạn mức vay vốn ngắn hạn 2.300 tỷ đồng tại ACB, trong khi Thành viên HĐQT SSI đã mua thành công 5 triệu cổ phiếu SSI.",
-        "detail": "Thị trường chứng khoán đang có những diễn biến đáng chú ý. Công ty Chứng khoán FPT (FPTS) vừa công bố kế hoạch vay 2.300 tỷ đồng từ ACB để đầu tư trái phiếu và bổ sung vốn lưu động, cho thấy động thái mở rộng kinh doanh. Cùng lúc đó, ông Nguyễn Hồng Nam, Thành viên HĐQT SSI, đã hoàn tất mua 5 triệu cổ phiếu SSI bằng phương thức khớp lệnh trong thời gian từ 26/8 đến 11/9, với giá trị giao dịch ước tính hơn 100 tỷ đồng, thể hiện niềm tin vào tiềm năng của công ty.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "13/09·CafeF",
-        "url": "https://cafef.vn/fpts-muon-vay-2300-ty-dong-tai-acb-188260913084719091.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/13/avatar1789263997251-1789263997427888749216.png"
-      },
-      {
-        "title": "🪙 Giá vàng đi ngang chờ động thái từ Fed, người mua vẫn lỗ 4,3 triệu/lượng",
-        "desc": "Sáng 13/9, giá vàng thế giới niêm yết ở mức 4.347 USD/ounce, đi ngang so với đầu giờ sáng qua, nhưng người mua vẫn có thể lỗ tới 4,3 triệu đồng/lượng sau một tuần 'lướt sóng'.",
-        "detail": "Giá vàng đang trong giai đoạn chờ đợi động thái mới từ Cục Dự trữ Liên bang Mỹ (Fed) về lãi suất. Mặc dù giá vàng thế giới có dấu hiệu hồi phục trong các phiên cuối tuần, nhưng sau một tuần giao dịch đầy biến động với nhiều phiên lao dốc, những nhà đầu tư 'lướt sóng' vẫn có nguy cơ thua lỗ đáng kể, lên tới 4,3 triệu đồng/lượng. Khả năng Fed tăng lãi suất đã lên gần 90%, điều này có thể tiếp tục ảnh hưởng đến thị trường vàng trong thời gian tới.",
-        "tag": "gold",
-        "tagLabel": "🪙 VÀNG",
-        "source": "13/09·CafeF",
-        "url": "https://cafef.vn/gia-vang-hom-nay-13-9-di-ngang-cho-dong-thai-moi-tu-fed-188260913084537911.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/13/avatar1789263897728-1789263898811767276977.jpg"
-      },
-      {
-        "title": "💼 Hai con trai ông Phạm Nhật Vượng nắm giữ vị trí CEO VinFast và Green SM",
-        "desc": "Sau loạt thay đổi nhân sự, hai con trai của tỷ phú Phạm Nhật Vượng là Phạm Nhật Quân Anh và Phạm Nhật Minh Hoàng đang trực tiếp điều hành VinFast và Green SM.",
-        "detail": "Đây là một bước chuyển giao thế hệ quan trọng trong hệ sinh thái Vingroup. Phạm Nhật Quân Anh, con trai cả của ông Phạm Nhật Vượng, sẽ kiêm nhiệm vai trò CEO VinFast, thay thế cha mình. Trong khi đó, con trai thứ hai, Phạm Nhật Minh Hoàng, được bổ nhiệm làm Tổng giám đốc Green SM. Sự kiện này cho thấy thế hệ kế cận đang dần đảm nhận những trọng trách lớn, tiếp tục phát triển các doanh nghiệp chủ chốt của tập đoàn, đặc biệt trong lĩnh vực xe điện và dịch vụ di chuyển xanh.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "13/09·CafeF",
-        "url": "https://cafef.vn/hai-con-trai-ong-pham-nhat-vuong-dang-nam-nhung-vi-tri-nao-trong-he-sinh-thai-vingroup-188260912224520937.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/12/avatar1789227877739-17892278781241709297113.png"
-      },
-      {
-        "title": "📈 Chứng khoán Việt Nam: Áp lực bán ngắn hạn trước cuộc họp FED",
-        "desc": "Thị trường chứng khoán Việt Nam có thể chịu áp lực bán trong ngắn hạn và quay về vùng 1.780 - 1.800 điểm trước cuộc họp chính sách của FED.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "13/09·CafeF",
-        "url": "https://cafef.vn/chung-khoan-van-co-the-chiu-ap-luc-ban-trong-ngan-han-188260913200817422.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/9/13/avatar1789304848846-17893048493952046367031.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "🏠 Nợ vay BĐS niêm yết tăng hơn 60.000 tỷ đồng trong quý II/2026",
-        "desc": "Nợ vay của các doanh nghiệp bất động sản niêm yết đã tăng hơn 60.000 tỷ đồng chỉ trong quý II/2026, lên mức cao nhất trong 15 quý gần đây.",
-        "detail": "Theo S&I Ratings, tỷ lệ nợ vay/vốn chủ sở hữu của các doanh nghiệp BĐS niêm yết trong quý II/2026 đạt 0,72 lần. Điều này cho thấy các doanh nghiệp đang tăng cường vay nợ để phát triển dự án, nhưng cũng tiềm ẩn rủi ro về khả năng thanh toán nếu thị trường có biến động. Nhà đầu tư cần cẩn trọng khi đánh giá các cổ phiếu BĐS trong giai đoạn này.",
-        "tag": "realestate",
-        "tagLabel": "🏠 BĐS",
-        "source": "13/09·CafeBiz",
-        "url": "https://cafebiz.vn/no-vay-cua-doanh-nghiep-bat-dong-san-niem-yet-tang-hon-60000-ty-dong-chi-sau-1-quy-len-muc-cao-nhat-15-quy-176260913203223977.chn",
-        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/9/13/avatar1789306311074-17893063115301662222664.png",
-        "addedEvening": true
-      },
-      {
-        "title": "💵 Ngân hàng đua 'treo thưởng' vàng, biệt thự để hút tiền gửi",
-        "desc": "Ngoài lãi suất cao, các ngân hàng đang liên tục treo thưởng vàng, biệt thự, căn hộ giá trị hàng tỷ đồng để thu hút tiền gửi.",
-        "detail": "Đây là động thái cạnh tranh mạnh mẽ giữa các ngân hàng trong bối cảnh thị trường tài chính sôi động. Người có tiền nhàn rỗi đang có nhiều lựa chọn hấp dẫn hơn bao giờ hết, không chỉ là lãi suất mà còn là cơ hội nhận được những phần quà giá trị. Tuy nhiên, bạn cũng nên tìm hiểu kỹ các điều khoản và điều kiện để chọn gói gửi tiền phù hợp nhất với mình nhé.",
-        "tag": "rate",
-        "tagLabel": "💵 LÃI SUẤT",
-        "source": "13/09·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/khong-chi-dua-lai-suat-ngan-hang-con-treo-thuong-vang-biet-thu-de-hut-tien-gui-100260913185834993.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/13/np-hdbank-24-1-1789297052824887429298-186-158-1289-1922-crop-17893019504791059003449.jpg",
         "addedEvening": true
       }
     ],
