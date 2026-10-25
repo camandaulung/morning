@@ -5,14 +5,13 @@ import type { Env } from './types';
 import type { TgUpdate } from './telegram-types';
 import { assertEnv } from './env-guard';
 import { handleUpdate } from './router';
-import { dispatchWorkflow } from './dispatch';
+import { runCron } from './cron-runner';
 
 export default {
-  // Cron trigger (Kiểu A): 9h VN (morning) + 22h VN (evening) — wake up and ask
-  // GitHub Actions to run morning.yml (see dispatch.ts). Never throws.
+  // Cron trigger (Kiểu A): 9h VN (morning) + 22h VN (evening) — dispatch
+  // morning.yml + alert owner on failure (see cron-runner.ts). Never throws.
   async scheduled(event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
-    const mode = event.cron === '0 15 * * *' ? 'evening' : 'morning';
-    ctx.waitUntil(dispatchWorkflow(env, mode));
+    ctx.waitUntil(runCron(env, event.cron, new Date(event.scheduledTime)));
   },
 
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {

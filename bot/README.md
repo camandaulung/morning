@@ -117,22 +117,45 @@ Message the bot on Telegram:
 
 ## Cron trigger (Kiểu A — Worker wakes GitHub Actions)
 
-`wrangler.toml` `[triggers]` schedules the Worker's `scheduled()` handler at
-`0 2 * * *` (9h VN, morning) and `0 15 * * *` (22h VN, evening). Instead of
-doing the digest generation itself, the Worker just calls
-`dispatchWorkflow()` (`src/dispatch.ts`) which POSTs a
-`workflow_dispatch` event to `morning.yml` with `inputs.run_mode` set to
-`morning`/`evening` accordingly. GitHub Actions' own cron (`.github/workflows/morning.yml`)
-stays the primary schedule/source of truth; the Worker cron is a second,
-independent wake-up call in case the GitHub Actions cron is delayed —
-`generate_card.py`'s own guards (today's-card-exists / eveningDone) make
-double-triggering harmless.
+`wrangler.toml` `[triggers]` fires the Worker's `scheduled()` handler at
+`0 2 * * *` (9h VN) and `0 15 * * *` (22h VN). It runs `runCron()`
+(`src/cron-runner.ts`):
 
-Requires secret `GH_DISPATCH_TOKEN` — a GitHub **fine-grained PAT** scoped to
-this repo with **Actions: Read and write** permission (Settings → Developer
-settings → Fine-grained tokens). Optional: if unset, the cron handler logs an
-error and no-ops (webhook/chat path is unaffected — `GH_DISPATCH_TOKEN` is
-NOT in `env-guard.ts`'s required keys).
+1. `planDispatch()` picks inputs from the VN calendar date: `run_mode`
+   morning/evening, plus `run_weekly=true` on Sunday and `run_monthly=true`
+   on the 1st — so weekly/monthly also run on time instead of waiting for
+   GitHub's late native schedule.
+2. `dispatchWorkflow()` POSTs `workflow_dispatch` to `morning.yml`.
+3. Evening only: watchdog fetches `cards.json` and checks today's morning card
+   exists and has items.
+4. Any problem (dispatch non-204, network error, missing token, token expiring
+   within 14 days, morning card missing/empty) → Telegram alert to the owner
+   (first id in `ALLOWED_CHAT_IDS`).
+
+Why the Worker is the real clock: GitHub Actions `schedule:` runs 3-5h late
+at these hours (measured Oct 2026). It stays in `morning.yml` as a backup;
+the morning card guard and the Sunday weekly guard make the late duplicate a
+no-op.
+
+### GH_DISPATCH_TOKEN
+
+Fine-grained PAT → https://github.com/settings/personal-access-tokens/new
+
+- Repository access: only `morning`
+- Permissions: **Actions: Read and write** (nothing else)
+- Expiration: **No expiration** (or 1 year — the cron warns 14 days ahead via
+  the `github-authentication-token-expiration` response header)
+
+Rotate:
+
+```bash
+gh secret set GH_DISPATCH_TOKEN --repo camandaulung/morning
+gh workflow run deploy-bot.yml --repo camandaulung/morning   # syncs it to the Worker
+```
+
+Incident 2026-10-13: the previous PAT expired after 90 days; dispatch got 401
+and was only `console.error`'d, so runs drifted to GitHub's late schedule for
+12 days unnoticed. The alert path above exists because of that.
 
 ## Auto-deploy on push
 
@@ -178,7 +201,8 @@ bot/
     ├── types.ts            # Env + DigestData interfaces
     ├── access.ts           # whitelist gate
     ├── env-guard.ts         # assertEnv() — validates required env/secrets at request start
-    ├── dispatch.ts           # cron trigger → dispatchWorkflow() POSTs morning.yml workflow_dispatch
+    ├── cron-runner.ts        # scheduled() body: dispatch + 22h watchdog + Telegram alert to owner
+    ├── dispatch.ts           # planDispatch() (weekly/monthly by VN date) + dispatchWorkflow() → issues[]
     ├── http.ts              # fetchWithTimeout / fetchJson — used by every external call
     ├── binary.ts             # base64 <-> bytes helpers
     ├── telegram.ts          # Telegram API wrapper (sendMessage/sendLongMessage/sendPhotoBlob)
@@ -198,5 +222,3 @@ bot/
         ├── gemini.ts      # Gemini 2.5 flash chat + vision
         └── openai.ts      # OpenAI chat + image + whisper
 ```
-
-# Token rotation 2026-10-25 — bump to re-sync GH_DISPATCH_TOKEN to Worker
