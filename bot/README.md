@@ -198,3 +198,5 @@ bot/
         ├── gemini.ts      # Gemini 2.5 flash chat + vision
         └── openai.ts      # OpenAI chat + image + whisper
 ```
+
+# Token rotation 2026-10-25 — bump to re-sync GH_DISPATCH_TOKEN to Worker
