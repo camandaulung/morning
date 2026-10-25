@@ -72,10 +72,9 @@
         "PS5 Xbox Nintendo Switch game mới {month_year} site:ign.com OR site:gamespot.com OR site:eurogamer.net"
       ],
       "rss_feeds": [
-        "https://gamek.vn/home.rss",
-        "https://gamek.vn/pc-console.rss",
-        "https://gamek.vn/mobile-app.rss",
-        "https://gamek.vn/esport.rss"
+        "https://news.google.com/rss/search?q=site%3Agamek.vn+when%3A7d&hl=vi&gl=VN&ceid=VN%3Avi",
+        "https://news.google.com/rss/search?q=game+mobile+when%3A7d&hl=vi&gl=VN&ceid=VN%3Avi",
+        "https://news.google.com/rss/search?q=game+Steam+PS5+Nintendo+when%3A7d&hl=vi&gl=VN&ceid=VN%3Avi"
       ],
       "prompt_instruction": "Game hot đang được bàn tán, event/patch/update lớn, mobile game viral VN, top Steam/console. Viết bắt trend, hấp dẫn dân chơi game từ mobile đến console. CHỈ dùng URL từ Dữ liệu tìm kiếm/RSS bên trên, tuyệt đối KHÔNG chọn link từ cnnd.vn, cl44.cnnd.vn hay bất kỳ site yêu cầu đăng nhập/paywall nào.",
       "schema": "{\"title\":\"emoji+tên game\",\"desc\":\"tiếng Việt 1-2 câu nêu điểm hấp dẫn\",\"detail\":\"tiếng Việt 3-5 câu bổ sung bối cảnh, thay đổi và impact, không lặp desc\",\"tag\":\"pc|mobile|console|event\",\"tagLabel\":\"💻 PC|📱 MOBILE|🎮 CONSOLE|🎪 EVENT\",\"source\":\"ngày·nguồn\",\"url\":\"\"}"
@@ -180,9 +179,10 @@
         "Champions League Ngoại hạng Anh {month_year}"
       ],
       "rss_feeds": [
-        "https://www.24h.com.vn/upload/rss/thethao.rss",
-        "https://www.24h.com.vn/upload/rss/bongda.rss",
-        "https://www.24h.com.vn/upload/rss/tennis.rss"
+        "https://vnexpress.net/rss/the-thao.rss",
+        "https://tuoitre.vn/rss/the-thao.rss",
+        "https://thanhnien.vn/rss/the-thao.rss",
+        "https://news.google.com/rss/search?q=site%3A24h.com.vn+b%C3%B3ng+%C4%91%C3%A1+when%3A2d&hl=vi&gl=VN&ceid=VN%3Avi"
       ],
       "prompt_instruction": "Tin thể thao nổi bật: bóng đá VN + quốc tế, tennis, các môn khác. Ưu tiên trận đấu vừa/sắp diễn ra, chuyển nhượng lớn, kết quả gây bất ngờ. URL chỉ từ Dữ liệu tìm kiếm.",
       "schema": "{\"title\":\"emoji+tên\",\"desc\":\"tiếng Việt max 2 câu, có tỉ số/tên đội\",\"tag\":\"football|tennis|other|transfer\",\"tagLabel\":\"⚽ BÓNG ĐÁ|🎾 TENNIS|🏆 KHÁC|🔄 CHUYỂN NHƯỢNG\",\"source\":\"ngày·nguồn\",\"url\":\"\"}"
