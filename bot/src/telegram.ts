@@ -96,6 +96,18 @@ export async function sendPhotoBlob(
   }
 }
 
+export async function getWebhookUrl(token: string): Promise<string | null> {
+  const info = await call<{ url: string }>(token, 'getWebhookInfo', {});
+  return info ? info.url : null;
+}
+
+export async function setWebhook(token: string, url: string, secret: string): Promise<boolean> {
+  const ok = await call<boolean>(token, 'setWebhook', {
+    url, secret_token: secret, allowed_updates: ['message', 'edited_message'],
+  });
+  return ok === true;
+}
+
 export function sendChatAction(token: string, chatId: number | string, action = 'typing') {
   return call(token, 'sendChatAction', { chat_id: chatId, action });
 }

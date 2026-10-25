@@ -27,6 +27,10 @@ export interface Env {
   // request path (assertEnv) never requires it — only the cron path uses it.
   GH_REPO: string;
   GH_DISPATCH_TOKEN?: string;
+
+  // Public URL of this Worker — cron re-registers the Telegram webhook to
+  // `${WORKER_URL}/webhook` if it drifted (cron-runner.ts ensureWebhook).
+  WORKER_URL?: string;
 }
 
 export interface Msg {

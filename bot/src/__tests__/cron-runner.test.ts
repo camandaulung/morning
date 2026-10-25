@@ -135,6 +135,36 @@ describe('runCron', () => {
     expect(body.text).toContain('Bản tin sáng 2026-10-26 rỗng (0 tin) — LLM lỗi/hết quota?');
   });
 
+  const tg = (method: string, result: unknown) => () =>
+    res(200, { 'content-type': 'application/json' }, JSON.stringify({ ok: true, result }));
+  const sends = (m: ReturnType<typeof route>, method: string) =>
+    m.mock.calls.filter(([u]) => String(u).endsWith(`/${method}`));
+  const wenv = { ...env, WORKER_URL: 'https://w.test', TELEGRAM_WEBHOOK_SECRET: 's' } as Env;
+
+  it('webhook already correct → no re-register, no alert', async () => {
+    const m = route({
+      'api.github.com': () => res(204),
+      'getWebhookInfo': tg('getWebhookInfo', { url: 'https://w.test/webhook' }),
+    });
+    await runCron(wenv, '0 2 * * *', MONDAY_MORNING);
+    expect(sends(m, 'setWebhook')).toHaveLength(0);
+    expect(sends(m, 'sendMessage')).toHaveLength(0);
+  });
+
+  it('webhook empty → re-register with secret and tell owner', async () => {
+    const m = route({
+      'api.github.com': () => res(204),
+      'getWebhookInfo': tg('getWebhookInfo', { url: '' }),
+      'setWebhook': tg('setWebhook', true),
+      'sendMessage': tg('sendMessage', {}),
+    });
+    await runCron(wenv, '0 2 * * *', MONDAY_MORNING);
+    const setBody = JSON.parse((sends(m, 'setWebhook')[0][1] as RequestInit).body as string);
+    expect(setBody).toEqual({ url: 'https://w.test/webhook', secret_token: 's', allowed_updates: ['message', 'edited_message'] });
+    const msg = JSON.parse((sends(m, 'sendMessage')[0][1] as RequestInit).body as string);
+    expect(msg.text).toContain('Webhook bị lệch (&quot;&quot;) — đã đăng ký lại https://w.test/webhook.');
+  });
+
   it('morning cron does not run the published-card watchdog', async () => {
     const m = route({ 'api.github.com': () => res(204) });
     await runCron(env, '0 2 * * *', MONDAY_MORNING);

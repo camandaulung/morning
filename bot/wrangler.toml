@@ -24,6 +24,7 @@ OPENAI_DEEP_MODEL  = "gpt-4o"
 OPENAI_IMAGE_MODEL = "dall-e-3"
 OPENAI_STT_MODEL   = "whisper-1"
 GH_REPO            = "camandaulung/morning"
+WORKER_URL         = "https://caman-bot.minhducdl87.workers.dev"
 
 # Cron triggers (Kiểu A): Worker wakes up at these times and dispatches the
 # morning.yml GitHub Actions workflow (via GH_DISPATCH_TOKEN) instead of doing

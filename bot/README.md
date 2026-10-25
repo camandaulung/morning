@@ -126,11 +126,14 @@ Message the bot on Telegram:
    on the 1st — so weekly/monthly also run on time instead of waiting for
    GitHub's late native schedule.
 2. `dispatchWorkflow()` POSTs `workflow_dispatch` to `morning.yml`.
-3. Evening only: watchdog fetches `cards.json` and checks today's morning card
+3. `ensureWebhook()`: if Telegram's webhook no longer points at
+   `${WORKER_URL}/webhook`, re-register it (a failed `setWebhook` during a
+   deploy once left the bot with no webhook at all).
+4. Evening only: watchdog fetches `cards.json` and checks today's morning card
    exists and has items.
-4. Any problem (dispatch non-204, network error, missing token, token expiring
-   within 14 days, morning card missing/empty) → Telegram alert to the owner
-   (first id in `ALLOWED_CHAT_IDS`).
+5. Any problem (dispatch non-204, network error, missing token, token expiring
+   within 14 days, webhook drift, morning card missing/empty) → Telegram alert
+   to the owner (first id in `ALLOWED_CHAT_IDS`).
 
 Why the Worker is the real clock: GitHub Actions `schedule:` runs 3-5h late
 at these hours (measured Oct 2026). It stays in `morning.yml` as a backup;

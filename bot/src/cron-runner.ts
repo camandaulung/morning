@@ -5,7 +5,21 @@
 import type { Env, DailyCard } from './types';
 import { dispatchWorkflow, planDispatch, vnDate } from './dispatch';
 import { fetchJson } from './http';
-import { sendMessage, esc } from './telegram';
+import { sendMessage, esc, getWebhookUrl, setWebhook } from './telegram';
+
+// A failed setWebhook (Telegram once could not resolve *.workers.dev during a
+// deploy) leaves the bot with NO webhook — chat goes silent until the next
+// deploy. Every cron run re-registers it if it drifted.
+export async function ensureWebhook(env: Env): Promise<string[]> {
+  if (!env.WORKER_URL) return [];
+  const expected = `${env.WORKER_URL}/webhook`;
+  const current = await getWebhookUrl(env.TELEGRAM_BOT_TOKEN);
+  if (current === expected) return [];
+  const fixed = await setWebhook(env.TELEGRAM_BOT_TOKEN, expected, env.TELEGRAM_WEBHOOK_SECRET);
+  return [fixed
+    ? `Webhook bị lệch ("${current ?? 'không đọc được'}") — đã đăng ký lại ${expected}.`
+    : `Webhook lệch ("${current ?? 'không đọc được'}") và đăng ký lại thất bại — bot chat đang không nhận tin.`];
+}
 
 // Catches every morning-pipeline failure (dispatch, workflow, Gemini, push),
 // not just dispatch — runs at 22h VN so the 9h run has had 13h to land.
@@ -34,6 +48,7 @@ export async function runCron(env: Env, cron: string, now: Date): Promise<void> 
   try {
     const plan = planDispatch(cron, now);
     const issues = await dispatchWorkflow(env, plan, now);
+    issues.push(...await ensureWebhook(env));
     if (plan.run_mode === 'evening') issues.push(...await checkMorningPublished(env, now));
     if (issues.length) await alertOwner(env, issues);
   } catch (e) {
