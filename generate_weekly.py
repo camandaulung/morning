@@ -6,7 +6,7 @@ import json
 from datetime import datetime, timedelta
 
 from digest_utils import batch_check_urls, GITHUB_REPO_RE, list_item_fields
-from gemini_client import call_gemini
+from llm_client import call_llm
 from json_extract import parse_llm_json
 from time_utils import now_vn
 
@@ -155,7 +155,7 @@ def main():
     prompt = build_weekly_prompt(context, week_label, from_date, to_date)
     print(f"Generating weekly digest: {week_label} ({from_date} → {to_date}) from {len(week_cards)} cards...")
 
-    text, _ = call_gemini(prompt, use_search=False, thinking_budget=0, max_output_tokens=2048)
+    text, _ = call_llm(prompt, use_search=False, thinking_budget=0, max_output_tokens=2048)
     if not text:
         print("All attempts failed — skipping weekly digest")
         raise SystemExit(1)

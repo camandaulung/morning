@@ -12,7 +12,7 @@ from digest_utils import (
     is_duplicate_title, DEDUP_DAYS,
 )
 from jina_fetch import fetch_topic_context
-from gemini_client import call_gemini
+from llm_client import call_llm
 from json_extract import parse_llm_json
 
 
@@ -89,7 +89,7 @@ def generate_card_json(prompt: str, has_data: bool, date_str: str, day_label: st
     """Call Gemini (pre-fetched context), parse JSON. Retry with Google Search
     grounding when the response is missing/unparseable/empty (0 items) — a
     truncated or malformed JSON must NOT silently produce an empty digest."""
-    text, _ = call_gemini(prompt, use_search=False)
+    text, _ = call_llm(prompt, use_search=False)
     if text:
         print(f"Raw response preview: {text[:300]}...")
     card_json = parse_llm_json(text) if text else None
@@ -98,7 +98,7 @@ def generate_card_json(prompt: str, has_data: bool, date_str: str, day_label: st
     # Fallback when nothing usable came back (empty text, parse failure, or 0 items).
     if total == 0 or not has_data:
         print(f"Primary attempt yielded {total} items — falling back to Gemini + Google Search grounding...")
-        text2, _ = call_gemini(prompt, retries=1, use_search=True)
+        text2, _ = call_llm(prompt, retries=1, use_search=True)
         card2 = parse_llm_json(text2) if text2 else None
         if _count_items(card2, output_fields) > 0:
             card_json = card2

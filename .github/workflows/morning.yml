@@ -73,6 +73,7 @@ jobs:
         if: steps.guard.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_card.py
@@ -114,6 +115,7 @@ jobs:
       - name: Generate evening update
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_card.py
@@ -150,12 +152,37 @@ jobs:
       - name: Pull latest
         run: git pull
 
+      # Sunday fires twice: Worker dispatch (on time, run_weekly=true) and the
+      # late GitHub schedule. Skip the late one if this week is already built.
+      # Manual dispatch always regenerates.
+      - name: Guard — skip if this week's digest already built today
+        id: guard
+        if: github.event_name == 'schedule'
+        run: |
+          SKIP=$(python <<'PY'
+          import json
+          from time_utils import now_vn
+          today = now_vn().strftime("%Y-%m-%d")
+          try:
+              with open("weekly.json", encoding="utf-8") as f:
+                  weeklies = json.load(f)
+          except FileNotFoundError:
+              weeklies = []
+          print("true" if weeklies and weeklies[0].get("toDate") == today else "false")
+          PY
+          )
+          echo "weekly already built today: $SKIP"
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+
       - name: Generate weekly digest
+        if: steps.guard.outputs.skip != 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate_weekly.py
 
       - name: Commit and push
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"

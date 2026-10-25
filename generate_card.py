@@ -90,9 +90,16 @@ def main_morning():
     card_json = dedup_card(card_json, output_fields, recent_urls, recent_norms, recent_tokens)
     card_json = enrich_images(card_json, output_fields, image_map)
 
-    cards = update_cards_file(cards, card_json, date_str, now)
-
     summary = " ".join(f"{fld}:{len(card_json.get(fld,[]))}" for fld in output_fields)
+    # An empty morning card used to be committed and the run stayed green while
+    # notify silently skipped it (3 days of no digest, 2026-10-23..25). Fail the
+    # job instead: GitHub emails the owner, the next run retries (the guard only
+    # skips cards that have items), and the Worker 22h watchdog alerts on Telegram.
+    if not any(card_json.get(f) for f in output_fields):
+        print(f"::error::Morning card for {date_str} has 0 items after validation ({summary}) — not writing it.")
+        raise SystemExit(1)
+
+    cards = update_cards_file(cards, card_json, date_str, now)
     print(f"Done! {len(cards)} cards | {summary}")
 
 
