@@ -104,13 +104,27 @@ jobs:
           TELEGRAM_BOT_TOKEN:      ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
           WORKER_URL: https://caman-bot.minhducdl87.workers.dev
+        # setWebhook is idempotent. Telegram sometimes fails to resolve
+        # *.workers.dev ("Temporary failure in name resolution"); retry, and if
+        # it still fails but the webhook already points at this URL, don't fail
+        # the deploy — the bot keeps working on the existing registration.
         run: |
-          echo "Registering webhook → $WORKER_URL/webhook"
-          resp=$(curl -sS \
-            -d "url=$WORKER_URL/webhook" \
-            -d "secret_token=$TELEGRAM_WEBHOOK_SECRET" \
-            -d "drop_pending_updates=true" \
-            -d 'allowed_updates=["message","edited_message"]' \
-            "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook")
-          echo "$resp" | jq . || echo "$resp"
-          echo "$resp" | grep -q '"ok":true' || { echo "::error::setWebhook failed"; exit 1; }
+          API="https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN"
+          for i in 1 2 3; do
+            resp=$(curl -sS \
+              -d "url=$WORKER_URL/webhook" \
+              -d "secret_token=$TELEGRAM_WEBHOOK_SECRET" \
+              -d "drop_pending_updates=true" \
+              -d 'allowed_updates=["message","edited_message"]' \
+              "$API/setWebhook")
+            echo "attempt $i: $resp"
+            echo "$resp" | grep -q '"ok":true' && exit 0
+            sleep 15
+          done
+          info=$(curl -sS "$API/getWebhookInfo")
+          echo "getWebhookInfo: $(echo "$info" | jq -c '.result | {url, pending_update_count, last_error_date, last_error_message}')"
+          if [ "$(echo "$info" | jq -r '.result.url')" = "$WORKER_URL/webhook" ]; then
+            echo "::warning::setWebhook failed but webhook already registered at $WORKER_URL/webhook — keeping it."
+            exit 0
+          fi
+          echo "::error::setWebhook failed and webhook is not registered"; exit 1
