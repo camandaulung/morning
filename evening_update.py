@@ -7,9 +7,10 @@ Guards (both no-op, exit 0 via caller):
     mới trước khi morning job kịp chạy) → skip.
   - cards[0]["eveningDone"] already True → skip (idempotent, safe to re-run
     if GitHub Actions retries or Cloudflare cron fires twice)."""
-from digest_utils import get_recent_titles, get_recent_urls, build_dedup_index, DEDUP_DAYS
+from digest_utils import (get_recent_titles, get_recent_urls, get_recent_titles_by_field,
+                          get_all_urls, build_dedup_index, DEDUP_DAYS)
 from prompt_builder import build_daily_prompt
-from card_pipeline import fetch_contexts, generate_card_json, validate_card, dedup_card, enrich_images, write_cards_file
+from card_pipeline import fetch_contexts, generate_card_per_topic, validate_card, dedup_card, enrich_images, write_cards_file
 from generate_card import DAY_NAMES
 
 
@@ -52,17 +53,20 @@ def run_evening(config: dict, topics: dict, cards: list, now) -> bool:
           f"{len(recent_titles)} titles, {len(recent_urls)} urls")
 
     print(f"Generating evening update for {date_str} | topics: {list(topics.keys())}...")
-    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year)
+    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year, exclude_urls=get_all_urls(cards))
     has_data = bool(trusted_urls)
     print(f"Fetch done. has_data={has_data} trusted_urls={len(trusted_urls)}")
 
-    prompt = build_daily_prompt(
-        topics, recent_titles, topic_contexts,
-        day_label, date_label, date_str, DEDUP_DAYS,
-        tone_guidance=config.get("tone_guidance", ""),
-    )
+    titles_by_field = get_recent_titles_by_field(cards, date_str, now, days=DEDUP_DAYS, include_today=True)
 
-    card_json = generate_card_json(prompt, has_data, date_str, day_label, date_label, output_fields)
+    def prompt_for(key, topic):
+        return build_daily_prompt(
+            {key: topic}, titles_by_field.get(topic["output_field"], []), topic_contexts,
+            day_label, date_label, date_str, DEDUP_DAYS,
+            tone_guidance=config.get("tone_guidance", ""),
+        )
+
+    card_json = generate_card_per_topic(topics, topic_contexts, prompt_for, date_str, day_label, date_label)
     card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
     card_json = dedup_card(card_json, output_fields, recent_urls, recent_norms, recent_tokens)
     card_json = enrich_images(card_json, output_fields, image_map)

@@ -134,15 +134,20 @@ def is_claude_related(repo: dict) -> bool:
     return any(k in text for k in CLAUDE_KEYWORDS)
 
 
-def fetch_github_topic(topic: dict, cutoff_date: str, created_cutoff: str = "") -> tuple[str, set[str]]:
+def fetch_github_topic(topic: dict, cutoff_date: str, created_cutoff: str = "",
+                       exclude_urls: set[str] | None = None) -> tuple[str, set[str]]:
     """Fetch GitHub repos for a github_api topic. Returns (text_context, valid_urls_set).
     Query placeholders: {cutoff_date} (pushed window), {created_cutoff} (new-repo window).
-    Claude-related repos are tagged [CLAUDE] and listed first."""
+    Claude-related repos are tagged [CLAUDE] and listed first. exclude_urls (repos
+    already published) are dropped up front: otherwise the LLM keeps picking the same
+    top-starred [CLAUDE] repos, dedup then removes them all and the topic ends up
+    empty (2026-10-20 onwards)."""
+    exclude_urls = exclude_urls or set()
     seen = {}
     for q in topic.get("github_queries", []):
         query = q.replace("{cutoff_date}", cutoff_date).replace("{created_cutoff}", created_cutoff or cutoff_date)
         for repo in github_search(query, topic.get("github_per_query", 8)):
-            if repo["url"] and repo["url"] not in seen:
+            if repo["url"] and repo["url"] not in seen and repo["url"] not in exclude_urls:
                 seen[repo["url"]] = repo
 
     if not seen:
@@ -165,7 +170,8 @@ def fetch_github_topic(topic: dict, cutoff_date: str, created_cutoff: str = "") 
 
 # ── Dispatcher ────────────────────────────────────────────────────────────────
 
-def fetch_topic_context(topic: dict, month_year: str) -> tuple[str, set[str], dict]:
+def fetch_topic_context(topic: dict, month_year: str,
+                        exclude_urls: set[str] | None = None) -> tuple[str, set[str], dict]:
     """Dispatch by topic.data_source + supplement with RSS feeds if configured.
     Returns (text_context, trusted_urls, image_map).
     - trusted_urls: set of REAL URLs sourced directly from RSS/Jina/GitHub (not
@@ -179,7 +185,7 @@ def fetch_topic_context(topic: dict, month_year: str) -> tuple[str, set[str], di
     if source == "github_api":
         cutoff  = (datetime.now() - timedelta(days=topic.get("pushed_days", 14))).strftime("%Y-%m-%d")
         created = (datetime.now() - timedelta(days=topic.get("created_days", 60))).strftime("%Y-%m-%d")
-        text, urls = fetch_github_topic(topic, cutoff, created)
+        text, urls = fetch_github_topic(topic, cutoff, created, exclude_urls)
     else:
         text, urls = fetch_jina_topic(topic, month_year)
 

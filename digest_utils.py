@@ -6,7 +6,7 @@ notify-telegram.py don't need to change their `from digest_utils import ...`."""
 from dedup_utils import (
     DEDUP_DAYS, list_item_fields, normalize_title,
     build_dedup_index, is_duplicate_title,
-    get_recent_titles, get_recent_urls,
+    get_recent_titles, get_recent_urls, get_recent_titles_by_field, get_all_urls,
 )
 from url_check import (
     GITHUB_REPO_RE, HTTP_TIMEOUT, HEAD_WORKERS, URL_BLACKLIST,
@@ -17,7 +17,7 @@ from url_check import (
 __all__ = [
     "DEDUP_DAYS", "list_item_fields", "normalize_title",
     "build_dedup_index", "is_duplicate_title",
-    "get_recent_titles", "get_recent_urls",
+    "get_recent_titles", "get_recent_urls", "get_recent_titles_by_field", "get_all_urls",
     "GITHUB_REPO_RE", "HTTP_TIMEOUT", "HEAD_WORKERS", "URL_BLACKLIST",
     "is_url_live", "batch_check_urls",
     "validate_news_items", "validate_repo_items",

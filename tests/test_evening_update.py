@@ -44,7 +44,7 @@ class TestMerge:
     @patch("evening_update.write_cards_file")
     @patch("evening_update.dedup_card")
     @patch("evening_update.validate_card")
-    @patch("evening_update.generate_card_json")
+    @patch("evening_update.generate_card_per_topic")
     @patch("evening_update.fetch_contexts")
     def test_merge_new_items(self, mock_fetch, mock_gen, mock_validate, mock_dedup, mock_write):
         cards = [{
@@ -73,7 +73,7 @@ class TestMerge:
     @patch("evening_update.write_cards_file")
     @patch("evening_update.dedup_card")
     @patch("evening_update.validate_card")
-    @patch("evening_update.generate_card_json")
+    @patch("evening_update.generate_card_per_topic")
     @patch("evening_update.fetch_contexts")
     def test_all_deduped_still_marks_done(self, mock_fetch, mock_gen, mock_validate, mock_dedup, mock_write):
         cards = [{"date": "2026-07-15", "dayLabel": "Thứ Tư", "dateLabel": "15/07/2026", "tech": []}]
@@ -92,7 +92,7 @@ class TestMerge:
     @patch("evening_update.write_cards_file")
     @patch("evening_update.dedup_card")
     @patch("evening_update.validate_card")
-    @patch("evening_update.generate_card_json")
+    @patch("evening_update.generate_card_per_topic")
     @patch("evening_update.fetch_contexts")
     def test_dedup_receives_today_titles_and_urls(self, mock_fetch, mock_gen, mock_validate, mock_dedup, mock_write):
         """Evening dedup context must include today's own morning items (not just

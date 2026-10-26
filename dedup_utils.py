@@ -101,6 +101,32 @@ def get_recent_titles(cards: list, date_str: str, now, days: int = DEDUP_DAYS) -
     return titles
 
 
+def get_recent_titles_by_field(cards: list, date_str: str, now, days: int = DEDUP_DAYS,
+                               include_today: bool = False) -> dict:
+    """{field: [titles]} from cards of the last N days — lets each per-topic prompt
+    list everything already published in THAT topic instead of a global top-40."""
+    cutoff = (now - timedelta(days=days)).date()
+    out: dict = {}
+    for c in cards:
+        if c.get("date") == date_str and not include_today:
+            continue
+        try:
+            card_date = datetime.strptime(c["date"], "%Y-%m-%d").date()
+        except (ValueError, KeyError):
+            continue
+        if card_date >= cutoff:
+            for f in list_item_fields(c):
+                out.setdefault(f, []).extend(
+                    x["title"] for x in c.get(f, []) if isinstance(x, dict) and x.get("title"))
+    return out
+
+
+def get_all_urls(cards: list) -> set:
+    """Every URL in the rolling cards window (~30 days)."""
+    return {x["url"] for c in cards for f in list_item_fields(c)
+            for x in c.get(f, []) if isinstance(x, dict) and x.get("url")}
+
+
 def get_recent_urls(cards: list, date_str: str, now, days: int = DEDUP_DAYS) -> set:
     """Extract URLs from all list-fields in cards of last N days (topic-agnostic)."""
     cutoff = (now - timedelta(days=days)).date()

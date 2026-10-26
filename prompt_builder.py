@@ -46,7 +46,7 @@ def build_daily_prompt(
 
     if recent_titles:
         lines.append(f"TUYỆT ĐỐI KHÔNG lặp lại — các tin sau đã xuất hiện trong {dedup_days} ngày qua:")
-        for t in recent_titles[:40]:
+        for t in recent_titles[:60]:
             lines.append(f"  - {t}")
         lines.append("(Nếu tin mới cùng chủ đề với các tin trên: chỉ chọn nếu có góc nhìn / diễn biến MỚI HẲN, và viết title khác hoàn toàn.)")
         lines.append("")

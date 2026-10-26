@@ -12,8 +12,9 @@ import json
 import os
 from datetime import datetime, timedelta
 
-from digest_utils import get_recent_titles, get_recent_urls, build_dedup_index, DEDUP_DAYS
-from card_pipeline import fetch_contexts, generate_card_json, validate_card, dedup_card, enrich_images, write_cards_file
+from digest_utils import (get_recent_titles, get_recent_urls, get_recent_titles_by_field,
+                          get_all_urls, build_dedup_index, DEDUP_DAYS)
+from card_pipeline import fetch_contexts, generate_card_per_topic, validate_card, dedup_card, enrich_images, write_cards_file
 from prompt_builder import build_daily_prompt
 from time_utils import now_vn
 
@@ -71,21 +72,26 @@ def main_morning():
 
     print(f"Generating card for {date_str} | topics: {list(topics.keys())}...")
     print("Step 1: Fetching web content...")
-    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year)
+    # Repos already published anywhere in the 30-day window never go back to the LLM.
+    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year, exclude_urls=get_all_urls(cards))
     has_data = bool(trusted_urls)
     print(f"Fetch done. has_data={has_data} trusted_urls={len(trusted_urls)}")
 
     output_fields = [t["output_field"] for t in topics.values() if t.get("output_field")]
     repo_fields   = [t["output_field"] for t in topics.values() if t.get("data_source") == "github_api"]
 
-    prompt = build_daily_prompt(
-        topics, recent_titles, topic_contexts,
-        day_label, date_label, date_str, DEDUP_DAYS,
-        tone_guidance=config.get("tone_guidance", ""),
-    )
-    print(f"Step 2: Calling Gemini... (prompt: {len(prompt)} chars)")
+    titles_by_field = get_recent_titles_by_field(cards, date_str, now, days=DEDUP_DAYS)
 
-    card_json = generate_card_json(prompt, has_data, date_str, day_label, date_label, output_fields)
+    def prompt_for(key, topic):
+        return build_daily_prompt(
+            {key: topic}, titles_by_field.get(topic["output_field"], []), topic_contexts,
+            day_label, date_label, date_str, DEDUP_DAYS,
+            tone_guidance=config.get("tone_guidance", ""),
+        )
+
+    print(f"Step 2: Calling LLM per topic ({len(topics)} topics)...")
+    card_json = generate_card_per_topic(topics, topic_contexts, prompt_for, date_str, day_label, date_label)
+    raw_summary = " ".join(f"{fld}:{len(card_json.get(fld,[]))}" for fld in output_fields)
     card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
     card_json = dedup_card(card_json, output_fields, recent_urls, recent_norms, recent_tokens)
     card_json = enrich_images(card_json, output_fields, image_map)
@@ -96,7 +102,7 @@ def main_morning():
     # job instead: GitHub emails the owner, the next run retries (the guard only
     # skips cards that have items), and the Worker 22h watchdog alerts on Telegram.
     if not any(card_json.get(f) for f in output_fields):
-        print(f"::error::Morning card for {date_str} has 0 items after validation ({summary}) — not writing it.")
+        print(f"::error::Morning card for {date_str} has 0 items after validation ({summary}; before validation: {raw_summary}) — not writing it.")
         raise SystemExit(1)
 
     cards = update_cards_file(cards, card_json, date_str, now)

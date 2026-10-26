@@ -84,7 +84,7 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
 def _call_openai(prompt: str, max_output_tokens: int, temperature: float) -> str | None:
     key = os.environ.get("OPENAI_API_KEY", "")
     if not key:
-        print("  [openai] OPENAI_API_KEY not set — no fallback available")
+        print("::warning::OPENAI_API_KEY not set — no LLM fallback available")
         return None
     body = {
         "model": os.environ.get("OPENAI_FALLBACK_MODEL", "gpt-4o-mini"),
@@ -105,13 +105,16 @@ def _call_openai(prompt: str, max_output_tokens: int, temperature: float) -> str
     try:
         with urllib.request.urlopen(req, timeout=180) as resp:
             data = json.loads(resp.read())
-        text = (data["choices"][0]["message"]["content"] or "").strip()
-        print(f"  [openai] fallback got {len(text)} chars")
+        choice = data["choices"][0]
+        text = (choice["message"]["content"] or "").strip()
+        print(f"  [openai] fallback got {len(text)} chars (finish: {choice.get('finish_reason')})")
+        if choice.get("finish_reason") == "length":
+            print(f"::warning::OpenAI fallback output truncated at {body['max_tokens']} tokens")
         return text or None
     except urllib.error.HTTPError as e:
-        print(f"  [openai] HTTP {e.code}: {e.read()[:300]!r}")
+        print(f"::warning::OpenAI fallback HTTP {e.code}: {e.read()[:300]!r}")
     except Exception as e:
-        print(f"  [openai] error: {e}")
+        print(f"::warning::OpenAI fallback error: {e}")
     return None
 
 

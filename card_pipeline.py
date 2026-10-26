@@ -50,7 +50,8 @@ def sanitize_reader_detail(item: dict) -> dict:
     return item
 
 
-def fetch_contexts(topics: dict, month_year: str) -> tuple[dict, set[str], dict]:
+def fetch_contexts(topics: dict, month_year: str,
+                   exclude_urls: set[str] | None = None) -> tuple[dict, set[str], dict]:
     """Fetch pre-search web context per topic.
     Returns (topic_contexts, trusted_urls, image_map).
     - trusted_urls = union of REAL URLs from RSS/Jina/GitHub fetch layer across all
@@ -63,7 +64,7 @@ def fetch_contexts(topics: dict, month_year: str) -> tuple[dict, set[str], dict]
     trusted_urls: set[str] = set()
     image_map: dict = {}
     for key, topic in topics.items():
-        ctx, urls, images = fetch_topic_context(topic, month_year)
+        ctx, urls, images = fetch_topic_context(topic, month_year, exclude_urls)
         topic_contexts[key] = ctx
         trusted_urls |= urls
         for u, img in images.items():
@@ -93,6 +94,8 @@ def generate_card_json(prompt: str, has_data: bool, date_str: str, day_label: st
     if text:
         print(f"Raw response preview: {text[:300]}...")
     card_json = parse_llm_json(text) if text else None
+    if text and card_json is None:
+        print(f"::warning::Unparseable LLM JSON for {output_fields} ({len(text)} chars, tail: {text[-120:]!r})")
     total = _count_items(card_json, output_fields)
 
     # Fallback when nothing usable came back (empty text, parse failure, or 0 items).
@@ -113,6 +116,37 @@ def generate_card_json(prompt: str, has_data: bool, date_str: str, day_label: st
     for f in output_fields:
         card_json.setdefault(f, [])
     return card_json
+
+
+def generate_card_per_topic(topics: dict, topic_contexts: dict, prompt_for, date_str: str,
+                            day_label: str, date_label: str, max_workers: int = 3) -> dict:
+    """One LLM call per topic (in parallel) instead of one giant JSON for every
+    topic. A single malformed/truncated response or a fallback model that
+    mangles one section used to wipe the whole card (0 items, 2026-10-26); now a
+    failure only empties its own topic. prompt_for(key, topic) -> prompt string."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def run(entry):
+        key, topic = entry
+        field = topic["output_field"]
+        try:
+            part = generate_card_json(prompt_for(key, topic), bool(topic_contexts.get(key)),
+                                      date_str, day_label, date_label, [field])
+            items = part.get(field)
+            return key, field, items if isinstance(items, list) else []
+        except Exception as e:  # never let one topic kill the card
+            print(f"::warning::Topic {key} generation crashed: {e}")
+            return key, field, []
+
+    card = empty_card(date_str, day_label, date_label, [])
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        for key, field, items in ex.map(run, topics.items()):
+            card[field] = items
+            if items:
+                print(f"  [topic] {key}: {len(items)} raw items")
+            else:
+                print(f"::warning::LLM returned 0 items for topic {key} ({field})")
+    return card
 
 
 def validate_card(card_json: dict, output_fields: list, repo_fields: list,

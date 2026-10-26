@@ -36,3 +36,14 @@ def test_duplicate_repos_across_queries_deduped():
         text, urls = fetch_github_topic(topic, "2026-09-23")
     assert urls == {"https://github.com/a/b"}
     assert text.count("a/b") == 2  # name line + URL line, listed once
+
+
+def test_already_posted_repos_excluded_before_llm():
+    """Posted repos must never reach the LLM — it kept re-picking them and dedup
+    emptied the topic (2026-10-20..)."""
+    results = [_repo("x/claude-studio"), _repo("x/new-claude-tool")]
+    with patch("jina_fetch.github_search", return_value=results):
+        text, urls = fetch_github_topic({"github_queries": ["q"]}, "2026-10-12",
+                                        exclude_urls={"https://github.com/x/claude-studio"})
+    assert urls == {"https://github.com/x/new-claude-tool"}
+    assert "claude-studio" not in text
