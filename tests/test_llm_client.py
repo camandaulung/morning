@@ -34,6 +34,9 @@ def env(monkeypatch):
     monkeypatch.setenv("OPENAI_API_KEY", "o")
     monkeypatch.setattr(llm_client, "_gemini_exhausted", False)
     monkeypatch.setattr(llm_client, "GEMINI_RPM", 0)
+    monkeypatch.setattr(llm_client, "_active_model", None)
+    monkeypatch.setattr(llm_client, "_no_thinking", False)
+    monkeypatch.delenv("GEMINI_MODEL", raising=False)
     sleeps = []
     monkeypatch.setattr(llm_client, "_sleep", sleeps.append)
     monkeypatch.setattr(llm_client, "_test_sleeps", sleeps, raising=False)
@@ -114,3 +117,48 @@ def test_wait_for_slot_spaces_calls(monkeypatch):
     llm_client._wait_for_slot()
     llm_client._wait_for_slot()
     assert sleeps == [10.0, 20.0]
+
+
+class _RecordingModels:
+    """generate_content that fails per model / per config, recording each call."""
+    def __init__(self, fail):
+        self.fail, self.calls = fail, []
+
+    def generate_content(self, model, contents, config):
+        self.calls.append((model, config.thinking_config is not None))
+        err = self.fail(model, config)
+        if err:
+            raise Exception(err)
+        part = type("P", (), {"text": '{"tech": [1]}', "thought": False})()
+        cand = type("C", (), {"content": type("X", (), {"parts": [part]})(), "grounding_metadata": None})()
+        return type("R", (), {"candidates": [cand]})()
+
+
+def test_default_model_is_current_flash(env, monkeypatch):
+    models = _RecordingModels(lambda m, c: None)
+    _gemini(monkeypatch, models)
+    llm_client.call_llm("x")
+    assert models.calls[0][0] == "gemini-3.8-flash"
+
+
+def test_model_404_switches_to_fallback_and_sticks(env, monkeypatch):
+    """2026-10-26: 'models/gemini-2.5-flash is no longer available to new users'."""
+    monkeypatch.setenv("GEMINI_MODEL", "gemini-2.5-flash")
+    retired = ("404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash "
+               "is no longer available to new users.', 'status': 'NOT_FOUND'}}")
+    models = _RecordingModels(lambda m, c: retired if m == "gemini-2.5-flash" else None)
+    _gemini(monkeypatch, models)
+    assert llm_client.call_llm("x", retries=0) == ('{"tech": [1]}', set())
+    assert [m for m, _ in models.calls] == ["gemini-2.5-flash", "gemini-flash-latest"]
+    llm_client.call_llm("again", retries=0)
+    assert models.calls[-1][0] == "gemini-flash-latest"   # no second 404 round-trip
+    assert env == []
+
+
+def test_thinking_budget_rejected_retries_without_it(env, monkeypatch):
+    bad = "400 INVALID_ARGUMENT. thinking_budget is not supported for this model; use thinking_level"
+    models = _RecordingModels(lambda m, c: bad if c.thinking_config is not None else None)
+    _gemini(monkeypatch, models)
+    assert llm_client.call_llm("x", retries=0) == ('{"tech": [1]}', set())
+    assert [t for _, t in models.calls] == [True, False]
+    assert env == []

@@ -10,6 +10,46 @@ interface GeminiContent { role: 'user' | 'model'; parts: GeminiPart[]; }
 interface GeminiCandidate { content?: { parts?: GeminiPart[] }; finishReason?: string; }
 interface GeminiResp { candidates?: GeminiCandidate[]; error?: { message: string }; }
 
+
+// gemini-2.5-flash returns 404 "no longer available to new users" for keys from
+// projects created after its sunset — fall back to the rolling alias. Models that
+// reject thinkingConfig get the request again without it. Both are remembered.
+const FALLBACK_MODEL = 'gemini-flash-latest';
+let activeModel: string | null = null;
+let noThinking = false;
+
+interface GenResult { candidates?: { content?: { parts?: any[] }; finishReason?: string }[]; error?: { code?: number; message: string; status?: string }; }
+
+export async function generate(apiKey: string, model: string, body: Record<string, any>, timeoutMs: number): Promise<GenResult> {
+  let current = activeModel || model;
+  for (let i = 0; i < 3; i++) {
+    const req: Record<string, any> = { ...body };
+    if (noThinking && req.generationConfig?.thinkingConfig) {
+      const { thinkingConfig: _drop, ...gc } = req.generationConfig;
+      req.generationConfig = gc;
+    }
+    const r = await fetchWithTimeout(`${API}/${current}:generateContent`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-goog-api-key': apiKey },
+      body: JSON.stringify(req),
+    }, timeoutMs);
+    const j = await r.json() as GenResult;
+    const msg = j.error?.message || '';
+    if (j.error && (j.error.code === 404 || j.error.status === 'NOT_FOUND') && /model/i.test(msg) && current !== FALLBACK_MODEL) {
+      console.error(`[gemini] model ${current} unavailable — switching to ${FALLBACK_MODEL}`);
+      current = activeModel = FALLBACK_MODEL;
+      continue;
+    }
+    if (j.error && (j.error.code === 400 || j.error.status === 'INVALID_ARGUMENT') && /thinking/i.test(msg) && !noThinking) {
+      console.error(`[gemini] model ${current} rejected thinkingConfig — retrying without it`);
+      noThinking = true;
+      continue;
+    }
+    return j;
+  }
+  return { error: { message: 'gemini: gave up after config fallbacks' } };
+}
+
 function extractText(j: GeminiResp): string | null {
   const parts = j.candidates?.[0]?.content?.parts ?? [];
   const text = parts.filter(p => p.text && !p.thought).map(p => p.text).join('').trim();
@@ -32,12 +72,7 @@ export async function geminiChat(
   };
 
   try {
-    const r = await fetchWithTimeout(`${API}/${model}:generateContent?key=${apiKey}`, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(body),
-    }, LLM_TIMEOUT_MS);
-    const j = await r.json() as GeminiResp;
+    const j = await generate(apiKey, model, body, LLM_TIMEOUT_MS) as GeminiResp;
     if (j.error) { console.error('[gemini]', j.error.message); return null; }
     return extractText(j);
   } catch (e) {
@@ -60,12 +95,7 @@ export async function geminiDescribeImage(
   const body = { contents, generationConfig: { temperature: 0.4, maxOutputTokens: 512 } };
 
   try {
-    const r = await fetchWithTimeout(`${API}/${model}:generateContent?key=${apiKey}`, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(body),
-    }, LLM_TIMEOUT_MS);
-    const j = await r.json() as GeminiResp;
+    const j = await generate(apiKey, model, body, LLM_TIMEOUT_MS) as GeminiResp;
     if (j.error) { console.error('[gemini vision]', j.error.message); return null; }
     return extractText(j);
   } catch (e) {
@@ -113,12 +143,7 @@ export async function geminiAgent(
     };
     let j: { candidates?: { content?: { parts?: AgentPart[] } }[]; error?: { message: string } };
     try {
-      const r = await fetchWithTimeout(`${API}/${model}:generateContent?key=${apiKey}`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(body),
-      }, Math.min(LLM_TIMEOUT_MS, remaining));
-      j = await r.json();
+      j = await generate(apiKey, model, body, Math.min(LLM_TIMEOUT_MS, remaining));
     } catch (e) {
       console.error('[gemini agent] fetch error:', e);
       return null;

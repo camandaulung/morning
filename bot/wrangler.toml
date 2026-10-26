@@ -18,7 +18,7 @@ id = "REPLACE_WITH_KV_NAMESPACE_ID"
 [vars]
 BOT_USERNAME       = "caman_bot"
 SITE_BASE_URL      = "https://camandaulung.github.io/morning"
-GEMINI_MODEL       = "gemini-2.5-flash"
+GEMINI_MODEL       = "gemini-3.8-flash"
 OPENAI_CHAT_MODEL  = "gpt-4o-mini"
 OPENAI_DEEP_MODEL  = "gpt-4o"
 OPENAI_IMAGE_MODEL = "dall-e-3"

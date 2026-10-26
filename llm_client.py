@@ -26,6 +26,11 @@ QUOTA_MARKERS = ("RESOURCE_EXHAUSTED", "402", "429", "quota", "credits are deple
 HARD_QUOTA_MARKERS = ("402", "credits are depleted", "prepayment", "PerDay", "per day", "billing")
 # Requests/minute we allow ourselves (free tier Flash is ~10 RPM). 0 = no spacing.
 GEMINI_RPM = float(os.environ.get("GEMINI_RPM", "8"))
+# gemini-2.5-flash returns 404 "no longer available to new users" for projects
+# created after its sunset (the free-tier key of 2026-10-26). Override with the
+# GEMINI_MODEL env; on a model 404 we walk down this list.
+DEFAULT_GEMINI_MODEL = "gemini-3.8-flash"
+MODEL_FALLBACKS = ("gemini-flash-latest",)
 MAX_BACKOFF_S = 65
 
 _client = None          # lazy singleton — avoids requiring GEMINI_API_KEY at import time
@@ -34,6 +39,23 @@ _sleep = time.sleep     # patched in tests
 _rate_lock = threading.Lock()
 _next_slot = 0.0
 _warned: set = set()    # annotate each distinct Gemini error once per run
+_active_model: str | None = None   # sticky after a model-404 fallback
+_no_thinking = False               # set if the model rejects thinking_budget
+
+
+def _model_chain(requested: str | None) -> list[str]:
+    first = requested or os.environ.get("GEMINI_MODEL") or DEFAULT_GEMINI_MODEL
+    return [first] + [m for m in MODEL_FALLBACKS if m != first]
+
+
+def _is_model_not_found(e: Exception) -> bool:
+    msg = str(e)
+    return ("404" in msg or "NOT_FOUND" in msg) and "model" in msg.lower()
+
+
+def _is_thinking_rejected(e: Exception) -> bool:
+    msg = str(e).lower()
+    return ("400" in msg or "invalid_argument" in msg) and "thinking" in msg
 
 
 def _gemini_client() -> genai.Client:
@@ -74,22 +96,25 @@ def _wait_for_slot() -> None:
 
 
 def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output_tokens: int,
-                 temperature: float, retries: int, model: str) -> tuple[str | None, set[str]]:
-    global _gemini_exhausted
+                 temperature: float, retries: int, model: str | None) -> tuple[str | None, set[str]]:
+    global _gemini_exhausted, _active_model, _no_thinking
     client = _gemini_client()
     tools = [types.Tool(google_search=types.GoogleSearch())] if use_search else []
-    for attempt in range(retries + 1):
+    chain = _model_chain(model)
+    if _active_model in chain:
+        chain = chain[chain.index(_active_model):]
+    attempt = 0
+    while attempt <= retries:
+        current = chain[0]
         try:
             _wait_for_slot()
+            config = dict(tools=tools, temperature=temperature, max_output_tokens=max_output_tokens)
+            if not _no_thinking:
+                config["thinking_config"] = types.ThinkingConfig(thinking_budget=thinking_budget)
             response = client.models.generate_content(
-                model=model,
+                model=current,
                 contents=prompt,
-                config=types.GenerateContentConfig(
-                    tools=tools,
-                    temperature=temperature,
-                    max_output_tokens=max_output_tokens,
-                    thinking_config=types.ThinkingConfig(thinking_budget=thinking_budget),
-                ),
+                config=types.GenerateContentConfig(**config),
             )
             text_parts, grounding_urls = [], set()
             if response.candidates:
@@ -113,6 +138,16 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
             print(f"  [gemini] attempt {attempt+1}: empty. Finish: {finish}")
         except Exception as e:
             print(f"  [gemini] attempt {attempt+1} error: {e}")
+            # Config problems: fix and retry immediately without spending an attempt.
+            if _is_model_not_found(e) and len(chain) > 1:
+                chain = chain[1:]
+                _active_model = chain[0]
+                print(f"::warning::Gemini model {current} unavailable — switching to {chain[0]}")
+                continue
+            if _is_thinking_rejected(e) and not _no_thinking:
+                _no_thinking = True
+                print(f"::warning::Gemini model {current} rejected thinking_budget — retrying without it")
+                continue
             if _is_quota_error(e) and _is_hard_quota(e):
                 _gemini_exhausted = True
                 print("::warning::Gemini daily quota/credits exhausted — switching to OpenAI fallback")
@@ -130,6 +165,7 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
                 if msg not in _warned:
                     _warned.add(msg)
                     print(f"::warning::Gemini error: {msg}")
+        attempt += 1
     return None, set()
 
 
@@ -177,7 +213,7 @@ def call_llm(
     max_output_tokens: int = 32768,   # 8192 truncated the 7-topic JSON mid-way → parse fail → empty card
     temperature: float = 0.3,
     retries: int = 2,
-    model: str = "gemini-2.5-flash",
+    model: str | None = None,   # None → GEMINI_MODEL env or DEFAULT_GEMINI_MODEL
 ) -> tuple[str | None, set[str]]:
     """Returns (text, grounding_urls). grounding_urls is only populated by Gemini
     with use_search=True; the OpenAI fallback never grounds (empty set)."""
