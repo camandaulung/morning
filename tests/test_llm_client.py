@@ -36,6 +36,7 @@ def env(monkeypatch):
     monkeypatch.setattr(llm_client, "GEMINI_RPM", 0)
     monkeypatch.setattr(llm_client, "_active_model", None)
     monkeypatch.setattr(llm_client, "_no_thinking", False)
+    monkeypatch.setattr(llm_client, "_openai_exhausted", False)
     monkeypatch.delenv("GEMINI_MODEL", raising=False)
     sleeps = []
     monkeypatch.setattr(llm_client, "_sleep", sleeps.append)
@@ -181,4 +182,27 @@ def test_503_overload_waits_then_retries(env, monkeypatch):
     models = _FakeModels(exc=err, text='{"tech": [1]}', fail_times=1)
     _gemini(monkeypatch, models)
     assert llm_client.call_llm("x", retries=2) == ('{"tech": [1]}', set())
-    assert llm_client._test_sleeps == [10.0]
+    assert llm_client._test_sleeps == [15.0]
+
+
+def test_503_after_retries_tries_lite_model_once(env, monkeypatch):
+    busy = "503 UNAVAILABLE. This model is currently experiencing high demand."
+    models = _RecordingModels(lambda m, c: busy if m == "gemini-3.8-flash" else None)
+    _gemini(monkeypatch, models)
+    assert llm_client.call_llm("x", retries=1) == ('{"tech": [1]}', set())
+    assert [m for m, _ in models.calls] == ["gemini-3.8-flash", "gemini-3.8-flash", "gemini-flash-lite-latest"]
+    assert llm_client._active_model is None          # not sticky: next call tries the main model again
+    assert env == []
+
+
+def test_openai_out_of_credits_is_called_once_per_run(env, monkeypatch):
+    import urllib.error
+    calls = []
+    def no_credit(req, timeout=0):
+        calls.append(1)
+        raise urllib.error.HTTPError("u", 429, "x", {}, io.BytesIO(b'{"error":{"type":"insufficient_quota","code":"credit_balance_exhausted"}}'))
+    monkeypatch.setattr(llm_client.urllib.request, "urlopen", no_credit)
+    monkeypatch.setattr(llm_client, "_gemini_exhausted", True)
+    assert llm_client.call_llm("a") == (None, set())
+    assert llm_client.call_llm("b") == (None, set())
+    assert len(calls) == 1

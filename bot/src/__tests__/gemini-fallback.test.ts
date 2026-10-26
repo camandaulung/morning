@@ -45,3 +45,18 @@ describe('gemini generate() config fallbacks', () => {
     expect(bodies[1].generationConfig.thinkingConfig).toBeUndefined();
   });
 });
+
+describe('gemini generate() overload', () => {
+  it('retries a 503 on the lite model for that request only', async () => {
+    const models: string[] = [];
+    vi.stubGlobal('fetch', vi.fn(async (url: string) => {
+      const m = url.split('/models/')[1].split(':')[0]; models.push(m);
+      if (m === 'gemini-3.8-flash') return new Response(JSON.stringify({ error: { code: 503, status: 'UNAVAILABLE', message: 'high demand' } }));
+      return new Response(JSON.stringify({ candidates: [{ content: { parts: [{ text: 'lite ok' }] } }] }));
+    }));
+    const { geminiChat } = await import('../llm/gemini');
+    expect(await geminiChat('k', 'gemini-3.8-flash', 's', [], 'hi')).toBe('lite ok');
+    await geminiChat('k', 'gemini-3.8-flash', 's', [], 'hi');
+    expect(models).toEqual(['gemini-3.8-flash', 'gemini-flash-lite-latest', 'gemini-3.8-flash', 'gemini-flash-lite-latest']);
+  });
+});

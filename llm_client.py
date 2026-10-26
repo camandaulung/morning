@@ -33,6 +33,9 @@ GEMINI_RPM = float(os.environ.get("GEMINI_RPM", "8"))
 # GEMINI_MODEL env; on a model 404 we walk down this list.
 DEFAULT_GEMINI_MODEL = "gemini-3.8-flash"
 MODEL_FALLBACKS = ("gemini-flash-latest",)
+# Free-tier traffic is shed first when a model is "experiencing high demand"
+# (503). After the retries, one last try on the lighter model for that call.
+OVERLOAD_FALLBACK_MODEL = os.environ.get("GEMINI_OVERLOAD_MODEL", "gemini-flash-lite-latest")
 MAX_BACKOFF_S = 65
 
 _client = None          # lazy singleton — avoids requiring GEMINI_API_KEY at import time
@@ -43,6 +46,7 @@ _next_slot = 0.0
 _warned: set = set()    # annotate each distinct Gemini error once per run
 _active_model: str | None = None   # sticky after a model-404 fallback
 _no_thinking = False               # set if the model rejects thinking_budget
+_openai_exhausted = False          # out of credits → stop calling it this run
 
 
 def _model_chain(requested: str | None) -> list[str]:
@@ -163,9 +167,13 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
             elif _is_quota_error(e):
                 print(f"::warning::Gemini still rate-limited after retries — OpenAI fallback for this call: {str(e)[:300]}")
             elif ("503" in str(e) or "UNAVAILABLE" in str(e)) and attempt < retries:
-                delay = 10.0 * (attempt + 1)   # "high demand" spikes are short-lived
+                delay = 15.0 * (attempt + 1)   # "high demand" spikes are short-lived
                 print(f"  [gemini] overloaded (503) — retrying in {delay:.0f}s")
                 _sleep(delay)
+            elif ("503" in str(e) or "UNAVAILABLE" in str(e)) and current != OVERLOAD_FALLBACK_MODEL:
+                print(f"::warning::Gemini {current} overloaded (503) — trying {OVERLOAD_FALLBACK_MODEL} for this call")
+                chain = [OVERLOAD_FALLBACK_MODEL]
+                continue
             else:
                 # Auth/permission/model errors (e.g. a rejected API key) were only in
                 # the job log — invisible from annotations on 2026-10-26.
@@ -178,6 +186,9 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
 
 
 def _call_openai(prompt: str, max_output_tokens: int, temperature: float) -> str | None:
+    global _openai_exhausted
+    if _openai_exhausted:
+        return None
     key = os.environ.get("OPENAI_API_KEY", "")
     if not key:
         print("::warning::OPENAI_API_KEY not set — no LLM fallback available")
@@ -208,7 +219,12 @@ def _call_openai(prompt: str, max_output_tokens: int, temperature: float) -> str
             print(f"::warning::OpenAI fallback output truncated at {body['max_tokens']} tokens")
         return text or None
     except urllib.error.HTTPError as e:
-        print(f"::warning::OpenAI fallback HTTP {e.code}: {e.read()[:300]!r}")
+        body_txt = e.read()[:300]
+        if e.code == 429 and (b"insufficient_quota" in body_txt or b"credit_balance" in body_txt):
+            _openai_exhausted = True
+            print("::warning::OpenAI fallback out of credits — skipping it for the rest of the run")
+        else:
+            print(f"::warning::OpenAI fallback HTTP {e.code}: {body_txt!r}")
     except Exception as e:
         print(f"::warning::OpenAI fallback error: {e}")
     return None

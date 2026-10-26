@@ -89,6 +89,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git add cards.json
           git diff --staged --quiet || git commit -m "morning $(TZ='Asia/Ho_Chi_Minh' date '+%Y-%m-%d')"
+          # Another run or a code push may have landed meanwhile — never lose the card.
+          git pull --rebase origin main
           git push
 
   # ── 22h evening update — append new items to today's existing card ─────────
@@ -130,6 +132,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git add cards.json
           git diff --staged --quiet || git commit -m "evening $(TZ='Asia/Ho_Chi_Minh' date '+%Y-%m-%d')"
+          # Another run or a code push may have landed meanwhile — never lose the card.
+          git pull --rebase origin main
           git push
 
   # ── Weekly digest (Sunday or manual) ───────────────────────────────────────
@@ -188,6 +192,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git add weekly.json
           git diff --staged --quiet || git commit -m "weekly $(TZ='Asia/Ho_Chi_Minh' date '+%Y-%m-%d')"
+          # Another run or a code push may have landed meanwhile — never lose the card.
+          git pull --rebase origin main
           git push
 
   # ── Monthly rollup (1st of month or manual) ────────────────────────────────
@@ -224,4 +230,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git add monthly.json
           git diff --staged --quiet || git commit -m "monthly $(TZ='Asia/Ho_Chi_Minh' date '+%Y-%m-%d')"
+          # Another run or a code push may have landed meanwhile — never lose the card.
+          git pull --rebase origin main
           git push

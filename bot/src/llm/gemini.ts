@@ -15,6 +15,8 @@ interface GeminiResp { candidates?: GeminiCandidate[]; error?: { message: string
 // projects created after its sunset — fall back to the rolling alias. Models that
 // reject thinkingConfig get the request again without it. Both are remembered.
 const FALLBACK_MODEL = 'gemini-flash-latest';
+// Free-tier calls are shed first when a model is overloaded (503) — one retry on the lite model.
+const OVERLOAD_MODEL = 'gemini-flash-lite-latest';
 let activeModel: string | null = null;
 let noThinking = false;
 
@@ -43,6 +45,11 @@ export async function generate(apiKey: string, model: string, body: Record<strin
     if (j.error && (j.error.code === 400 || j.error.status === 'INVALID_ARGUMENT') && /thinking/i.test(msg) && !noThinking) {
       console.error(`[gemini] model ${current} rejected thinkingConfig — retrying without it`);
       noThinking = true;
+      continue;
+    }
+    if (j.error && (j.error.code === 503 || j.error.status === 'UNAVAILABLE') && current !== OVERLOAD_MODEL) {
+      console.error(`[gemini] model ${current} overloaded — retrying on ${OVERLOAD_MODEL}`);
+      current = OVERLOAD_MODEL;   // this request only, not sticky
       continue;
     }
     return j;
