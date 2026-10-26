@@ -33,6 +33,7 @@ _gemini_exhausted = False
 _sleep = time.sleep     # patched in tests
 _rate_lock = threading.Lock()
 _next_slot = 0.0
+_warned: set = set()    # annotate each distinct Gemini error once per run
 
 
 def _gemini_client() -> genai.Client:
@@ -122,6 +123,13 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
                 _sleep(delay)
             elif _is_quota_error(e):
                 print("::warning::Gemini still rate-limited after retries — OpenAI fallback for this call")
+            else:
+                # Auth/permission/model errors (e.g. a rejected API key) were only in
+                # the job log — invisible from annotations on 2026-10-26.
+                msg = str(e)[:300]
+                if msg not in _warned:
+                    _warned.add(msg)
+                    print(f"::warning::Gemini error: {msg}")
     return None, set()
 
 
