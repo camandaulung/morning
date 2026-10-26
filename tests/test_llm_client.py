@@ -162,3 +162,23 @@ def test_thinking_budget_rejected_retries_without_it(env, monkeypatch):
     assert llm_client.call_llm("x", retries=0) == ('{"tech": [1]}', set())
     assert [t for _, t in models.calls] == [True, False]
     assert env == []
+
+
+def test_per_minute_429_with_billing_wording_is_not_treated_as_exhausted(env, monkeypatch):
+    """Google's per-minute 429 text says 'check your plan and billing details'."""
+    err = Exception("429 RESOURCE_EXHAUSTED. You exceeded your current quota, please check your plan and "
+                    "billing details. quotaId: GenerateRequestsPerMinutePerProjectPerModel-FreeTier, "
+                    "'retryDelay': '7s'")
+    models = _FakeModels(exc=err, text='{"tech": [1]}', fail_times=1)
+    _gemini(monkeypatch, models)
+    assert llm_client.call_llm("x", retries=2) == ('{"tech": [1]}', set())
+    assert llm_client._gemini_exhausted is False
+    assert env == []
+
+
+def test_503_overload_waits_then_retries(env, monkeypatch):
+    err = Exception("503 UNAVAILABLE. This model is currently experiencing high demand.")
+    models = _FakeModels(exc=err, text='{"tech": [1]}', fail_times=1)
+    _gemini(monkeypatch, models)
+    assert llm_client.call_llm("x", retries=2) == ('{"tech": [1]}', set())
+    assert llm_client._test_sleeps == [10.0]

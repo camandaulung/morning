@@ -23,7 +23,9 @@ OPENAI_MAX_OUTPUT = 16000  # gpt-4o-mini output cap is 16384
 QUOTA_MARKERS = ("RESOURCE_EXHAUSTED", "402", "429", "quota", "credits are depleted")
 # Free-tier keys hit per-minute limits routinely; those must back off and retry,
 # not abandon Gemini for the whole run. Only these mean "no more Gemini today".
-HARD_QUOTA_MARKERS = ("402", "credits are depleted", "prepayment", "PerDay", "per day", "billing")
+# Not "billing": every Gemini 429 says "check your plan and billing details",
+# including per-minute ones — that misread ended Gemini after 2 topics (2026-10-26).
+HARD_QUOTA_MARKERS = ("402", "credits are depleted", "prepayment", "PerDay", "per day")
 # Requests/minute we allow ourselves (free tier Flash is ~10 RPM). 0 = no spacing.
 GEMINI_RPM = float(os.environ.get("GEMINI_RPM", "8"))
 # gemini-2.5-flash returns 404 "no longer available to new users" for projects
@@ -71,8 +73,10 @@ def _is_quota_error(e: Exception) -> bool:
 
 
 def _is_hard_quota(e: Exception) -> bool:
-    msg = str(e)
-    return any(m.lower() in msg.lower() for m in HARD_QUOTA_MARKERS)
+    msg = str(e).lower()
+    if "perminute" in msg or "per minute" in msg:
+        return False
+    return any(m.lower() in msg for m in HARD_QUOTA_MARKERS)
 
 
 def _retry_delay(e: Exception, attempt: int) -> float:
@@ -150,14 +154,18 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
                 continue
             if _is_quota_error(e) and _is_hard_quota(e):
                 _gemini_exhausted = True
-                print("::warning::Gemini daily quota/credits exhausted — switching to OpenAI fallback")
+                print(f"::warning::Gemini daily quota/credits exhausted — switching to OpenAI fallback: {str(e)[:300]}")
                 break
             if _is_quota_error(e) and attempt < retries:
                 delay = _retry_delay(e, attempt)
                 print(f"  [gemini] rate-limited — retrying in {delay:.0f}s")
                 _sleep(delay)
             elif _is_quota_error(e):
-                print("::warning::Gemini still rate-limited after retries — OpenAI fallback for this call")
+                print(f"::warning::Gemini still rate-limited after retries — OpenAI fallback for this call: {str(e)[:300]}")
+            elif ("503" in str(e) or "UNAVAILABLE" in str(e)) and attempt < retries:
+                delay = 10.0 * (attempt + 1)   # "high demand" spikes are short-lived
+                print(f"  [gemini] overloaded (503) — retrying in {delay:.0f}s")
+                _sleep(delay)
             else:
                 # Auth/permission/model errors (e.g. a rejected API key) were only in
                 # the job log — invisible from annotations on 2026-10-26.
