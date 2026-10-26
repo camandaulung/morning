@@ -99,13 +99,28 @@ def test_free_tier_per_minute_429_backs_off_and_retries(env, monkeypatch):
     assert env == []
 
 
-def test_free_tier_daily_quota_switches_to_openai_for_the_run(env, monkeypatch):
+def test_free_tier_daily_quota_on_both_models_switches_to_openai(env, monkeypatch):
     err = Exception("429 RESOURCE_EXHAUSTED. quotaId: GenerateRequestsPerDayPerProjectPerModel-FreeTier")
     models = _FakeModels(exc=err)
     _gemini(monkeypatch, models)
     assert llm_client.call_llm("x", retries=2) == ('{"tech": []}', set())
-    assert models.calls == 1 and llm_client._gemini_exhausted is True
+    assert models.calls == 2 and llm_client._gemini_exhausted is True   # main model, then lite
     assert len(env) == 1
+
+
+def test_daily_quota_on_main_model_moves_run_to_lite(env, monkeypatch):
+    daily = "429 RESOURCE_EXHAUSTED. quotaId: GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+    models = _RecordingModels(lambda m, c: daily if m == "gemini-3.8-flash" else None)
+    _gemini(monkeypatch, models)
+    assert llm_client.call_llm("x") == ('{"tech": [1]}', set())
+    llm_client.call_llm("y")
+    assert [m for m, _ in models.calls] == ["gemini-3.8-flash", "gemini-flash-lite-latest", "gemini-flash-lite-latest"]
+    assert llm_client._gemini_exhausted is False and env == []
+
+
+def test_quota_brief_extracts_quota_ids():
+    e = Exception("429 ... 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier' ... quotaId: X-1")
+    assert llm_client._quota_brief(e) == "GenerateRequestsPerDayPerProjectPerModel-FreeTier, X-1"
 
 
 def test_wait_for_slot_spaces_calls(monkeypatch):

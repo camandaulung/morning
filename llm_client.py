@@ -83,6 +83,12 @@ def _is_hard_quota(e: Exception) -> bool:
     return any(m.lower() in msg for m in HARD_QUOTA_MARKERS)
 
 
+def _quota_brief(e: Exception) -> str:
+    """'quotaId …' parts of a 429 (the useful bit is past the first 300 chars)."""
+    ids = re.findall(r"quotaId['\"]?\s*[:=]\s*['\"]?([\w-]+)", str(e))
+    return ", ".join(dict.fromkeys(ids)) or str(e)[:300]
+
+
 def _retry_delay(e: Exception, attempt: int) -> float:
     """Gemini 429s carry RetryInfo ('retryDelay': '23s'); fall back to 15s, 30s, …"""
     m = re.search(r"retryDelay['\"]?\s*[:=]\s*['\"]?(\d+(?:\.\d+)?)s", str(e))
@@ -109,7 +115,9 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
     client = _gemini_client()
     tools = [types.Tool(google_search=types.GoogleSearch())] if use_search else []
     chain = _model_chain(model)
-    if _active_model in chain:
+    if _active_model == OVERLOAD_FALLBACK_MODEL:
+        chain = [OVERLOAD_FALLBACK_MODEL]
+    elif _active_model in chain:
         chain = chain[chain.index(_active_model):]
     attempt = 0
     while attempt <= retries:
@@ -157,15 +165,24 @@ def _call_gemini(prompt: str, use_search: bool, thinking_budget: int, max_output
                 print(f"::warning::Gemini model {current} rejected thinking_budget — retrying without it")
                 continue
             if _is_quota_error(e) and _is_hard_quota(e):
+                # Daily quotas are per model: the lite model usually still has room.
+                # (402 / depleted credits are account-wide — no point trying lite.)
+                per_day = "perday" in str(e).lower() or "per day" in str(e).lower()
+                if per_day and current != OVERLOAD_FALLBACK_MODEL:
+                    print(f"::warning::Gemini {current} daily quota exhausted ({_quota_brief(e)}) — "
+                          f"switching to {OVERLOAD_FALLBACK_MODEL} for the rest of the run")
+                    _active_model = OVERLOAD_FALLBACK_MODEL
+                    chain = [OVERLOAD_FALLBACK_MODEL]
+                    continue
                 _gemini_exhausted = True
-                print(f"::warning::Gemini daily quota/credits exhausted — switching to OpenAI fallback: {str(e)[:300]}")
+                print(f"::warning::Gemini daily quota/credits exhausted on {current} too ({_quota_brief(e)}) — OpenAI fallback")
                 break
             if _is_quota_error(e) and attempt < retries:
                 delay = _retry_delay(e, attempt)
                 print(f"  [gemini] rate-limited — retrying in {delay:.0f}s")
                 _sleep(delay)
             elif _is_quota_error(e):
-                print(f"::warning::Gemini still rate-limited after retries — OpenAI fallback for this call: {str(e)[:300]}")
+                print(f"::warning::Gemini still rate-limited after retries ({_quota_brief(e)}) — OpenAI fallback for this call")
             elif ("503" in str(e) or "UNAVAILABLE" in str(e)) and attempt < retries:
                 delay = 15.0 * (attempt + 1)   # "high demand" spikes are short-lived
                 print(f"  [gemini] overloaded (503) — retrying in {delay:.0f}s")
