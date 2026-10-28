@@ -5,14 +5,15 @@
 The web experience is **Morning Glance Dashboard**: a light editorial utility for busy Vietnamese readers who want to scan the daily briefing in 5–10 minutes. It should feel like a calm Windows 11 morning-news board, not an admin dashboard or a long report.
 
 - Use a neutral light canvas, white story surfaces, dark ink, and one teal action color.
-- Use `Newsreader` for headlines and `DM Sans` for controls and body copy.
+- Use `Newsreader` for headlines, section headings, and the wordmark; use `DM Sans` for controls and body copy.
+- The brand mark is a single-stroke fish glyph (inline SVG, never an emoji) on the accent tile. The same glyph marks empty states.
 - Warm color is reserved for hot or trending signals.
 - Prefer clear editorial hierarchy over equal card grids.
 - Avoid emoji icons, neon effects, decorative gradients, invented metrics, and exposed design/debug controls.
 
 ## Information architecture
 
-The default surface has two regions:
+The default surface has two regions. In the news dashboard, the day header scrolls away with the stories; only the topic chip row stays fixed under the topbar.
 
 1. **Archive rail** — recent days, topic shortcuts, weekly archive, and monthly archive.
 2. **News dashboard** — ranked stories arranged as hero, primary, secondary, headline, and compact cards.
@@ -27,9 +28,11 @@ The six above-the-fold slots are presentation-diversified after ranking: when at
 
 - **Hero**: the first and most important story; one dominant visual, large headline, and short summary.
 - **Primary**: the next two stories; strong image or topic visual, headline, and brief summary.
-- **Secondary**: supporting stories with image/topic visual and headline.
-- **Headline**: dense scan rows for additional priority stories.
-- **Compact**: remaining stories in a responsive card grid.
+- **Secondary**: supporting stories with a 16:9 image/topic visual and headline.
+- **Headline**: dense scan rows for additional priority stories, each with a square thumbnail or topic tile. Above `1180px` the rows sit in two columns inside one surface panel.
+- **Compact**: remaining stories in a responsive card grid. A card with an image shows a left thumbnail; an image-less card shows a narrow topic marker and a two-line summary. Cards in one row stretch to the same height.
+- The compact section labels each consecutive run of one topic with a heading (topic color key, name, count). The labels never reorder stories. A lone card on a group's last row spans the row.
+- Only hero, primary, and secondary cards carry the “Đọc nhanh” action; the whole card is the control everywhere.
 - Search results use compact cards and preserve the same source, topic, and read-state semantics.
 
 On desktop, the lead row uses an approximately `60 / 40` split between the hero and the two-story primary stack. Supporting sections must fill their available width: three ranked secondary cards stay in a three-column grid, while compact/search grids may expand to four columns on wide monitors. Never leave a synthetic fourth slot beside three secondary stories.
@@ -43,18 +46,22 @@ Do not promote stories based on whether they are read. A click marks only that s
 Use the supplied story image when one exists. When it does not, render a compact topic fallback rather than a broken image, invented thumbnail, or oversized fake artwork:
 
 - topic-specific background color;
-- uppercase topic label;
-- a narrow topic marker on primary cards and a short labelled band on secondary cards;
-- a restrained monogram only on the hero, where typography is the intended visual;
+- the source name in the display face (the card meta already names the topic);
+- a narrow topic marker on primary and compact cards;
+- a full-slot 16:9 topic tile with the source monogram on secondary cards, so photo and fallback tiles share one shape;
+- a monogram of up to two initials (or a short all-caps acronym), so tiles from different sources differ;
+- a restrained monogram on the hero, where typography is the intended visual;
 - sufficient text contrast at every card size.
 
-Hero overlay text uses explicit light colors and must remain unchanged after a story is marked read. Light-mode secondary text must meet WCAG AA against its surface; do not lower the contrast of an entire card to communicate read state. Read cards use a softer surface, no elevation, and a demoted action color while preserving readable metadata and headlines.
+Photos never carry a label: the card meta already names the topic, and label text over busy photos is unreadable. In dark mode, photos are dimmed slightly so bright publisher originals do not outshine the text. The hero photo loads eagerly with high fetch priority (it is the LCP element). Small headline and compact thumbnails receive their `src` only near the viewport, because every publisher image is a full-size original.
+
+Hero overlay text uses explicit light colors and must remain unchanged after a story is marked read; the hero shows read state only with the light “Đã đọc” check. Light-mode secondary text must meet WCAG AA against its surface; do not lower the contrast of an entire card to communicate read state. Read cards use a softer surface, no elevation, and a demoted action color while preserving readable metadata and headlines.
 
 The fallback is functional identity, not decorative artwork. Keep it consistent across hero, primary, and secondary cards.
 
 ## Reader contract
 
-The reader is always a right-side sheet, including mobile. It starts closed, overlays the dashboard, and contains one selected story.
+The reader is always a right-side sheet, including mobile. It starts closed, overlays the dashboard, and contains one selected story. When the story has an image, the image sits under the title at 16:9.
 
 - Historical cards without `detail` show `desc` as **“Tóm tắt nhanh”**, disclose that only a summary is stored, and link to the original source.
 - Generated cards with `detail` show it as **“Tóm lược mở rộng”**. It adds context or impact but is not the source article.
@@ -91,6 +98,8 @@ Desktop remains the default whenever the CSS viewport is wider than `1180px`. Th
 - Initial loading uses a dashboard-shaped skeleton and sets `aria-busy` on the archive and feed regions.
 - A failed `cards.json` request is a blocking error with a visible retry action; never silently promote archive data as today's briefing.
 - Empty search/filter results offer a one-click reset to the full briefing and restore focus to search.
+- A past day with no stories says so (not “after the next update”) and links to the nearest day that has stories. The archive rail leaves such days out; when one is open, the rail lists it with the badge “Trống”.
+- The weekly archive shows a month label where the month changes.
 - “Mark all read” reports the remaining count, then disables itself with the label “Đã đọc tất cả”.
 - Copy-link feedback is visible and announced without replacing the focused button.
 - Active archive links use `aria-current="page"`; topic controls use `aria-pressed` in addition to their visual treatment.

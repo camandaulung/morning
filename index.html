@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cá Mặn Đau Lưng</title>
-  <meta name="theme-color" content="#f4f7f5">
+  <meta name="theme-color" content="#e9eeeb">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=260813">
+  <link rel="stylesheet" href="styles.css?v=261028d">
 </head>
 <body>
   <header class="topbar">
@@ -20,7 +20,7 @@
       <button class="icon-button nav-toggle" id="nav-toggle" type="button" aria-label="Mở kho bản tin" aria-expanded="false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
-      <div class="brand-mark" aria-hidden="true">C</div>
+      <div class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 12c2-3.7 5-5.6 8.4-5.6 3 0 5.3 1.9 6.6 5.6-1.3 3.7-3.6 5.6-6.6 5.6-3.4 0-6.4-1.9-8.4-5.6Z"/><path d="M6.5 12 2.5 8.2v7.6L6.5 12Z"/><path d="M11.2 9.3c.9 1.7.9 3.7 0 5.4"/><circle cx="17.4" cy="11" r=".6"/></svg></div>
       <div class="brand-copy">
         <strong id="site-title">Cá Mặn Đau Lưng</strong>
         <span id="today-label">Bản tin hôm nay</span>
@@ -30,7 +30,7 @@
     <label class="global-search" for="search-input">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
       <span class="sr-only">Tìm trong bản tin</span>
-      <input id="search-input" type="search" placeholder="Tìm tin, nguồn hoặc chủ đề..." autocomplete="off">
+      <input id="search-input" type="search" placeholder="Tìm tin, nguồn…" autocomplete="off">
       <kbd>/</kbd>
     </label>
 
@@ -69,7 +69,6 @@
           <h1 id="feed-title">Bản tin đang tải</h1>
           <p id="feed-summary">Đang chuẩn bị danh sách tin đã chọn.</p>
         </div>
-        <span class="count-badge" id="feed-count">—</span>
       </header>
       <div class="topic-strip" id="topic-strip" role="group" aria-label="Lọc theo chủ đề"></div>
       <div class="feed-list" id="feed-list" aria-label="Bảng tin buổi sáng" aria-busy="true">
@@ -95,9 +94,9 @@
 
   <div class="live-region sr-only" id="live-region" aria-live="polite"></div>
   <script src="date-week-utils.js?v=260717a"></script>
-  <script src="renderers.js?v=260729"></script>
-  <script src="view-builder.js?v=260717b"></script>
-  <script src="router-init.js?v=260815"></script>
+  <script src="renderers.js?v=261028d"></script>
+  <script src="view-builder.js?v=261028d"></script>
+  <script src="router-init.js?v=261028d"></script>
   <script>
     // Smart back-to-home nav for the Cá Mặn hub. The <a href="/"> works without JS;
     // this enhances it: if the visitor arrived here FROM the home hub, step back in

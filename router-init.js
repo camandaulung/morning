@@ -39,7 +39,7 @@ function setTheme(theme) {
   document.body.toggleAttribute('data-theme', isDark);
   if (isDark) document.body.setAttribute('data-theme', 'dark');
   document.getElementById('theme-toggle').setAttribute('aria-pressed', String(isDark));
-  document.querySelector('meta[name="theme-color"]').content = isDark ? '#101512' : '#f4f7f5';
+  document.querySelector('meta[name="theme-color"]').content = isDark ? '#0d1210' : '#e9eeeb';
   try { localStorage.setItem(THEME_STORE, isDark ? 'dark' : 'light'); } catch (_) {}
 }
 
@@ -152,7 +152,14 @@ function bindEvents() {
     applyFeedFilter({ resetScroll: true });
   });
 
-  document.getElementById('feed-list').addEventListener('click', event => {
+  const feedList = document.getElementById('feed-list');
+  const feedPane = document.getElementById('feed-pane');
+  const feedHeader = feedPane.querySelector('.feed-header');
+  feedPane.addEventListener('scroll', () => {
+    feedPane.classList.toggle('scrolled', feedPane.scrollTop > feedHeader.offsetHeight);
+  }, { passive: true });
+
+  feedList.addEventListener('click', event => {
     if (event.target.closest('[data-retry-load]')) return location.reload();
     if (event.target.closest('[data-reset-feed]')) {
       UI.query = '';

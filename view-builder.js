@@ -71,13 +71,15 @@ function activeViewFromHash() {
 function viewLabel(view) {
   if (!view) return { kicker: 'Bản tin', title: 'Chưa có dữ liệu', summary: '' };
   if (view.type === 'daily') {
-    return { kicker: view.data.date === todayStr() ? 'Hôm nay' : view.data.dayLabel, title: view.data.dateLabel || view.data.date, summary: 'Tin chọn lọc trong ngày, mở nhanh ở khung đọc bên phải.' };
+    // An empty day leaves the summary blank; the state panel below explains it.
+    const summary = flattenCard(view.data).length ? 'Tin chọn lọc trong ngày. Chọn một tin để đọc nhanh.' : '';
+    return { kicker: view.data.date === todayStr() ? 'Hôm nay' : view.data.dayLabel, title: view.data.dateLabel || view.data.date, summary };
   }
   if (view.type === 'monthly') {
     return { kicker: 'Tổng kết tháng', title: view.label, summary: 'Các tin nổi bật được tổng hợp theo tháng.' };
   }
   const newest = view.data[0] || {};
-  return { kicker: view.isCurrent ? 'Tuần hiện tại' : 'Kho lưu trữ', title: view.isCurrent ? (newest.dateLabel || 'Bản tin mới nhất') : view.label, summary: `${view.label} · Chọn một tin để đọc mà không rời danh sách.` };
+  return { kicker: view.isCurrent ? 'Tuần hiện tại' : 'Kho lưu trữ', title: view.isCurrent ? (newest.dateLabel || 'Bản tin mới nhất') : view.label, summary: `${view.isCurrent ? `${view.label} · ` : ''}Chọn một tin để đọc mà không rời danh sách.` };
 }
 
 function renderArchiveNav() {
@@ -86,18 +88,24 @@ function renderArchiveNav() {
   const active = UI.currentView;
   const weekViews = STATE.views.filter(view => view.type === 'weekgroup');
   const monthViews = STATE.views.filter(view => view.type === 'monthly');
-  const dayLinks = (STATE.dailyViews || []).slice(0, 7).map((view, index) => {
+  // Past days with no stories leave the rail (it lists days to read) unless one is open.
+  const listedDays = (STATE.dailyViews || [])
+    .filter((view, index) => index === 0 || (active && active.id === view.id) || flattenCard(view.data).length)
+    .slice(0, 7);
+  const dayLinks = listedDays.map((view, index) => {
     const isToday = view.data.date === todayStr();
     const label = isToday ? 'Hôm nay' : escapeHtml(view.label);
     const isActive = active && active.id === view.id;
-    return `<a class="archive-link${isActive ? ' active' : ''}" href="#${escapeHtml(view.id)}" data-view-id="${escapeHtml(view.id)}"${isActive ? ' aria-current="page"' : ''}><span>${label}</span>${index === 0 ? '<small>Mới</small>' : ''}</a>`;
+    const isEmpty = !flattenCard(view.data).length;
+    const badge = index === 0 ? '<small>Mới</small>' : isEmpty ? '<small>Trống</small>' : '';
+    return `<a class="archive-link${isActive ? ' active' : ''}${isEmpty ? ' empty' : ''}" href="#${escapeHtml(view.id)}" data-view-id="${escapeHtml(view.id)}"${isActive ? ' aria-current="page"' : ''}><span>${label}</span>${badge}</a>`;
   }).join('');
-  const archiveLinks = weekViews.slice(0, 8).map(view => `<a class="archive-link${active && active.id === view.id ? ' active' : ''}" href="#${escapeHtml(view.id)}" data-view-id="${escapeHtml(view.id)}"${active && active.id === view.id ? ' aria-current="page"' : ''}><span>${escapeHtml(view.label)}</span></a>`).join('');
+  const archiveLinks = weekViews.slice(0, 8).map((view, index, list) => `${index > 0 && list[index - 1].monthKey !== view.monthKey ? `<div class="archive-month">${escapeHtml(monthLabelVi(view.monthKey))}</div>` : ''}<a class="archive-link${active && active.id === view.id ? ' active' : ''}" href="#${escapeHtml(view.id)}" data-view-id="${escapeHtml(view.id)}"${active && active.id === view.id ? ' aria-current="page"' : ''}><span>${escapeHtml(view.label)}</span></a>`).join('');
   const monthLinks = monthViews.slice(0, 6).map(view => `<a class="archive-link${active && active.id === view.id ? ' active' : ''}" href="#${escapeHtml(view.id)}" data-view-id="${escapeHtml(view.id)}"${active && active.id === view.id ? ' aria-current="page"' : ''}><span>${escapeHtml(view.label)}</span></a>`).join('');
   const topicLinks = UI.topicCounts.map(topic => `<button class="topic-nav-link${UI.topic === topic.field ? ' active' : ''}" type="button" data-topic="${escapeHtml(topic.field)}" aria-pressed="${UI.topic === topic.field}"><span>${escapeHtml(topic.label)}</span><span class="topic-count">${topic.count}</span></button>`).join('');
 
   root.innerHTML = `<div class="archive-group"><div class="archive-group-title">Theo ngày</div>${dayLinks || '<div class="empty-state">Chưa có bản tin</div>'}</div>
-    <div class="archive-group"><div class="archive-group-title">Chủ đề</div>${topicLinks}</div>
+    ${topicLinks ? `<div class="archive-group"><div class="archive-group-title">Chủ đề</div>${topicLinks}</div>` : ''}
     ${archiveLinks ? `<div class="archive-group"><div class="archive-group-title">Theo tuần</div>${archiveLinks}</div>` : ''}
     ${monthLinks ? `<div class="archive-group"><div class="archive-group-title">Tổng kết tháng</div>${monthLinks}</div>` : ''}`;
 }
@@ -105,6 +113,10 @@ function renderArchiveNav() {
 function renderTopicStrip() {
   const root = document.getElementById('topic-strip');
   const allCount = UI.allItems.length;
+  if (!allCount) {
+    root.innerHTML = '';
+    return;
+  }
   root.innerHTML = `<button class="topic-chip${UI.topic === 'all' ? ' active' : ''}" type="button" data-topic="all" aria-pressed="${UI.topic === 'all'}">Tất cả · ${allCount}</button>${UI.topicCounts.map(topic => `<button class="topic-chip${UI.topic === topic.field ? ' active' : ''}" type="button" data-topic="${escapeHtml(topic.field)}" aria-pressed="${UI.topic === topic.field}">${escapeHtml(topic.label)} · ${topic.count}</button>`).join('')}`;
 }
 
@@ -181,19 +193,54 @@ function applyFeedFilter(options = {}) {
 
   const list = document.getElementById('feed-list');
   list.setAttribute('aria-busy', 'false');
+  list.classList.toggle('reveal', Boolean(options.reveal));
   list.innerHTML = UI.filteredItems.length
     ? dashboardHtml(UI.filteredItems, UI.selectedId, UI.readIds, Boolean(UI.query.trim()))
-    : emptyStateHtml(UI.query.trim() || UI.topic !== 'all' ? 'filter' : 'empty');
-  document.getElementById('feed-count').textContent = String(UI.filteredItems.length);
-  const markAll = document.getElementById('mark-all-read');
-  const unreadCount = UI.filteredItems.filter(item => !UI.readIds.has(item.id)).length;
-  markAll.disabled = unreadCount === 0;
-  markAll.textContent = unreadCount ? `Đánh dấu đã đọc · ${unreadCount}` : 'Đã đọc tất cả';
+    : emptyFeedHtml();
+  observeDeferredImages(list);
+  updateMarkAllButton();
   if (UI.query.trim()) announce(`${UI.filteredItems.length} kết quả tìm kiếm`);
   renderTopicStrip();
   renderArchiveNav();
   renderSelectedReader();
-  if (options.resetScroll) list.scrollTop = 0;
+  if (options.resetScroll) document.getElementById('feed-pane').scrollTop = 0;
+}
+
+let deferredImageObserver = null;
+
+function observeDeferredImages(root) {
+  if (deferredImageObserver) deferredImageObserver.disconnect();
+  const images = root.querySelectorAll('img[data-src]');
+  const load = img => {
+    img.src = img.dataset.src;
+    img.removeAttribute('data-src');
+  };
+  if (!('IntersectionObserver' in window)) return images.forEach(load);
+  deferredImageObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    deferredImageObserver.unobserve(entry.target);
+    load(entry.target);
+  }), { root: document.getElementById('feed-pane'), rootMargin: '120px 0px' });
+  images.forEach(img => deferredImageObserver.observe(img));
+}
+
+function updateMarkAllButton() {
+  const markAll = document.getElementById('mark-all-read');
+  const unreadCount = UI.filteredItems.filter(item => !UI.readIds.has(item.id)).length;
+  markAll.hidden = !UI.filteredItems.length;
+  markAll.disabled = unreadCount === 0;
+  markAll.textContent = unreadCount ? `Đánh dấu đã đọc · ${unreadCount}` : 'Đã đọc tất cả';
+}
+
+function emptyFeedHtml() {
+  if (UI.query.trim() || UI.topic !== 'all') return emptyStateHtml('filter');
+  const view = UI.currentView;
+  if (!view || view.type !== 'daily' || view.data.date >= todayStr()) return emptyStateHtml('empty');
+  const distance = candidate => Math.abs(Date.parse(candidate.data.date) - Date.parse(view.data.date));
+  const nearest = (STATE.dailyViews || [])
+    .filter(candidate => candidate.id !== view.id && flattenCard(candidate.data).length)
+    .sort((a, b) => distance(a) - distance(b))[0];
+  return emptyStateHtml('past', '', nearest ? { id: nearest.id, label: nearest.data.dateLabel || nearest.data.date } : null);
 }
 
 function renderSelectedReader() {
@@ -221,7 +268,7 @@ function renderActiveView() {
   document.getElementById('feed-kicker').textContent = labels.kicker;
   document.getElementById('feed-title').textContent = labels.title;
   document.getElementById('feed-summary').textContent = labels.summary;
-  applyFeedFilter({ resetScroll: true });
+  applyFeedFilter({ resetScroll: true, reveal: true });
 }
 
 function selectStory(id, options = {}) {
@@ -230,6 +277,7 @@ function selectStory(id, options = {}) {
   UI.readIds.add(id);
   persistReadIds();
   renderSelectedReader();
+  updateMarkAllButton();
   UI.lastFeedTrigger = document.querySelector(`[data-story-id="${CSS.escape(id)}"]`) || UI.lastFeedTrigger;
   if (options.openMobile && window.innerWidth <= 900) openReader();
 }
