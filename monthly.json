@@ -1,5 +1,268 @@
 [
   {
+    "monthLabel": "Tháng 10/2026",
+    "fromDate": "2026-10-01",
+    "toDate": "2026-10-31",
+    "topNews": [
+      {
+        "title": "👑 Quỳnh Anh đăng quang Miss Universe Vietnam 2026",
+        "desc": "Nguyễn Quỳnh Anh, Á hậu 1 MUVN 2024, đã chính thức đội vương miện sau 2 năm trở lại.",
+        "detail": "Người mẫu 27 tuổi Nguyễn Quỳnh Anh đã xuất sắc vượt qua các thí sinh khác để giành ngôi vị cao nhất tại Miss Universe Vietnam 2026. Cô từng là Á hậu 1 của cuộc thi năm 2024, cho thấy sự kiên trì và nỗ lực không ngừng. Sự trở lại và chiến thắng của Quỳnh Anh nhận được nhiều lời khen ngợi từ khán giả và giới chuyên môn, đặc biệt là vẻ đẹp sắc sảo và kỹ năng trình diễn tiến bộ của cô.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/10·VnExpress",
+        "url": "https://vnexpress.net/nguoi-mau-quynh-anh-dang-quang-miss-universe-vietnam-2026-5127667.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/03/missuniverse2026quynhanh-17909-9878-1829-1790963133.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=D-N2HcyNWSxju7iPNfmHRg"
+      },
+      {
+        "title": "🎬 Phim Brad Pitt đổ bộ rạp Việt tháng 10",
+        "desc": "Tháng 10 này, phim 'Trái tim quái thú' có Brad Pitt đóng chính và phim tài liệu 'Always Lalisa' sẽ công chiếu tại Việt Nam.",
+        "detail": "Khán giả Việt Nam sẽ có cơ hội thưởng thức nhiều tác phẩm quốc tế mới trong tháng 10. Đặc biệt, bộ phim 'Trái tim quái thú' với sự góp mặt của tài tử Brad Pitt được kỳ vọng sẽ tạo nên cơn sốt phòng vé. Bên cạnh đó, phim tài liệu 'Always Lalisa' cũng là một lựa chọn không thể bỏ qua cho những ai yêu thích ngôi sao K-Pop.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "02/10·VnExpress",
+        "url": "https://vnexpress.net/phim-cua-brad-pitt-cung-loat-tac-pham-quoc-te-ra-rap-thang-10-5126937.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/01/hotb03324r21-1790824150-2507-1790824253.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=0t8XH4e2t07RvSLJPlDpkw"
+      },
+      {
+        "title": "📺 JustaTee gây tranh cãi sau chung kết Tinh Hà Say Hi",
+        "desc": "Phát biểu cảm ơn 'anh tài' của JustaTee tại chung kết Tinh Hà Say Hi đang khiến cộng đồng mạng 'nổi giận'.",
+        "detail": "Sau đêm chung kết Tinh Hà Say Hi, bên cạnh niềm vui của quán quân Quang Hùng MasterD, phát biểu của JustaTee lại trở thành tâm điểm tranh cãi. Việc anh cảm ơn 'anh tài' đã gây ra làn sóng phản đối mạnh mẽ trên mạng xã hội, khiến nhiều người cho rằng phát ngôn này thiếu tinh tế và không tôn trọng các thí sinh khác. Sự việc này đang được bàn tán sôi nổi, ảnh hưởng không nhỏ đến hình ảnh của nam rapper.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "03/10·Kenh14",
+        "url": "https://kenh14.vn/coi-mang-noi-gian-khi-justatee-cam-on-anh-tai-tai-tinh-ha-say-hi-215261003001013331.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/2/avatar1790960750898-17909607517751415372923-0-40-611-1018-crop-17909608882841052280745.gif"
+      },
+      {
+        "title": "🎬 'Trại buôn người' tặng thêm 5.000 vé miễn phí",
+        "desc": "Chính phủ thông báo tặng thêm 5.000 vé xem phim 'Trại buôn người' miễn phí qua VNPAY và các app ngân hàng lớn.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "02/10·Kenh14",
+        "url": "https://kenh14.vn/thong-tin-chinh-phu-thong-bao-them-5000-ve-xem-trai-buon-nguoi-mien-phi-phat-qua-vnpay-va-4-app-ngan-hang-lon-215261002214016209.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/2/photo1790947966790-17909479673341853663514-17909520190222107017423.png"
+      },
+      {
+        "title": "⭐ Lê Thúy đau lòng vì mất con",
+        "desc": "Người mẫu Lê Thúy chia sẻ tin buồn về việc mất em bé sau khi đậu thai, khiến nhiều người hâm mộ lo lắng cho sức khỏe của cô.",
+        "detail": "Người mẫu Lê Thúy vừa có những chia sẻ đầy xúc động về việc cô đã đậu thai nhưng niềm vui chưa được bao lâu thì em bé đã rời xa. Thông tin này khiến nhiều người hâm mộ và đồng nghiệp bày tỏ sự tiếc nuối và gửi lời động viên đến cô. Lê Thúy cũng cho biết tình trạng sức khỏe hiện tại của cô không được tốt, làm dấy lên sự quan tâm và lo lắng từ công chúng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/10·Kenh14",
+        "url": "https://kenh14.vn/nguoi-mau-le-thuy-vua-roi-minh-da-dau-thai-vui-chua-duoc-bao-lau-thi-em-be-roi-xa-215261003003431339.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/2/m111-1790962428698939697197.png"
+      },
+      {
+        "title": "🎬 Brad Pitt 'Thoát Hiểm Giữa Rừng Thẳm'",
+        "desc": "Phim mới 'Heart of the Beast' với Brad Pitt đang gây chú ý bởi cảnh bật khóc đầy cảm xúc khi ngỡ mất chú chó.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "03/10·VnExpress",
+        "url": "https://vnexpress.net/giai-tri/phim/thu-vien-phim/heart-of-the-beast-923",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/03/heart-of-the-beast-screenplay-3536-8224-1790994047.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lihPITPkaBwBr6SKrIH5WA",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Huyền Lizzie gây bất ngờ với diện mạo mới",
+        "desc": "Hình ảnh mới nhất của diễn viên Huyền Lizzie khiến khán giả và đồng nghiệp không khỏi ngạc nhiên, tạo nên làn sóng bàn tán trên mạng xã hội.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/10·Kenh14",
+        "url": "https://kenh14.vn/sao-huyen-lizzie-lai-trong-nhu-the-nay-215261003183947784.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/3/noi-dung-doan-van-ban-cua-ban-17910274545451766752770.png",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Khánh My: 'Không muốn kết hôn, sinh con'",
+        "desc": "Người đẹp Khánh My, 35 tuổi, gây sốc khi chia sẻ quan điểm chọn cuộc sống độc thân, không muốn lập gia đình hay có con.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/10·VnExpress",
+        "url": "https://vnexpress.net/khanh-my-toi-khong-muon-ket-hon-sinh-con-5127603.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/02/1790843451348a70141f9f56034205-7961-3809-1790927022.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2jDUsD2ehg0EYfTf_JwWHw",
+        "addedEvening": true
+      },
+      {
+        "title": "📺 Tinh Hà Say Hi: Quang Hùng MasterD Quán quân, nhưng tranh cãi bùng nổ!",
+        "desc": "Quang Hùng MasterD giành ngôi Quán quân 'Tinh Hà Say Hi' mùa đầu tiên, nhưng đêm trao giải lại gây tranh cãi dữ dội trên mạng xã hội.",
+        "detail": "Vượt qua 23 thí sinh, Quang Hùng MasterD đã đăng quang 'Tinh Hà Say Hi'. Tuy nhiên, sau đêm công bố và trao giải, nhiều ý kiến cho rằng anh có phần 'lép vế' so với các thí sinh khác, thậm chí Trấn Thành cũng phải lên tiếng. Điều này khiến cộng đồng mạng xôn xao, đặt ra nhiều câu hỏi về tiêu chí và kết quả của chương trình.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "03/10·Kenh14",
+        "url": "https://kenh14.vn/bung-no-tranh-cai-sau-trao-giai-tinh-ha-say-hi-quang-hung-masterd-lep-ve-du-la-quan-quan-tran-thanh-len-tieng-nong-215261003134827946.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/3/thumb-1-17910131836141253203690.png",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Phương Mỹ Chi lên tiếng về 'Dân Chơi Dân Ca'",
+        "desc": "Phương Mỹ Chi trực tiếp đối mặt với những tranh cãi xoay quanh album 'Dân Chơi Dân Ca', đặc biệt là việc 'làm buồn lòng khán giả'.",
+        "detail": "Sau khi ra mắt album 'Dân Chơi Dân Ca', Phương Mỹ Chi vấp phải nhiều ý kiến trái chiều về phong cách và cách quảng bá. Cô đã thẳng thắn chia sẻ về những 'kiếp nạn' thường xuyên xuất hiện mỗi khi cô có cột mốc mới trong sự nghiệp. Việc cô đội khăn Piêu và lên tiếng giải thích cho thấy nỗ lực của nữ ca sĩ trong việc dung hòa giữa truyền thống và hiện đại.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/10·Kenh14",
+        "url": "https://kenh14.vn/phuong-my-chi-doi-chiec-khan-pieu-thang-than-noi-ve-tranh-cai-lam-buon-long-khan-gia-215261003212207194.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/3/mc-1791037214859697937902.gif",
+        "addedEvening": true
+      }
+    ],
+    "topRepos": [
+      {
+        "title": "🕹️ Donchitos/Claude-Code-Game-Studios",
+        "name": "Donchitos/Claude-Code-Game-Studios",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+        "stars": "26.7K+",
+        "desc": "Biến Claude Code thành một studio phát triển game hoàn chỉnh với 49 AI agent và 72 kỹ năng workflow.",
+        "detail": "Repo này cung cấp một hệ thống điều phối toàn diện, mô phỏng cấu trúc phân cấp của một studio game thực thụ. Với 49 AI agent và 72 kỹ năng workflow, Claude Code có thể đảm nhận nhiều vai trò từ thiết kế, lập trình đến kiểm thử. Đây là công cụ lý tưởng cho các nhóm phát triển game muốn tận dụng tối đa sức mạnh của AI để tăng tốc quy trình sản xuất và tối ưu hóa hiệu quả.",
+        "reason": "Một giải pháp toàn diện để tích hợp AI vào mọi khía cạnh của quy trình phát triển game.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 26.7K+ · GitHub"
+      },
+      {
+        "title": "🕹️ CoplayDev/unity-mcp",
+        "name": "CoplayDev/unity-mcp",
+        "url": "https://github.com/CoplayDev/unity-mcp",
+        "stars": "15.1K+",
+        "desc": "Cầu nối giữa các trợ lý AI và Unity Editor, cho phép LLM quản lý assets, điều khiển scene, chỉnh sửa script và tự động hóa tác vụ trong Unity.",
+        "detail": "Plugin này hoạt động như một giao thức Model Context Protocol (MCP), giúp các AI như Claude, Copilot, Cursor tương tác trực tiếp với Unity Editor. Nó cho phép AI thực hiện các tác vụ phức tạp như tạo GameObjects, thêm components, chỉnh sửa mã C# và quản lý các bản build. Stack chính là C#. Rất hữu ích cho các nhà phát triển Unity muốn tích hợp AI vào quy trình làm việc để tăng tốc độ và hiệu quả.",
+        "reason": "Một trong những MCP server phổ biến nhất cho Unity, giúp AI trở thành trợ lý đắc lực trong quá trình phát triển game.",
+        "tag": "mcp",
+        "tagLabel": "🔌 MCP",
+        "source": "⭐ 15.1K+ · GitHub"
+      },
+      {
+        "title": "🕹️ rehan-remade/universal-modder",
+        "name": "rehan-remade/universal-modder",
+        "url": "https://github.com/rehan-remade/universal-modder",
+        "stars": "8.0K+",
+        "desc": "Cho phép Claude Code mod gần như mọi game PC bạn sở hữu, từ recon đến tạo asset và kiểm thử trong game.",
+        "detail": "Universal Modder là một công cụ mạnh mẽ sử dụng Claude Code để thực hiện modding game. Nó bao gồm các kỹ năng như trinh sát, reverse engineering, tạo art/3D/audio bằng FAL, kiểm thử trong game và tạo video showcase. Repo này mở ra khả năng tùy biến game gần như không giới hạn, giúp các modder và nhà phát triển thử nghiệm ý tưởng mới một cách nhanh chóng và hiệu quả.",
+        "reason": "Biến Claude Code thành một công cụ modding game đa năng, mở rộng khả năng sáng tạo.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 8.0K+ · GitHub"
+      },
+      {
+        "title": "🕹️ htdt/godogen",
+        "name": "htdt/godogen",
+        "url": "https://github.com/htdt/godogen",
+        "stars": "7.2K+",
+        "desc": "Phát triển game tự động với Claude Code và Codex, đặc biệt hữu ích cho Godot Engine.",
+        "detail": "Godogen là một framework cho phép phát triển game một cách tự động bằng cách kết hợp sức mạnh của Claude Code và Codex. Nó cung cấp các kỹ năng và công cụ để tự động hóa nhiều tác vụ trong quá trình phát triển game, từ tạo mã đến thiết kế logic. Các nhà phát triển Godot có thể tận dụng repo này để tăng tốc quy trình làm việc và thử nghiệm các ý tưởng game mới một cách nhanh chóng.",
+        "reason": "Tự động hóa phát triển game trên Godot bằng AI, tiết kiệm thời gian và công sức đáng kể.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 7.2K+ · GitHub"
+      },
+      {
+        "title": "🕹️ gamedev-skills/awesome-gamedev-agent-skills",
+        "name": "gamedev-skills/awesome-gamedev-agent-skills",
+        "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "stars": "4.5K+",
+        "desc": "Bộ sưu tập 74 kỹ năng chuyên sâu dành cho AI coding agent hỗ trợ hầu hết các engine phổ biến hiện nay.",
+        "detail": "Kho lưu trữ này chuẩn hóa định dạng SKILL.md (chuẩn Claude Skills của Anthropic) để nạp thẳng vào Claude Code, Cline, Cursor hoặc Codex. Hỗ trợ đa dạng từ Unity, Unreal, Godot cho đến Phaser, PixiJS, Bevy và LÖVE. Anh chị làm game chỉ cần kéo các skill này về là trợ lý AI có thể hiểu ngay cấu trúc dự án và cú pháp đặc thù của từng engine.",
+        "reason": "Giải pháp toàn diện nhất để biến Claude Code thành trợ lý lập trình game đa nền tảng chỉ trong vài phút thiết lập.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 4.5K+ · GitHub",
+        "addedEvening": true
+      },
+      {
+        "title": "🕹️ IvanMurzak/Unity-MCP",
+        "name": "IvanMurzak/Unity-MCP",
+        "url": "https://github.com/IvanMurzak/Unity-MCP",
+        "stars": "4.4K+",
+        "desc": "Cung cấp AI Skills, MCP Tools và CLI cho Unity Engine, hỗ trợ vòng lặp phát triển và kiểm thử AI đầy đủ.",
+        "detail": "IvanMurzak/Unity-MCP là một giải pháp toàn diện cho việc tích hợp AI vào Unity, cho phép phát triển và kiểm thử game bằng AI một cách hiệu quả. Repo này tối ưu hóa việc sử dụng token, cung cấp các công cụ nâng cao và cho phép biến bất kỳ phương thức C# nào thành một công cụ AI chỉ bằng một dòng code. Với CLI để thiết lập nhanh chóng, nó giúp các nhà phát triển dễ dàng triển khai các tác vụ phức tạp, từ tự động hóa scene đến kiểm thử game, mang lại hiệu suất cao cho quy trình làm việc.",
+        "reason": "Tối ưu hóa việc sử dụng token và cung cấp các công cụ mạnh mẽ để AI phát triển và kiểm thử game trong Unity.",
+        "tag": "mcp",
+        "tagLabel": "🔌 MCP",
+        "source": "⭐ 4.4K+ · GitHub"
+      },
+      {
+        "title": "🕹️ horizon-rust/horizon",
+        "name": "horizon-rust/horizon",
+        "url": "https://github.com/horizon-rust/horizon",
+        "stars": "3.0K+",
+        "desc": "Viết lại hoàn toàn Minecraft Java Edition bằng ngôn ngữ lập trình Rust hiệu năng cao.",
+        "detail": "Dự án tái hiện tựa game kinh điển từ con số không, kiểm chứng chặt chẽ với bản gốc qua 281 bài kiểm tra khác nhau. Đi kèm launcher riêng giúp trải nghiệm mượt mà trên nền tảng Linux và hiện đại hóa mã nguồn. Đây là nguồn tham khảo cực kỳ giá trị cho những ai muốn tìm hiểu cách xây dựng game engine bằng Rust.",
+        "reason": "Dự án mã nguồn mở lớn viết lại Minecraft bằng Rust với độ chính xác cao.",
+        "tag": "engine",
+        "tagLabel": "⚙️ ENGINE",
+        "source": "⭐ 3.0K+ · GitHub"
+      },
+      {
+        "title": "🕹️ aldegad/sprite-gen",
+        "name": "aldegad/sprite-gen",
+        "url": "https://github.com/aldegad/sprite-gen",
+        "stars": "2.7K+",
+        "desc": "Tạo sprite và animation atlases 2D sạch sẽ cho game với sự hỗ trợ của Codex/Claude skill.",
+        "detail": "Công cụ này cung cấp một pipeline component-row để xử lý sprite, bao gồm các bước như quản lý trạng thái, làm sạch alpha, trích xuất frame và tạo runtime atlases. Nó giúp tự động hóa quá trình tạo tài nguyên 2D, đảm bảo chất lượng và hiệu quả. Các nhà phát triển game 2D, đặc biệt là những người làm pixel art, sẽ thấy công cụ này cực kỳ hữu ích để tối ưu hóa quy trình làm việc và tạo ra các sprite chất lượng cao.",
+        "reason": "Tự động hóa việc tạo sprite và animation là một lợi ích lớn cho các nhà phát triển game 2D, giúp tiết kiệm thời gian và đảm bảo tính nhất quán của tài nguyên.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 2.7K+ · GitHub",
+        "addedEvening": true
+      }
+    ],
+    "topGaming": [
+      {
+        "title": "🎮 Nữ streamer MikeNeko lộ mặt mộc gây sốc",
+        "desc": "Nữ streamer Nhật Bản MikeNeko bất ngờ lộ mặt mộc khi livestream, khiến cộng đồng mạng ngỡ ngàng vì nhan sắc khác lạ so với hình ảnh thường thấy.",
+        "detail": "Buổi livestream tưởng chừng bình thường đã biến MikeNeko thành tâm điểm bàn tán trên các diễn đàn game và mạng xã hội. Sự khác biệt giữa hình ảnh đã qua chỉnh sửa và mặt mộc thật sự khiến nhiều người hâm mộ bất ngờ. Sự việc này một lần nữa dấy lên tranh cãi về vẻ đẹp thật và ảo trong giới streamer, đặc biệt là ở Nhật Bản, nơi văn hóa idol rất phát triển.",
+        "tag": "other",
+        "tagLabel": "🏆 KHÁC",
+        "source": "12/10·GameK",
+        "url": "https://gamek.vn/nu-streamer-noi-tieng-bat-ngo-lo-mat-moc-khi-livestream-nhan-sac-khac-la-khien-cong-dong-mang-ngo-ngang-17826101209554411.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/10/12/avatar1791800167176-17918001675841280509103.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "🎮 Vợ bán PS4 của chồng khi đi công tác gây 'dậy sóng'",
+        "desc": "Một cô vợ đã tự ý bán bộ máy chơi game PS4 của chồng khi anh đi công tác, hành động này khiến cộng đồng game thủ 'dậy sóng' và tranh cãi dữ dội.",
+        "detail": "Câu chuyện dở khóc dở cười này nhanh chóng lan truyền trên mạng xã hội, thu hút sự chú ý của đông đảo game thủ. Nhiều người bày tỏ sự đồng cảm với người chồng, cho rằng đây là hành động thiếu tôn trọng sở thích cá nhân. Trong khi đó, một số ý kiến khác lại cho rằng có thể có những lý do sâu xa hơn đằng sau hành động của người vợ. Vụ việc này trở thành một ví dụ điển hình cho những mâu thuẫn xoay quanh sở thích cá nhân và cuộc sống hôn nhân.",
+        "tag": "console",
+        "tagLabel": "🎮 CONSOLE",
+        "source": "12/10·GameK",
+        "url": "https://gamek.vn/tu-y-ban-ps4-cua-chong-hanh-dong-cua-co-vo-khien-cong-dong-game-thu-day-song-17826101214091943.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/10/12/avatar1791788795557-17917887962002144561175-0-78-572-993-crop-1791788915154183725580.png",
+        "addedEvening": true
+      },
+      {
+        "title": "🎪 CKTG 2026 có thể là kỳ CKTG ý nghĩa nhất lịch sử LMHT",
+        "desc": "Giải Chung kết Thế giới (CKTG) 2026 của Liên Minh Huyền Thoại đang rất được mong chờ, được dự đoán sẽ là kỳ CKTG ý nghĩa bậc nhất lịch sử giải đấu.",
+        "detail": "CKTG 2026 hứa hẹn nhiều yếu tố đặc biệt, từ sự trở lại của các huyền thoại, những đội tuyển mới nổi cho đến các thay đổi về meta game. Cộng đồng game thủ đang đặt nhiều kỳ vọng vào giải đấu này, không chỉ về mặt chuyên môn mà còn về những câu chuyện, khoảnh khắc đáng nhớ sẽ được tạo ra. Đây sẽ là một cột mốc quan trọng trong lịch sử Esports LMHT.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "12/10·GameK",
+        "url": "https://gamek.vn/cktg-2026-co-the-la-ky-cktg-y-nghia-bac-nhat-lich-su-lmht-178261012032142356.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/10/12/avatar1791804566840-1791804567216203946495.png",
+        "addedEvening": true
+      },
+      {
+        "title": "🎮 Game of Thrones ra mắt game chiến thuật mới 2027",
+        "desc": "Thương hiệu Game of Thrones đình đám chuẩn bị trở lại với một tựa game chiến thuật hoàn toàn mới, dự kiến phát hành vào năm 2027 với nữ chính gợi cảm.",
+        "detail": "Tựa game này hứa hẹn sẽ mang đến trải nghiệm chiến thuật sâu sắc, tái hiện thế giới Westeros rộng lớn và phức tạp. Việc có một nữ chính gợi cảm cũng là điểm nhấn thu hút sự chú ý của cộng đồng game thủ. Đây là tin vui cho những fan của series Game of Thrones, những người đã chờ đợi một tựa game chất lượng xứng tầm với thương hiệu này.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "12/10·GameK",
+        "url": "https://gamek.vn/game-moi-lay-chu-de-game-of-thrones-xac-nhan-thoi-diem-ra-mat-nu-chinh-goi-cam-qua-an-tuong-17826101210090165.chn",
+        "image": "https://gamek.mediacdn.vn/zoom/1200_900/133514250583805952/2026/10/12/avatar1791800156287-1791800156611815112130.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "⚽ Tuyển thủ FC Mobile Việt Nam ẵm hạng 3 thế giới và hơn 500 triệu đồng",
+        "desc": "Đại diện Việt Nam vừa tạo địa chấn tại giải vô địch thế giới FC Mobile 2026 khi đánh bại ứng viên Brazil và cán đích ở vị trí thứ ba chung cuộc.",
+        "detail": "Chiến dịch thi đấu thăng hoa giúp tuyển thủ Việt Nam bỏ túi số tiền thưởng tương đương hơn 500 triệu đồng sau chuỗi trận căng thẳng. Trước đó, màn lội ngược dòng ấn tượng trước đối thủ nặng ký từ Brazil ở vòng knock-out đã khiến cộng đồng túc cầu ảo trong nước dậy sóng. Thành tích này tiếp tục khẳng định vị thế và tiềm năng cực lớn của các tuyển thủ mobile esports Việt Nam trên đấu trường quốc tế.",
+        "tag": "mobile",
+        "tagLabel": "📱 MOBILE",
+        "source": "26/10·thethaovanhoa.vn",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT085WEpPZUNoUEZLSnFkOTJsbmVLc2pla3B3WU5JT1lVQ3NtRVJaV1BRU2NyQ2Y4enYtODh1NlIwVGxTREFrVWUybVFSMTU0bkZ1U1RGU1UxWXR4RVlsa3BfdHh5V3Z1RU9yMWJWRmRuYVNJRGxKcG1Ic0MxTjhZYThEcHVvSEdNNmI2a1FZWDdEMElsZGlPN3A2QXI0eHF6VHFaOTU1UHNWWU5QMlczaWE3cUJRT0ZHUmp4SThUdl9TLW9CSERsdVJyMUJ4c3c?oc=5"
+      }
+    ]
+  },
+  {
     "monthLabel": "Tháng 9/2026",
     "fromDate": "2026-09-01",
     "toDate": "2026-09-30",
