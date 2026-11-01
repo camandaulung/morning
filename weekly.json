@@ -1,5 +1,86 @@
 [
   {
+    "weekLabel": "Tuần 44/2026",
+    "fromDate": "2026-10-26",
+    "toDate": "2026-11-01",
+    "highlights": [
+      {
+        "title": "🍎 Apple soán ngôi Nvidia thành công ty giá trị nhất thế giới",
+        "desc": "Sau phiên giao dịch cuối tháng 10/2026, Apple chính thức vươn lên giành lại ngôi vị số 1 toàn cầu với mức vốn hóa vượt mốc 5.000 tỷ USD. Động lực lớn đến từ màn ra mắt loạt phần cứng mới tích hợp sâu AI và nhu cầu thị trường hồi phục mạnh mẽ.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://genk.vn/cu-dao-chieu-tren-dinh-the-gioi-mot-cong-ty-vua-soan-ngoi-nvidia-gianh-lai-vi-tri-so-1-voi-von-hoa-hon-5000-ty-usd-165261101082245802.chn"
+      },
+      {
+        "title": "🤖 Claude Max đổi tên thành Ultra và bỏ giới hạn thời gian",
+        "desc": "Anthropic chính thức đổi tên gói AI cao cấp Claude Max thành Ultra, đồng thời xóa bỏ rào cản giới hạn sử dụng 5 giờ trong khi vẫn giữ nguyên mức phí cũ. Động thái này giúp gia tăng đáng kể năng lực xử lý tác vụ dài hạn cho các nhà phát triển.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://genk.vn/claude-max-20x-doi-ten-thanh-ultra-bo-gioi-han-5-gio-165261031051847601.chn"
+      },
+      {
+        "title": "📈 Xuất nhập khẩu Việt Nam lần đầu vượt mốc 1.000 tỷ USD",
+        "desc": "Tổng kim ngạch xuất nhập khẩu hàng hóa của Việt Nam chính thức cán mốc lịch sử hơn 1.000 tỷ USD trước khi năm 2026 khép lại. Đây là cột mốc khẳng định vị thế mắt xích cung ứng trọng yếu của nền kinh tế trong thương mại quốc tế.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/lan-dau-kim-ngach-xuat-nhap-khau-vuot-1-000-ty-usd-5138495.html"
+      },
+      {
+        "title": "⚡ Giá điện sinh hoạt chính thức giảm 2% từ ngày 1/11",
+        "desc": "Giá bán lẻ điện bình quân giảm về mức gần 2.160 đồng/kWh, đánh dấu đợt điều chỉnh giảm giá điện hiếm hoi sau gần hai thập kỷ. Quyết định này giúp giảm áp lực chi phí sinh hoạt cho người dân cũng như chi phí vận hành của doanh nghiệp.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/gia-dien-giam-2-tu-ngay-mai-5139154.html"
+      }
+    ],
+    "topRepos": [
+      {
+        "name": "gamedev-skills/awesome-gamedev-agent-skills",
+        "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "desc": "Bộ sưu tập 74 kỹ năng AI coding agent hỗ trợ hầu hết các game engine hiện đại, dẫn đầu xu hướng agentic game dev.",
+        "stars": "4.5K+",
+        "verdict": "yes"
+      },
+      {
+        "name": "horizon-rust/horizon",
+        "url": "https://github.com/horizon-rust/horizon",
+        "desc": "Dự án viết lại hoàn toàn Minecraft Java Edition bằng Rust mang lại hiệu năng ấn tượng và thu hút cộng đồng lớn.",
+        "stars": "3.0K+",
+        "verdict": "yes"
+      },
+      {
+        "name": "scenario-labs/skills",
+        "url": "https://github.com/scenario-labs/skills",
+        "desc": "Bộ kỹ năng agent kết nối Scenario MCP giúp tự động hóa tạo asset 2D, 3D, âm thanh chuẩn production.",
+        "stars": "1.2K+",
+        "verdict": "yes"
+      }
+    ],
+    "topGaming": [
+      {
+        "title": "💣 GTA 6 kích nổ tháng 11 sau 13 năm chờ đợi",
+        "desc": "Thị trường game toàn cầu bước vào cơn sốt khi siêu phẩm Grand Theft Auto 6 của Rockstar Games chính thức dẫn đầu danh sách phát hành bom tấn.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTTlPV2F5N0tYNGk0dGpPMVUtcV9JNjBZMVM2UGFIMkx3MmRBNkQ0RlZ0VS1sRWVKRHM3UHRfTnNwSWxsREVYeDZsVkRpZnZHQU1FZ3dfX2pYYWdkVjlSUEpUWXgtenZvanNJZG1NbzFfclo4OEQ5YkRHM3lhSl9ERDl4RE9jNEdZOWNDbmdnS0w0ampBVWEyRUNNeVRudzItR3ZuVldzQXQtdmVF?oc=5"
+      },
+      {
+        "title": "💎 Dome Keeper đổ bộ kho ứng dụng App Store",
+        "desc": "Tựa game indie đình đám kết hợp cơ chế rogue-like đào mỏ và thủ thành chính thức có mặt trên iOS, tạo nên làn sóng tải về mạnh mẽ.",
+        "tag": "casual",
+        "tagLabel": "🎈 CASUAL",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbjJWTXBUZ0J5ZS03YlJxbjdoSHktVU1mRDduUlVJTXgyc20zWW5kTEJSdnRET3NSR2E3NWE3cXJld2hoOGZadGFLc29nc040d19taEJZUDBweFhiRU5OT04waWhJZXlhMWY2enFNT0ZpeFlBTllrcHRXVlpKT3VVMTRTU010R2VOOWlCWmR2MlBtZ2gwcXpoUFZZaDZQZEdGM0NmMTFfRU9DTC1ETWFiQnd4dXhraWxtNDdBUzdINDVBQzdESG5VUjYtSTJWd1kxZlNEcEtWc3VtZw?oc=5"
+      },
+      {
+        "title": "🎮 Nintendo Switch 2 bị bẻ khóa sau một năm phát hành",
+        "desc": "Hệ máy chơi game thế hệ tiếp theo của Nintendo ghi nhận lỗ hổng bảo mật nghiêm trọng khiến hệ thống bị jailbreak ngoài tầm kiểm soát.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa1ZtX241UTdITnVTSDI1UFlTRk1HbVQ3ZXJ3RFd0N0xIbVM4bldVMWcyckxtSXBrQWJtdWxUcDNNVFRuUEF5REM4Smd0Zl95SHRUWXNuNDNqSmgya3JvSDJfa0FZUUc2Njl0dkJTeWlqa1pfSUNHelZZYkg4WjlKR1pQXzRqR3VNTDFpUXlDeGwwMUhrendDaWREb3hjZkFfS3dPR3hNX2g2NjZqa2FBa1h6SGhQdkYzYTI4cmJqb3g2bms?oc=5"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 42/2026",
     "fromDate": "2026-10-12",
     "toDate": "2026-10-17",
@@ -664,50 +745,6 @@
         "tag": "stock",
         "tagLabel": "📈 STOCK",
         "url": "https://cafef.vn/vndirect-dua-ra-khuyen-nghi-quan-trong-cho-nha-dau-tu-chung-khoan-188260808222420805.chn"
-      }
-    ],
-    "topRepos": [],
-    "topGaming": []
-  },
-  {
-    "weekLabel": "Tuần 31/2026",
-    "fromDate": "2026-07-27",
-    "toDate": "2026-08-02",
-    "highlights": [
-      {
-        "title": "🏆 Chi Pu thắng giải quốc tế tại Gala Weibo",
-        "desc": "Chi Pu vừa làm rạng danh Việt Nam khi trở thành nghệ sĩ Việt đầu tiên được vinh danh tại Gala giao lưu văn hóa của Weibo, gây chú ý với váy 'tiên nữ hoa sen'.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://kenh14.vn/chi-pu-thang-giai-quoc-te-215260802001156376.chn"
-      },
-      {
-        "title": "💔 Showbiz rúng động tin ly hôn của cặp đôi ngôn tình",
-        "desc": "Tin đồn cặp đôi ngôn tình bậc nhất showbiz ly hôn chỉ sau 1 năm cưới đang khiến công chúng không khỏi bàng hoàng, gây xôn xao dư luận.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://kenh14.vn/am-i-tin-cap-doi-ngon-tinh-bac-nhat-showbiz-ly-hon-sau-1-nam-cuoi-2-chu-lang-man-da-hoan-toan-sup-do-215260801165055786.chn"
-      },
-      {
-        "title": "🤖 OpenAI vượt mốc một tỷ người dùng",
-        "desc": "Sau khi giảm giá mô hình GPT-5.6, OpenAI đã chính thức đạt cột mốc quan trọng với hơn một tỷ người dùng trên toàn cầu, khẳng định vị thế dẫn đầu trong lĩnh vực AI.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://vnexpress.net/openai-vuot-moc-mot-ty-nguoi-dung-5104202.html"
-      },
-      {
-        "title": "💸 Lợi nhuận nhiều ngân hàng đi lùi trong nửa đầu năm",
-        "desc": "Eximbank, Sacombank, LPBank và Saigonbank là số ít nhà băng ghi nhận lợi nhuận đi xuống, có nơi giảm sâu hơn 70% trong 6 tháng đầu năm, cho thấy thách thức của ngành tài chính.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://vnexpress.net/loi-nhuan-nhieu-ngan-hang-di-lui-5104061.html"
-      },
-      {
-        "title": "📜 TP.HCM muốn mở rộng mạng lưới metro lên 255 km vào năm 2030",
-        "desc": "TP.HCM đặt mục tiêu hoàn thành thêm 8 tuyến metro, nâng tổng chiều dài đường sắt đô thị lên 255 km trong gần 5 năm tới, hướng tới phát triển đô thị thông minh.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://vnexpress.net/tp-hcm-muon-mo-rong-mang-luoi-metro-len-255-km-vao-nam-2030-5103453.html"
       }
     ],
     "topRepos": [],
