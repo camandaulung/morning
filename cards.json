@@ -3,7 +3,63 @@
     "date": "2026-11-03",
     "dayLabel": "Thứ Ba",
     "dateLabel": "03/11/2026",
-    "entertainment": [],
+    "entertainment": [
+      {
+        "title": "⭐ Cựu sao nhí Disney dạo phố Hà Nội",
+        "desc": "Cole Sprouse khiến fan Việt thích thú khi dạo phố và chụp ảnh gánh hàng hoa tại Thủ đô. 🌸",
+        "detail": "Nam diễn viên nổi tiếng từ series The Suite Life of Zack & Cody đang có chuyến du lịch trải nghiệm thú vị tại Việt Nam. Hình ảnh anh giản dị ghi lại khoảnh khắc đời thường của người dân tập thể dục buổi sáng và gánh hàng hoa nhanh chóng thu hút sự chú ý lớn. Sự gần gũi, thân thiện của ngôi sao quốc tế ghi điểm tuyệt đối trong mắt cộng đồng mạng nước nhà.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/sao-the-suite-life-of-zack-cody-dao-pho-ha-noi-5140363.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/03/colesprousechpnhhni-1793705011-3441-1793705367.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=CZD18SI5aHhUgUDJJL4GTg",
+        "addedEvening": true
+      },
+      {
+        "title": "⭐ Khoảnh khắc ngọt ngào của vợ chồng Son Ye Jin",
+        "desc": "Cặp sao đình đám xứ Hàn tạo hình trái tim ăn ý, thu hút mọi ánh nhìn tại sự kiện ở Seoul. ✨",
+        "detail": "Xuất hiện trong một sự kiện phim ảnh lớn, Hyun Bin và Son Ye Jin tiếp tục trở thành tâm điểm truyền thông nhờ màn tương tác cực ngọt ngào. Cả hai thoải mái nắm tay và cùng tạo hình trước ống kính, minh chứng cho cuộc sống hôn nhân viên mãn đáng ngưỡng mộ. Khoảnh khắc này lập tức lan truyền chóng mặt và khiến người hâm mộ khắp châu Á đứng ngồi không yên.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/son-ye-jin-sanh-doi-chong-5140394.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/03/son-1793709842-5367-1793709954.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=yLd85Teg-rDgrbt_ZzkLKw",
+        "addedEvening": true
+      },
+      {
+        "title": "🎵 Nhạc Việt bước vào mùa concert vạn người xem",
+        "desc": "Hàng loạt chương trình quy mô lớn của Mỹ Tâm, Tùng Dương và các anh tài đổ bộ dịp cuối năm. 🎤",
+        "detail": "Thị trường âm nhạc Việt Nam đang bước vào giai đoạn sôi động nhất với sự xuất hiện của các concert quy mô khủng. Không chỉ có những đêm diễn cá nhân từ các nghệ sĩ kỳ cựu, sức nóng còn được duy trì qua các chương trình truyền hình thực tế đình đám. Đây hứa hẹn là bữa tiệc âm nhạc hoành tráng để khán giả khép lại một năm nhiều dấu ấn cảm xúc.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/nhac-viet-vao-mua-concert-van-nguoi-xem-5135107.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/03/1792342513738ad5e88e3940427a47-2955-2028-1793689719.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=I1a2vdThniKJRwOccQBGWA",
+        "addedEvening": true
+      },
+      {
+        "title": "🎵 Bộ ba hit-maker Phương Mỹ Chi tái ngộ",
+        "desc": "Ê-kíp quen thuộc tiếp tục kết hợp mang đậm màu sắc văn hóa quê hương trong dự án mới. 🌾",
+        "detail": "Sự kết hợp giữa ca sĩ Phương Mỹ Chi, nhóm sản xuất âm nhạc DTAP và đạo diễn Kawaii Tuấn Anh luôn bảo chứng cho những sản phẩm chất lượng cao. Lần này, dự án mới tiếp tục khai thác chất liệu truyền thống nhưng được khoác lên tấm áo hiện đại và trẻ trung hơn. Khán giả kỳ vọng MV sẽ tạo nên cú hích đáng chú ý trên các bảng xếp hạng âm nhạc thời gian tới.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "03/11·Kênh 14",
+        "url": "https://kenh14.vn/sau-made-in-vietnam-bo-ba-phuong-my-chi-dtap-kawaii-tai-ngo-trong-gao-cua-ta-215261103120230251.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/3/photo1793672862763-17936728650421048043997-17936821538851164094923.png",
+        "addedEvening": true
+      },
+      {
+        "title": "📺 Dàn nghệ sĩ hào hứng hướng về sự kiện lớn",
+        "desc": "Nhiều ca sĩ sẵn sàng gác lại lịch trình cá nhân và không câu nệ thù lao để biểu diễn. 🌟",
+        "detail": "Chia sẻ về chương trình nghệ thuật chào mừng Ngày Văn hóa Việt Nam 24/11, NSND Xuân Bắc cho biết dàn nghệ sĩ tham gia rất nhiệt huyết. Họ không đặt nặng vấn đề thù lao hay vị trí biểu diễn, sẵn sàng cống hiến hết mình cho các tiết mục nghệ thuật đặc sắc. Tinh thần vì nghệ thuật này đã nhận được nhiều lời khen ngợi từ công chúng và giới chuyên môn.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "03/11·Kênh 14",
+        "url": "https://kenh14.vn/nsnd-xuan-bac-nhieu-ca-si-khong-ban-tam-thu-lao-concert-ngay-van-hoa-viet-nam-215261103111426145.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/3/avatar1793678869602-17936788709091683104427.webp",
+        "addedEvening": true
+      }
+    ],
     "trending": [
       {
         "title": "🌸 Biến hình bông hoa chưa nở",
@@ -62,6 +118,26 @@
         "tagLabel": "💻 PC",
         "source": "03/11·Vietgame Asia",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTzF2bHZEeDloemdXcDFlUnY5N0ZCZW1qUGtwODJOVHkzTzJVXzR1S25yQ0s0am9HUkhZSEV5dVZCWmF3UW5mWXhGNzhzNmdtUEpZeWt3OWRUc3V5YmlpQ1ZxM1hyMFRSTTN5ZE1RanlveXpOQkZGQjNuQWdvR2tFb0FoRFBYRnhyUHZiM1FiQQ?oc=5"
+      },
+      {
+        "title": "🏆 T1 và hành trình tại CKTG 2026",
+        "desc": "Đội tuyển T1 tiếp tục tạo nên những cảm xúc mạnh mẽ cho người hâm mộ tại giải đấu năm nay. 🎮",
+        "detail": "Sân chơi CKTG 2026 đang chứng kiến phong độ đầy biến hóa của các tuyển thủ T1. Cộng đồng game thủ không ngừng bàn tán về chiến thuật cũng như tinh thần thi đấu của toàn đội qua từng vòng đấu căng thẳng. Dù vấp phải không ít thử thách từ các đối thủ sừng sỏ, bản lĩnh của những tên tuổi lớn vẫn là yếu tố quyết định. Đây chắc chắn là giai đoạn nước rút thu hút sự theo dõi của hàng triệu fan Esports toàn cầu.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "03/11·GameK",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZTFTalkyaUh4ZVcwanBXdnRrTW82N2tud21qZjB5cDBHSTBpWGNaWFFhdl9WdUNqcE4xUVd1di1iU0dNMU9FQ3A3a0JrcUN5S0ZvSzlaT0x5NndNeUpjeUV3eGRlUmhCeWZCTkliUWdtMkRNZlB1Ul9EczBiSnVLZXdUdV9lNU9WZHFkVGFxeEZxNnZHQlJWYVNYaWV3VFA5ZnRUR2swaGxITF83azVzeldqQmlkeDdnNzNR?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "🎮 Hé lộ thông tin về Stellar Blade trên Switch 2",
+        "desc": "Tựa game hành động đình đám Stellar Blade chuẩn bị cập bến hệ máy mới. ⚡",
+        "detail": "Thông tin về phiên bản Stellar Blade phát triển cho hệ máy kế nhiệm của Nintendo đang thu hút sự chú ý lớn từ game thủ console. Tựa game được kỳ vọng sẽ tối ưu hóa tốt để đạt mức khung hình 60fps mượt mà cùng chất lượng đồ họa ấn tượng. Việc mở rộng nền tảng giúp trò chơi tiếp cận thêm lượng lớn người chơi yêu thích dòng game hành động tốc độ cao. Các thông tin chi tiết về ngày ra mắt chính thức vẫn đang được nhà phát triển hé lộ dần.",
+        "tag": "console",
+        "tagLabel": "🎮 CONSOLE",
+        "source": "03/11·Games.gg",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUlFhd25yOE9JUmRqYURROVZOZDFReVE3Vm9JRl9DVWZMbnZVaHN0cWV3cnBiR3I1RmdrWkxKMUpmVHIwRFJrNnRsNWFFOEFFeWdLUWxGVUxNQUJzbVQ0TldOTU03bzRFS0t5d21NMkJtUWtDaU5qRlI5a2F1NllkdlZka1RlZER0RWw3NDZQRmRvMThaNHFaVW1PZ1RTcW9FWFZxekxUMG9YTXBSam1HSFMxMGZSZ0RxVlNaSE43VQ?oc=5",
+        "addedEvening": true
       }
     ],
     "lifestyle": [
@@ -104,6 +180,49 @@
         "source": "03/11·VnExpress",
         "url": "https://vnexpress.net/phat-benh-vi-ap-luc-con-nha-nguoi-ta-5134445.html",
         "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/22/2aoboqqvsssek9gjxodxfuwsfh6qdv-4996-1556-1792641665.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=P4SsYW-tWFzugGBfMuxE_w"
+      },
+      {
+        "title": "🥚 Bảo quản trứng luộc thế nào để an toàn?",
+        "desc": "Trứng luộc nguyên vỏ giữ được từ 3 đến 4 ngày trong ngăn mát tủ lạnh dưới 10 độ C.",
+        "detail": "Nhiều người thường luộc sẵn trứng để ăn dần cho tiện, nhưng cần lưu ý thời gian bảo quản để tránh ngộ độc. Trứng đã bóc vỏ hoặc bị nứt vỏ trong khi luộc nên được dùng ngay trong ngày thay vì để qua đêm. Khi bảo quản trong tủ lạnh, hãy giữ nguyên vỏ để lớp màng bảo vệ tự nhiên phát huy tác dụng tốt nhất.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/trung-da-luoc-chin-bao-quan-duoc-bao-lau-5140157.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/11/03/screenshot-at-1793683757-4244-1793683879.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=-_41eVKfnD1-1a_E4ZIkyw",
+        "addedEvening": true
+      },
+      {
+        "title": "🚂 Giảm 50% vé tham quan cho khách đi tàu di sản Huế",
+        "desc": "Du khách chọn tuyến tàu Huế - Đà Nẵng hoặc Huế - Phong Nha sẽ được giảm nửa giá vé tại 5 điểm di tích.",
+        "detail": "Chương trình ưu đãi này nhằm kích cầu du lịch bằng đường sắt, áp dụng trực tiếp tại các điểm di tích thuộc Quần thể di tích Cố đô Huế. Đây là dịp hợp lý để anh chị lên kế hoạch khám phá miền Trung với chi phí tiết kiệm hơn đáng kể. Trải nghiệm ngắm cảnh qua đèo Hải Vân kết hợp tham quan di sản chắc chắn sẽ để lại nhiều ấn tượng khó quên.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/hue-giam-50-ve-tham-quan-5-di-di-tich-cho-khach-di-tau-di-san-5140121.html",
+        "addedEvening": true
+      },
+      {
+        "title": "🩺 Cảnh báo tình trạng viêm gan B đồng mắc gan nhiễm mỡ",
+        "desc": "Nghiên cứu mới ghi nhận gần 46,8% bệnh nhân viêm gan B mạn tính gặp tình trạng này.",
+        "detail": "Trong số những người mắc song song hai bệnh, có gần 45% đã xuất hiện tình trạng xơ hóa gan làm tăng nguy cơ tổn thương gan tiến triển. Các bác sĩ khuyến cáo người bệnh không nên chủ quan, cần thăm khám định kỳ và điều chỉnh lối sống khoa học. Việc kiểm soát cân nặng và hạn chế chất béo xấu đóng vai trò quyết định trong việc bảo vệ lá gan.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/nhieu-benh-nhan-viem-gan-b-dong-mac-gan-nhiem-mo-5140301.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/11/03/233a7534-1793696348-2780-1793696366.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=6puu5exNGRm32zSpTelsZQ",
+        "addedEvening": true
+      },
+      {
+        "title": "🌍 Trở về nhà sau 28 năm đi bộ vòng quanh thế giới",
+        "desc": "Chàng trai trẻ Karl Bushby ngày nào giờ đã ở tuổi 57 với mái tóc bạc phơ sau khi hoàn thành hành trình.",
+        "detail": "Bắt đầu chuyến đi từ nhiều thập kỷ trước, ông đã băng qua vô số quốc gia, vượt qua mọi giới hạn thể chất và tinh thần của con người. Câu chuyện của ông là minh chứng truyền cảm hứng mạnh mẽ về sự kiên trì và ước mơ chinh phục những điều tưởng chừng bất khả thi. Trở về quê nhà, ông khép lại một chương huyền thoại trong đời mình với niềm tự hào lớn lao.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/tro-ve-nha-sau-28-nam-di-bo-vong-quanh-the-gioi-5140187.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/11/03/1-1793691945-2539-1793691978.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=K73ZN4E0NT2QaU9liKhcmQ",
+        "addedEvening": true
       }
     ],
     "vietnam": [
@@ -146,6 +265,50 @@
         "source": "03/11·Tuổi Trẻ",
         "url": "https://tuoitre.vn/california-fitness-chi-con-mot-phong-tap-hoat-dong-tren-ca-nuoc-100261103100134149.htm",
         "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/3/86121227621174941724737147292634635085284181n-1793674596946586185909-305-145-1388-1878-crop-17936746082141998701462.jpeg"
+      },
+      {
+        "title": "⛽ Giá xăng dầu đồng loạt giảm sâu",
+        "desc": "Từ 22h tối nay 3/11, giá các loại xăng dầu (trừ mazut) giảm mạnh từ 920 đến 1.370 đồng mỗi lít. 📉",
+        "detail": "Đợt điều chỉnh này mang lại tín hiệu tích cực cho chi phí vận tải và sinh hoạt của người dân trong tháng 11. Các chủ phương tiện và doanh nghiệp logistics có thể thở phào phần nào sau giai đoạn biến động giá cả. Cụ thể mức giảm chi tiết sẽ tùy thuộc vào từng loại nhiên liệu được Liên Bộ Công Thương - Tài chính công bố chính thức.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/gia-xang-dau-cung-giam-5140418.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/11/03/wm1-wm1-110326xangdau15hoanggiang-9945-5355-1793716500.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9zJeqEMqOTillPBgmmTdmw",
+        "addedEvening": true
+      },
+      {
+        "title": "📱 Đề xuất cấm nhập thiết bị công nghệ cũ từ 2027",
+        "desc": "Chính sách mới đang được bàn thảo nhằm thanh lọc thị trường công nghệ số đã qua sử dụng, đặt ra bài toán về nguồn cung. 🔍",
+        "detail": "Việc siết chặt quản lý và tiến tới cấm nhập khẩu điện thoại, máy tính xách tay cùng nhiều thiết bị điện tử cũ từ năm 2027 nhằm bảo vệ môi trường và người tiêu dùng. Dù vậy, giới kinh doanh đang lo ngại nguy cơ sốt giá tạm thời và tình trạng đầu nậu gom hàng trước thời hạn. Cơ quan chức năng cần có lộ trình rõ ràng để vừa làm sạch thị trường vừa tránh gây sốc cho người có thu nhập thấp.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "03/11·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/cam-nhap-dien-thoai-may-tinh-cu-tu-nam-2027-co-hoi-thanh-loc-thi-truong-hay-noi-lo-khan-hang-10026110319443384.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/3/linh-kien-cu-dthien-17937095744091846672838-162-0-1762-2560-crop-1793709820587888794890.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "💳 SCB giảm hạn mức chuyển tiền nhanh xuống 20 triệu",
+        "desc": "Ngân hàng SCB vừa thông báo áp dụng mức chuyển tiền trực tuyến tối đa mỗi ngày cho khách hàng cá nhân chỉ còn 20 triệu đồng. ⚠️",
+        "detail": "Quy định mới này áp dụng cho các giao dịch trực tuyến của khách hàng cá nhân nhằm tăng cường công tác bảo mật và quản lý rủi ro dòng tiền. Người dùng thường xuyên thực hiện các giao dịch giá trị lớn cần chủ động phương án thay thế như giao dịch tại quầy hoặc chia nhỏ lịch trình thanh toán. Thay đổi này có thể gây chút bất tiện nhưng là bước đi cần thiết trong bối cảnh an ninh mạng tài chính được siết chặt.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/scb-giam-han-muc-chuyen-tien-nhanh-moi-ngay-xuong-20-trieu-dong-5140385.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/11/03/scb-1793706216-9246-1793706444.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=B3i_oTXV-vpU3krsaQucjA",
+        "addedEvening": true
+      },
+      {
+        "title": "🌊 Cần Thơ chi gần 2.000 tỷ đồng trị ngập",
+        "desc": "Thành phố Cần Thơ vừa đề xuất gói đầu tư gần 2.000 tỷ đồng nhằm nâng cấp 10 tuyến đường và xây dựng hệ thống cống, âu thuyền chống ngập. 🏗️",
+        "detail": "Dự án trọng điểm này tập trung giải quyết triệt để tình trạng ngập úng kinh niên tại khu vực Bình Thủy và các vùng lân cận mỗi mùa triều cường. Hệ thống hạ tầng mới bao gồm việc nâng cốt nền đường, xây kè và trạm bơm kiểm soát triều nhằm ổn định đời sống dân sinh. Đây được kỳ vọng sẽ tạo bước chuyển lớn cho bộ mặt đô thị miền Tây trong thời gian tới.",
+        "tag": "society",
+        "tagLabel": "🏙️ XÃ HỘI",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/gan-2-000-ty-dong-xu-ly-ron-ngap-o-can-tho-5140168.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/DUONG-BUI-HUU-NGHIA-CAN-THO-17-1920-2884-1793685812.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FFvWbvGUbCsMGeHPT3F3sg",
+        "addedEvening": true
       }
     ],
     "tech": [
@@ -177,6 +340,39 @@
         "source": "03/11·VnExpress",
         "url": "https://vnexpress.net/fpt-van-hanh-thu-nghiem-nha-may-chip-tai-bac-ninh-5140108.html",
         "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/ndm00962-1793681713-7322-1793682094.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=363bIJSVnE0JqOWRUcaeLg"
+      },
+      {
+        "title": "🚀 Chip bảo mật 28 nm đầu tiên do Việt Nam thiết kế",
+        "desc": "Việt Nam chính thức hé lộ chip bảo mật VGC v1.0 do các kỹ sư trong nước tự phát triển. 🛡️",
+        "detail": "Con chip này được sản xuất trên tiến trình 28 nm, mang lại tốc độ mã hóa và giải mã nhanh gấp 15 lần so với các giải pháp phần mềm thông thường. Đây là bước tiến quan trọng trong nỗ lực làm chủ công nghệ lõi và bảo vệ dữ liệu trên các thiết bị số quốc gia. Việc tự chủ phần cứng giúp người dùng và doanh nghiệp giảm thiểu đáng kể rủi ro lộ lọt thông tin.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "03/11 · GenK",
+        "url": "https://genk.vn/nhung-hinh-anh-ve-con-chip-bao-mat-dau-tien-do-viet-nam-thiet-ke-chinh-thuc-duoc-tiet-lo-165261103163052666.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/3/avatar1793698181613-1793698182512905158313.png",
+        "addedEvening": true
+      },
+      {
+        "title": "🤖 Nguy cơ IoT: Hacker tăng nhiệt tủ lạnh loạt siêu thị",
+        "desc": "Nhiều siêu thị tại châu Âu điên đầu khi hệ thống tủ lạnh bị tấn công làm tăng nhiệt độ đến 50 độ C. ⚠️",
+        "detail": "Sự cố này xảy ra ngay cả với những dòng tủ lạnh không có tính năng kết nối Internet trực tiếp thông qua việc hacker xâm nhập vào hệ thống điều khiển trung tâm. Các cửa hàng buộc phải tiêu hủy toàn bộ thực phẩm bị hỏng vào nửa đêm, gây thiệt hại lớn về tài chính. Vụ việc là lời cảnh tỉnh về lỗ hổng bảo mật tiềm ẩn trong các thiết bị hạ tầng thương mại và gia dụng thông minh hiện nay.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "03/11 · VnExpress",
+        "url": "https://vnexpress.net/hacker-tang-nhiet-tu-lanh-den-50-do-c-tai-hang-loat-sieu-thi-chau-au-5139939.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/hack-jpeg-1793661497-6205-1793661554.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QBiLS-XECutJs02bNbrrDw",
+        "addedEvening": true
+      },
+      {
+        "title": "🤖 Cuộc đua AI đổi chiều: OpenAI hụt vốn, Anthropic lên sàn",
+        "desc": "Thị trường tài chính bắt đầu thận trọng hơn khi OpenAI phải hạ mục tiêu gọi vốn và Anthropic nộp hồ sơ lên sàn. 📈",
+        "detail": "Hai phòng lab AI hàng đầu thế giới đang đi theo hai hướng hoàn toàn trái ngược khi dòng tiền đầu tư bắt đầu trở nên khắt khe hơn. Việc OpenAI phải điều chỉnh kế hoạch gọi vốn phản ánh áp lực chi phí khổng lồ và sự dè dặt từ các quỹ lớn. Trong khi đó, động thái chuẩn bị IPO của Anthropic cho thấy nhu cầu minh bạch tài chính để duy trì cuộc đua công nghệ dài hạn.",
+        "tag": "ai",
+        "tagLabel": "🤖 AI",
+        "source": "03/11 · Tinh Tế",
+        "url": "https://tinhte.vn/thread/openai-goi-von-hut-ke-hoach-anthropic-nop-ho-so-len-san-tien-cho-ai-bat-dau-ken-chon.4189278/",
+        "image": "https://imgproxy7.tinhte.vn/Owu-dSLiJZtRE7bmznDGv3hIGixI75RZOQJu3hSmg8Y/w:400/plain/https://photo2.tinhte.vn/data/attachment-files/2026/11/9126532_01-openai.jpg",
+        "addedEvening": true
       }
     ],
     "finance": [
@@ -209,6 +405,39 @@
         "source": "03/11·CafeF",
         "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bi-khoi-ngoai-xa-gan-500-ty-phien-3-11-188261103152515184.chn",
         "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/11/3/shutterstock-1160128927-ndhs-1781864017-17936942369852030358305-0-0-538-860-crop-17936942413592016742249.jpg"
+      },
+      {
+        "title": "🏠 Nâng tiền đặt trước đấu giá đất lên 50%",
+        "desc": "Quốc hội đề xuất nâng tiền đặt trước trong đấu giá đất lên 20-50% giá khởi điểm nhằm ngăn chặn tình trạng thông đồng dìm giá. 📉",
+        "detail": "Động thái siết chặt này nhằm dẹp bỏ triệt để tình trạng quân xanh quân đỏ hay bỏ cọc sau các phiên đấu giá nóng. Đối với người mua nhắm đến thị trường đất nền, quy định mới sẽ lọc bớt các bên đầu cơ lướt sóng thiếu thiện chí. Nhờ đó, thị trường hướng tới sự minh bạch và bền vững hơn cho dòng tiền tích lũy dài hạn.",
+        "tag": "realestate",
+        "tagLabel": "🏠 BĐS",
+        "source": "03/11·VnEconomy",
+        "url": "https://vneconomy.vn/dat-truoc-toi-50-gia-khoi-diem-siet-quan-xanh-quan-do-trong-dau-gia-dat.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/11/03/a4dbe037fa2d42fcb1bd1063a1efa8dd-132553.jpg?w=1200&h=630&mode=crop",
+        "addedEvening": true
+      },
+      {
+        "title": "📈 HGI chính thức lên sàn UPCoM với vốn hóa lớn",
+        "desc": "Hơn 187 triệu cổ phiếu của Đầu tư Quốc tế Hoàng Anh Gia Lai sẽ bắt đầu giao dịch trên UPCoM từ ngày 09/11/2026. 🚀",
+        "detail": "Doanh nghiệp ghi nhận mức vốn hóa đạt hơn 11.350 tỷ đồng sau khi phân phối thành công 100% lượng cổ phiếu chào bán lần đầu. Việc đưa cổ phiếu lên giao dịch tập trung tạo thêm lựa chọn cho nhà đầu tư trong bối cảnh dòng tiền thị trường đang khá thận trọng. Đây cũng là bước đi quan trọng giúp nâng cao tính thanh khoản cho cổ đông nắm giữ.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "03/11·CafeF",
+        "url": "https://cafef.vn/hgi-chinh-thuc-chot-ngay-giao-dich-upcom-von-hoa-hon-11350-ty-dong-188261103191955296.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/11/3/photo1793676530586-17936765310001110946868-17937083972891277778284.png",
+        "addedEvening": true
+      },
+      {
+        "title": "💵 Sacombank triển khai gói vay ưu đãi 7,9%/năm",
+        "desc": "Ngân hàng vừa tung gói tín dụng quy mô gần 100.000 tỷ đồng dành cho khách hàng doanh nghiệp với lãi suất cạnh tranh. 💼",
+        "detail": "Động thái này nhằm cụ thể hóa chỉ đạo của Chính phủ về việc giảm lãi suất cho vay để thúc đẩy sản xuất kinh doanh cuối năm. Gói ưu đãi áp dụng mức lãi suất từ 7,9%/năm, tạo thêm dư địa tài chính cho các doanh nghiệp vừa và nhỏ mở rộng hoạt động. Anh chị đang điều hành doanh nghiệp có thể cân nhắc tiếp cận nguồn vốn này để tối ưu chi phí vận hành.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "03/11·VnEconomy",
+        "url": "https://vneconomy.vn/sacombank-trien-khai-goi-lai-suat-cho-vay-79nam.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/11/03/ceefb562859a4221bfac647c4948c2cb-132259.jpg?w=1200&h=630&mode=crop",
+        "addedEvening": true
       }
     ],
     "sports": [
@@ -246,6 +475,47 @@
         "tagLabel": "🏆 KHÁC",
         "source": "03/11·Tuổi Trẻ",
         "url": "https://tuoitre.vn/mot-quoc-gia-dua-vo-viet-nam-vao-chuong-trinh-tu-ve-cho-phu-nu-va-canh-sat-100261103085718234.html"
+      },
+      {
+        "title": "🚨 Vụ va chạm kinh hoàng cướp đi sinh mạng tiền đạo Tây Ban Nha",
+        "desc": "Làng bóng đá thế giới bàng hoàng khi tiền đạo Jesus de Miguel qua đời ở tuổi 30 sau pha va chạm với thủ môn đối phương tại La Liga 2.",
+        "detail": "Sự việc đau lòng xảy ra ở những phút bù giờ trong trận Tenerife hòa 2-2 khi Jesus de Miguel chịu cú va chạm mạnh từ thủ môn Jesus Owono của Andorra. Các ngôi sao hàng đầu thế giới như Kylian Mbappe, Pedri và Rafael Nadal đã đồng loạt gửi lời chia buồn sâu sắc đến gia đình tiền đạo xấu số. Đây là một trong những mất mát bất ngờ và thương tâm nhất của bóng đá Tây Ban Nha mùa giải này.",
+        "tag": "football",
+        "tagLabel": "⚽ BÓNG ĐÁ",
+        "source": "03/11·VnExpress",
+        "url": "https://vnexpress.net/the-gioi-bong-da-bang-hoang-truoc-cai-chet-de-miguel-5140389.html",
+        "addedEvening": true
+      },
+      {
+        "title": "⚽ CAHN lỡ hẹn chiến thắng trước đối thủ Nhật Bản tại Cúp C1 châu Á",
+        "desc": "Tung ra tới 17 cú dứt điểm nhưng CLB Công An Hà Nội vẫn bị Kyoto Sanga cầm chân với tỷ số 0-0 ở lượt trận thứ tư AFC Champions League Elite.",
+        "detail": "Dù thi đấu đầy nỗ lực trên sân nhà Hàng Đẫy, thầy trò HLV Polking lại phung phí hàng loạt cơ hội ngon ăn trước đại diện đến từ J-League. Kết quả hòa không bàn thắng khiến CAHN bỏ lỡ cơ hội bứt phá trên bảng xếp hạng nhưng vẫn còn nguyên hy vọng đi tiếp. Đội bóng đại diện Việt Nam sẽ cần cải thiện sự sắc bén trong khâu dứt điểm ở những trận đấu sinh tử sắp tới.",
+        "tag": "football",
+        "tagLabel": "⚽ BÓNG ĐÁ",
+        "source": "03/11·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/truc-tuyen-cong-an-ha-noi-kyoto-sanga-19h15-cho-bat-ngo-tai-hang-day-100261103090343618.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/3/2aobora40t7edddi66jyepei7qjaueyephegefts-17937086643532084623790-0-0-1600-2560-crop-1793708751458949906200.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "⚽ HLV Kim Sang-sik triệu tập tân binh Olaha Mạnh Đức lên tuyển Việt Nam",
+        "desc": "Danh sách FIFA Days tháng 11 ghi nhận nhiều sự thay đổi khi HLV Kim Sang-sik gọi tiền đạo gốc Nigeria Olaha Mạnh Đức và vắng mặt một số trụ cột.",
+        "detail": "Hướng tới giải giao hữu quốc tế Casper Cup 2026, chiến lược gia người Hàn Quốc bất ngờ điền tên 7 gương mặt mới, trong đó nổi bật là tiền đạo nhập tịch Olaha Mạnh Đức và trung vệ Việt kiều Lương Chí Khải. Đáng chú ý, những cái tên quen thuộc như Hoàng Đức hay Quang Hải không xuất hiện trong đợt tập trung này. Quyết định thay đổi lực lượng này đang tạo ra nhiều luồng ý kiến trái chiều từ giới chuyên môn.",
+        "tag": "football",
+        "tagLabel": "⚽ BÓNG ĐÁ",
+        "source": "03/11·Thanh Niên",
+        "url": "https://thanhnien.vn/doi-tuyen-viet-nam-nhan-su-doc-la-ong-kim-goi-olaha-manh-duc-khong-co-hoang-duc-va-quang-hai-185261102145013549.html",
+        "addedEvening": true
+      },
+      {
+        "title": "🏆 Khán giả Việt Nam chính thức sở hữu bản quyền xem U17 World Cup 2026",
+        "desc": "Ba đơn vị gồm TV360, FPT Play và MyTV đồng sở hữu bản quyền phát sóng giải đấu, nơi U17 Việt Nam lần đầu góp mặt ở sân chơi thế giới.",
+        "detail": "Đây là cột mốc lịch sử khi bóng đá trẻ nước nhà lần đầu giành vé tham dự vòng chung kết FIFA U17 World Cup. Người hâm mộ Việt Nam sẽ có cơ hội theo dõi trực tiếp các trận đấu đỉnh cao trong khung giờ rất thuận lợi. Tại vòng bảng, U17 Việt Nam sẽ có những màn so tài đáng chờ đợi trước Bỉ, New Zealand và Mali.",
+        "tag": "football",
+        "tagLabel": "⚽ BÓNG ĐÁ",
+        "source": "03/11·Thanh Niên",
+        "url": "https://thanhnien.vn/nong-fpt-play-tv360-va-mytv-dong-so-huu-ban-quyen-world-cup-u17-co-u17-viet-nam-gio-dau-rat-dep-185261022093158439.html",
+        "addedEvening": true
       }
     ],
     "gamedev": [
@@ -273,7 +543,9 @@
         "tagLabel": "🧠 AI",
         "source": "⭐ 122 · GitHub"
       }
-    ]
+    ],
+    "eveningDone": true,
+    "eveningNotified": true
   },
   {
     "date": "2026-11-02",
