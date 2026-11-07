@@ -3,9 +3,138 @@
     "date": "2026-11-07",
     "dayLabel": "Thứ Bảy",
     "dateLabel": "07/11/2026",
-    "entertainment": [],
-    "trending": [],
-    "gaming": [],
+    "entertainment": [
+      {
+        "title": "👑 Thảm đỏ chung kết Hoa hậu Việt Nam 2026 bùng nổ nhan sắc",
+        "desc": "Đêm thi quyết định ngôi vị cao nhất quy tụ dàn hoa hậu, á hậu đình đám cùng màn tranh tài nghẹt thở của Top 10.",
+        "detail": "Tối 7/11, thảm đỏ sự kiện nóng lên với sự góp mặt của các nàng hậu như Thanh Thủy, Mai Phương và Hà Trúc Linh. Sân khấu chung kết chứng kiến phần thi trang phục dạ hội đầy kịch tính của các ứng viên sáng giá như Khánh Linh, Phương Nghi trước khi bước vào những vòng loại trừ mang tính quyết định. Sự kiện thu hút lượng thảo luận khổng lồ trên mạng xã hội nhờ chất lượng thí sinh đồng đều.",
+        "tag": "show",
+        "tagLabel": "📺 SHOW",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/dan-nguoi-dep-du-chung-ket-hoa-hau-viet-nam-2026-5141971.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/07/hoa-hau-mai-phuong-1794058805.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=EqKszoVQkTWy423ejIYvFw",
+        "addedEvening": true
+      },
+      {
+        "title": "🎬 Kỳ Duyên đối mặt làn sóng tranh luận về nét diễn Thị Mầu",
+        "desc": "Màn lấn sân điện ảnh của nàng hậu nhận về nhiều ý kiến trái chiều xoay quanh đài từ và biểu cảm tâm lý.",
+        "detail": "Dù sở hữu tạo hình bắt mắt trong 'Chị chị em em 3', diễn xuất của Kỳ Duyên lại trở thành tâm điểm bàn tán của khán giả sau những suất chiếu sớm. Nhiều ý kiến cho rằng cách nhả thoại của cô còn khá gượng gạo, chưa bộc lộ trọn vẹn nét lả lơi lẫn chiều sâu nội tâm phức tạp của nhân vật Thị Mầu. Về phía đạo diễn, ê-kíp đã chủ động tạo không khí trường quay thoải mái nhất để dàn diễn viên vượt qua áp lực khi xử lý các phân đoạn gai góc.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/dien-xuat-cua-ky-duyen-trong-chi-chi-em-em-3-gay-tranh-luan-5141834.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/07/chi-chi-em-em-trailer-bzvn-web-1524-3990-1794027347.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=4MPr6IMijwigXxJyh3i29A",
+        "addedEvening": true
+      },
+      {
+        "title": "⚖️ Trung Quốc mở chiến dịch dẹp loạn thị trường phim ngắn",
+        "desc": "Cơ quan quản lý siết chặt các nội dung online giật gân, gợi dục và gây ảnh hưởng tiêu cực tới trẻ nhỏ.",
+        "detail": "Thị trường phim ngắn trực tuyến (micro-drama) phát triển bùng nổ nhưng cũng kéo theo hàng loạt sản phẩm độc hại nhằm câu view bất chấp. Đợt thanh lọc diện rộng lần này nhắm thẳng vào các tác phẩm vi phạm bản quyền hình ảnh, khai thác yếu tố 18+ phản cảm hoặc kịch bản độc hại. Động thái mạnh tay từ giới chức được kỳ vọng sẽ đưa ngành công nghiệp nội dung số tỷ đô đi vào quy củ và lành mạnh hơn.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/trung-quoc-dep-loan-mang-phim-ngan-5141782.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/07/cam-binh-khi-1794017077-6323-1794017613.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=8qU8kjUpQJUPO1NlM4vb0g",
+        "addedEvening": true
+      },
+      {
+        "title": "🌟 Mỹ nhân nhí 13 tuổi gây sốt làng giải trí xứ Hàn",
+        "desc": "Tân binh OA của nhóm nhạc A2O Lite vừa chào sân đã thu hút lượng fan lớn nhờ nét đẹp lai cuốn hút.",
+        "detail": "Sinh năm 2013, cô bé OA nhanh chóng trở thành đề tài viral trên các diễn đàn Kpop chỉ sau một ngày chính thức ra mắt. Nhiều khán giả nhận xét visual của tân binh này gợi nhớ đến hàng loạt biểu tượng nhan sắc đình đám quốc tế nhờ thần thái tự tin trước ống kính. Dù khởi đầu đầy hứa hẹn, dư luận vẫn chờ đợi xem công ty chủ quản sẽ định hướng phong cách ra sao để bảo vệ thần tượng ở độ tuổi vị thành niên.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "07/11/2026·Kenh14",
+        "url": "https://kenh14.vn/co-gai-13-tuoi-chinh-phuc-han-quoc-chi-sau-mot-ngay-215261107152907179.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/7/oa33jpg-1794039994183777259168-66-0-797-1170-crop-1794040015536183034383.png",
+        "addedEvening": true
+      },
+      {
+        "title": "🎭 Hồ Hạnh Nhi học đạo diễn để chuẩn bị bước ngoặt trung niên",
+        "desc": "Hoa đán TVB một thời chủ động trở lại giảng đường nhằm mở rộng chuyên môn viết kịch bản và chỉ đạo phim.",
+        "detail": "Ở độ tuổi U50, Hồ Hạnh Nhi không ngần ngại thừa nhận nỗi bất an về sự chững lại trong sự nghiệp diễn xuất. Thay vì thụ động chờ đợi kịch bản phù hợp, cô quyết định theo học chuyên sâu về biên kịch và đạo diễn để tự kiến tạo cơ hội làm nghề mới. Quyết định dũng cảm này nhận được sự ủng hộ nhiệt tình từ khán giả bởi tinh thần chủ động nâng cấp bản thân ở giai đoạn chuyển giao sự nghiệp.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "07/11/2026·Kenh14",
+        "url": "https://kenh14.vn/ho-hanh-nhi-so-tuoi-trung-nien-hoc-dao-dien-lo-cho-tuong-lai-215261106174054619.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/6/avatar1793961494680-17939614958431030071264-0-236-758-1449-crop-17939615290431876192130.png",
+        "addedEvening": true
+      }
+    ],
+    "trending": [
+      {
+        "title": "🧱 Trào lưu nuôi cục gạch để chữa lành tâm hồn",
+        "desc": "Nhiều bạn trẻ sắm những viên gạch xây dựng, vẽ mặt cười và chăm sóc như thú cưng để giải tỏa áp lực.",
+        "detail": "Trào lưu này rộ lên từ các video triệu view trên mạng xã hội khi Gen Z tìm kiếm những điểm tựa tinh thần không tốn kém và không đòi hỏi trách nhiệm. Những viên gạch vô tri được tắm rửa, mặc quần áo mini và mang theo đi làm hay đi cà phê mỗi ngày. Giới chuyên gia tâm lý nhận định đây là phản ứng đối phó thú vị nhưng phản ánh sự kiệt sức tinh thần trước áp lực công việc hiện đại.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "05/11·VTV.vn",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMUJBVGpCbHBrVVMwZ0JRRTNTQjJDSHpwTVI5TkpyQzRPYW54dTdRNkpEOEtjWXRQX20wbDNJeGtNaTVxUDBHMEdyaTBOamxhdHlrbS1RaDBkYk9RbkFFRVlLT2pkMlZaRllteGhETzhpclU5Q290NzA4cURsa04xWjdGcEJRcS1T?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "👑 Rủ nhau mặc áo hoàng đế lười biếng đi làm",
+        "desc": "Chiếc áo in hình vị vua nổi tiếng lười biếng thời phong kiến bất ngờ trở thành đồng phục ngầm của dân công sở.",
+        "detail": "Trang phục này mô phỏng phong cách thư thái, từ chối tăng ca và giữ thái độ thong thả giữa guồng quay bận rộn nơi văn phòng. Trào lưu nhanh chóng viral khi được dân văn phòng liên tục quay clip flexing phong cách làm việc chill hết nấc. Dù mang tính chất hài hước nhằm giải tỏa căng thẳng, mốt diện đồ này cũng mở ra nhiều thảo luận về sự cân bằng giữa cống hiến và bảo vệ sức khỏe bản thân.",
+        "tag": "meme",
+        "tagLabel": "😂 MEME",
+        "source": "05/11·aFamily",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNYjJOcEFHWm1vdWpXQWdIYkNrOVZwVmdUdXFCRVNRQjNsM0k0a0xJNjJjNExqdENmQ0lYV2NINWh5MEJndWVHcGRYVlVCZjY0dzlSRzRQbGl6X3MzaWdqWEF3YVAxanpjdzVBVXF1cFQyd19ONVJ4dUdTdVpFUzhXN2JKU1FnTEwtR1prVkRubFNwY1FPMGQ0SWV2TnFTczVzSUJ2R1lwRGtuamlfTWwtOWJROXRqRldielNnRHlOQlhpVWZSbkRmUFdhd2tDMmhfY1lkMTlQMlh6bjJOakpSVGJVcWp5RlEtandUamFNcklvRXRQaE5tckRB?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "🐱 Mèo cưng thành hiện tượng mạng kiếm triệu lượt xem",
+        "desc": "Những thước phim ghi lại khoảnh khắc hài hước của mèo cưng đang thống trị các bảng tin mạng xã hội.",
+        "detail": "Không cần kịch bản cầu kỳ, chỉ vài giây biểu cảm ngơ ngác hay hành động vụng về của các boss mèo cũng đủ hút hàng triệu lượt xem trên TikTok và Facebook. Các chủ nuôi trẻ đầu tư góc quay chất lượng cao để biến thú cưng thành nhà sáng tạo nội dung thực thụ. Đây được xem là món ăn tinh thần nhẹ nhàng, giúp dân văn phòng xả stress hiệu quả sau những giờ làm việc căng thẳng.",
+        "tag": "tiktok",
+        "tagLabel": "📱 TIKTOK",
+        "source": "07/11·Thanh Niên",
+        "url": "https://thanhnien.vn/khi-meo-cung-tro-thanh-ngoi-sao-mang-185261107144738764.htm",
+        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/7/base64-1794037571043594881433-20-0-543-837-crop-17940375878361578263126.jpeg",
+        "addedEvening": true
+      }
+    ],
+    "gaming": [
+      {
+        "title": "🎒 Pocket Legend cập bến Steam",
+        "desc": "Tựa game kết hợp độc đáo giữa quản lý balo hành trang và đấu thẻ bài roguelike chính thức lên kệ Steam, đặc biệt hỗ trợ sẵn tiếng Việt.",
+        "detail": "Lấy cảm hứng từ thể loại sắp xếp ô đồ kết hợp chiến thuật thẻ bài đang rất thịnh hành, Pocket Legend đòi hỏi người chơi phải tính toán kỹ lưỡng từng vị trí vật phẩm để kích hoạt combo tối đa. Điểm cộng lớn thu hút cộng đồng game thủ nước nhà là bản dịch tiếng Việt hoàn chỉnh ngay khi ra mắt. Tựa game hứa hẹn mang lại những giờ phút giải trí nhẹ nhàng nhưng không kém phần 'hại não' cho dịp cuối tuần.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "07/11·Vietgame Asia",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZFFyYjk1OEtfUldheXNsMFYycnJOT0RxSm1LMTAxcDBsNnp2ZHloTzBzSUh5OXE5U29SUzZkU1dYU0Z6MmNLbWNrVWVwNEFLYjVsVTB2STdfQmw3eUE1eDRURE5MSV9mc0x0cmZINUt0TnNHb1lySlFpSl9jM0xNZnRsUlhJTWxNcUc4TlZSYV8yLWtiSnM2NWxkb0pnRkdsSEE?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "🏟️ Esports Việt Nam nhắm tới chảo lửa Mỹ Đình",
+        "desc": "Giải đấu thể thao điện tử quy mô lớn đang ấp ủ kế hoạch bùng nổ khi đặt mục tiêu lấp đầy các khán đài tại sân vận động Quốc gia Mỹ Đình.",
+        "detail": "Đây được đánh giá là một trong những bước đi táo bạo nhất của giới tổ chức sự kiện Esports tại Việt Nam nhằm đưa các giải đấu vươn tầm lễ hội văn hóa đại chúng. Kế hoạch tận dụng không gian rộng lớn của chảo lửa Mỹ Đình cho thấy sự tự tin vào sức hút khổng lồ và lượng fan cuồng nhiệt của bộ môn thể thao điện tử nước nhà. Nếu thành công, sự kiện sẽ tạo nên cột mốc lịch sử chưa từng có cho nền thể thao điện tử khu vực Đông Nam Á.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "07/11·Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42T2RBM0dRY09ReWVmTFFVeXAtWVRoQWpnUWhucTVkVlEyS1ZCTXdWX1JnaEo0cS01cVBUaEZkS3hQS0ZONjRvUHduQWFfTmFfekY4NkZrZGxrQlV0MUh0VndnYjhINDJSRWE2WlJvNmhLekk?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "🎯 007 First Light tung gói trải nghiệm miễn phí",
+        "desc": "Người chơi trên Steam và Xbox đã có thể tải miễn phí gói Starter của siêu phẩm điệp viên 007 First Light trước khi game mở cửa trên PS5 vào ngày 10/11.",
+        "detail": "Gói Starter mở ra cơ hội tuyệt vời để game thủ làm quen với cơ chế hành động lén lút hiện đại và phong thái điệp viên đặc trưng của series huyền thoại. Động thái phát hành miễn phí giai đoạn mở đầu giúp nhà phát triển thu hút đông đảo người chơi kiểm chứng đồ họa và gameplay trước khi quyết định xuống tiền mua bản chính thức. Bản cập bến hệ máy PlayStation 5 dự kiến sẽ sớm nối tiếp ngay trong tuần tới.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "06/11·games.gg",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaEZmMEVGY0JCTnpwWWFZaElzeWN0aE5NUUlRdWF5Qm5COVVfdldmeGNYakJPWmFTRkFYQnQtbERfVE9EcEFqY01DRFZtU3dnYmRRTnhUQlo4S1VqTkNuOUZhVTFudGVVTnNpVXpNUDhIaWRBT1kxN1FaSDRmZW9tVDMxTTV3dE8tR0xqeDdnWFI1YUhYOFVYamFQWTZOSDFHeGZTd0JFTGhzdjNWQWVoY3Baaks3TV9mT3cyTXQwX3VBLV9wczJsejZMVk1Xa1dRbWVjNHptRllvckg0Rk03cA?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "⚔️ Tam Quốc Chí - Chiến Kỳ mở màn chiến trường mới",
+        "desc": "Tân binh làng chiến thuật thời gian thực vừa ra mắt đã nhanh chóng thu hút sự chú ý của cộng đồng mê Tam Quốc nhờ lối chơi công thành tự do.",
+        "detail": "Tựa game ghi điểm nhờ bản đồ chiến sự mở liền mạch, loại bỏ cảm giác chờ đợi gò bó và cho phép người chơi điều binh khiển tướng theo thời gian thực. Hệ thống danh tướng chuẩn nguyên tác cùng khả năng kết hợp binh chủng đa dạng đang tạo nên làn sóng tranh luận chiến thuật sôi nổi trên các hội nhóm. Đây hứa hẹn là điểm đến cày cuốc đáng chú ý cho các fan ruột của dòng game SLG di động cuối tuần này.",
+        "tag": "mobile",
+        "tagLabel": "📱 MOBILE",
+        "source": "06/11·Kenh14.vn",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR2NYVEd0S2RhMXlobXZETnUzRDhyZlJKQWtNalZVMjVfTW1DOUpnT1BTbE5GS0ZjclVWZDhXeHphTEVmSktKMGxhcmhob0wxbnNqeEthQXE0N3RFQ3Ztck9WU0FJRDFNWERsdWEzblNvRjAwZWxVYTRBaUtPM1BNNENJODJDeEdZ?oc=5",
+        "addedEvening": true
+      }
+    ],
     "lifestyle": [
       {
         "title": "⚖️ Cảnh giác hội chứng 'skinny fat' tàn phá sức khỏe dân văn phòng",
@@ -46,6 +175,50 @@
         "source": "06/11·VnExpress",
         "url": "https://vnexpress.net/63-du-khach-viet-dung-ai-len-ke-hoach-du-lich-5141300.html",
         "image": "https://vcdn1-dulich.vnecdn.net/2026/11/05/dscf2924-jpeg-1793884548-3972-1793884566.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=G_lW_bzvNI86pJouPM3MxQ"
+      },
+      {
+        "title": "🚑 Học ép tim cứu người ngay tại các ga metro Hà Nội",
+        "desc": "Người dân và hành khách đi tàu điện Cát Linh, ĐH Quốc gia vừa có dịp thực hành kỹ thuật hồi sức tim phổi trực tiếp trên mô hình.",
+        "detail": "Kỹ thuật hồi sức tim phổi (CPR) là kỹ năng sống còn giúp duy trì tuần hoàn máu và oxy lên não trong 'thời gian vàng' khi nạn nhân ngừng tuần hoàn. Việc đưa mô hình đào tạo ra các điểm công cộng đông đúc như ga tàu điện giúp người dân xóa bỏ tâm lý e dè, biết cách xử lý chuẩn xác thay vì hoảng loạn khi gặp sự cố ngoài đường. Anh chị khi đi tàu có thể tranh thủ ghé qua để thực hành lực ép tay và nhịp đếm chuẩn.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/nguoi-ha-noi-hoc-cach-hoi-suc-tim-phoi-cuu-nguoi-noi-cong-cong-5141886.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/11/07/1-1794032791-2908-1794032863.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d5_GhMo_4ETKN6eOrtcB4g",
+        "addedEvening": true
+      },
+      {
+        "title": "🚽 Buồn tiểu liên tục sau 30 phút coi chừng bàng quang tăng hoạt",
+        "desc": "Cảm giác mót tiểu liên tục khiến nhiều người ám ảnh khi đi tàu xe hay mất ngủ về đêm có thể bắt nguồn từ hội chứng bàng quang tăng hoạt.",
+        "detail": "Hội chứng này xảy ra khi cơ bàng quang co bóp không đúng lúc, tạo cảm giác buồn tiểu gấp ngay cả khi lượng nước tiểu tích tụ chưa đầy. Nhiều người thường lầm tưởng do uống nhiều nước hoặc dấu hiệu lão hóa thông thường nên âm thầm chịu đựng, gây đảo lộn sinh hoạt và giấc ngủ nghiêm trọng. Nếu tần suất đi tiểu ban ngày vượt quá 8 lần hoặc thức giấc nhiều lần trong đêm, bạn nên chủ động đi khám chuyên khoa niệu để được điều trị bằng thuốc kết hợp bài tập kiểm soát bàng quang.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/cu-30-phut-lai-buon-tieu-coi-chung-bang-quang-tang-hoat-5141746.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/11/06/2-bac-si-dang-tham-kham-cho-ng-8540-7839-1793978992.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=zz8Br7r_gaq8CaeJVITYTg",
+        "addedEvening": true
+      },
+      {
+        "title": "🍲 Bí quyết hầm gà khép chân trứ danh xứ kim chi",
+        "desc": "Món gà hầm sâm Samgyetang không chỉ bồi bổ cơ thể mà còn gây ấn tượng bởi kỹ thuật vắt chéo chân giữ chặt phần nhân gạo nếp và thuốc bắc.",
+        "detail": "Để tạo hình chú gà nằm gọn ghẽ trong niêu đất, người đầu bếp phải rạch một đường nhỏ ở phần đùi để lồng chân đối diện qua, giữ kín nhân bên trong mà không cần dùng dây buộc. Gạo nếp dẻo hòa quyện với củ sâm tươi, táo đỏ và hạt sen ngấm trọn vị ngọt tự nhiên của thịt gà tơ hầm nhừ. Đây là món ăn thanh bổ kinh điển rất thích hợp để anh chị trổ tài chiêu đãi cả nhà vào dịp cuối tuần se lạnh.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/mon-ga-khep-chan-ham-sam-cua-han-quoc-5140538.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/11/04/gaham-1793776744-2435-1793780039.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=YR1BK5Pg4HWu4qAWsjuMQg",
+        "addedEvening": true
+      },
+      {
+        "title": "⚠️ Cảnh báo rủi ro bỏ rơi khách khi đi tour du lịch nước ngoài",
+        "desc": "Sự việc đoàn 10 khách Việt phải tự bỏ tiền túi mua vé máy bay về nước từ Lào là lời cảnh tỉnh lớn về việc chọn mặt gửi vàng khi đặt tour.",
+        "detail": "Dù đã thanh toán 100% chi phí trọn gói trước ngày khởi hành, nhóm du khách vẫn rơi vào cảnh bơ vơ nơi đất khách do đơn vị lữ hành thiếu trách nhiệm trong khâu dịch vụ vé. Tình trạng này nhắc nhở du khách cần rà soát kỹ hợp đồng, yêu cầu công ty cung cấp mã vé máy bay khứ hồi (PNR) đã xuất trước giờ lên đường. Với các chuyến xuất ngoại, bạn nên ưu tiên những đại lý du lịch có uy tín lâu năm và tư cách pháp nhân rõ ràng để đảm bảo an toàn tuyệt đối.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/tra-du-tien-tour-lao-nhom-khach-viet-phai-tu-mua-ve-may-bay-ve-nuoc-5139852.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/11/02/tammy-kim-hvm6pncyk-unsplash-1-8598-4142-1793613927.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=p-8t38CCJKd7M7EHztRehA",
+        "addedEvening": true
       }
     ],
     "vietnam": [
@@ -88,6 +261,50 @@
         "source": "07/11/2026 · VnExpress",
         "url": "https://vnexpress.net/de-xuat-uu-dai-lon-cho-cac-du-an-du-lich-ty-usd-5141836.html",
         "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/07/202611070847343791-g3194982797-8071-8347-1794022310.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=85ZOSi--xXiq2yCDloBvQw"
+      },
+      {
+        "title": "🚦 Hà Nội xén vỉa hè 7 tuyến huyết mạch cứu ùn tắc",
+        "desc": "Hơn 8 km đường trên trục Giảng Võ - Láng Hạ - Lê Văn Lương - Tố Hữu sẽ được xén vỉa hè và thu hẹp dải phân cách để mở rộng lòng đường.",
+        "detail": "Dự án hướng đến việc giải tỏa các điểm nghẽn giao thông kinh niên tại trục xuyên tâm phía Tây Nam thủ đô. Song song với việc xén vỉa hè, các nút giao lớn cũng sẽ được tổ chức lại luồng tuyến nhằm tối ưu hóa khả năng lưu thông trong giờ cao điểm. Người đi làm qua khu vực này có thể phải đối mặt với cảnh thi công rào chắn trong thời gian tới trước khi mặt đường được mở rộng thông thoáng hơn.",
+        "tag": "traffic",
+        "tagLabel": "🚦 GIAO THÔNG",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/ha-noi-xen-via-he-7-tuyen-duong-de-giam-un-tac-5141924.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/07/3-jpg-1794047082-2917-1794047093.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ciYdFuPISn5k0z05CS5PNQ",
+        "addedEvening": true
+      },
+      {
+        "title": "💼 Mục tiêu kéo giảm chi phí logistics xuống 12-15% GDP",
+        "desc": "Chính phủ đặt chỉ tiêu hạ chi phí logistics từ mức 16-17% hiện tại xuống còn 12-15% GDP vào năm 2030 nhằm trợ lực cho tăng trưởng kinh tế.",
+        "detail": "Mức chi phí logistics hiện nay của Việt Nam đang thuộc nhóm tương đối cao trong khu vực, bào mòn đáng kể biên lợi nhuận của doanh nghiệp xuất nhập khẩu. Việc tối ưu hóa mạng lưới kho bãi, kết nối đa phương thức giữa đường bộ, đường thủy và đường sắt là chìa khóa then chốt để đạt chỉ tiêu đề ra. Nếu kế hoạch này thành công, giá thành hàng hóa tiêu dùng lẫn nông sản trong nước sẽ cạnh tranh hơn nhiều trên thị trường quốc tế.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "07/11/2026·Tuổi Trẻ",
+        "url": "https://tuoitre.vn/giam-chi-phi-logistics-xuong-12-15-gdp-ho-tro-tang-truong-2-con-so-100261107162416873.htm",
+        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/7/27843-17940467556751169254300-205-203-733-1047-crop-17940476568511377289494.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "📜 Địa phương phải công bố chỉ số chống chịu thiên tai từ 2027",
+        "desc": "Các tỉnh, thành phố dự kiến sẽ bắt buộc công bố năng lực chống chịu ngập lụt và biến đổi khí hậu hàng năm theo quy định mới.",
+        "detail": "Chính sách này nhằm chuẩn hóa việc đánh giá mức độ rủi ro thiên tai tại từng địa bàn trước khi cấp ngân sách đầu tư hạ tầng. Dữ liệu công bố sẽ là cơ sở quan trọng để các cơ quan quản lý ưu tiên nguồn vốn cho các dự án đê kè, thoát nước và phòng chống sạt lở cấp bách. Đối với thị trường bất động sản và người dân, đây cũng là nguồn thông tin tham chiếu minh bạch về mức độ an toàn của từng khu vực đô thị.",
+        "tag": "policy",
+        "tagLabel": "📜 CHÍNH SÁCH",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/dia-phuong-du-kien-phai-cong-bo-kha-nang-chong-chiu-ngap-lut-thien-tai-tu-2027-5141707.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/11/06/2393145815217460038-1793975244-5176-1793975424.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=Ums-QQ2hqclBmP5QRLzWgA",
+        "addedEvening": true
+      },
+      {
+        "title": "💼 Cuộc đua hút tiền gửi cuối năm giữa các ngân hàng",
+        "desc": "VPBank và Sacombank ghi nhận mức tăng trưởng tiền gửi vượt trội so với khối nhà băng quốc doanh trong 9 tháng đầu năm.",
+        "detail": "Bên cạnh nhóm ngân hàng tư nhân top đầu, nhiều nhà băng quy mô nhỏ cũng đang bứt tốc nhờ liên tục tung ra các gói lãi suất ưu đãi và chương trình quà tặng hấp dẫn. Diễn biến này cho thấy áp lực thanh khoản và nhu cầu huy động vốn phục vụ sản xuất kinh doanh dịp cận Tết đang nóng dần lên. Người gửi tiền cá nhân hiện có thêm nhiều lựa chọn kỳ hạn linh hoạt với mức sinh lời cạnh tranh hơn so với đầu năm.",
+        "tag": "economy",
+        "tagLabel": "💼 KINH TẾ",
+        "source": "07/11/2026·VnExpress",
+        "url": "https://vnexpress.net/lai-suat-tang-ngan-hang-nao-hut-nhieu-tien-gui-nhat-5137948.html",
+        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/11/06/wm1-wm1-huy-1793971561-8632-1793972356.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=JexO1vraxRdVus3uEXmu4Q",
+        "addedEvening": true
       }
     ],
     "tech": [
@@ -120,6 +337,37 @@
         "source": "07/11/2026·VnExpress",
         "url": "https://vnexpress.net/may-tinh-luong-tu-se-co-the-pha-ma-hoa-ngan-hang-trong-ba-ngay-5141485.html",
         "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/06/dwaveadv2chipcovered1000x1000-5924-1550-1793941024.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=x-zybo14G74h9ydhJj6Xmg"
+      },
+      {
+        "title": "🏷️ Galaxy SmartTag3 chính thức lên kệ với giá từ 29,99 USD",
+        "desc": "Samsung chính thức mở bán thiết bị định vị SmartTag3 tại thị trường Mỹ từ ngày 6/11. Mẫu phụ kiện hỗ trợ tìm kiếm tốt hơn cùng mức giá dễ tiếp cận.",
+        "detail": "Sản phẩm được niêm yết với giá 29,99 USD cho bản lẻ và 99,99 USD cho gói 4 chiếc. Điểm đáng chú ý là sự tương tác giữa hai hệ sinh thái Galaxy và iPhone khi chia sẻ thông tin vị trí đồ đạc. Đây là lựa chọn tiện dụng cho anh chị hay di chuyển muốn theo dõi hành lý, chìa khóa hoặc ví tiền.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "07/11·Tinh tế",
+        "url": "https://tinhte.vn/thread/galaxy-smarttag3-len-ke-dung-voi-iphone-duoc-gi-khac-galaxy-o-dau.4190549/",
+        "addedEvening": true
+      },
+      {
+        "title": "🎬 Instagram đưa ứng dụng Edits lên macOS để cạnh tranh CapCut",
+        "desc": "Instagram vừa phát hành ứng dụng Edits cho máy Mac, mở rộng không gian dựng video ngắn lên bàn phím và chuột. Công cụ giúp tối ưu quy trình làm việc sáng tạo trên màn hình lớn.",
+        "detail": "Edits trên máy tính giúp thao tác cắt ghép, chèn hiệu ứng mượt mà và chính xác hơn hẳn màn hình cảm ứng điện thoại. Dù vậy, ứng dụng hiện tại vẫn chưa hỗ trợ đồng bộ dự án dở dang giữa Mac và smartphone. Đây là động thái cho thấy Meta đang nỗ lực giành thị phần dựng video ngắn từ tay CapCut.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "07/11·Tinh tế",
+        "url": "https://tinhte.vn/thread/instagram-dua-edits-len-mac-canh-tranh-capcut-chua-dong-bo-project-voi-dien-thoai.4190547/",
+        "addedEvening": true
+      },
+      {
+        "title": "⌚ Honor Watch 6 trình làng với pin trâu tới 35 ngày",
+        "desc": "Honor vừa giới thiệu mẫu smartwatch Watch 6 nổi bật nhờ thời lượng pin khủng lên đến hơn một tháng sử dụng. Màn hình độ sáng cao giúp hiển thị rõ ràng ngoài trời nắng.",
+        "detail": "Thiết bị tập trung giải quyết bài toán sạc pin liên tục của người dùng văn phòng bận rộn với thời lượng sử dụng ấn tượng. Ngoài pin trâu, máy tích hợp đầy đủ cảm biến đo sức khỏe và theo dõi thể thao hàng ngày. Điểm trừ duy nhất là sản phẩm hiện chỉ có một tùy chọn kích thước mặt đồng hồ.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "07/11·VnExpress",
+        "url": "https://vnexpress.net/honor-watch-6-smartwatch-pin-35-ngay-5141750.html",
+        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/11/06/IMG-20261101-134407-1793979805.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wmp3cx3FFgLfpi3pH8K0Ew",
+        "addedEvening": true
       }
     ],
     "finance": [
@@ -245,7 +493,9 @@
         "tagLabel": "🎨 ASSET",
         "source": "⭐ 240 · GitHub"
       }
-    ]
+    ],
+    "eveningDone": true,
+    "eveningNotified": true
   },
   {
     "date": "2026-11-06",
