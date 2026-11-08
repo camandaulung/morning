@@ -1,5 +1,86 @@
 [
   {
+    "weekLabel": "Tuần 45/2026",
+    "fromDate": "2026-11-02",
+    "toDate": "2026-11-08",
+    "highlights": [
+      {
+        "title": "🛑 Lệnh cấm nhập khẩu điện thoại và máy tính cũ từ năm 2027",
+        "desc": "Việt Nam chính thức áp dụng lệnh cấm nhập khẩu điện thoại, máy tính và máy ảnh đã qua sử dụng từ ngày 1/1/2027. Động thái này nhằm siết chặt quy chuẩn thị trường công nghệ số và giảm thiểu rác thải điện tử.",
+        "tag": "deprecate",
+        "tagLabel": "⏰ DEADLINE",
+        "url": "https://genk.vn/chinh-thuc-1-1-2027-cam-nhap-khau-dien-thoai-may-tinh-may-anh-da-qua-su-dung-165261102155917362.chn"
+      },
+      {
+        "title": "🤖 Việt Nam đạt mốc 45 triệu người dùng AI tạo sinh",
+        "desc": "Google công bố Việt Nam hiện có 45 triệu người dùng GenAI, dẫn đầu khu vực về mức độ tiếp cận và tăng trưởng kinh tế số. AI đang nhanh chóng trở thành công cụ thiết yếu trong làm việc và sáng tạo hàng ngày.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://vnexpress.net/google-viet-nam-co-45-trieu-nguoi-dung-ai-tao-sinh-5141023.html"
+      },
+      {
+        "title": "🧠 DeepSeek phát triển siêu tác nhân AI đa nhiệm",
+        "desc": "DeepSeek ra mắt hệ thống siêu tác nhân AI cho phép tự động điều phối công việc cho nhiều trợ lý ảo cùng lúc. Đột phá này hứa hẹn tối ưu quy trình xử lý tác vụ phức tạp một cách tự động và linh hoạt.",
+        "tag": "model",
+        "tagLabel": "🧠 MODEL",
+        "url": "https://vnexpress.net/deepseek-phat-trien-sieu-tac-nhan-phoi-hop-nhieu-tro-ly-ai-5139801.html"
+      },
+      {
+        "title": "✨ Apple bổ sung tiếng Việt cho Siri AI trên iOS 27.3",
+        "desc": "Bản beta iOS 27.3 chính thức mang khả năng giao tiếp và xử lý lệnh tiếng Việt tự nhiên cho trợ lý ảo Siri AI. Người dùng trong nước giờ đây có thể điều khiển thiết bị hoàn toàn bằng giọng nói thuận tiện.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://tinhte.vn/thread/ios-27-3-developer-beta-siri-ai-da-ho-tro-tieng-viet.4189551/"
+      }
+    ],
+    "topRepos": [
+      {
+        "name": "genex-games/genex-desktop",
+        "url": "https://github.com/genex-games/genex-desktop",
+        "desc": "Ứng dụng desktop AI hỗ trợ tự động hóa toàn bộ quy trình phát triển game cho Unity, Unreal, Godot và Web.",
+        "stars": "⭐789 ⭐",
+        "verdict": "yes"
+      },
+      {
+        "name": "1llu50ry/mcp-reverse",
+        "url": "https://github.com/1llu50ry/mcp-reverse",
+        "desc": "MCP server chuyên sâu hỗ trợ phân tích kỹ thuật ngược và khai thác kiến trúc game với cơ sở tri thức phong phú.",
+        "stars": "⭐520 stars",
+        "verdict": "yes"
+      },
+      {
+        "name": "HerdBuilderEstimate/roblox-studio-mcp",
+        "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+        "desc": "MCP server kết nối trực tiếp Claude và Cursor vào Roblox Studio giúp can thiệp source code lẫn scene linh hoạt.",
+        "stars": "⭐427",
+        "verdict": "yes"
+      }
+    ],
+    "topGaming": [
+      {
+        "title": "🎮 Pocket Legend cập bến nền tảng Steam",
+        "desc": "Tựa game kết hợp thể loại roguelike thẻ bài cùng quản lý balo hành trang độc đáo chính thức mở bán trên Steam.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZFFyYjk1OEtfUldheXNsMFYycnJOT0RxSm1LMTAxcDBsNnp2ZHloTzBzSUh5OXE5U29SUzZkU1dYU0Z6MmNLbWNrVWVwNEFLYjVsVTB2STdfQmw3eUE1eDRURE5MSV9mc0x0cmZINUt0TnNHb1lySlFpSl9jM0xNZnRsUlhJTWxNcUc4TlZSYV8yLWtiSnM2NWxkb0pnRkdsSEE?oc=5"
+      },
+      {
+        "title": "📊 Biến động doanh thu làng game gacha",
+        "desc": "Thị trường game gacha ghi nhận mức sụt giảm doanh thu bất ngờ ở nhiều sản phẩm quy mô lớn trong quý vừa qua.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNjQzRE11Q0NZQkpMSTl4TmZPcXVKWWo0aGtmNzJmTmZOTE5ZNm94Mk5yb0VhOGRjekRNYkNCRDVSRVhpbE5uRUJnOHFpaU5CaG9qSldwZ3hUMEtYWEFYZGNpaWcwZW01S212TTBjME9ERlNEQVZvZWlBb2VRTk1kaU5PWnphTVdnU29OUnpLRW9ycVVTZTdGcjJ3V0EtTVQyNXVCWHhhRHE5VkwzWnBTeFpCSEl3X0NERG1CVmdpQS01WldsdFdCdlByakhFTlh6NU5Veg?oc=5"
+      },
+      {
+        "title": "🎈 Đậu Nhỏ Nổi Giận ra mắt trên di động",
+        "desc": "Tựa game mobile phong cách thủ thành hoa quả đại chiến zombie vừa mở cửa chính thức, thu hút đông đảo người chơi tham gia đua top.",
+        "tag": "casual",
+        "tagLabel": "🎈 CASUAL",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVHhsRnFSbnFkWE5NUGlJaVZHaDY4OEdYaXhweGRGV1BtbVJkeGZxTXBpdHdnQkNEdzZ0akZuNy1ueVEzSWh6S0RLd0lneDVFdE1BWDN4S3JfY2hNX3ozcmRvWE53d0dUb2JRdGVDcEoyZmxCRjV0aVNiUGlXTlVfcU45cTMzeldyNTRXQU9mbk4xelpybFBpWGJQN1BDa2E5WWU2dHFxZzdaQ2NOYkF2bU16Mm1wU1lQcjA3ek9DcmjncGZTbjVDREREaGx2YXRhb0RjTm1aVjM1TzlvNlpYVVc1MA?oc=5"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 44/2026",
     "fromDate": "2026-10-26",
     "toDate": "2026-11-01",
@@ -705,49 +786,5 @@
         "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-games-about-sorting-1000s-of-mundane-objects-onto-shelves-is-the-new-craze-sweeping-pc-gaming/"
       }
     ]
-  },
-  {
-    "weekLabel": "Tuần 32/2026",
-    "fromDate": "2026-08-03",
-    "toDate": "2026-08-09",
-    "highlights": [
-      {
-        "title": "📜 Quốc hội bàn sửa Luật Phòng, chống rửa tiền",
-        "desc": "Quốc hội đang thảo luận sửa đổi Luật Phòng, chống rửa tiền và Luật Xuất bản, những dự án luật quan trọng ảnh hưởng đến nhiều lĩnh vực.",
-        "tag": "policy",
-        "tagLabel": "📜 POLICY",
-        "url": "https://tuoitre.vn/tin-tuc-sang-9-8-quoc-hoi-thao-luan-sua-luat-phong-chong-rua-tien-lai-suat-qua-dem-giam-manh-100260808220659366.htm"
-      },
-      {
-        "title": "🚀 Samsung & Google lộ diện kính AI",
-        "desc": "Samsung và Google vừa hé lộ kính AI Android XR không màn hình tròng kính, với pin 9 tiếng và sạc 7 lần, đối đầu trực tiếp với sản phẩm của Meta.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "url": "https://genk.vn/pin-9-tieng-sac-7-lan-samsung-va-google-chinh-thuc-lo-dien-kinh-ai-doi-dau-san-pham-cua-meta-165260809082123771.chn"
-      },
-      {
-        "title": "🤖 ChatGPT miễn phí được gỡ giới hạn",
-        "desc": "OpenAI vừa thông báo gỡ bỏ giới hạn độ dài cuộc trò chuyện bằng văn bản cho toàn bộ người dùng ChatGPT miễn phí, đồng thời cải thiện hiệu suất.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "url": "https://genk.vn/tin-vui-cho-nguoi-dung-chatgpt-mien-phi-165260809081839138.chn"
-      },
-      {
-        "title": "🪙 Giá vàng hôm nay tiếp tục trụ vững",
-        "desc": "Sáng 9/8, giá vàng thế giới niêm yết ở mức 4.341 USD/ounce, không đổi so với đầu giờ sáng qua, tiếp tục trụ vững ở ngưỡng cao.",
-        "tag": "gold",
-        "tagLabel": "🪙 GOLD",
-        "url": "https://cafef.vn/gia-vang-hom-nay-9-8-tiep-tuc-tru-vung-o-nguong-cao-188260809075536529.chn"
-      },
-      {
-        "title": "📈 VNDIRECT khuyến nghị nhà đầu tư",
-        "desc": "VNDIRECT đưa ra khuyến nghị quan trọng, dự báo thị trường chứng khoán Việt Nam sẽ hồi phục đan xen rung lắc sau nhịp điều chỉnh.",
-        "tag": "stock",
-        "tagLabel": "📈 STOCK",
-        "url": "https://cafef.vn/vndirect-dua-ra-khuyen-nghi-quan-trong-cho-nha-dau-tu-chung-khoan-188260808222420805.chn"
-      }
-    ],
-    "topRepos": [],
-    "topGaming": []
   }
 ]
