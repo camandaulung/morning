@@ -211,6 +211,16 @@ function bindEvents() {
     announce(`Đã đánh dấu ${UI.filteredItems.length} tin là đã đọc`);
   });
 
+  // Condense the masthead once the feed scrolls so it stops costing a quarter of the
+  // viewport. Separate on/off thresholds keep it from flickering at the boundary.
+  const feedList = document.getElementById('feed-list');
+  const feedPane = document.getElementById('feed-pane');
+  feedList.addEventListener('scroll', () => {
+    const top = feedList.scrollTop;
+    if (top > 48) feedPane.classList.add('condensed');
+    else if (top < 8) feedPane.classList.remove('condensed');
+  }, { passive: true });
+
   document.getElementById('theme-toggle').addEventListener('click', () => {
     setTheme(document.body.dataset.theme === 'dark' ? 'light' : 'dark');
   });

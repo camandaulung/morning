@@ -99,8 +99,21 @@ function flattenView(view) {
   return flattenCard(view.data, view.data && view.data.fromDate, { viewType: view.type });
 }
 
+function topicTone(item) {
+  return String(item.topicField || 'news').replace(/[^a-z0-9-]/gi, '').toLowerCase();
+}
+
 function storyMetaHtml(item) {
-  return `<span class="story-meta"><span>${escapeHtml(item.topicLabel)}</span><span>•</span><span>${escapeHtml(item.sourceName)}</span>${item.sourceDate ? `<span>•</span><span>${escapeHtml(item.sourceDate)}</span>` : ''}</span>`;
+  return `<span class="story-meta"><span>${escapeHtml(item.topicLabel)}</span>${item.isHot ? '<span class="hot-tag">Nóng</span>' : ''}<span>•</span><span>${escapeHtml(item.sourceName)}</span>${item.sourceDate ? `<span class="meta-date">•</span><span class="meta-date">${escapeHtml(item.sourceDate)}</span>` : ''}</span>`;
+}
+
+// Small lazy thumbnail for headline rows and compact cards. Same failure contract as
+// storyVisualHtml: a broken image removes its frame so the text-only card remains.
+function storyThumbHtml(item) {
+  if (!item.image) return '';
+  return `<span class="story-thumb" aria-hidden="true"><img src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async"
+      onload="this.parentNode.classList.add('img-ready')"
+      onerror="this.parentNode.remove()"></span>`;
 }
 
 function storyVisualHtml(item, compact = false) {
@@ -117,24 +130,33 @@ function storyVisualHtml(item, compact = false) {
     : '';
   return `<span class="story-visual topic-${topicClass}${item.image ? ' has-image' : ''}${compact ? ' compact' : ''}" aria-hidden="true">
     ${img}
-    <span class="visual-label">${escapeHtml(item.topicLabel)}</span>
+    <span class="visual-label">${compact ? escapeHtml(item.topicLabel) : 'Tiêu điểm'}</span>
     <span class="visual-monogram">${escapeHtml(initial)}</span>
   </span>`;
 }
 
-function storyCardHtml(item, variant, selectedId, readIds) {
+function storyCardHtml(item, variant, selectedId, readIds, rank = 0) {
   const isRead = readIds.has(item.id);
   const summary = item.detail && item.detail.trim() !== item.desc.trim() ? item.detail : item.desc;
-  const showSummary = variant === 'hero' || variant === 'primary';
-  return `<button class="story-card story-${variant}${isRead ? ' read' : ''}${item.id === selectedId ? ' active' : ''}" type="button" data-story-id="${item.id}" aria-label="${escapeHtml(item.title)} · ${isRead ? 'Đã đọc' : 'Chưa đọc'}"${item.id === selectedId ? ' aria-current="true"' : ''}>
+  // Image-less compact cards carry their summary so they hold the row height of photo cards.
+  const showSummary = variant === 'hero' || variant === 'primary' || (variant === 'compact' && !item.image);
+  const hasThumb = (variant === 'headline' || variant === 'compact') && item.image;
+  return `<button class="story-card story-${variant} tone-${topicTone(item)}${hasThumb ? ' has-thumb' : ''}${isRead ? ' read' : ''}${item.id === selectedId ? ' active' : ''}" type="button" data-story-id="${item.id}" aria-label="${escapeHtml(item.title)} · ${isRead ? 'Đã đọc' : 'Chưa đọc'}"${item.id === selectedId ? ' aria-current="true"' : ''}>
     ${variant === 'hero' || variant === 'primary' || variant === 'secondary' ? storyVisualHtml(item, variant !== 'hero') : ''}
+    ${hasThumb ? storyThumbHtml(item) : ''}
+    ${rank ? `<span class="story-rank" aria-hidden="true">${String(rank).padStart(2, '0')}</span>` : ''}
     <span class="story-card-body">
       ${storyMetaHtml(item)}
       <span class="story-title">${escapeHtml(item.title)}</span>
       ${showSummary && summary ? `<span class="story-summary">${escapeHtml(summary)}</span>` : ''}
-      <span class="story-action">Đọc nhanh <span aria-hidden="true">→</span></span>
+      <span class="story-action">Đọc nhanh <span class="action-arrow" aria-hidden="true">→</span></span>
     </span>
+    <span class="read-pill" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Đã đọc</span>
   </button>`;
+}
+
+function sectionHeadingHtml(id, index, title, count) {
+  return `<div class="section-heading"><span class="section-index" aria-hidden="true">${String(index).padStart(2, '0')}</span><span class="eyebrow" id="${id}">${title}</span><span class="section-rule" aria-hidden="true"></span><span>${count} tin</span></div>`;
 }
 
 function dashboardHtml(items, selectedId, readIds, isSearch = false) {
@@ -154,8 +176,8 @@ function dashboardHtml(items, selectedId, readIds, isSearch = false) {
       <div class="primary-stack">${primary.map(item => storyCardHtml(item, 'primary', selectedId, readIds)).join('')}</div>
     </section>
     ${secondary.length ? `<section class="secondary-grid" aria-label="Tin đáng chú ý">${secondary.map(item => storyCardHtml(item, 'secondary', selectedId, readIds)).join('')}</section>` : ''}
-    ${headlines.length ? `<section class="headline-panel" aria-labelledby="headline-panel-title"><div class="section-heading"><span class="eyebrow" id="headline-panel-title">Điểm nhanh</span><span>${headlines.length} tin</span></div><div class="headline-list">${headlines.map(item => storyCardHtml(item, 'headline', selectedId, readIds)).join('')}</div></section>` : ''}
-    ${more.length ? `<section class="more-stories" aria-labelledby="more-stories-title"><div class="section-heading"><span class="eyebrow" id="more-stories-title">Còn trong bản tin</span><span>${more.length} tin</span></div><div class="compact-grid">${more.map(item => storyCardHtml(item, 'compact', selectedId, readIds)).join('')}</div></section>` : ''}
+    ${headlines.length ? `<section class="headline-panel" aria-labelledby="headline-panel-title">${sectionHeadingHtml('headline-panel-title', 1, 'Điểm nhanh', headlines.length)}<div class="headline-list">${headlines.map((item, index) => storyCardHtml(item, 'headline', selectedId, readIds, index + 1)).join('')}</div></section>` : ''}
+    ${more.length ? `<section class="more-stories" aria-labelledby="more-stories-title">${sectionHeadingHtml('more-stories-title', headlines.length ? 2 : 1, 'Còn trong bản tin', more.length)}<div class="compact-grid">${more.map(item => storyCardHtml(item, 'compact', selectedId, readIds)).join('')}</div></section>` : ''}
   </div>`;
 }
 

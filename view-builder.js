@@ -105,7 +105,7 @@ function renderArchiveNav() {
 function renderTopicStrip() {
   const root = document.getElementById('topic-strip');
   const allCount = UI.allItems.length;
-  root.innerHTML = `<button class="topic-chip${UI.topic === 'all' ? ' active' : ''}" type="button" data-topic="all" aria-pressed="${UI.topic === 'all'}">Tất cả · ${allCount}</button>${UI.topicCounts.map(topic => `<button class="topic-chip${UI.topic === topic.field ? ' active' : ''}" type="button" data-topic="${escapeHtml(topic.field)}" aria-pressed="${UI.topic === topic.field}">${escapeHtml(topic.label)} · ${topic.count}</button>`).join('')}`;
+  root.innerHTML = `<button class="topic-chip${UI.topic === 'all' ? ' active' : ''}" type="button" data-topic="all" aria-pressed="${UI.topic === 'all'}">Tất cả · ${allCount}</button>${UI.topicCounts.map(topic => `<button class="topic-chip${UI.topic === topic.field ? ' active' : ''}" type="button" data-topic="${escapeHtml(topic.field)}" aria-pressed="${UI.topic === topic.field}"><span class="chip-dot tone-${topicTone({ topicField: topic.field })}" aria-hidden="true"></span>${escapeHtml(topic.label)} · ${topic.count}</button>`).join('')}`;
 }
 
 function calculateTopicCounts(items) {
@@ -185,15 +185,21 @@ function applyFeedFilter(options = {}) {
     ? dashboardHtml(UI.filteredItems, UI.selectedId, UI.readIds, Boolean(UI.query.trim()))
     : emptyStateHtml(UI.query.trim() || UI.topic !== 'all' ? 'filter' : 'empty');
   document.getElementById('feed-count').textContent = String(UI.filteredItems.length);
-  const markAll = document.getElementById('mark-all-read');
-  const unreadCount = UI.filteredItems.filter(item => !UI.readIds.has(item.id)).length;
-  markAll.disabled = unreadCount === 0;
-  markAll.textContent = unreadCount ? `Đánh dấu đã đọc · ${unreadCount}` : 'Đã đọc tất cả';
+  document.getElementById('feed-topics').textContent = String(new Set(UI.filteredItems.map(item => item.topicField)).size);
+  document.getElementById('feed-sources').textContent = String(new Set(UI.filteredItems.map(item => item.sourceName)).size);
+  updateMarkAllButton();
   if (UI.query.trim()) announce(`${UI.filteredItems.length} kết quả tìm kiếm`);
   renderTopicStrip();
   renderArchiveNav();
   renderSelectedReader();
   if (options.resetScroll) list.scrollTop = 0;
+}
+
+function updateMarkAllButton() {
+  const markAll = document.getElementById('mark-all-read');
+  const unreadCount = UI.filteredItems.filter(item => !UI.readIds.has(item.id)).length;
+  markAll.disabled = unreadCount === 0;
+  markAll.textContent = unreadCount ? `Đánh dấu đã đọc · ${unreadCount}` : 'Đã đọc tất cả';
 }
 
 function renderSelectedReader() {
@@ -209,6 +215,7 @@ function renderSelectedReader() {
     row.toggleAttribute('aria-current', selected);
     if (candidate) row.setAttribute('aria-label', `${candidate.title} · ${isRead ? 'Đã đọc' : 'Chưa đọc'}`);
   });
+  updateMarkAllButton();
 }
 
 function renderActiveView() {
