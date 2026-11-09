@@ -3,7 +3,63 @@
     "date": "2026-11-09",
     "dayLabel": "Thứ Hai",
     "dateLabel": "09/11/2026",
-    "entertainment": [],
+    "entertainment": [
+      {
+        "title": "🦖 Godzilla Minus Zero soán ngôi phòng vé Việt",
+        "desc": "Bom tấn quái vật Nhật Bản bất ngờ vượt qua Chị Chị Em Em 3 dịp cuối tuần dù có ít suất chiếu hơn.",
+        "detail": "Cuối tuần từ 6-8/11 ghi nhận biến động lớn tại phòng vé khi Godzilla Minus Zero chính thức vươn lên vị trí quán quân. Tác phẩm đến từ xứ sở hoa anh đào vượt mặt bộ phim Việt vừa chạm mốc 100 tỷ đồng, đồng thời bỏ xa đối thủ cùng ngày ra rạp là Bò Sữa Bay. Dù được phân bổ số lượng suất chiếu khiêm tốn hơn, hiệu ứng truyền miệng tích cực và chất lượng kỹ xảo mãn nhãn đã kéo khán giả nườm nượp đến rạp.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "09/11·Kenh14",
+        "url": "https://kenh14.vn/xuat-hien-doi-thu-hat-vang-hai-bo-phim-viet-18-21526110914270023.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/9/avatar1794208745425-17942087459511612808391.webp",
+        "addedEvening": true
+      },
+      {
+        "title": "💔 Drama phục trang bủa vây Hoàng Hậu Tái Hôn",
+        "desc": "Dự án truyền hình Hàn Quốc nhận bão chỉ trích dữ dội vì khâu trang phục bị tố dùng đồ si giá rẻ và kịch bản nghèo nàn.",
+        "detail": "Hoàng Hậu Tái Hôn đang trở thành tâm điểm bàn tán tiêu cực của cộng đồng mọt phim châu Á. Khán giả phát hiện nhiều bộ cánh lộng lẫy trên phim thực chất là hàng secondhand giá rẻ nhập từ Trung Quốc với chất liệu nhăn nhúm, lộ rõ vẻ tạm bợ trên khung hình chuẩn HD. Sự đối lập giữa dàn diễn viên hạng A đắt giá và tạo hình ba xu khiến công chúng ngán ngẩm, đặt dấu hỏi lớn về khâu quản lý ngân sách sản xuất của ê-kíp.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "09/11·Kenh14",
+        "url": "https://kenh14.vn/hoang-hau-tai-hon-bi-boc-dung-do-si-gia-re-trung-quoc-netizen-cuoi-che-phim-han-xuong-cap-den-the-sao-215261109154721311.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/9/avatar1794213746935-17942137514121389436017.gif",
+        "addedEvening": true
+      },
+      {
+        "title": "💪 Lý Nhược Đồng gập bụng 1.000 cái mỗi ngày",
+        "desc": "Nàng Tiểu Long Nữ kinh điển khiến dân tình ngỡ ngàng khi tiết lộ cường độ tập luyện bền bỉ để giữ vóc dáng không mỡ thừa.",
+        "detail": "Ở tuổi trung niên, nữ diễn viên Hong Kong vẫn duy trì thể lực đáng kinh ngạc nhờ kỷ luật thép trong phòng tập. Cô cho biết việc gập bụng 1.000 lần mỗi ngày không chỉ giúp cơ bụng săn chắc mà còn tăng sức bền và giữ tinh thần luôn sảng khoái. Hình ảnh cơ bụng số 11 rõ nét của nàng 'Cô Cô' lập tức trở thành nguồn cảm hứng luyện tập lớn cho người hâm mộ khắp châu Á.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/11·VnExpress",
+        "url": "https://vnexpress.net/ly-nhuoc-dong-gap-bung-1-000-lan-giu-eo-san-chac-5142494.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/09/top-ly-nhuoc-dong-1794211497-4438-1794211746.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BZm93PeQLwHJjuHgVt2U_g",
+        "addedEvening": true
+      },
+      {
+        "title": "🎤 Rosé vấp tranh cãi về giọng hát live với APT.",
+        "desc": "Màn trình diễn bản hit toàn cầu của giọng ca chính BLACKPINK nhận nhiều ý kiến trái chiều từ cộng đồng mạng.",
+        "detail": "Bản hit APT. gây bão toàn cầu thời gian qua vừa đưa Rosé vào tâm điểm tranh luận sau sân khấu hát live mới nhất. Nhiều khán giả nhận xét cột hơi của nữ ca sĩ thiếu ổn định, một số nốt cao bị chới với khi kết hợp vũ đạo. Trong khi người hâm mộ bênh vực đây là sự cố âm thanh sân khấu, một bộ phận cư dân mạng lại khắt khe cho rằng cô cần trau dồi thêm kỹ năng thanh nhạc để gánh vác các bài solo đòi hỏi nội lực.",
+        "tag": "music",
+        "tagLabel": "🎵 MUSIC",
+        "source": "09/11·Kenh14",
+        "url": "https://kenh14.vn/rose-blackpink-hung-chi-trich-vi-hat-do-215261109182452666.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/9/chrome-capture-2026-11-09-1794223010308116581242-24-0-415-626-crop-1794223026461286820861.png",
+        "addedEvening": true
+      },
+      {
+        "title": "✨ Thảm đỏ phim Ngày Con Còn Mẹ quy tụ dàn sao",
+        "desc": "Phương Anh Đào tỏa sáng bên cạnh màn tái ngộ đáng chú ý của Tăng Thanh Hà và Lương Mạnh Hải.",
+        "detail": "Buổi ra mắt tác phẩm điện ảnh Ngày Con Còn Mẹ làm nóng mạng xã hội với sự hiện diện của đông đảo nghệ sĩ tên tuổi. Chiếm trọn spotlight là ngọc nữ Tăng Thanh Hà hội ngộ bạn diễn ăn ý một thời Lương Mạnh Hải, cả hai nhận cơn mưa lời khen nhờ nhan sắc trẻ trung vượt thời gian. Nữ chính Phương Anh Đào cũng ghi điểm tuyệt đối với diện mạo thanh lịch, khẳng định sức hút của một trong những gương mặt điện ảnh đắt giá nhất hiện nay.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/11·Kenh14",
+        "url": "https://kenh14.vn/tham-do-hot-nhat-hom-nay-phuong-anh-dao-nhu-tien-giang-tran-tang-thanh-ha-luong-manh-hai-tre-du-vay-troi-215261109212627587.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/9/avatar1794234130064-17942341311901700649695.png",
+        "addedEvening": true
+      }
+    ],
     "trending": [
       {
         "title": "⚡ Cơn sốt CEO NVIDIA Jensen Huang thừa nhận lầm lỗi",
@@ -33,15 +89,231 @@
         "tagLabel": "🔥 VIRAL",
         "source": "08/11·Báo Dân trí",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUFd0ckh2VDZ2M2c2Z1llWUpCQmZPcEdhNXJiMTdULXl2Wjk5VWtmUnl4elVFN0hoZjQzWDRPZlNFVU1sRzZ4M0ZMNDNYMHBXRk9tc3JTY2poSGhxX05Yb1c0NHhvVm1hY2UtMzhjazJ0S05Ha1VwT1ZqWU12ODVwYm5xVXdldGJxRlAxUm9GX1lxUHZ6NEEtR0szdHE4OVRkdk1lZ1h4MDliR0lVcUk4anI5MW5XczI5dVBxSS1McXc?oc=5"
+      },
+      {
+        "title": "🎂 Trend 'ăn gian tuổi' bằng một bức ảnh gây bão mạng",
+        "desc": "Trào lưu khoe ảnh kèm dòng giới thiệu năm sinh trẻ hơn tuổi thật cả chục tuổi đang khiến cõi mạng thích thú thi nhau tra cứu.",
+        "detail": "Trào lưu này khởi xướng từ việc người dùng ghép một bức ảnh thần thái kèm caption giới thiệu năm sinh trẻ bất ngờ, ví dụ Văn Mai Hương tự nhận sinh năm 2004 hay Tóc Tiên sinh năm 1999. Nhờ visual trẻ trung không tuổi, nhiều người xem ngỡ ngàng tưởng thật và phải lên mạng tra cứu lại năm sinh thực tế của nghệ sĩ. Trào lưu nhanh chóng lan rộng trong giới văn phòng và thế hệ 8x, 9x như một cách hài hước để khẳng định năng lượng tươi trẻ của bản thân.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/11/2026 · Kenh14.vn",
+        "url": "https://kenh14.vn/van-mai-huong-2004-toc-tien-1999-trend-gioi-thieu-ban-than-bang-1-buc-anh-khien-dan-mang-phai-tra-lai-tuoi-that-215261109213147242.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/9/avatar1794234627308-17942346277442103110024.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "🍢 Tránh nóng 34 độ bằng thú vui nướng kẹo dẻo đón đông",
+        "desc": "Bất chấp nhiệt độ Sài Gòn chạm ngưỡng 34 độ C, giới trẻ vẫn nô nức kéo nhau đi cà phê tự nướng marshmallow và mochi bên bếp củi.",
+        "detail": "Nhiều quán cà phê tại TP.HCM đã nhanh nhạy set up không gian mùa đông mang phong cách cắm trại với lò sưởi giả và bếp than mini để khách tự tay nướng marshmallow, bánh mochi. Trải nghiệm mang cảm giác ấm cúng, thư thái đặc trưng của mùa lạnh giữa lòng thành phố phương Nam nắng nóng liên tục gây bão trên TikTok. Trào lưu này biến việc đi cà phê cuối tuần thành một hoạt động trải nghiệm tương tác vui vẻ, thu hút đông đảo bạn trẻ và dân công sở tìm đến xả stress.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/11/2026 · Báo Thanh Niên",
+        "url": "https://thanhnien.vn/tphcm-nong-34-do-gioi-tre-van-ru-nhau-di-ca-phe-nuong-marshmallow-don-dong-18526110914190759.htm",
+        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/9/tnw-17942063301951489224198153227443558254407346932390fb5822d34e2a7037864fd9e6c3640f51-1794207835356873920180-319-0-1919-2560-crop-17942084529541753387416.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "🧧 Chi tiền triệu thuê 'pro gánh team' rinh cúp pickleball",
+        "desc": "Cộng đồng mạng xôn xao trước dịch vụ thuê tay vợt giỏi đánh đôi pickleball với thù lao 5 đến 7 triệu đồng mỗi giải phong trào.",
+        "detail": "Bộ môn thể thao thời thượng pickleball đang xuất hiện hiện tượng 'thuê gà chiến' gánh team đánh đôi ngầm tại các giải đấu phong trào. Không ít tay chơi sẵn sàng chi từ 5 đến 7 triệu đồng cho mỗi giải đấu – con số thậm chí vượt cả tiền thưởng vô địch – chỉ nhằm mục đích có ảnh đứng bục nhận giải check-in mạng xã hội. Trào lưu này đang tạo nên nhiều cuộc tranh luận rôm rả giữa tinh thần thể thao nguyên bản và thói quen chuộng hình thức 'sống ảo' của một bộ phận người chơi.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/11/2026 · Báo Thanh Niên",
+        "url": "https://thanhnien.vn/chi-tien-trieu-thue-nguoi-ganh-thi-dau-pickleball-de-duoc-len-buc-nhan-giai-185261109091120679.htm",
+        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/9/base64-1794204068663744349879-42-0-1042-1600-crop-17942043479371912993769.jpeg",
+        "addedEvening": true
+      },
+      {
+        "title": "🧧 Giới trẻ rủ nhau diện áo dài chụp ảnh Tết ngay từ tháng 11",
+        "desc": "Dù còn gần 3 tháng nữa mới đến Tết Nguyên đán, phong trào diện áo dài truyền thống chụp ảnh xuân đã rộn ràng khắp nơi.",
+        "detail": "Thay vì đợi sát Tết chen chúc, nhiều nhóm bạn trẻ tại TP.HCM đã tranh thủ diện cổ phục, áo dài thướt tha check-in tại các địa điểm kiến trúc hoài cổ như Lăng Ông Bà Chiểu, Bảo tàng Mỹ thuật. Việc chụp ảnh đón xuân sớm không chỉ giúp có được những bộ ảnh ưng ý, không dính người mà còn tạo nên bầu không khí rộn ràng trên mạng xã hội từ rất sớm. Trào lưu này được hội chị em nhiệt tình hưởng ứng vì vừa thoải mái thời gian tạo dáng vừa tránh được cảnh bão giá thuê trang phục cuối năm.",
+        "tag": "viral",
+        "tagLabel": "🔥 VIRAL",
+        "source": "09/11/2026 · Báo Thanh Niên",
+        "url": "https://thanhnien.vn/ru-nhau-chup-anh-tet-som-nhung-dia-diem-hot-ran-ran-nam-nay-185261109141930271.htm",
+        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/11/9/tnw-3-1-2-17942079026991253505863-108-0-1708-2560-crop-1794208640229648220166.jpg",
+        "addedEvening": true
       }
     ],
-    "gaming": [],
-    "lifestyle": [],
+    "gaming": [
+      {
+        "title": "🏆 BLG đứng trước cơ hội làm nên lịch sử tại CKTG 2026",
+        "desc": "Đại diện LPL đang nắm giữ cơ hội vàng để xác lập cột mốc lịch sử mới ở giải đấu LMHT lớn nhất năm.",
+        "detail": "Bilibili Gaming (BLG) bước vào giai đoạn quyết định với phong độ vô cùng thuyết phục của cả đội hình. Nếu duy trì được phong độ hủy diệt này, họ không chỉ chạm tay vào chiếc cúp danh giá mà còn thiết lập kỷ lục mới cho khu vực LPL. Sự gắn kết chiến thuật và màn tỏa sáng của các trụ cột đang biến BLG thành ứng viên hàng đầu cho ngôi vương năm nay.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "08/11·m.gamek.vn",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWFdhYjNLdE9oM0h2SU11ODRQUThWUjlpUzR5Zk1Kdl93VjNSQzJrdXlIWENsdFZjYnFHMm9mN3o5cGlnblZfTkJHUVU2d1RTeE1OWmVKRFFhQkVLV21ZcG1MR0xGY2FDYWRVb0RZdFZDNFNWSXF5bEw1RURxRHlpb1NuamFpZzc4OFpEandQVm1kOVMwa1hzUE8zc25BMTEx?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "🗡️ Rò rỉ thông tin Assassin’s Creed đưa người chơi về thời La Mã",
+        "desc": "Dự án tiếp theo của thương hiệu đình đám được đồn đoán sẽ khai thác bối cảnh La Mã cổ đại cùng một bản mobile tại Jerusalem.",
+        "detail": "Các nguồn tin rò rỉ mới nhất cho thấy Ubisoft đang phát triển phiên bản Assassin’s Creed quy mô lớn đưa game thủ khám phá thời kỳ La Mã đỉnh cao. Song song với đó, một dự án spin-off dành cho thiết bị di động lấy bối cảnh lịch sử tại Jerusalem cũng đang được chuẩn bị. Cộng đồng người hâm mộ kỳ vọng bối cảnh cổ đại này sẽ mang lại chiều sâu lịch sử lẫn lối chơi ám sát kinh điển vốn có.",
+        "tag": "pc",
+        "tagLabel": "💻 PC",
+        "source": "09/11·Lag.vn",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYU9BVU0yT1NUM0xoTXBMQlJjclZnWUtpUzRDZjVCdUhTOTREUkJEdWVDOE1NQ2RGdnNsdWpmR01xQzBtVloyTW5hbXNHSEoyTzdENGROaFNZbVgxVHJpWjVOWWZrckZ2SXFqVjlhQS1iUnRaVFl6TzZaM2F0WS1xVXA3UjAxNml0dXo3UFM2Rm8yd19lWTlJTG1oUzdlQ0pGRERnVmpxY2FDVUVPbFhzaHJpSFIyZ9IBtAFBVV95cUxPbEVNNF9vMUx3OVN2SzVOaEVzQ0VTR1NldTBTdG5vYy1nUktQMTdGRmhRVWRmQW5HTE1kbWE0aDBZLWEycjg1emxyUUdfZ1FzcUxGN3lLdTF4VnF3UndIbHpNN0Z3NFlxLVFKeDlRU1pKVTFmU1JjMExiSFlKeU9QeDQwWnlsc1RDN2hKQXVFOTEwLVNMRUZDY2pFWEtGY2xqNktCMy00Q1dUcTh6dlA1WWhfMFc?oc=5",
+        "addedEvening": true
+      },
+      {
+        "title": "📜 Tranh chấp bản quyền Dragon Ball Super khiến tương lai manga mờ mịt",
+        "desc": "Cuộc chiến pháp lý kéo dài 11 năm về quyền sở hữu đang dập tắt cơ hội tái xuất của bộ truyện đình đám.",
+        "detail": "Sau hơn một thập kỷ tranh chấp nội bộ gay gắt xung quanh quyền tác quyền, dự án manga Dragon Ball Super đang đối mặt với nguy cơ đóng băng dài hạn. Những vướng mắc pháp lý phức tạp giữa các bên quản lý khiến lộ trình phát hành các chương tiếp theo bị đình trệ vô thời hạn. Điều này tạo nên làn sóng tiếc nuối lớn trong cộng đồng người hâm mộ Bi Rồng trên toàn thế giới.",
+        "tag": "console",
+        "tagLabel": "🎮 CONSOLE",
+        "source": "06/11·m.gamek.vn",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTUMtYVVWaXA1NlFKSm10RXRpQTB3NkhCOV9tQXVaeThEUG1ZcTVseDlTaU9hU0ZQTk9fdXU2TGhBa3J1NXd6ZUpHa2w0MUR6NFlpSV93WnBHZVluZkJjRHBReEUxSXpUZ2tiQWFLOEpWNUVBeXlxN0xLaWZxUFdoVjlEQWlmbkJ3QzIxQmVqc3EwdWEzTndjLU9qQUxVczhzX0JvWmNubEZLN3JqWDlsVEY2R1IyTGlUZk5hd1ZPWUVYRXBLX2NZZ3hsWnF3TFdtUW9lSURR?oc=5",
+        "addedEvening": true
+      }
+    ],
+    "lifestyle": [
+      {
+        "title": "💉 Cảnh báo sốc tim nguy kịch sau khi tự ý truyền dịch",
+        "desc": "Cô gái 23 tuổi nhập viện cấp cứu trong tình trạng sốc tim, suy hô hấp nặng phải can thiệp ECMO chỉ sau khi tự đến phòng khám tư truyền dịch hạ sốt.",
+        "detail": "Bệnh nhân ban đầu chỉ sốt nhẹ nhưng tự ý ra phòng khám tư nhân để truyền nước, sau đó nhanh chóng chuyển biến xấu với triệu chứng đau ngực và khó thở dữ dội. Các bác sĩ buộc phải đặt ECMO khẩn cấp để bảo toàn tính mạng. Đây là hồi chuông cảnh tỉnh cho thói quen coi truyền dịch như liều thuốc bổ phục hồi nhanh của nhiều người trẻ. Việc đưa dịch vào cơ thể không qua kiểm soát áp lực tĩnh mạch và xét nghiệm chuyên môn rất dễ dẫn đến quá tải tuần hoàn, sốc phản vệ hoặc viêm cơ tim bùng phát.",
+        "tag": "health",
+        "tagLabel": "💪 HEALTH",
+        "source": "09/11/2026 · VnExpress",
+        "url": "https://vnexpress.net/co-gai-23-tuoi-soc-tim-sau-khi-truyen-dich-tai-phong-kham-tu-5142492.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/11/09/1793700142730-f78772b9dfe5c5e8-9035-2276-1794210265.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=L2UHO0Gpql9Vwm5xUf1X-g",
+        "addedEvening": true
+      },
+      {
+        "title": "🧠 Cái giá của sự chu toàn và hội chứng kiệt quệ cảm xúc",
+        "desc": "Những người sống quá trách nhiệm, luôn cầu toàn và hay lo xa thường đối mặt với nguy cơ kiệt quệ tâm thần và rối loạn lo âu cao gấp nhiều lần.",
+        "detail": "Nhiều người trong độ tuổi 30-40 gánh vác cùng lúc trách nhiệm gia đình và sự nghiệp, vô tình tự trói mình vào tiêu chuẩn phải giải quyết êm đẹp mọi chuyện. Áp lực kiểm soát toàn bộ biến số khiến hệ thần kinh luôn trong trạng thái kích hoạt căng thẳng mãn tính, làm suy giảm hormone hạnh phúc và rối loạn giấc ngủ. Bác sĩ khuyến cáo giải pháp căn cơ không phải là cố gắng hơn, mà là học cách chấp nhận các khiếm khuyết ngoại cảnh và thiết lập ranh giới trách nhiệm rõ ràng cho bản thân.",
+        "tag": "wellness",
+        "tagLabel": "🧘 WELLNESS",
+        "source": "09/11/2026 · VnExpress",
+        "url": "https://vnexpress.net/vi-sao-nguoi-song-chu-toan-qua-trach-nhiem-de-kiet-que-tam-than-5142313.html",
+        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/11/09/a-nh-ma-n-hi-nh-lu-1794191619-4988-1794191635.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KtokUGKo91C5LLjlFgYX3Q",
+        "addedEvening": true
+      },
+      {
+        "title": "🌐 Cổng thông tin du lịch Việt Nam vượt Thái Lan về lượt truy cập",
+        "desc": "Website Vietnam.travel cán mốc hơn 367.000 lượt truy cập trong tháng 10, tăng hơn 19% và chính thức vượt qua đối thủ Thái Lan khoảng 29.000 lượt.",
+        "detail": "Số liệu thống kê vừa ghi nhận bước tiến ấn tượng của kênh xúc tiến số quốc gia khi thu hút sự chú ý áp đảo từ du khách quốc tế trước mùa du lịch cuối năm. Mức tăng trưởng hai con số liên tiếp cho thấy chiến lược đổi mới nội dung trải nghiệm số và định vị điểm đến văn hóa thiên nhiên bắt đầu hái quả ngọt. Đây là tín hiệu rất tích cực cho các doanh nghiệp lữ hành nội địa khi chuẩn bị đón luồng khách quốc tế chất lượng cao trong quý 4.",
+        "tag": "travel",
+        "tagLabel": "✈️ TRAVEL",
+        "source": "09/11/2026 · VnExpress",
+        "url": "https://vnexpress.net/website-quang-ba-du-lich-viet-vuot-thai-lan-ve-truy-cap-5142386.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/11/09/233a0389-1794196686-7106-1794196693.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1NyFuuiopaeAFQSfvksGTw",
+        "addedEvening": true
+      },
+      {
+        "title": "🍢 Bản đồ ẩm thực 9 món chuẩn vị chợ đêm Đài Loan",
+        "desc": "Từ hải sản tươi nướng, bánh chiên giòn tan đến đồ tráng miệng thanh mát, kinh nghiệm bỏ túi là chia khẩu phần nhỏ để thưởng thức trọn vẹn khu chợ đêm.",
+        "detail": "Khu chợ đêm xứ Đài luôn là mê cung hấp dẫn khiến du khách dễ bị no ngang ngay từ những quầy hàng đầu tiên nếu không có chiến lược ăn uống thông minh. Danh sách 9 món đặc sắc gợi ý bạn nên bắt đầu bằng các món nhẹ như đậu hũ thối chiên giòn, xúc xích bọc cơm nếp, bánh bao tiêu trước khi chuyển sang hải sản sốt tiêu cay nồng. Kết màn bằng một bát chè khoai dẻo hoặc ly trà sữa thảo mộc sẽ giúp cân bằng vị giác hoàn hảo sau chuyến oanh tạc ẩm thực đường phố.",
+        "tag": "food",
+        "tagLabel": "🍜 FOOD",
+        "source": "09/11/2026 · VnExpress",
+        "url": "https://vnexpress.net/9-mon-nen-thu-khi-den-cho-dem-dai-loan-5136532.html",
+        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/26/an-cho-dem-1792986447.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=it0r4dQQMUDrTi1rVRjgDA",
+        "addedEvening": true
+      }
+    ],
     "vietnam": [],
-    "tech": [],
-    "finance": [],
+    "tech": [
+      {
+        "title": "🧺 Roborock Zeo Mini chào sân Việt Nam: Giặt sấy mini giá gần 12 triệu",
+        "desc": "Roborock vừa mở bán mẫu máy giặt sấy mini Zeo Mini chuyên đồ mỏng nhẹ với tải trọng giặt 1 kg và sấy 0,5 kg. Mức giá gần 12 triệu đồng nhắm thẳng vào nhu cầu giặt riêng đồ em bé hoặc đồ lót cao cấp.",
+        "detail": "Sản phẩm được trang bị công nghệ sấy nhiệt độ thấp Zeo-cycle giúp bảo vệ sợi vải tinh xảo, hạn chế co rút hay hư hại chất liệu nhạy cảm. Kích thước nhỏ gọn giúp người dùng căn hộ chung cư dễ dàng bố trí trên kệ tủ hoặc phòng tắm mà không tốn diện tích sàn. Dù dung tích chỉ 1 kg giặt và 0,5 kg sấy, thiết bị tích hợp đầy đủ chu trình khử khuẩn bằng hơi nước và kết nối app điều khiển từ xa. Với tầm giá này, máy phù hợp nhóm gia đình trẻ có con nhỏ hoặc người độc thân chú trọng thói quen giặt riêng quần áo hàng ngày.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "09/11/2026·GenK",
+        "url": "https://genk.vn/roborock-zeo-mini-ra-mat-tai-viet-nam-may-giat-say-chi-giat-duoc-1-kg-quan-ao-gia-gan-12-trieu-dong-co-dang-mua-165261109161237836.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avatar1794215360511-17942153606671349577389.jpg",
+        "addedEvening": true
+      },
+      {
+        "title": "🪑 Xiaomi ra mắt đệm công thái học tự sưởi và nhắc đứng dậy",
+        "desc": "Xiaomi bổ sung món đồ văn phòng thú vị với đệm ngồi công thái học giá khoảng 690.000 đồng, tích hợp làm ấm và cảm biến cảnh báo ngồi lâu. Món phụ kiện đáng cân nhắc cho dân văn phòng khi mùa lạnh đang cận kề.",
+        "detail": "Đệm sử dụng chất liệu mút hoạt tính định hình tư thế ngồi, giảm tải áp lực lên đốt sống thắt lưng cho người làm việc liên tục 8-10 tiếng mỗi ngày. Hệ thống sưởi bằng sợi carbon cho phép tùy chỉnh các mức nhiệt độ nhanh chóng, thích hợp cho thời tiết giao mùa. Điểm cộng thực tế là cảm biến tải trọng tích hợp sẽ kích hoạt rung nhẹ nhắc người dùng đứng dậy vận động sau mỗi chu kỳ ngồi tĩnh. Với mức giá dễ tiếp cận, đây là giải pháp chăm sóc sức khỏe cột sống tiết kiệm hơn nhiều so với việc đổi cả chiếc ghế công thái học đắt đỏ.",
+        "tag": "launch",
+        "tagLabel": "🚀 LAUNCH",
+        "source": "09/11/2026·GenK",
+        "url": "https://genk.vn/xiaomi-ra-mat-dem-cong-thai-hoc-voi-kha-nang-suoi-am-va-nhac-nguoi-dung-dung-day-165261109153820845.chn",
+        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avatar1794213464240-1794213464610792236073.png",
+        "addedEvening": true
+      },
+      {
+        "title": "⚠️ Lỗi driver AMD Radeon âm thầm bào mòn tuổi thọ ổ SSD",
+        "desc": "AMD xác nhận tiến trình thuộc driver Radeon gặp lỗi khiến máy tính ghi dữ liệu liên tục xuống SSD ngoài tầm kiểm soát. Người dùng sử dụng card đồ họa Radeon nên kiểm tra và cập nhật bản vá sớm để tránh hao mòn ổ cứng.",
+        "detail": "Lỗi bắt nguồn từ tiến trình atieclxx.exe thuộc gói tiện ích AMD External Events Utility, liên tục thực hiện các chu kỳ ghi file rác mà không giải phóng tài nguyên. Việc này không chỉ chiếm dụng một phần hiệu năng hệ thống mà còn trực tiếp rút ngắn chỉ số TBW (tổng dung lượng ghi tối đa) của ổ SSD thể rắn. Nhiều người dùng chỉ phát hiện vấn đề khi thấy dung lượng ghi tăng đột biến hàng chục gigabyte chỉ sau vài giờ máy chạy không tải. Trong khi chờ bản vá hoàn chỉnh, người dùng có thể tạm thời vô hiệu hóa service này trong Windows Services để ngăn chặn việc ghi đĩa liên tục.",
+        "tag": "review",
+        "tagLabel": "⭐ REVIEW",
+        "source": "09/11/2026·Tinhte",
+        "url": "https://tinhte.vn/thread/amd-xac-nhan-loi-driver-radeon-ghi-lien-tuc-vao-ssd.4190742/",
+        "addedEvening": true
+      }
+    ],
+    "finance": [
+      {
+        "title": "📉 VN-Index mất hơn 11 điểm dù cầu bắt đáy nhập cuộc",
+        "desc": "Thị trường chao đảo khi chỉ số đóng cửa giảm hơn 11 điểm, thanh khoản thu hẹp và khối ngoại tiếp tục bán ròng hơn 800 tỷ đồng.",
+        "detail": "Áp lực thoát hàng gia tăng mạnh ở nhóm vốn hóa lớn, kéo theo sắc đỏ lan rộng toàn bảng điện tử. Cùng với khối ngoại xả hơn 800 tỷ đồng, khối tự doanh các công ty chứng khoán cũng ghi nhận bán ròng 471 tỷ đồng trên HoSE. Dù lực cầu bắt đáy xuất hiện nâng đỡ chỉ số vào cuối phiên, tâm lý nhà đầu tư nhìn chung vẫn rất thận trọng trước thanh khoản co hẹp.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "09/11·cafef.vn",
+        "url": "https://cafef.vn/chung-khoan-chao-dao-dong-tien-bat-day-de-dat-188261109171923616.chn",
+        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/11/9/avatar1794219527033-1794219527982710018705.webp",
+        "addedEvening": true
+      },
+      {
+        "title": "🪙 Chênh lệch giá vàng SJC và thế giới thu hẹp về 12,6 triệu đồng",
+        "desc": "Khoảng cách giữa giá vàng miếng trong nước và thế giới quy đổi giảm về mức thấp nhất trong 3 tuần qua.",
+        "detail": "Mức chênh lệch 12,6 triệu đồng/lượng ghi nhận trong phiên đầu tuần là mức co hẹp đáng kể nhất kể từ giữa tháng 10/2026. Đà thu hẹp này diễn ra khi cả giá vàng nội lẫn ngoại đều đang trong xu thế hồi phục nhẹ. Đối với người tích lũy tài sản, khoảng cách giá co lại giúp giảm bớt rủi ro mua đuổi chênh lệch quá cao so với thị trường quốc tế.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "09/11·vneconomy.vn",
+        "url": "https://vneconomy.vn/chenh-lech-gia-vang-trong-nuoc-va-the-gioi-thap-nhat-trong-3-tuan-1307379.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/09/24/a38dca4b8aa54eec96f6ea24fc32960a-121563.jpg?w=1200&h=630&mode=crop",
+        "addedEvening": true
+      },
+      {
+        "title": "💵 Nợ xấu và chi phí rủi ro cản trở đà giảm lãi suất vay",
+        "desc": "Tốc độ xử lý nợ xấu chưa theo kịp mức phát sinh mới, đẩy chi phí dự phòng rủi ro lên cao và ghì chặt mặt bằng lãi suất cho vay.",
+        "detail": "Theo các chuyên gia tại tọa đàm tài chính, áp lực trích lập dự phòng và chi phí thu hồi nợ đang ăn mòn biên lợi nhuận của hệ thống ngân hàng. Dù Ngân hàng Nhà nước duy trì định hướng hạ nhiệt lãi suất để kích cầu tín dụng, chi phí rủi ro thực tế lại là rào cản lớn nhất khiến các nhà băng khó giảm sâu lãi vay thương mại. Điều này tiếp tục đặt gánh nặng chi phí vốn lên vai các doanh nghiệp và người vay mua nhà.",
+        "tag": "rate",
+        "tagLabel": "💵 LÃI SUẤT",
+        "source": "09/11·vneconomy.vn",
+        "url": "https://vneconomy.vn/chi-phi-rui-ro-cao-can-tro-ngan-hang-giam-lai-suat-tien-vay.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/11/09/4f70f8b637fd4b7284b88a4c7938e0ca-134148.jpg?w=1200&h=630&mode=crop",
+        "addedEvening": true
+      }
+    ],
     "sports": [],
-    "gamedev": []
+    "gamedev": [
+      {
+        "title": "🕹️ IvanMurzak/Unity-MCP",
+        "name": "IvanMurzak/Unity-MCP",
+        "url": "https://github.com/IvanMurzak/Unity-MCP",
+        "stars": "4.6K+",
+        "desc": "Bộ công cụ MCP và CLI kết nối AI trực tiếp vào Unity Engine để tự động hóa vòng lặp phát triển lẫn chạy thử nghiệm. 🚀",
+        "detail": "Repo cung cấp bộ AI Skills và CLI giúp thiết lập môi trường Unity cực nhanh, hỗ trợ kết nối với Claude Desktop và Claude Code. Điểm sáng là khả năng biến bất kỳ phương thức C# nào thành AI tool chỉ bằng một dòng code, đồng thời tối ưu lượng token tiêu thụ. Các lập trình viên Unity muốn tận dụng Claude để refactor code hoặc build công cụ editor tự động nên tích hợp ngay.",
+        "reason": "Giải pháp MCP toàn diện và trưởng thành bậc nhất hiện nay cho hệ sinh thái Unity.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 4.6K+ · GitHub",
+        "addedEvening": true
+      },
+      {
+        "title": "🕹️ satelliteoflove/godot-mcp",
+        "name": "satelliteoflove/godot-mcp",
+        "url": "https://github.com/satelliteoflove/godot-mcp",
+        "stars": "184",
+        "desc": "Plugin MCP biến AI assistant thành phụ tá có 'mắt và tay' thực sự bên trong Godot Editor. 🎮",
+        "detail": "Addon viết bằng GDScript này cho phép AI can thiệp chỉnh sửa scene trực tiếp, inject input để test game và theo dõi game state theo thời gian thực. Cơ chế deterministic playtesting giúp AI phát hiện lỗi logic gameplay chính xác mà dev không cần thao tác tay thủ công. Đây là công cụ không thể bỏ qua cho các indie dev đang làm game trên Godot Engine.",
+        "reason": "Đem lại khả năng can thiệp trực tiếp vào scene và test game tự động cho Godot thông qua giao thức MCP.",
+        "tag": "claude",
+        "tagLabel": "🤖 CLAUDE",
+        "source": "⭐ 184 · GitHub",
+        "addedEvening": true
+      }
+    ],
+    "eveningDone": true,
+    "eveningNotified": true
   },
   {
     "date": "2026-11-08",
