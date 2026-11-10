@@ -1,5 +1,98 @@
 [
   {
+    "date": "2026-11-10",
+    "dayLabel": "Thứ Ba",
+    "dateLabel": "10/11/2026",
+    "entertainment": [
+      {
+        "title": "🏡 Ngân Khánh an yên tại Mỹ sau 29 lần chuyển nhà",
+        "desc": "Nữ diễn viên 41 tuổi chọn cuộc sống chậm rãi, tập trung chăm sóc gia đình và tập yoga sau nhiều năm bươn chải nơi xứ người.",
+        "detail": "Sau thời gian dài ổn định định cư tại Mỹ và trải qua gần 30 lần thay đổi chỗ ở, Ngân Khánh hiện tìm thấy sự cân bằng trong nhịp sống thường nhật. Cô dành phần lớn thời gian cho việc tự tay nấu nướng, cắm hoa, làm vườn và rèn luyện thể chất. Người đẹp chia sẻ bản thân không còn đặt nặng áp lực hào quang showbiz mà trân trọng sự bình yên bên gia đình nhỏ.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "10/11·VnExpress",
+        "url": "https://vnexpress.net/cuoc-song-ngan-khanh-o-my-sau-29-lan-chuyen-nha-5142509.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/09/895980098291775544985709905803-5062-3858-1794217333.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=z4_ACfCm5WB0CWIrBlxGzg"
+      },
+      {
+        "title": "⚖️ Danh hài Russell Brand lĩnh án hơn 10 năm tù",
+        "desc": "Tòa án Anh vừa tuyên phạt nam diễn viên kiêm danh hài 10 năm 6 tháng tù giam vì tội hiếp dâm và tấn công tình dục.",
+        "detail": "Vụ án khép lại chuỗi ngày điều tra kéo dài nhắm vào cựu ngôi sao Hollywood và cũng là chồng cũ của ca sĩ Katy Perry. Bản án nghiêm khắc được đưa ra sau khi bồi thẩm đoàn xác định Brand phạm một tội hiếp dâm cùng ba tội danh tấn công tình dục khác. Phán quyết này tạo nên cơn địa chấn trong giới giải trí Anh, đồng thời là lời cảnh tỉnh mạnh mẽ về trách nhiệm pháp lý của những người nổi tiếng trước pháp luật.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/11·VnExpress",
+        "url": "https://vnexpress.net/dien-vien-russell-brand-bi-tuyen-hon-10-nam-tu-5142649.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/09/afp-d6jk3we-v1-midres-filesbri-8512-8511-1794238411.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=HQtjryMpiZ280iw8Kd__hg"
+      },
+      {
+        "title": "🤖 Trương Nghệ Mưu trăn trở trước làn sóng phim AI",
+        "desc": "Vị 'quốc sư điện ảnh' thừa nhận bản thân chưa có lời giải rõ ràng cho sự phát triển chóng mặt của trí tuệ nhân tạo trong nghệ thuật thứ bảy.",
+        "detail": "Tại diễn đàn điện ảnh mới đây, đạo diễn Trương Nghệ Mưu bày tỏ sự băn khoăn về vị thế của nhà làm phim trước bước tiến vượt bậc của công nghệ tạo video tự động. Dù nhìn nhận AI mang lại tiềm năng sáng tạo và giảm thiểu chi phí sản xuất, ông lo ngại chiều sâu cảm xúc nhân bản khó có thể được tái hiện trọn vẹn bằng thuật toán. Chia sẻ này nhanh chóng làm dấy lên làn sóng tranh luận sâu rộng trong giới làm phim Hoa ngữ về ranh giới giữa kỹ thuật số và nghệ thuật truyền thống.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "09/11·VnExpress",
+        "url": "https://vnexpress.net/truong-nghe-muu-chua-biet-toi-se-ra-sao-trong-lan-song-ai-5142299.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/09/truong-nghe-muu-1794191835-5789-1794192139.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wZgtVTkHKv9Xg9chLnO2gg"
+      },
+      {
+        "title": "🌿 Nét diễn tiến bộ bất ngờ của Dương Siêu Việt",
+        "desc": "Từng bị gắn mác 'bình hoa di động', mỹ nhân sinh năm 1998 nhận cơn mưa lời khen nhờ màn lột xác diễn xuất trong dự án phim mới.",
+        "detail": "Góp mặt trong bộ phim truyền hình 'Hôm Nay Trời Đổ Mưa Bóng Mây', Dương Siêu Việt gây bất ngờ lớn khi thể hiện cảm xúc nhân vật vô cùng tự nhiên và thuyết phục. Khán giả lẫn giới chuyên môn đánh giá đây là bước nhảy vọt đáng ghi nhận so với thời kỳ cô bị chỉ trích nặng nề vì biểu cảm đơ cứng. Sự tiến bộ rõ rệt này giúp bộ phim liên tục thăng hạng rating và củng cố vững chắc vị thế diễn viên thực lực tương lai của cô nàng.",
+        "tag": "movie",
+        "tagLabel": "🎬 PHIM",
+        "source": "09/11·Kenh14",
+        "url": "https://kenh14.vn/khong-nhan-ra-my-nhan-dep-nhat-trung-quoc-215261109113643963.chn",
+        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/11/9/avatar1794198900312-17941989006611187431694.webp"
+      },
+      {
+        "title": "🌾 Đạo diễn Quang Dũng cùng Bùi Lan Hương về miền Tây nấu ăn",
+        "desc": "Cặp đôi làng giải trí tận hưởng kỳ nghỉ dân dã, tự tay vào bếp chuẩn bị loạt đặc sản đồng quê như lẩu mắm và vịt nấu chao.",
+        "detail": "Rời xa nhịp sống tất bật của phim trường và sân khấu, đạo diễn Nguyễn Quang Dũng và ca sĩ Bùi Lan Hương chọn tìm về không gian miệt vườn để tái tạo năng lượng. Cả hai cùng nhau đi chợ quê, sơ chế nguyên liệu và làm các món ăn truyền thống Nam Bộ trong sự thích thú của người hâm mộ. Sự gắn kết mộc mạc, bình dị của cặp đôi suốt thời gian qua luôn nhận được nhiều sự ngưỡng mộ và thiện cảm từ công chúng.",
+        "tag": "celeb",
+        "tagLabel": "⭐ CELEB",
+        "source": "09/11·VnExpress",
+        "url": "https://vnexpress.net/nguyen-quang-dung-bui-lan-huong-thuong-thuc-vit-nau-chao-lau-mam-5142416.html",
+        "image": "https://vcdn1-giaitri.vnecdn.net/2026/11/09/nguyenquangdungtop-1794199263-9702-1794200391.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ogNew5bc9QcDIUCeAJ6G1Q"
+      }
+    ],
+    "trending": [],
+    "gaming": [
+      {
+        "title": "🏆 Gen.G phả hơi nóng vào kỷ lục vô tiền khoáng hậu của SKT T1",
+        "desc": "Gen.G đang đứng trước cơ hội san bằng thành tích thống trị lịch sử mà huyền thoại SKT T1 từng thiết lập. Cuộc đua ngôi vương LMHT thế giới nóng hơn bao giờ hết với phong độ hủy diệt của đại diện LCK.",
+        "detail": "Đội hình Gen.G đang duy trì chuỗi phong độ cực kỳ thăng hoa và tiệm cận cột mốc danh hiệu mà triều đại SKT T1 nắm giữ suốt nhiều năm qua. Giới chuyên môn nhận định sự gắn kết chiến thuật cùng bản lĩnh giao tranh giai đoạn cuối trận chính là chìa khóa giúp họ duy trì vị thế áp đảo. Nếu tiếp tục nâng cao chiếc cúp vô địch ở giải đấu lần này, Gen.G sẽ chính thức bước vào ngôi đền huyền thoại của nền LMHT chuyên nghiệp thế giới.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "09/11·m.gamek.vn",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDhtZ0lJdU5VdHpjSk81NS1ZVUxsMHpxcmxmR2pGYk02SGNwN1Y3a19oZGlSbnFoT3pOU2pKSDVfR1dYMVFpU3MwZ3pRSUQ0SVNtZTlMR0pDMnBTVWRzNGtoOERMbGxJZ3NxQmlqVFlHNEtfdVNGdU1SMnhjSldaMHBTV2pnM0NVazJEdEtJS25idUFaWnBndlhkMA?oc=5"
+      },
+      {
+        "title": "🛡️ Ocarina of Time Remake gỡ bỏ tranh Mario để tối ưu tính nhập vai",
+        "desc": "Nhà phát triển bản làm lại Zelda: Ocarina of Time quyết định loại bỏ bức tranh khách mời Mario kinh điển nhằm bảo toàn không khí huyền bí, nghiêm túc của thế giới Hyrule.",
+        "detail": "Chi tiết quả trứng phục sinh (easter egg) vẽ hình Mario trong lâu đài Hyrule từng là điểm nhấn thú vị trên bản gốc Nintendo 64 nay đã chính thức bị lược bỏ. Đội ngũ sản xuất giải thích rằng nền đồ họa chân thực thế hệ mới đòi hỏi tính nhất quán cao độ về mặt mỹ thuật và cốt truyện. Quyết định táo bạo này tạo nên nhiều luồng tranh luận nhưng phần lớn game thủ kỳ cựu ủng hộ sự chỉn chu này.",
+        "tag": "console",
+        "tagLabel": "🎮 CONSOLE",
+        "source": "06/11·games.gg",
+        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPbGltRXFrSW13QzFhZXJHWXZzY1RoelFjNXlwZFFMekhDZmdHY3NONmN2N2tNbUtxeHV3d29ZeUNvYkpfR1YxNE1wOU9ybUdIOHl0UERDb29CaFlSTnB0ZnJoNXlKMUdYaTdXVUNuU3dNZldiWGpETUQyV0VVNXc0NGlmdjMta25XRU51WVJMNl9ROEVLNDFVTHk3Z2I2c3puS29OQktPSGxLUWJMMjlMYjFOTnJpalNIV1VnM1VNSDRWLTdvTnRaM2FHVDZuS0F4bUxrZ3k5U2NJbE1SVFJpcU5qMlRVc05aX2d6UTYxcUIzdzhDTm14NlJqSXhFcWZwLUllU2VhQ1dRenJ0X0RFYl9teXpkWjVlTkVSMHhkbVVNbVhqRXNr?oc=5"
+      },
+      {
+        "title": "❤️ Nữ chính Đi Giữa Trời Rực Rỡ công khai bạn trai game thủ",
+        "desc": "Diễn viên trẻ Thu Hà Ceri vừa khiến cõi mạng xôn xao khi chính thức xác nhận chuyện tình cảm ngọt ngào bên cạnh nửa kia là một game thủ quen thuộc.",
+        "detail": "Sau thành công vang dội của bộ phim truyền hình giờ vàng, đời tư của nữ diễn viên nhận được sự quan tâm rất lớn từ khán giả trẻ. Việc cô nàng thoải mái chia sẻ hình ảnh bên cạnh người yêu làm việc trong giới gaming mang đến làn sóng chúc phúc nhiệt tình trên mạng xã hội. Đây cũng là minh chứng cho thấy sự giao thoa ngày càng gần gũi, cởi mở giữa giới showbiz đại chúng và cộng đồng thể thao điện tử.",
+        "tag": "event",
+        "tagLabel": "🎪 EVENT",
+        "source": "08/11·Znews",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OdDNIaWg0SDJLS0diWnU3SWRkZWFoY0tDbUpMXzhRZ3dRTFZMM2twVXdGanNKYzNZMGhTeDh1V1dQbzNVbUl4T01aTktCSzJvMEhOT3I1amhpUDhVYTFLTk1YWVNBdlJHMXV6a1hsU24zZVdfTXdOSF90Yzczams?oc=5"
+      }
+    ],
+    "lifestyle": [],
+    "vietnam": [],
+    "tech": [],
+    "finance": [],
+    "sports": [],
+    "gamedev": []
+  },
+  {
     "date": "2026-11-09",
     "dayLabel": "Thứ Hai",
     "dateLabel": "09/11/2026",
@@ -10236,415 +10329,6 @@
         "tag": "claude",
         "tagLabel": "🤖 CLAUDE",
         "source": "⭐ 2.7K+ · GitHub",
-        "addedEvening": true
-      }
-    ],
-    "eveningDone": true,
-    "eveningNotified": true
-  },
-  {
-    "date": "2026-10-11",
-    "dayLabel": "Chủ Nhật",
-    "dateLabel": "11/10/2026",
-    "entertainment": [
-      {
-        "title": "👑 Emoura Phạm xuất sắc giành Á hậu 4 Miss Grand International 2026",
-        "desc": "Đại diện Việt Nam Emoura Phạm đã làm nên lịch sử khi lọt vào Top 5 và giành danh hiệu Á hậu 4 tại Miss Grand International 2026.",
-        "detail": "Trong đêm chung kết diễn ra tối 10/10, Emoura Phạm đã có màn thể hiện ấn tượng, đặc biệt là phần thuyết trình đầy cảm xúc, giúp cô vượt qua nhiều đối thủ mạnh để chạm tay vào ngôi vị Á hậu 4. Danh hiệu Hoa hậu thuộc về người đẹp Tanzania. Thành tích này là sự ghi nhận cho hành trình nỗ lực không ngừng nghỉ của Emoura Phạm và mang lại niềm tự hào lớn cho khán giả Việt Nam.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "11/10·VnExpress, Kenh14, CafeBiz",
-        "url": "https://vnexpress.net/emoura-pham-doat-a-hau-4-miss-grand-international-5130804.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/10/Emoura-Pham-top-5-1791646341-8488-1791646373.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=LfHq8vHz9eSITfOuMj5o8g"
-      },
-      {
-        "title": "📺 Hà An Huy, Đinh Mạnh Ninh là 'chiến tướng' Anh Trai Vượt Ngàn Chông Gai 2026",
-        "desc": "Chung kết Anh Trai Vượt Ngàn Chông Gai 2026 đã khép lại với chiến thắng thuộc về Hà An Huy và Đinh Mạnh Ninh.",
-        "tag": "show",
-        "tagLabel": "📺 SHOW",
-        "source": "10/10·VnExpress, Kenh14",
-        "url": "https://vnexpress.net/ha-an-huy-dinh-manh-ninh-chien-thang-anh-trai-vuot-ngan-chong-gai-2026-5130775.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/10/dinh-manh-ninh-1791638850-2330-1791643329.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=24olXe3q5vqK2QxewBj_tQ"
-      },
-      {
-        "title": "💃 Dàn thí sinh Hoa hậu Việt Nam 2026 khoe dáng nóng bỏng với áo tắm",
-        "desc": "53 thí sinh Hoa hậu Việt Nam 2026 đã tự tin trình diễn áo tắm rực rỡ trong đêm chung khảo toàn quốc tại Hải Phòng.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "11/10·VnExpress, Kenh14",
-        "url": "https://vnexpress.net/thi-sinh-hoa-hau-viet-nam-2026-trinh-dien-ao-tam-5130883.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/11/hoa-ha-u-vie-t-nam-1791680675.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=NllzbQeEYB7b07Q7aGhz7w"
-      },
-      {
-        "title": "💔 Taylor Swift và chồng cầu thủ gặp 'biến căng' chỉ sau 3 tháng cưới",
-        "desc": "Cặp đôi quyền lực Taylor Swift và chồng cầu thủ đang đối mặt với một vấn đề lớn chỉ sau 3 tháng kết hôn.",
-        "detail": "Thông tin về 'biến căng' của Taylor Swift và chồng đang gây xôn xao mạng xã hội. Dù chưa rõ chi tiết cụ thể, nhưng tin đồn cho thấy cặp đôi đang trải qua giai đoạn khó khăn, khiến người hâm mộ không khỏi lo lắng. Đây là một trong những chủ đề được bàn tán nhiều nhất sáng nay trên các diễn đàn showbiz.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "11/10·Kenh14",
-        "url": "https://kenh14.vn/taylor-swift-va-chong-ngheo-cau-thu-gap-bien-cang-chi-sau-3-thang-cuoi-215261011081244455.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/11/avatar1791680991630-17916809934441888377056-0-0-400-640-crop-17916810420331159874278.jpg"
-      },
-      {
-        "title": "🤫 Ngọc nữ Gen Z bí mật sinh 2 con cho đại gia hơn 15 tuổi",
-        "desc": "Một 'ngọc nữ Gen Z' đã biến mất khỏi showbiz hơn 2 năm và được tiết lộ đã bí mật sinh liền tù tì 2 con cho đại gia hơn 15 tuổi.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "11/10·Kenh14",
-        "url": "https://kenh14.vn/ngoc-nu-gen-z-bien-mat-khoi-showbiz-hon-2-nam-qua-thi-ra-mang-thai-lien-tu-ti-2-con-cho-dai-gia-hon-15-tuoi-215261010160348909.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/10/0i-1791622857458876020296.jpg"
-      },
-      {
-        "title": "🎬 'Trại Buôn Người' cán mốc 400 tỷ",
-        "desc": "Phim Việt 'Trại Buôn Người' đang tạo nên cơn sốt phòng vé, cán mốc doanh thu 400 tỷ đồng và được dự đoán sẽ vượt mặt cả 'ông hoàng phòng vé' Trấn Thành.",
-        "detail": "Bộ phim 'Trại Buôn Người' tiếp tục chứng tỏ sức hút khủng khiếp khi đạt doanh thu ấn tượng 400 tỷ đồng chỉ sau thời gian ngắn công chiếu. Thành công này không chỉ khẳng định chất lượng phim mà còn cho thấy khán giả Việt Nam ngày càng ủng hộ các tác phẩm điện ảnh trong nước. Với đà này, phim hoàn toàn có thể phá v kỷ lục doanh thu, tạo nên một cột mốc mới cho điện ảnh Việt.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "11/10·Kenh14",
-        "url": "https://kenh14.vn/trai-buon-nguoi-can-moc-400-ty-vuot-mat-tran-thanh-toi-noi-215261011174808253.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/11/avatar1791715573186-179171557360144178370.gif",
-        "addedEvening": true
-      },
-      {
-        "title": "⭐ Con gái Elon Musk cắt đứt quan hệ với bố",
-        "desc": "Người mẫu Vivian Wilson, con gái tỷ phú Elon Musk, đã chính thức xin tòa án cắt đứt quan hệ với bố sau khi công khai chuyển giới ở tuổi 18.",
-        "detail": "Vivian Wilson, con gái của tỷ phú công nghệ Elon Musk, đang gây chú ý khi quyết định cắt đứt mọi mối liên hệ với người cha nổi tiếng của mình. Cô đã nộp đơn lên tòa án để thay đổi họ và tên, đồng thời tuyên bố không muốn có bất kỳ mối quan hệ nào với Elon Musk. Quyết định này được đưa ra sau khi Vivian công khai chuyển giới vào năm 18 tuổi, cho thấy những rạn nứt sâu sắc trong mối quan hệ gia đình của một trong những người giàu nhất thế giới.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/vivian-wilson-nguoi-con-quay-lung-voi-elon-musk-5130881.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/11/VivianWilsonvaboElonMusk-17916-5261-1469-1791691019.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=jqPd6RlgTg3MuCdy9f-qaw",
-        "addedEvening": true
-      },
-      {
-        "title": "🎵 Tăng Duy Tân tỏ tình Bích Phương trên sóng truyền hình",
-        "desc": "Cặp đôi Tăng Duy Tân và Bích Phương đã không còn e ngại khi công khai tỏ tình ngay trên sóng truyền hình, khiến fan hâm mộ đứng ngồi không yên.",
-        "detail": "Màn tỏ tình bất ngờ của Tăng Duy Tân dành cho Bích Phương trong một chương trình truyền hình đang là chủ đề nóng trên mạng xã hội. Cả hai nghệ sĩ đều đã có những chia sẻ thẳng thắn về mối quan hệ của mình, cho thấy sự nghiêm túc và không còn giấu diếm tình cảm. Thông tin này nhanh chóng lan truyền, nhận được nhiều lời chúc phúc từ khán giả và đồng nghiệp, hứa hẹn một cặp đôi mới của showbiz Việt.",
-        "tag": "music",
-        "tagLabel": "🎵 MUSIC",
-        "source": "11/10·Kenh14",
-        "url": "https://kenh14.vn/tang-duy-tan-to-tinh-bich-phuong-ngay-tren-song-truyen-hinh-215261011161121861.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/11/thumb-45-1791709570563911286970.gif",
-        "addedEvening": true
-      },
-      {
-        "title": "⭐ Kelly Clarkson bức xúc vì bị xem thường",
-        "desc": "Ca sĩ Kelly Clarkson chia sẻ trải nghiệm khó chịu khi bị nhân viên bán hàng nhìn như 'không đủ tiền mua đồ', gợi nhớ cảnh trong phim 'Pretty Woman'.",
-        "detail": "Nữ ca sĩ nổi tiếng Kelly Clarkson vừa bày tỏ sự bức xúc trên mạng xã hội về việc bị một nhân viên bán hàng đánh giá qua vẻ bề ngoài. Cô kể lại rằng mình bị nhìn với ánh mắt khinh thường, như thể không đủ khả năng chi trả cho món đồ muốn mua. Trải nghiệm này khiến Kelly liên tưởng đến tình huống của nhân vật Vivian Ward trong bộ phim kinh điển 'Pretty Woman', nơi cô gái bị phân biệt đối xử vì trang phục và phong cách.",
-        "tag": "celeb",
-        "tagLabel": "⭐ CELEB",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/kelly-clarkson-buc-xuc-khi-bi-nguoi-ban-hang-xem-thuong-5130961.html",
-        "image": "https://vcdn1-giaitri.vnecdn.net/2026/10/11/kelly-clarkson-1791711618-3785-1791713523.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=dLrUiDgVNzHyTykPfE-qAA",
-        "addedEvening": true
-      },
-      {
-        "title": "🎬 Phim Hàn mới chiếu tập 1 đã phá kỷ lục",
-        "desc": "Một bộ phim Hàn Quốc vừa lên sóng tập đầu tiên đã nhanh chóng phá vỡ kỷ lục năm 2026, gây ấn tượng mạnh với diễn xuất 'quái vật' của nữ chính.",
-        "detail": "Ngay từ tập 1, bộ phim Hàn Quốc mới đã tạo nên một cơn địa chấn, thiết lập kỷ lục mới về lượt xem và độ thảo luận trong năm 2026. Điểm nhấn chính là màn thể hiện xuất sắc của nữ chính, được ví như 'quái vật diễn xuất' với khả năng nhập vai đỉnh cao, khiến khán giả bị cuốn hút từng giây. Đây được đánh giá là một trong những tác phẩm đáng xem nhất năm, hứa hẹn sẽ tiếp tục gây bão trong thời gian tới.",
-        "tag": "movie",
-        "tagLabel": "🎬 PHIM",
-        "source": "11/10·Kenh14",
-        "url": "https://kenh14.vn/phim-han-vua-chieu-tap-1-da-pha-ky-luc-nam-2026-nu-chinh-la-quai-vat-dien-xuat-do-cuon-tang-theo-tung-giay-215261011164437152.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/11/avatar1791711721762-17917117229201409262713.gif",
-        "addedEvening": true
-      }
-    ],
-    "trending": [
-      {
-        "title": "🎯 Liên hoan nhóm nhảy thanh niên, sinh viên 2026",
-        "desc": "Hàng nghìn thanh niên, sinh viên 'cháy' hết mình tại Liên hoan nhóm nhảy 2026 ở hồ Hoàn Kiếm, Hà Nội, với nhiều tiết mục vũ đạo sáng tạo.",
-        "detail": "Không khí sôi động và tràn đầy năng lượng đã bao trùm khu vực hồ Hoàn Kiếm khi Liên hoan nhóm nhảy thanh niên, sinh viên 2026 diễn ra. Sự kiện quy tụ hàng loạt nhóm nhảy tài năng, mang đến những màn trình diễn vũ đạo ấn tượng, thể hiện tinh thần đoàn kết, năng động và khả năng sáng tạo của giới trẻ. Đây không chỉ là sân chơi để các bạn thể hiện đam mê mà còn góp phần xây dựng đời sống văn hóa tinh thần lành mạnh, tích cực trong cộng đồng sinh viên, thanh niên thủ đô.",
-        "tag": "challenge",
-        "tagLabel": "🎯 CHALLENGE",
-        "source": "11/10·Thanh Niên",
-        "url": "https://thanhnien.vn/chay-het-minh-cung-lien-hoan-nhom-nhay-thanh-nien-sinh-vien-2026-tai-ho-hoan-kiem-185261011112050511.htm",
-        "image": "https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/10/11/tnw-z8361379220668120fbd76f285828757f4babeb7dcbf17-17916917787491146281162-106-0-1706-2560-crop-1791692012531602634613.jpg",
-        "addedEvening": true
-      }
-    ],
-    "gaming": [],
-    "lifestyle": [
-      {
-        "title": "💪 5 bước sống thuận miễn dịch để tăng tuổi thọ",
-        "desc": "Chuyên gia hướng dẫn 5 bước đơn giản để sống thuận miễn dịch, giúp tăng cường sức khỏe và kéo dài tuổi thọ.",
-        "detail": "PGS.TS.BS. Lê Xuân Hải chia sẻ những bí quyết quan trọng để có một hệ miễn dịch khỏe mạnh. Bạn nên ngủ sớm, ưu tiên thực phẩm tươi theo mùa, học cách giải tỏa cảm xúc tiêu cực, duy trì vận động nhẹ nhàng và dành thời gian cân bằng với thiên nhiên. Áp dụng những thói quen này không chỉ giúp cơ thể chống lại bệnh tật mà còn cải thiện chất lượng cuộc sống đáng kể.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/chuyen-gia-huong-dan-5-buoc-song-thuan-mien-dich-tang-tuoi-tho-5130639.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/10/dsc01196-jpg-1791601637-6297-1791601683.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lKNoxutzj5uV0rbSBR4ZpQ"
-      },
-      {
-        "title": "🦷 Bọc răng sứ sai cách: Nguy cơ mất răng thật!",
-        "desc": "Bọc răng sứ thẩm mỹ không đúng kỹ thuật có thể dẫn đến tổn thương tủy, nhiễm trùng và thậm chí mất răng thật.",
-        "detail": "Nhiều người tìm đến bọc răng sứ để cải thiện nụ cười, nhưng không phải ai cũng tìm hiểu kỹ về quy trình và rủi ro. Việc mài răng quá mức, điều trị không cần thiết hoặc chọn nha khoa kém uy tín có thể gây ra những hậu quả nghiêm trọng như viêm tủy, nhiễm trùng chân răng, và cuối cùng là phải nhổ bỏ răng thật. Hãy tìm hiểu thật kỹ và chọn nha sĩ có kinh nghiệm để tránh 'tiền mất tật mang' nha bạn.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/boc-rang-su-khong-dung-cach-nguy-co-mat-rang-that-5130406.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/09/khoa-ra-ng-ha-m-ma-t-179153892-8108-5389-1791539128.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=obuPIf8DAXV469wB9hpbnA"
-      },
-      {
-        "title": "✈️ Cao Bằng mùa thu: Thiên đường cảnh sắc yên bình",
-        "desc": "Tháng 10, Cao Bằng khoác lên mình vẻ đẹp mùa thu lãng mạn với lúa chín vàng và những dòng sông xanh ngọc bích.",
-        "detail": "Nếu bạn đang tìm kiếm một điểm đến để 'trốn' khỏi sự ồn ào của phố thị, Cao Bằng mùa thu chính là lựa chọn lý tưởng. Tiết trời mát mẻ, những cánh đồng lúa chín rực rỡ xen kẽ với màu xanh biếc của sông suối tạo nên một bức tranh thiên nhiên trong trẻo, yên bình. Đây là thời điểm tuyệt vời để khám phá vẻ đẹp hùng vĩ nhưng cũng rất thơ mộng của vùng đất biên cương này.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/thien-duong-mua-thu-o-cao-bang-5129664.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/08/Doi-co-chay-Ha-Lang-Ba-Quang-hoang-hon-1791440570.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=K1PU2pPqkjktv79BbCr51A"
-      },
-      {
-        "title": "🍜 5 thực phẩm đỏ, cam giúp giảm nguy cơ ung thư",
-        "desc": "Nghệ, khoai lang, cà chua, táo là những thực phẩm màu đỏ, cam giàu chất chống oxy hóa, giúp giảm nguy cơ ung thư.",
-        "detail": "Bạn có biết, những loại thực phẩm có màu sắc rực rỡ như nghệ, khoai lang ruột cam, cà chua và táo không chỉ ngon miệng mà còn cực kỳ tốt cho sức khỏe? Chúng chứa nhiều hợp chất thực vật có khả năng chống oxy hóa và chống viêm mạnh mẽ, được chứng minh có liên quan đến việc giảm nguy cơ mắc một số loại ung thư. Hãy bổ sung ngay vào thực đơn hàng ngày để bảo vệ sức khỏe bạn nhé!",
-        "tag": "food",
-        "tagLabel": "🍜 FOOD",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/5-thuc-pham-mau-do-cam-giup-giam-nguy-co-ung-thu-5130407.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/09/tao-2-1791531018.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rBVuxJQS4hU_-1cB3Cun7A"
-      },
-      {
-        "title": "💪 7 món ăn sáng tiềm ẩn rủi ro suy thận",
-        "desc": "Chuyên gia cảnh báo 7 món ăn sáng quen thuộc chứa nhiều natri, phốt pho, kali có thể gây hại thận nếu dùng thường xuyên.",
-        "detail": "Bữa sáng là bữa ăn quan trọng, nhưng nhiều món ăn quen thuộc lại tiềm ẩn nguy cơ gây suy thận nếu chúng ta không cẩn trọng. Các chuyên gia dinh dưỡng đã chỉ ra 7 loại thực phẩm chứa hàm lượng natri, phốt pho và kali vượt ngưỡng cho phép, có thể trực tiếp làm tổn hại chức năng thận. Việc nhận biết và điều chỉnh thói quen ăn uống là cần thiết để bảo vệ sức khỏe thận, đặc biệt là với những người có tiền sử bệnh lý hoặc có nguy cơ cao.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/chuyen-gia-canh-bao-7-mon-an-sang-tiem-an-rui-ro-suy-than-5130773.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/10/an1-1791643902-3559-1791644347.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5rhHTo-85DqFqrIngRY4xg",
-        "addedEvening": true
-      },
-      {
-        "title": "✈️ Hà Nội thí điểm không gian du lịch 24/7",
-        "desc": "Hà Nội dự kiến thí điểm các không gian du lịch, giải trí, thương mại hoạt động 24/7 trong hai năm 2026-2027 để thu hút du khách.",
-        "detail": "Nhằm tăng cường sức hấp dẫn và giữ chân du khách, Hà Nội đang lên kế hoạch thí điểm mô hình không gian du lịch, giải trí và thương mại hoạt động xuyên đêm (24/7) trong giai đoạn 2026-2027. Sáng kiến này kỳ vọng sẽ tạo ra những trải nghiệm mới mẻ cho du khách, khuyến khích họ chi tiêu nhiều hơn và kéo dài thời gian lưu trú tại thủ đô. Đây là một bước đi quan trọng để Hà Nội phát triển kinh tế đêm, đưa du lịch thành ngành kinh tế mũi nhọn.",
-        "tag": "travel",
-        "tagLabel": "✈️ TRAVEL",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/ha-noi-se-thi-diem-khong-gian-du-lich-giai-tri-24-7-5130894.html",
-        "image": "https://vcdn1-dulich.vnecdn.net/2026/10/11/du-kha-ch-tre-n-ho-gu-o-m-nga-2164-5444-1791684661.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lNADsbk6PZegDVbZX1Jjmg",
-        "addedEvening": true
-      },
-      {
-        "title": "🍜 Ngộ độc bánh mì ở Quảng Ngãi, hơn 100 người nhập viện",
-        "desc": "Hơn 100 người ở Quảng Ngãi nghi ngộ độc sau khi ăn bánh mì mua tại một tiệm bánh lâu năm, phải nhập viện cấp cứu.",
-        "detail": "Một vụ ngộ độc thực phẩm nghiêm trọng đã xảy ra tại Quảng Ngãi khi khoảng 105 người phải nhập viện cấp cứu với các triệu chứng nghi ngộ độc sau khi ăn bánh mì. Tất cả các nạn nhân đều đã mua bánh mì từ một tiệm bánh có tiếng và hoạt động lâu năm tại phường Cẩm Thành. Cơ quan chức năng đang khẩn trương điều tra nguyên nhân vụ việc, đồng thời khuyến cáo người dân nâng cao cảnh giác với thực phẩm đường phố và đảm bảo vệ sinh an toàn thực phẩm.",
-        "tag": "food",
-        "tagLabel": "🍜 FOOD",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/so-nguoi-nghi-ngo-doc-sau-an-banh-mi-o-quang-ngai-vuot-100-5130929.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/11/1000034852-1791695237-4264-1791695279.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ooP-je4UxZ-aAdOCceHYRA",
-        "addedEvening": true
-      },
-      {
-        "title": "💪 Người đàn ông Thanh Hóa mắc bệnh giun rồng do uống nước suối",
-        "desc": "Một người dân ở Thanh Hóa mắc bệnh giun rồng sau khi uống nước suối chưa đun sôi, nâng tổng số ca bệnh tại địa phương lên 3.",
-        "detail": "Tình trạng mắc bệnh giun rồng đang gây lo ngại tại xã Linh Sơn, Thanh Hóa, khi một người đàn ông 67 tuổi vừa được xác định nhiễm bệnh sau thời gian dài đi rừng và uống nước suối trực tiếp. Đây là ca thứ 3 tại địa phương, cho thấy nguy cơ lây nhiễm từ nguồn nước không đảm bảo vệ sinh. Các chuyên gia y tế khuyến cáo người dân tuyệt đối không uống nước suối chưa đun sôi, đặc biệt là ở những vùng có nguy cơ cao để phòng tránh các bệnh truyền nhiễm nguy hiểm.",
-        "tag": "health",
-        "tagLabel": "💪 HEALTH",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/nguoi-dan-ong-o-thanh-hoa-mac-benh-giun-rong-do-uong-nuoc-suoi-5130984.html",
-        "image": "https://vcdn1-suckhoe.vnecdn.net/2026/10/11/benh-nhan-1791712895-5549-1791713572.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=TpS6oVI2djUNnfW7wnKBsw",
-        "addedEvening": true
-      }
-    ],
-    "vietnam": [
-      {
-        "title": "📜 Người dân được từ chối thủ tục hành chính trái quy định",
-        "desc": "Chính phủ cho phép người dân từ chối các yêu cầu thủ tục hành chính ngoài quy định hoặc chưa công khai.",
-        "detail": "Đây là một bước tiến lớn nhằm bảo vệ quyền lợi của người dân và doanh nghiệp. Theo quy định mới, nếu cơ quan nhà nước yêu cầu bổ sung giấy tờ hoặc thực hiện thủ tục không có trong danh mục công khai, bạn hoàn toàn có quyền từ chối. Cơ quan chức năng cũng phải nêu rõ lý do bằng văn bản khi từ chối giải quyết hồ sơ. Điều này giúp tăng cường tính minh bạch, giảm phiền hà và hạn chế tình trạng 'hành là chính' trong các giao dịch hành chính.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/nguoi-dan-duoc-tu-choi-thu-tuc-hanh-chinh-trai-quy-dinh-5130850.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/10/a-1791649137-5283-1791649190.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=zmvvRt63hnLZUdiMcJQXkQ"
-      },
-      {
-        "title": "💼 9 tháng đầu năm 2026: 102.000 lao động Việt đi làm việc ở nước ngoài",
-        "desc": "Trong 9 tháng đầu năm 2026, Việt Nam đã đưa 102.001 lao động đi làm việc ở nước ngoài, cho thấy nhu cầu và cơ hội việc làm quốc tế vẫn rất lớn.",
-        "detail": "Con số hơn 102.000 lao động Việt Nam xuất khẩu trong 9 tháng đầu năm 2026 là một tín hiệu tích cực cho thị trường lao động. Điều này không chỉ giúp giải quyết việc làm trong nước mà còn mang lại nguồn kiều hối đáng kể, đóng góp vào sự phát triển kinh tế. Tuy nhiên, việc đảm bảo quyền lợi, an toàn và nâng cao kỹ năng cho người lao động trước khi xuất cảnh vẫn là ưu tiên hàng đầu cần được chú trọng.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "11/10·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/tin-tuc-sang-11-10-9-thang-102000-lao-dong-viet-di-lam-viec-o-nuoc-ngoai-100261010220238766.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/11/26857-17916769786952108234300-333-0-1678-2151-crop-17916770117941805801744.png"
-      },
-      {
-        "title": "📜 Hà Nội đề xuất xử lý 12 dự án liên quan ông Lê Thanh Thản",
-        "desc": "Hà Nội dự kiến chia 12 dự án có vi phạm của ông Lê Thanh Thản thành 3 nhóm để xử lý, quy định rõ trách nhiệm và quyền lợi.",
-        "detail": "Dự thảo nghị quyết của HĐND Hà Nội đưa ra giải pháp cụ thể cho 12 dự án của ông Lê Thanh Thản, nơi có nhiều công trình vi phạm. Các vi phạm được phân loại thành ba nhóm, với các phương án xử lý từ giữ lại và khắc phục có điều kiện đến tháo dỡ. Đồng thời, dự thảo cũng quy định rõ nghĩa vụ tài chính của chủ đầu tư và đảm bảo quyền lợi cho cư dân đang sinh sống tại các dự án này, nhằm giải quyết dứt điểm các vấn đề tồn đọng kéo dài.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "10/10·VnExpress, Tuổi Trẻ",
-        "url": "https://vnexpress.net/12-du-an-lien-quan-ong-le-thanh-than-duoc-de-xuat-xu-ly-ra-sao-5130802.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/10/TohopchungcuHH-1791638364-1554-1791638560.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=yXy_sZj3COu5ftUWQksApw"
-      },
-      {
-        "title": "🚦 TP.HCM sẽ xóa 28 điểm kẹt xe đến năm 2030",
-        "desc": "TP.HCM triển khai hàng loạt dự án trọng điểm, ưu tiên xử lý triệt để 28 điểm ùn tắc giao thông trên địa bàn trong 5 năm tới.",
-        "detail": "Nhằm giải quyết vấn nạn kẹt xe dai dẳng, TP.HCM đã đặt mục tiêu xóa bỏ 28 điểm ùn tắc giao thông trên toàn thành phố đến năm 2030. Kế hoạch này bao gồm việc triển khai nhiều dự án hạ tầng trọng điểm, từ mở rộng đường, xây cầu vượt đến cải thiện hệ thống giao thông công cộng. Đây là nỗ lực lớn của chính quyền thành phố nhằm nâng cao chất lượng sống cho người dân và thúc đẩy phát triển kinh tế, giảm thiểu thời gian di chuyển và ô nhiễm môi trường.",
-        "tag": "traffic",
-        "tagLabel": "🚦 GIAO THÔNG",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/tp-hcm-se-xoa-28-diem-ket-xe-den-nam-2030-5130957.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/11/wm1317908569331790857168-17917-3048-6413-1791704683.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=iYnmcHiO5-zkcUlZml8n5w",
-        "addedEvening": true
-      },
-      {
-        "title": "📜 Tài khoản giao dịch điện tử phải liên kết VNeID trước 31/12",
-        "desc": "Chính phủ quy định tài khoản chứng khoán, mạng xã hội, livestream bán hàng phải liên kết VNeID trước 31/12/2026.",
-        "detail": "Theo quy định mới của Chính phủ, tất cả các tài khoản giao dịch điện tử trên nền tảng số, bao gồm chứng khoán, viễn thông, thương mại điện tử và mạng xã hội, bắt buộc phải được liên kết với ứng dụng định danh điện tử VNeID trước ngày 31/12/2026. Quy định này nhằm tăng cường bảo mật thông tin, chống gian lận và quản lý chặt chẽ hơn các hoạt động trực tuyến. Người dân cần chủ động thực hiện việc liên kết để tránh bị gián đoạn các giao dịch quan trọng.",
-        "tag": "policy",
-        "tagLabel": "📜 CHÍNH SÁCH",
-        "source": "11/10·Tuổi Trẻ",
-        "url": "https://tuoitre.vn/tai-khoan-chung-khoan-mang-xa-hoi-livestream-ban-hang-phai-lien-ket-vneid-truoc-31-12-100261011165538844.htm",
-        "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/11/vneid-1791447197509752485205-89-0-545-730-crop-17917110654851304231547.jpg",
-        "addedEvening": true
-      },
-      {
-        "title": "💼 Người Việt SN 1982 rời Google lập công ty AI riêng",
-        "desc": "TS. Lê Viết Quốc, người góp phần đặt nền móng cho Google Brain, vừa rời Google để lập startup AI riêng, bước vào cuộc chơi công nghệ toàn cầu.",
-        "detail": "TS. Lê Viết Quốc, một trong những nhân vật chủ chốt đã góp phần xây dựng Google Brain, vừa gây chú ý khi quyết định rời gã khổng lồ công nghệ để thành lập công ty AI của riêng mình. Sinh ra và lớn lên từ một làng quê ở Huế, hành trình của anh từ Việt Nam đến vị trí hàng đầu trong ngành công nghệ toàn cầu là nguồn cảm hứng lớn. Startup mới của anh cùng các cộng sự kỳ cựu từ Google hứa hẹn sẽ tạo ra những đột phá mới trong lĩnh vực trí tuệ nhân tạo, khẳng định vị thế của người Việt trên bản đồ công nghệ thế giới.",
-        "tag": "economy",
-        "tagLabel": "💼 KINH TẾ",
-        "source": "11/10·Kenh14",
-        "url": "https://kenh14.vn/nguoiviet-sn-1982-vua-roi-google-lap-cong-ty-ai-rieng-lon-len-tu-lang-que-o-hue-buoc-vao-cuoc-choi-cong-nghe-toan-cau-2152610111141084.chn",
-        "image": "https://kenh14cdn.com/zoom/600_315/203336854389633024/2026/10/11/ts-le-viet-quoc-1786008649764-17860086500731214915303-113008-1791693524039-17916935242592113830446-0-89-562-988-crop-17916936130721156203125.jpg",
-        "addedEvening": true
-      }
-    ],
-    "tech": [
-      {
-        "title": "📉 iPhone 18 Pro bị cắt giảm đơn linh kiện 15% vì nhu cầu yếu",
-        "desc": "Apple được cho là đã yêu cầu các nhà cung cấp giảm ít nhất 15% đơn sản xuất linh kiện cho iPhone 18 Pro trong tháng 10.",
-        "detail": "Theo Nikkei Asia, động thái này của Apple cho thấy nhu cầu đối với mẫu iPhone 18 Pro có vẻ không đạt kỳ vọng. Việc cắt giảm đơn linh kiện có thể ảnh hưởng đến chuỗi cung ứng và dự báo doanh số của Apple trong quý tới. Điều này cũng đặt ra câu hỏi về sức hút của các mẫu iPhone cao cấp trong bối cảnh thị trường smartphone đang có nhiều biến động.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "11/10·Tinhte",
-        "url": "https://tinhte.vn/thread/apple-duoc-cho-la-cat-it-nhat-15-don-linh-kien-iphone-18-pro-trong-thang-10-vi-nhu-cau-yeu.4183236/"
-      },
-      {
-        "title": "🚫 Meta cấm hoàn toàn quảng cáo của ByteDance tại 7 thị trường, có Việt Nam",
-        "desc": "Meta vừa công bố lệnh cấm hoàn toàn quảng cáo và hoạt động tiếp thị của ByteDance, kể cả từ bên thứ ba, tại 7 thị trường, bao gồm Việt Nam.",
-        "detail": "Quyết định mạnh tay này từ Meta sẽ có tác động lớn đến ByteDance, công ty mẹ của TikTok, trong việc tiếp cận người dùng và mở rộng thị trường. Lệnh cấm áp dụng cho cả các chiến dịch quảng cáo thông qua bên thứ ba, cho thấy sự quyết liệt của Meta trong cuộc cạnh tranh giữa các nền tảng mạng xã hội. Điều này chắc chắn sẽ thay đổi cục diện quảng cáo số tại Việt Nam và các quốc gia bị ảnh hưởng.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "11/10·Tinhte",
-        "url": "https://tinhte.vn/thread/meta-cam-hoan-toan-quang-cao-cua-bytedance-ke-ca-chien-dich-tu-ben-thu-ba-tai-7-thi-truong.4183235/"
-      },
-      {
-        "title": "🎧 Loạt tai nghe True Wireless kẹp vành tai đổ bộ Việt Nam",
-        "desc": "Thị trường tai nghe không dây kẹp vành tai đang 'nhộn nhịp' với nhiều mẫu mới từ các thương hiệu lớn như Anker, Sennheiser, Shokz, Sony, JBL.",
-        "detail": "Nếu bạn là người yêu thích sự thoải mái và không muốn tai nghe nhét sâu vào ống tai, thì đây là tin vui! Các hãng công nghệ lớn đang đẩy mạnh ra mắt tai nghe True Wireless với thiết kế kẹp vành tai độc đáo. Kiểu dáng này không chỉ mang lại cảm giác đeo dễ chịu, thoáng khí hơn mà còn đảm bảo âm thanh chất lượng. Đây là lựa chọn đáng cân nhắc cho những ai thường xuyên vận động hoặc muốn trải nghiệm nghe nhạc khác biệt.",
-        "tag": "launch",
-        "tagLabel": "🚀 LAUNCH",
-        "source": "11/10·VnExpress",
-        "url": "https://vnexpress.net/loat-tai-nghe-true-wireless-kep-vanh-tai-ban-tai-viet-nam-5129665.html",
-        "image": "https://vcdn1-vnexpress.vnecdn.net/2026/10/07/aeroclip-1791384227-8690-1791384330.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=7t-npkulvuX_e9G1zvwPcA"
-      },
-      {
-        "title": "🤖 Vì sao AI của Elon Musk khôn hơn các AI khác?",
-        "desc": "xAI của Elon Musk có lợi thế lớn khi được sử dụng dữ liệu mật từ X (trước đây là Twitter) để huấn luyện AI, giúp nó 'khôn' hơn.",
-        "detail": "Việc Elon Musk sáp nhập X (Twitter cũ) và xAI mang ý nghĩa chiến lược quan trọng, cho phép xAI tiếp cận và sử dụng kho dữ liệu khổng lồ, bao gồm cả dữ liệu mật, từ nền tảng mạng xã hội này để huấn luyện các mô hình AI của mình. Điều này tạo ra một lợi thế cạnh tranh đáng kể so với các đối thủ, giúp AI của Elon Musk có khả năng học hỏi và phát triển nhanh chóng, trở nên 'thông minh' và hiệu quả hơn trong nhiều tác vụ. Đây là một bước đi táo bạo, có thể thay đổi cục diện cuộc đua AI toàn cầu.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "11/10·Tinhte",
-        "url": "https://tinhte.vn/thread/vi-sao-ai-cua-elon-musk-khon-hon-cac-ai-khac.3977334/",
-        "addedEvening": true
-      },
-      {
-        "title": "⭐ Microsoft 365 Family chuyển sang 2TB dùng chung",
-        "desc": "Gói Microsoft 365 Family giờ đây sẽ cung cấp 2TB dung lượng lưu trữ đám mây dùng chung thay vì 1TB riêng cho mỗi thành viên như trước.",
-        "detail": "Microsoft vừa có sự điều chỉnh đáng chú ý đối với gói Microsoft 365 Family: thay vì mỗi thành viên được 1TB dung lượng lưu trữ đám mây riêng biệt, cả gia đình sẽ chia sẻ tổng cộng 2TB. Thay đổi này có thể ảnh hưởng đến cách các gia đình quản lý dữ liệu, đặc biệt là những ai đã quen với việc có không gian lưu trữ cá nhân lớn. Tuy nhiên, gói vẫn giữ nguyên các tiện ích khác như quyền sử dụng bộ ứng dụng Office đầy đủ, mang lại giá trị cho người dùng cần các công cụ làm việc và lưu trữ linh hoạt.",
-        "tag": "review",
-        "tagLabel": "⭐ REVIEW",
-        "source": "11/10·Tinhte",
-        "url": "https://tinhte.vn/thread/microsoft-365-family-chuyen-sang-2tb-dung-chung-thay-vi-moi-thanh-vien-1-tb-nhu-truoc-day.4183143/",
-        "addedEvening": true
-      },
-      {
-        "title": "🤖 Hiếu PC cảnh báo AI tiếp tay tội phạm mạng",
-        "desc": "Chuyên gia Hiếu PC cảnh báo về nguy cơ tấn công mạng mới khi AI và IoT ngày càng phổ biến, đồng thời giới thiệu chương trình thạc sĩ AIoT.",
-        "detail": "Tại một hội thảo về an toàn thông tin, chuyên gia Hiếu PC đã đưa ra cảnh báo nghiêm trọng về việc trí tuệ nhân tạo (AI) đang bị tội phạm mạng lợi dụng để thực hiện các cuộc tấn công tinh vi hơn. Sự kết hợp giữa AI và Internet of Things (IoT) tạo ra những lỗ hổng bảo mật mới, đe dọa dữ liệu và tài sản cá nhân. Cùng dịp này, FPT cũng công bố chương trình thạc sĩ Công nghệ thông tin định hướng AIoT với học bổng 42 triệu đồng, nhằm đào tạo nguồn nhân lực chất lượng cao để đối phó với những thách thức an ninh mạng trong kỷ nguyên số.",
-        "tag": "ai",
-        "tagLabel": "🤖 AI",
-        "source": "11/10·GenK",
-        "url": "https://genk.vn/hieu-pc-canh-bao-ai-dang-tiep-tay-cho-toi-pham-mang-cung-fpt-gioi-thieu-chuong-trinh-thac-si-aiot-voi-hoc-bong-42-trieu-dong-165261011203453002.chn",
-        "image": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/11/avatar1791725598881-17917256027801881778387-206-0-1331-1800-crop-17917256480801925868373.jpg",
-        "addedEvening": true
-      }
-    ],
-    "finance": [
-      {
-        "title": "📈 Lịch chốt quyền cổ tức tuần 12-16/10: 3 công ty trả 15% tiền mặt",
-        "desc": "Tuần từ 12-16/10, gần 9 doanh nghiệp sẽ chốt quyền trả cổ tức bằng tiền mặt, với mức cao nhất là 15% và thấp nhất là 1%.",
-        "detail": "Đây là thông tin quan trọng cho các nhà đầu tư đang nắm giữ cổ phiếu của các doanh nghiệp này. Ba công ty sẽ trả cổ tức tiền mặt ở mức 15%, một tỷ lệ khá hấp dẫn trong bối cảnh thị trường hiện tại. Việc nhận cổ tức bằng tiền mặt giúp nhà đầu tư có thêm dòng tiền, nhưng cũng cần xem xét kỹ tình hình tài chính và triển vọng của doanh nghiệp trước khi đưa ra quyết định đầu tư.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "11/10·CafeF",
-        "url": "https://cafef.vn/lich-chot-quyen-co-tuc-tuan-12-16-10-ba-cong-ty-cung-tra-co-tuc-tien-mat-15-18826101021082776.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/10/10/avatar1771686752502-1771686752738616251537-17916412948541714824638-0-0-400-640-crop-1791641299028700618756.png"
-      },
-      {
-        "title": "💸 Con gái Chủ tịch PNJ bị bán giải chấp gần 3 triệu cổ phiếu",
-        "desc": "Bà Trần Phương Ngọc Giao, con gái Chủ tịch PNJ Cao Thị Ngọc Dung, đã bị công ty chứng khoán bán giải chấp 2,94 triệu cổ phiếu PNJ.",
-        "detail": "Sự việc diễn ra trong phiên giao dịch ngày 8/10, khi công ty chứng khoán thực hiện bán giải chấp gần 3 triệu cổ phiếu PNJ của bà Trần Phương Ngọc Giao. Đây là một động thái đáng chú ý, có thể gây áp lực lên giá cổ phiếu PNJ trong ngắn hạn và ảnh hưởng đến tâm lý nhà đầu tư. Việc bán giải chấp thường xảy ra khi giá cổ phiếu giảm sâu, khiến tỷ lệ ký quỹ không còn đảm bảo.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "10/10·VnExpress",
-        "url": "https://vnexpress.net/con-gai-ba-cao-thi-ngoc-dung-bi-ban-giai-chap-gan-3-trieu-co-phieu-pnj-5130690.html",
-        "image": "https://vcdn1-kinhdoanh.vnecdn.net/2026/10/10/tra-n-phu-o-ng-ngo-c-giao-1791-7531-1836-1791609047.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=vFc2uT4ecXBn89diNx5QKA"
-      },
-      {
-        "title": "📈 VN-Index có thể lùi về 1.700 điểm",
-        "desc": "Chuyên gia dự báo VN-Index có thể tiếp tục điều chỉnh về vùng 1.700-1.760 điểm, với 4 nhóm ngành đáng chú ý trước mùa báo cáo quý.",
-        "detail": "Sau một tuần giao dịch giằng co, thị trường chứng khoán Việt Nam được các chuyên gia nhận định chưa thoát khỏi xu hướng điều chỉnh ngắn hạn. VN-Index có thể lùi về ngưỡng 1.700 điểm, dao động trong khoảng 1.700-1.760 điểm. Trong bối cảnh này, nhà đầu tư nên chú ý đến 4 nhóm ngành cụ thể được đánh giá có tiềm năng tăng trưởng tốt hoặc ít bị ảnh hưởng bởi biến động thị trường trước mùa báo cáo tài chính quý. Việc theo dõi sát sao các chỉ số và lựa chọn ngành nghề phù hợp sẽ là chìa khóa để bảo toàn và gia tăng tài sản.",
-        "tag": "stock",
-        "tagLabel": "📈 CK",
-        "source": "11/10·CafeF",
-        "url": "https://cafef.vn/goc-nhin-chuyen-gia-can-tinh-kich-ban-vn-index-lui-ve-1700-diem-4-nhom-nganh-dang-chu-y-truoc-mua-bao-cao-quy-188261011145736561.chn",
-        "image": "https://cafefcdn.com/zoom/600_315/203337114487263232/2026/10/11/img7378-17917053542731694944045-0-0-367-587-crop-17917053577601328288626.webp",
-        "addedEvening": true
-      },
-      {
-        "title": "🏠 Thị trường BĐS bước vào giai đoạn điều chỉnh",
-        "desc": "Chứng khoán MBS đánh giá thị trường bất động sản đã chính thức bước vào chu kỳ điều chỉnh sau giai đoạn tăng trưởng mạnh 2024-2025.",
-        "detail": "Theo phân tích từ Chứng khoán MBS, thị trường bất động sản Việt Nam đang đối mặt với áp lực lãi suất tín dụng tăng cao và đã chính thức bước vào giai đoạn điều chỉnh. Sau chu kỳ tăng trưởng nóng trong hai năm 2024-2025, các nhà đầu tư cần thận trọng hơn trong các quyết định mua bán. Giai đoạn này đòi hỏi sự đánh giá kỹ lưỡng về tiềm năng dự án, khả năng tài chính và các yếu tố vĩ mô để tránh rủi ro, đồng thời tìm kiếm cơ hội đầu tư dài hạn trong bối cảnh thị trường đang tái cân bằng.",
-        "tag": "realestate",
-        "tagLabel": "🏠 BĐS",
-        "source": "11/10·Cafebiz",
-        "url": "https://cafebiz.vn/thi-truong-bat-dong-san-buoc-vao-giai-doan-dieu-chinh-176261011195510768.chn",
-        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/10/11/avatar1791723276507-17917232769601997477613.png",
-        "addedEvening": true
-      }
-    ],
-    "sports": [],
-    "gamedev": [
-      {
-        "title": "🕹️ htdt/godogen",
-        "name": "htdt/godogen",
-        "url": "https://github.com/htdt/godogen",
-        "stars": "7.1K+",
-        "desc": "Tự động hóa phát triển game cho Godot, Bevy và Babylon.js với Claude Code và Codex.",
-        "detail": "Godogen là một framework giúp tự động hóa nhiều khía cạnh của quá trình phát triển game trên các engine phổ biến như Godot, Bevy và Babylon.js. Bằng cách tích hợp Claude Code và Codex, nó cho phép các nhà phát triển tạo ra các thành phần game, kịch bản và logic một cách nhanh chóng và hiệu quả. Đây là một công cụ đáng giá cho các dev muốn giảm bớt công việc lặp lại và tập trung vào sáng tạo.",
-        "reason": "Tự động hóa phát triển game trên nhiều engine, giúp tiết kiệm thời gian và công sức.",
-        "tag": "claude",
-        "tagLabel": "🤖 CLAUDE",
-        "source": "⭐ 7.1K+ · GitHub"
-      },
-      {
-        "title": "🕹️ with-pebbly/aseprite-ai-artist",
-        "name": "with-pebbly/aseprite-ai-artist",
-        "url": "https://github.com/with-pebbly/aseprite-ai-artist",
-        "stars": "262",
-        "desc": "Agent AI vẽ pixel art trực tiếp trong Aseprite, hỗ trợ Claude Code, omp, Codex, Gemini CLI và Cursor.",
-        "detail": "Aseprite AI Artist là một MCP server và bộ kỹ năng cho phép các AI coding agent tạo ra pixel art ngay trong cửa sổ Aseprite. AI có thể tự vẽ, xem lại tác phẩm, tạo hoạt ảnh và xuất file. Công cụ này đặc biệt hữu ích cho các nghệ sĩ pixel art và nhà phát triển game 2D muốn tăng tốc quá trình tạo tài nguyên đồ họa. Nó hỗ trợ nhiều mô hình AI khác nhau, mang lại sự linh hoạt trong việc lựa chọn công cụ phù hợp với workflow của bạn.",
-        "reason": "Tự động hóa việc tạo pixel art bằng AI ngay trong Aseprite là một trợ thủ đắc lực cho game dev 2D.",
-        "tag": "claude",
-        "tagLabel": "🤖 CLAUDE",
-        "source": "⭐ 262 · GitHub",
         "addedEvening": true
       }
     ],
