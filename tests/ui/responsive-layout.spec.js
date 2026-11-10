@@ -271,10 +271,12 @@ test('dashboard grid adapts without horizontal overflow', async ({ page }) => {
     { width: 2560, expected: 4 }
   ];
 
+  // Fixed digest: the live card of the day may be too short to have a long tail.
+  await useFixtureDigest(page);
   for (const item of cases) {
     await page.setViewportSize({ width: item.width, height: 900 });
     await waitForDigest(page);
-    const columns = await page.locator('.compact-grid').evaluate(grid => getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length);
+    const columns = await page.locator('.compact-grid').first().evaluate(grid => getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length);
     expect(columns).toBe(item.expected);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
     expect(overflow).toBeFalsy();
@@ -661,4 +663,88 @@ test('current archive and topic selections expose semantic state', async ({ page
   await expect(nextTopic).toHaveAttribute('aria-pressed', 'true');
   await expect(page.locator('.topic-chip').first()).toHaveAttribute('aria-pressed', 'false');
   await expect(page.locator('.topic-nav-link.active')).toHaveAttribute('aria-pressed', 'true');
+});
+
+// ── Carried over from the Premium visual pass ──────────────────────────────────────
+// A fixed two-day digest: a full day (enough stories to reach the long tail, in two
+// topic runs) and an older day with no stories at all.
+function fixtureDigest() {
+  const story = (topic, n, withImage) => ({
+    title: `Tin ${topic} số ${n}`,
+    desc: `Tóm tắt ${topic} ${n}.`,
+    url: `https://example.com/${topic}/${n}`,
+    source: '10/11 · Báo Mẫu',
+    ...(withImage ? { image: `https://example.com/img/${topic}-${n}.jpg` } : {})
+  });
+  const many = (topic, count) => Array.from({ length: count }, (_, i) => story(topic, i + 1, true));
+  return [
+    { date: '2026-11-10', dayLabel: 'Thứ Ba', dateLabel: '10/11/2026', tech: many('tech', 8), gaming: many('gaming', 6), entertainment: many('entertainment', 6) },
+    { date: '2026-11-09', dayLabel: 'Thứ Hai', dateLabel: '09/11/2026', tech: [], gaming: [] }
+  ];
+}
+
+async function useFixtureDigest(page) {
+  const body = JSON.stringify(fixtureDigest());
+  for (const file of ['latest.json', 'cards.json']) {
+    await page.route(`**/${file}*`, route => route.fulfill({ contentType: 'application/json', body }));
+  }
+  // No real publisher images in the fixture: answer every image request with a 1x1 GIF.
+  const gif = Buffer.from('R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', 'base64');
+  await page.route('https://example.com/img/**', route => route.fulfill({ contentType: 'image/gif', body: gif }));
+}
+
+test('an empty past day explains itself and links to the nearest day with stories', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await useFixtureDigest(page);
+  await page.goto('/');
+  await expect(page.locator('.story-hero')).toBeVisible();
+
+  // The empty day stays out of the rail until it is the one being viewed.
+  await expect(page.locator('#archive-nav a[href="#card-2026-11-09"]')).toHaveCount(0);
+  await page.evaluate(() => { location.hash = '#card-2026-11-09'; });
+
+  await expect(page.locator('.state-past')).toBeVisible();
+  await expect(page.locator('.state-past strong')).toHaveText('Ngày này không có bản tin');
+  await expect(page.locator('#topic-strip')).toBeEmpty();
+  await expect(page.locator('#mark-all-read')).toBeHidden();
+  await expect(page.locator('#archive-nav a[href="#card-2026-11-09"]')).toContainText('Trống');
+
+  await page.locator('.state-past a.state-action').click();
+  await expect(page.locator('.story-hero')).toBeVisible();
+  expect(await page.evaluate(() => location.hash)).toBe('#card-2026-11-10');
+});
+
+test('long tail is labelled by topic run and its thumbnails load only near the viewport', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await useFixtureDigest(page);
+  await page.goto('/');
+  await expect(page.locator('.story-hero')).toBeVisible();
+
+  // The hero photo is the LCP element: fetched eagerly, at high priority.
+  await expect(page.locator('.story-hero .visual-img')).toHaveAttribute('loading', 'eager');
+  await expect(page.locator('.story-hero .visual-img')).toHaveAttribute('fetchpriority', 'high');
+
+  // Story order is untouched; consecutive stories of one topic share a labelled group.
+  const groups = page.locator('.more-stories .topic-group');
+  expect(await groups.count()).toBeGreaterThan(1);
+  await expect(groups.first().locator('.topic-group-head')).toBeVisible();
+  const cardsInGroups = await page.locator('.more-stories .topic-group .story-compact').count();
+  expect(cardsInGroups).toBe(await page.locator('.story-compact').count());
+
+  // Far-down thumbnails still hold their URL in data-src …
+  const lastThumb = page.locator('.story-compact .story-thumb img').last();
+  await expect(lastThumb).toHaveAttribute('data-src', /example\.com\/img/);
+  // … and get a real src once scrolled into view.
+  await lastThumb.scrollIntoViewIfNeeded();
+  await expect(lastThumb).toHaveAttribute('src', /example\.com\/img/);
+  await expect(lastThumb).not.toHaveAttribute('data-src', /.*/);
+});
+
+test('reader sheet shows the story photo', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await useFixtureDigest(page);
+  await page.goto('/');
+  await page.locator('.story-hero').click();
+  await expect(page.locator('#reader-pane')).toHaveClass(/open/);
+  await expect(page.locator('#reader-pane .reader-figure img')).toBeVisible();
 });

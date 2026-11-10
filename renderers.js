@@ -109,14 +109,17 @@ function storyMetaHtml(item) {
 
 // Small lazy thumbnail for headline rows and compact cards. Same failure contract as
 // storyVisualHtml: a broken image removes its frame so the text-only card remains.
+// The src is held in data-src until the card nears the viewport (observeDeferredImages):
+// native lazy-loading fetches over a thousand pixels ahead and every publisher image is
+// a full-size original, so the first view would otherwise pull the whole tail.
 function storyThumbHtml(item) {
   if (!item.image) return '';
-  return `<span class="story-thumb" aria-hidden="true"><img src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async"
+  return `<span class="story-thumb" aria-hidden="true"><img data-src="${escapeHtml(item.image)}" alt="" decoding="async"
       onload="this.parentNode.classList.add('img-ready')"
       onerror="this.parentNode.remove()"></span>`;
 }
 
-function storyVisualHtml(item, compact = false) {
+function storyVisualHtml(item, compact = false, eager = false) {
   const topicClass = String(item.topicField || 'news').replace(/[^a-z0-9-]/gi, '').toLowerCase();
   const initial = stripLeadingSymbols(item.topicLabel || item.title).charAt(0) || 'M';
   // Real thumbnail (lazy-loaded) layered over the monogram tile. item.image is already
@@ -124,7 +127,7 @@ function storyVisualHtml(item, compact = false) {
   // `has-image` and removes the <img> so the monogram fallback shows — no broken icon,
   // no layout shift (the tile keeps its reserved min-height).
   const img = item.image
-    ? `<img class="visual-img" src="${escapeHtml(item.image)}" alt="" loading="lazy" decoding="async"
+    ? `<img class="visual-img" src="${escapeHtml(item.image)}" alt="" ${eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async"
         onload="this.closest('.story-visual').classList.add('img-ready')"
         onerror="this.closest('.story-visual').classList.remove('has-image');this.remove();">`
     : '';
@@ -142,7 +145,7 @@ function storyCardHtml(item, variant, selectedId, readIds, rank = 0) {
   const showSummary = variant === 'hero' || variant === 'primary' || (variant === 'compact' && !item.image);
   const hasThumb = (variant === 'headline' || variant === 'compact') && item.image;
   return `<button class="story-card story-${variant} tone-${topicTone(item)}${hasThumb ? ' has-thumb' : ''}${isRead ? ' read' : ''}${item.id === selectedId ? ' active' : ''}" type="button" data-story-id="${item.id}" aria-label="${escapeHtml(item.title)} · ${isRead ? 'Đã đọc' : 'Chưa đọc'}"${item.id === selectedId ? ' aria-current="true"' : ''}>
-    ${variant === 'hero' || variant === 'primary' || variant === 'secondary' ? storyVisualHtml(item, variant !== 'hero') : ''}
+    ${variant === 'hero' || variant === 'primary' || variant === 'secondary' ? storyVisualHtml(item, variant !== 'hero', variant === 'hero') : ''}
     ${hasThumb ? storyThumbHtml(item) : ''}
     ${rank ? `<span class="story-rank" aria-hidden="true">${String(rank).padStart(2, '0')}</span>` : ''}
     <span class="story-card-body">
@@ -170,6 +173,20 @@ function dashboardHtml(items, selectedId, readIds, isSearch = false) {
   const secondary = rest.slice(2, 5);
   const headlines = rest.slice(5, 9);
   const more = rest.slice(9);
+  // Ranked order already bands stories by topic; label each consecutive run so the long
+  // tail reads as sections. Order is unchanged.
+  const moreGroups = [];
+  more.forEach(item => {
+    const last = moreGroups[moreGroups.length - 1];
+    if (last && last.field === item.topicField) last.items.push(item);
+    else moreGroups.push({ field: item.topicField, label: item.topicLabel, items: [item] });
+  });
+  const groupHtml = group => {
+    const head = moreGroups.length > 1
+      ? `<div class="topic-group-head"><span class="chip-dot tone-${topicTone({ topicField: group.field })}" aria-hidden="true"></span><span>${escapeHtml(group.label)}</span><small>${group.items.length} tin</small></div>`
+      : '';
+    return `<div class="topic-group">${head}<div class="compact-grid">${group.items.map(item => storyCardHtml(item, 'compact', selectedId, readIds)).join('')}</div></div>`;
+  };
   return `<div class="news-dashboard">
     <section class="lead-grid" aria-label="Tin nổi bật">
       ${storyCardHtml(hero, 'hero', selectedId, readIds)}
@@ -177,12 +194,17 @@ function dashboardHtml(items, selectedId, readIds, isSearch = false) {
     </section>
     ${secondary.length ? `<section class="secondary-grid" aria-label="Tin đáng chú ý">${secondary.map(item => storyCardHtml(item, 'secondary', selectedId, readIds)).join('')}</section>` : ''}
     ${headlines.length ? `<section class="headline-panel" aria-labelledby="headline-panel-title">${sectionHeadingHtml('headline-panel-title', 1, 'Điểm nhanh', headlines.length)}<div class="headline-list">${headlines.map((item, index) => storyCardHtml(item, 'headline', selectedId, readIds, index + 1)).join('')}</div></section>` : ''}
-    ${more.length ? `<section class="more-stories" aria-labelledby="more-stories-title">${sectionHeadingHtml('more-stories-title', headlines.length ? 2 : 1, 'Còn trong bản tin', more.length)}<div class="compact-grid">${more.map(item => storyCardHtml(item, 'compact', selectedId, readIds)).join('')}</div></section>` : ''}
+    ${more.length ? `<section class="more-stories" aria-labelledby="more-stories-title">${sectionHeadingHtml('more-stories-title', headlines.length ? 2 : 1, 'Còn trong bản tin', more.length)}${moreGroups.map(groupHtml).join('')}</section>` : ''}
   </div>`;
 }
 
-function emptyStateHtml(kind = 'empty', message = '') {
+function emptyStateHtml(kind = 'empty', message = '', link = null) {
   const states = {
+    past: {
+      title: 'Ngày này không có bản tin',
+      copy: 'Không có tin nào được lưu cho ngày này.',
+      action: link ? `<a class="state-action" href="#${escapeHtml(link.id)}">Xem bản tin ${escapeHtml(link.label)}</a>` : ''
+    },
     filter: {
       title: 'Không thấy tin phù hợp',
       copy: 'Thử từ khóa khác hoặc quay về toàn bộ bản tin.',
@@ -200,16 +222,23 @@ function emptyStateHtml(kind = 'empty', message = '') {
     }
   };
   const state = states[kind] || states.empty;
+  const glyph = kind === 'past' || kind === 'empty'
+    ? icon('fish')
+    : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7.5h14M5 12h9M5 16.5h6"/><rect x="3" y="4" width="18" height="16" rx="3"/></svg>';
   return `<div class="state-panel state-${kind}" role="status">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7.5h14M5 12h9M5 16.5h6"/><rect x="3" y="4" width="18" height="16" rx="3"/></svg>
+    ${glyph}
     <strong>${escapeHtml(state.title)}</strong>
     <span>${escapeHtml(state.copy)}</span>
     ${state.action}
   </div>`;
 }
 
+// Brand glyph (a salted fish); index.html repeats these paths in the static topbar mark.
+const FISH_GLYPH_PATHS = '<path d="M7 12c2.3-3.5 5.2-5.1 8.3-5.1 2.8 0 4.8 1.7 6.2 5.1-1.4 3.4-3.4 5.1-6.2 5.1-3.1 0-6-1.6-8.3-5.1Z"/><path d="M7 12 2.5 8.6v6.8Z"/><path d="M11.8 9.2c.7 1.8.7 3.8 0 5.6"/><circle cx="17.4" cy="11" r=".6"/>';
+
 function icon(name) {
   const paths = {
+    fish: FISH_GLYPH_PATHS,
     close: '<path d="m6 6 12 12M18 6 6 18"/>',
     copy: '<rect x="8" y="8" width="11" height="11" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/>',
     external: '<path d="M14 5h5v5M19 5l-8 8"/><path d="M17 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h5"/>'
@@ -247,6 +276,7 @@ function readerArticleHtml(item, slotIndex, isPrimary) {
     </div>
     <div class="reader-topic${item.isHot ? ' hot' : ''}">${escapeHtml(item.topicLabel)}${item.tag ? ` · ${escapeHtml(item.tag)}` : ''}</div>
     ${heading}
+    ${item.image ? `<figure class="reader-figure"><img src="${escapeHtml(item.image)}" alt="" decoding="async" onerror="this.closest('figure').remove();"></figure>` : ''}
     ${facts ? `<div class="reader-facts" data-reader-facts>${facts}</div>` : ''}
     ${description}
     ${reason}
