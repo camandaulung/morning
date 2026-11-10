@@ -8,7 +8,12 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%2317201d'/%3E%3Cg fill='none' stroke='%23ffffff' stroke-width='1.7' stroke-linejoin='round'%3E%3Cpath d='M7 12c2.3-3.5 5.2-5.1 8.3-5.1 2.8 0 4.8 1.7 6.2 5.1-1.4 3.4-3.4 5.1-6.2 5.1-3.1 0-6-1.6-8.3-5.1Z'/%3E%3Cpath d='M7 12 2.5 8.6v6.8Z'/%3E%3C/g%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
+  <!-- Web fonts load without blocking first paint: the stylesheet is fetched as "print"
+       (non-blocking) and switched on when it arrives. Text shows in the fallback font
+       until then (the font CSS already uses display=swap). -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="styles.css?v=261109">
 </head>
 <body>
@@ -104,7 +109,7 @@
   <script src="date-week-utils.js?v=260717a"></script>
   <script src="renderers.js?v=261109"></script>
   <script src="view-builder.js?v=261109b"></script>
-  <script src="router-init.js?v=261109"></script>
+  <script src="router-init.js?v=261110"></script>
   <script>
     // Phone-width search bar only fits a short hint; the full one would be clipped.
     if (window.matchMedia('(max-width: 600px)').matches) document.getElementById('search-input').placeholder = 'Tìm tin…';

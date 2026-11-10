@@ -45,7 +45,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install google-genai
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
 
       # Backup guard vs GitHub's own duplicate-trigger cases (schedule + manual
       # dispatch racing): if today's card already exists, skip generate/notify.
@@ -87,7 +89,7 @@ jobs:
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add cards.json
+          git add cards.json latest.json
           git diff --staged --quiet || git commit -m "morning $(TZ='Asia/Ho_Chi_Minh' date '+%Y-%m-%d')"
           # Another run or a code push may have landed meanwhile — never lose the card.
           git pull --rebase origin main
@@ -109,7 +111,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install google-genai
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
 
       # generate_card.py (evening mode) self-guards: no-op if today's morning
       # card doesn't exist yet, or eveningDone is already true — safe even if
@@ -130,7 +134,7 @@ jobs:
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add cards.json
+          git add cards.json latest.json
           git diff --staged --quiet || git commit -m "evening $(TZ='Asia/Ho_Chi_Minh' date '+%Y-%m-%d')"
           # Another run or a code push may have landed meanwhile — never lose the card.
           git pull --rebase origin main
@@ -151,7 +155,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install google-genai
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Pull latest
         run: git pull

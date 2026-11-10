@@ -12,6 +12,7 @@ from digest_utils import (get_recent_titles, get_recent_urls, get_recent_titles_
 from prompt_builder import build_daily_prompt
 from card_pipeline import fetch_contexts, generate_card_per_topic, validate_card, dedup_card, enrich_images, write_cards_file
 from generate_card import DAY_NAMES
+from time_utils import timed
 
 
 def run_evening(config: dict, topics: dict, cards: list, now) -> bool:
@@ -53,7 +54,8 @@ def run_evening(config: dict, topics: dict, cards: list, now) -> bool:
           f"{len(recent_titles)} titles, {len(recent_urls)} urls")
 
     print(f"Generating evening update for {date_str} | topics: {list(topics.keys())}...")
-    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year, exclude_urls=get_all_urls(cards))
+    with timed("fetch"):
+        topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year, exclude_urls=get_all_urls(cards))
     has_data = bool(trusted_urls)
     print(f"Fetch done. has_data={has_data} trusted_urls={len(trusted_urls)}")
 
@@ -66,8 +68,10 @@ def run_evening(config: dict, topics: dict, cards: list, now) -> bool:
             tone_guidance=config.get("tone_guidance", ""),
         )
 
-    card_json = generate_card_per_topic(topics, topic_contexts, prompt_for, date_str, day_label, date_label)
-    card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
+    with timed("llm"):
+        card_json = generate_card_per_topic(topics, topic_contexts, prompt_for, date_str, day_label, date_label)
+    with timed("validate"):
+        card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
     card_json = dedup_card(card_json, output_fields, recent_urls, recent_norms, recent_tokens)
     card_json = enrich_images(card_json, output_fields, image_map)
 

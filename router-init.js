@@ -257,17 +257,19 @@ function bindEvents() {
   syncResponsivePaneState();
 }
 
-// ── Data loading: localStorage stale-while-revalidate + conditional HTTP fetch ──
-// Files are served by GitHub Pages with ETag + Cache-Control: max-age=600. We drop
-// the old `?v=Date.now()` cache-buster (it made every URL unique, forcing a full
-// ~1MB re-download of cards.json on EVERY visit) and instead:
-//   1) paint instantly from a localStorage copy of the last good data, then
-//   2) revalidate over the network with `cache: 'no-cache'` — the browser sends
-//      If-None-Match and the server answers 304 (no body) when nothing changed —
-//      re-rendering only when the payload actually differs.
-// Result: the digest stays fresh (9h/22h updates) while repeat loads are instant
-// and cheap, even as the rolling archive grows.
+// ── Data loading: small "latest" file first, full archive in the background ──
+// The pipeline writes two daily files: latest.json (newest 7 days, ~36 KB gzip) and
+// cards.json (rolling 30 days, ~290 KB gzip). The page needs only the first to show
+// today's digest, so it:
+//   1) paints instantly from a localStorage copy of the last good latest.json,
+//   2) revalidates latest.json with `cache: 'no-cache'` (If-None-Match → 304 when
+//      unchanged) and re-renders only if the payload differs,
+//   3) fetches cards.json when the browser is idle, purely to add the older weeks
+//      to the archive — it never blocks or resets the feed being read.
+// cards.json is not copied into localStorage (it would hold ~800 KB of the quota).
 const DATA_CACHE_PREFIX = 'caman:data:';
+const LATEST_PATH = 'latest.json';
+const ARCHIVE_PATH = 'cards.json';
 
 function readCache(path) {
   try {
@@ -282,12 +284,12 @@ function writeCache(path, data) {
   } catch (_) { /* quota exceeded / private mode — HTTP cache still applies */ }
 }
 
-async function fetchJson(path, { required = false } = {}) {
+async function fetchJson(path, { required = false, persist = true } = {}) {
   try {
     const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
     const data = await response.json();
-    writeCache(path, data);
+    if (persist) writeCache(path, data);
     return data;
   } catch (error) {
     const cached = readCache(path);
@@ -329,7 +331,14 @@ function dataSig(daily, weekly, monthly) {
 // page load can snap to the latest digest without ever yanking an active reader.
 let userNavigated = false;
 
-function renderData(daily, weekly, monthly, forceLatest = false) {
+function sameItemIds(a, b) {
+  return a.length === b.length && a.every((item, index) => item.id === b[index].id);
+}
+
+// soft: the data grew around the reader (older archive weeks, weekly/monthly rollups).
+// If the view on screen still holds the same stories, refresh only the archive nav —
+// a full re-render would rebuild the feed and throw away the scroll position.
+function renderData(daily, weekly, monthly, { forceLatest = false, soft = false } = {}) {
   STATE = buildViews(daily, weekly || [], monthly || []);
   // Land on the newest card (today) when: the URL has no hash, OR this is a fresh load
   // (forceLatest) and the reader hasn't navigated yet — this overrides a stale day-hash
@@ -337,9 +346,29 @@ function renderData(daily, weekly, monthly, forceLatest = false) {
   if (STATE.defaultId && (!location.hash || (forceLatest && !userNavigated))) {
     history.replaceState(null, '', `#${STATE.defaultId}`);
   }
-  renderActiveView();
+  const view = activeViewFromHash();
+  if (soft && view && UI.currentView && view.id === UI.currentView.id && sameItemIds(flattenView(view), UI.allItems)) {
+    UI.currentView = view;
+    renderArchiveNav();
+  } else {
+    renderActiveView();
+  }
   return dataSig(daily, weekly, monthly);
 }
+
+// Newest-first union by date; cards already on screen (from latest.json) win.
+function mergeDaily(current, archive) {
+  const seen = new Set(current.map(card => card.date));
+  return current.concat(archive.filter(card => card && card.date && !seen.has(card.date)))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
+function whenIdle(task) {
+  if (window.requestIdleCallback) window.requestIdleCallback(task, { timeout: 3000 });
+  else setTimeout(task, 300);
+}
+
+const hasCards = value => Array.isArray(value) && value.length > 0;
 
 async function init() {
   const dateLabel = new Intl.DateTimeFormat('vi-VN', { weekday: 'long', day: '2-digit', month: '2-digit' }).format(new Date());
@@ -349,34 +378,60 @@ async function init() {
   setTheme(savedTheme);
   bindEvents();
 
+  // Earlier versions cached the whole 30-day archive here — give that quota back.
+  try { localStorage.removeItem(DATA_CACHE_PREFIX + ARCHIVE_PATH); } catch (_) {}
+
   // Config: instant from cache, revalidate in the background (title / topic labels).
   applyConfig(readCache('config.json'));
   fetchJson('config.json').then(applyConfig).catch(() => {});
 
-  const cachedDaily = readCache('cards.json');
-  const cachedWeekly = readCache('weekly.json');
-  const cachedMonthly = readCache('monthly.json');
+  const cachedLatest = readCache(LATEST_PATH);
+  let daily = hasCards(cachedLatest) ? cachedLatest : [];
+  let weekly = readCache('weekly.json');
+  let monthly = readCache('monthly.json');
+  let renderedSig = '';
+  const paint = options => {
+    if (dataSig(daily, weekly, monthly) !== renderedSig) renderedSig = renderData(daily, weekly, monthly, options);
+  };
 
   // 1) Instant paint from the last good copy (if any) — zero network wait.
-  let renderedSig = '';
-  if (Array.isArray(cachedDaily) && cachedDaily.length) {
-    renderedSig = renderData(cachedDaily, cachedWeekly, cachedMonthly, true);
+  if (daily.length) paint({ forceLatest: true });
+
+  // Weekly + monthly only feed archive summaries / month views — fetch them alongside
+  // the digest and fold them in once it is on screen.
+  const rollups = Promise.all([fetchJson('weekly.json'), fetchJson('monthly.json')]);
+
+  // 2) Revalidate the latest digest (critical path) and paint it as soon as it lands.
+  //    If latest.json is unavailable, the full archive is the fallback source.
+  let archiveLoaded = false;
+  let fresh = await fetchJson(LATEST_PATH);
+  if (!hasCards(fresh)) {
+    fresh = await fetchJson(ARCHIVE_PATH, { required: !daily.length, persist: false });
+    archiveLoaded = hasCards(fresh);
+  }
+  if (hasCards(fresh)) {
+    daily = fresh;
+    paint({ forceLatest: true });
+  } else if (!daily.length) {
+    throw new Error('Không thể kết nối tới dữ liệu bản tin.');
   }
 
-  // 2) Revalidate today's digest (critical path) and paint it as soon as it lands,
-  //    reusing whatever weekly/monthly we have cached so it never blocks on them.
-  const daily = await fetchJson('cards.json', { required: !(cachedDaily && cachedDaily.length) });
-  if (dataSig(daily, cachedWeekly, cachedMonthly) !== renderedSig) {
-    renderedSig = renderData(daily, cachedWeekly, cachedMonthly, true);
-  }
-
-  // 3) Weekly + monthly only feed archive summaries / month views — load them in the
-  //    background and enrich the archive once, without delaying the daily digest.
-  Promise.all([fetchJson('weekly.json'), fetchJson('monthly.json')]).then(([weekly, monthly]) => {
-    if (dataSig(daily, weekly, monthly) !== renderedSig) {
-      renderData(daily, weekly, monthly);
-    }
+  rollups.then(([freshWeekly, freshMonthly]) => {
+    weekly = freshWeekly;
+    monthly = freshMonthly;
+    paint({ soft: true });
   }).catch(() => {});
+
+  // 3) Older archive weeks: fetched once the page is idle, merged without touching
+  //    the feed on screen.
+  if (!archiveLoaded) {
+    whenIdle(async () => {
+      const archive = await fetchJson(ARCHIVE_PATH, { persist: false });
+      if (!hasCards(archive)) return;
+      daily = mergeDaily(daily, archive);
+      paint({ soft: true });
+    });
+  }
 }
 
 init().catch(error => {

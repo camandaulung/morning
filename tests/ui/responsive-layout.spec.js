@@ -528,7 +528,7 @@ test('search matches Vietnamese text without diacritics', async ({ page }) => {
 
 test('loading, empty search, and completed read states are actionable and announced', async ({ page }) => {
   await page.setViewportSize({ width: 1366, height: 768 });
-  await page.route('**/cards.json*', async route => {
+  await page.route('**/latest.json*', async route => {
     await new Promise(resolve => setTimeout(resolve, 500));
     await route.continue();
   });
@@ -555,7 +555,9 @@ test('loading, empty search, and completed read states are actionable and announ
 });
 
 test('critical data failure renders a clear retry state instead of an empty dashboard', async ({ page }) => {
-  await page.route('**/cards.json*', route => route.fulfill({ status: 503, contentType: 'application/json', body: '{}' }));
+  for (const file of ['latest.json', 'cards.json']) {
+    await page.route(`**/${file}*`, route => route.fulfill({ status: 503, contentType: 'application/json', body: '{}' }));
+  }
   await page.goto('/');
 
   await expect(page.locator('#feed-list')).toHaveAttribute('aria-busy', 'false');
@@ -570,19 +572,54 @@ test('digest is cached locally and survives an offline reload (stale-while-reval
   await waitForDigest(page);
 
   // First load must have written the digest to localStorage for instant repeat paints.
-  const cached = await page.evaluate(() => localStorage.getItem('caman:data:cards.json'));
+  const cached = await page.evaluate(() => localStorage.getItem('caman:data:latest.json'));
   expect(cached).toBeTruthy();
   expect(JSON.parse(cached).length).toBeGreaterThan(0);
+  // The 30-day archive is deliberately NOT mirrored into localStorage (~800 KB).
+  expect(await page.evaluate(() => localStorage.getItem('caman:data:cards.json'))).toBeNull();
 
   // Fetches must NOT carry the old ?v= cache-buster (which defeated HTTP caching).
   const urls = [];
-  page.on('request', req => { if (req.url().includes('cards.json')) urls.push(req.url()); });
+  page.on('request', req => { if (/(latest|cards)\.json/.test(req.url())) urls.push(req.url()); });
 
   // Kill the network for the data files and reload — the cached copy should still render.
+  await page.route('**/latest.json*', route => route.abort());
   await page.route('**/cards.json*', route => route.abort());
   await page.reload();
   await expect(page.locator('[data-story-id]').first()).toBeVisible();
   expect(urls.every(u => !/[?&]v=\d/.test(u))).toBeTruthy();
+});
+
+test('today paints from latest.json without waiting for the 30-day archive', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  let releaseArchive;
+  const archiveGate = new Promise(resolve => { releaseArchive = resolve; });
+  await page.route('**/cards.json*', async route => {
+    await archiveGate;
+    await route.continue();
+  });
+
+  await page.goto('/');
+  // The digest is on screen while cards.json is still held back.
+  await expect(page.locator('.story-hero')).toBeVisible();
+  const weekLinks = page.locator('#archive-nav a[href^="#weekgroup-"]');
+  const weeksBefore = await weekLinks.count();
+  const firstStory = await page.locator('[data-story-id]').first().getAttribute('data-story-id');
+  await page.locator('#feed-list').evaluate(el => { el.scrollTop = 200; });
+
+  // Once the archive lands, older weeks join the nav — the feed itself is untouched.
+  releaseArchive();
+  await expect.poll(() => weekLinks.count()).toBeGreaterThan(weeksBefore);
+  await expect(page.locator('[data-story-id]').first()).toHaveAttribute('data-story-id', firstStory);
+  expect(await page.locator('#feed-list').evaluate(el => el.scrollTop)).toBeGreaterThan(0);
+});
+
+test('falls back to the full archive when latest.json is missing', async ({ page }) => {
+  await page.setViewportSize({ width: 1366, height: 768 });
+  await page.route('**/latest.json*', route => route.fulfill({ status: 404, contentType: 'text/plain', body: 'not found' }));
+  await page.goto('/');
+  await expect(page.locator('.story-hero')).toBeVisible();
+  await expect(page.locator('#feed-list')).toHaveAttribute('aria-busy', 'false');
 });
 
 test('a fresh load snaps to the latest digest even when the URL carries a stale day-hash', async ({ page }) => {

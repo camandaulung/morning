@@ -2,6 +2,7 @@
 """Push morning/evening digest to Telegram channel. Topic-agnostic — reads config.json for section labels."""
 import json, os, sys, urllib.request, urllib.parse
 from digest_utils import list_item_fields
+from latest_utils import write_latest_file
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 PAGE_URL  = "https://camandaulung.github.io/morning"
@@ -64,6 +65,7 @@ def mark_evening_notified(cards: list, path: str = "cards.json") -> None:
     cards[0]["eveningNotified"] = True
     with open(path, "w", encoding="utf-8") as f:
         json.dump(cards, f, ensure_ascii=False, indent=2)
+    write_latest_file(cards, path)   # keep latest.json in step with cards.json
 
 
 def build_morning_message(card: dict) -> str:
