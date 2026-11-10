@@ -5,7 +5,12 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from jina_fetch import is_blocked_url
+import threading
+from jina_fetch import is_blocked_url, parallel_map
+
+# Feeds are fetched concurrently across all topics; cap simultaneous requests
+# (many feeds share a host, e.g. news.google.com).
+_RSS_SLOTS = threading.BoundedSemaphore(8)
 
 DEFAULT_HEADERS = {"User-Agent": "Mozilla/5.0 morning-digest"}
 RSS_TIMEOUT    = 10
@@ -86,7 +91,7 @@ def fetch_rss(url: str, max_items: int = MAX_PER_FEED) -> list[dict]:
     """Fetch RSS 2.0 or Atom feed. Returns [{title, url, description, pubDate}]."""
     req = urllib.request.Request(url, headers=DEFAULT_HEADERS)
     try:
-        with urllib.request.urlopen(req, timeout=RSS_TIMEOUT) as resp:
+        with _RSS_SLOTS, urllib.request.urlopen(req, timeout=RSS_TIMEOUT) as resp:
             data = resp.read()
     except Exception as e:
         print(f"  [rss] Fetch error {url}: {e}")
@@ -165,9 +170,7 @@ def fetch_rss_topic(topic: dict) -> tuple[str, set[str], dict]:
     if not feeds:
         return "", set(), {}
 
-    all_items = []
-    for url in feeds:
-        all_items.extend(fetch_rss(url))
+    all_items = [item for batch in parallel_map(fetch_rss, feeds) for item in batch]
 
     if not all_items:
         return "", set(), {}

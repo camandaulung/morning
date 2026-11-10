@@ -93,6 +93,9 @@ class TestMarkEveningNotified:
         assert cards[0]["eveningNotified"] is True
         written = json.loads(path.read_text(encoding="utf-8"))
         assert written[0]["eveningNotified"] is True
+        # latest.json (what the web paints from) must carry the same flag.
+        latest = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
+        assert latest[0]["eveningNotified"] is True
 
     def test_canonical_json_format(self, tmp_path):
         """Must match card_pipeline.write_cards_file (ensure_ascii=False, indent=2)

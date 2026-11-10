@@ -28,7 +28,24 @@ const OVERVIEW_WORDS = new Set([
 
 const OVERVIEW_RE = /(tin gi|co gi|tom tat|tong hop|diem tin|ban tin|digest|liet ke|may tin|cac tin|nhung tin|tin nao|het tin|tat ca|vua post|vua dang|moi post|tin moi|summary|what.?s new)/;
 
-type Tagged = DigestItem & { _srcDate: string; _field: string; _kind: 'daily' | 'rollup' };
+type Tagged = DigestItem & { _srcDate: string; _field: string; _kind: 'daily' | 'rollup'; _orig: DigestItem };
+
+// Folded search text per stored item, keyed by the item object itself. digest.ts
+// keeps the parsed store alive between messages, so each item is tokenised once
+// per isolate instead of on every query and every search_news tool call.
+const searchIndex = new WeakMap<object, { bag: Set<string>; head: string }>();
+
+function indexOf(item: Tagged): { bag: Set<string>; head: string } {
+  let entry = searchIndex.get(item._orig);
+  if (!entry) {
+    entry = {
+      bag: tokens(`${item.title || ''} ${item.name || ''} ${item.desc || ''} ${item.detail || ''} ${item.reason || ''} ${item.tagLabel || ''}`),
+      head: fold(`${item.title || ''} ${item.name || ''}`),
+    };
+    searchIndex.set(item._orig, entry);
+  }
+  return entry;
+}
 
 export function fold(s: string): string {
   return (s || '')
@@ -85,10 +102,9 @@ function recencyWeight(ageDays: number): number {
 }
 
 function scoreItem(item: Tagged, queryTokens: Set<string>, queryFolded: string, ageDays: number): number {
-  const bag = tokens(`${item.title || ''} ${item.name || ''} ${item.desc || ''} ${item.detail || ''} ${item.reason || ''} ${item.tagLabel || ''}`);
+  const { bag, head } = indexOf(item);
   let overlap = 0;
   for (const t of queryTokens) if (bag.has(t)) overlap++;
-  const head = fold(`${item.title || ''} ${item.name || ''}`);
   const substrBoost = queryFolded && head.includes(queryFolded) ? 3 : 0;
   const base = overlap + substrBoost;
   if (base === 0) return 0;
@@ -144,7 +160,7 @@ export function retrieveContext(data: DigestData, query: string, topK = 12, now:
       const srcDate = cardDate(card);
       for (const f of listFields(card as unknown as Record<string, unknown>)) {
         const items = (card as unknown as Record<string, DigestItem[]>)[f];
-        for (const it of items) if (it?.title || it?.name) pool.push({ ...it, _srcDate: srcDate, _field: f, _kind: kind });
+        for (const it of items) if (it?.title || it?.name) pool.push({ ...it, _srcDate: srcDate, _field: f, _kind: kind, _orig: it });
       }
     }
   };
@@ -206,7 +222,7 @@ export function retrieveContext(data: DigestData, query: string, topK = 12, now:
 }
 
 function stripInternal(it: Tagged, labels: Record<string, string>): DigestItem {
-  const { _srcDate, _field, _kind: _drop, ...rest } = it;
+  const { _srcDate, _field, _kind: _drop, _orig: _dropOrig, ...rest } = it;
   return { ...rest, date: _srcDate, topic: labels[_field] || _field };
 }
 

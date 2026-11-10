@@ -73,7 +73,8 @@ Hệ thống bản tin tự động hàng ngày (Morning Digest) + chatbot Teleg
 | `bot/` | Cloudflare Worker (TypeScript) — webhook, RAG, commands, LLM integration, KV state |
 | `index.html` | Trang web tĩnh (Cloudflare Pages) hiển thị latest digest |
 | `_headers` | HTTP headers cho CF Pages |
-| `cards.json` | Rolling 30 ngày daily cards — data source cho bot + web |
+| `cards.json` | Rolling 30 ngày daily cards — data source cho bot + kho lưu trữ của web |
+| `latest.json` | 7 card mới nhất (minified) — web paint từ file này trước, `cards.json` tải nền sau. Ghi cùng lúc với `cards.json` qua `latest_utils.write_latest_file` |
 | `weekly.json` | Tổng kết tuần (12 tuần gần nhất) |
 | `monthly.json` | Tổng kết tháng |
 | `.github/workflows/` | CI/CD pipelines (morning.yml, deploy-bot.yml, deploy-cloudflare-pages.yml) |
@@ -93,7 +94,7 @@ Hệ thống bản tin tự động hàng ngày (Morning Digest) + chatbot Teleg
 git clone <repo> && cd Morning
 
 # Install deps (nếu cần)
-pip install google-genai
+pip install -r requirements.txt
 
 # Set env vars (hoặc .env file)
 export GEMINI_API_KEY=your_key

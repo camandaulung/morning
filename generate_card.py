@@ -16,7 +16,7 @@ from digest_utils import (get_recent_titles, get_recent_urls, get_recent_titles_
                           get_all_urls, build_dedup_index, DEDUP_DAYS)
 from card_pipeline import fetch_contexts, generate_card_per_topic, validate_card, dedup_card, enrich_images, write_cards_file
 from prompt_builder import build_daily_prompt
-from time_utils import now_vn
+from time_utils import now_vn, timed
 
 DAY_NAMES = ["Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"]
 RUN_MODE = os.environ.get("RUN_MODE", "morning")
@@ -73,7 +73,8 @@ def main_morning():
     print(f"Generating card for {date_str} | topics: {list(topics.keys())}...")
     print("Step 1: Fetching web content...")
     # Repos already published anywhere in the 30-day window never go back to the LLM.
-    topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year, exclude_urls=get_all_urls(cards))
+    with timed("fetch"):
+        topic_contexts, trusted_urls, image_map = fetch_contexts(topics, month_year, exclude_urls=get_all_urls(cards))
     has_data = bool(trusted_urls)
     print(f"Fetch done. has_data={has_data} trusted_urls={len(trusted_urls)}")
 
@@ -90,9 +91,11 @@ def main_morning():
         )
 
     print(f"Step 2: Calling LLM per topic ({len(topics)} topics)...")
-    card_json = generate_card_per_topic(topics, topic_contexts, prompt_for, date_str, day_label, date_label)
+    with timed("llm"):
+        card_json = generate_card_per_topic(topics, topic_contexts, prompt_for, date_str, day_label, date_label)
     raw_summary = " ".join(f"{fld}:{len(card_json.get(fld,[]))}" for fld in output_fields)
-    card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
+    with timed("validate"):
+        card_json = validate_card(card_json, output_fields, repo_fields, trusted_urls)
     card_json = dedup_card(card_json, output_fields, recent_urls, recent_norms, recent_tokens)
     card_json = enrich_images(card_json, output_fields, image_map)
 
@@ -110,6 +113,11 @@ def main_morning():
 
 
 def main():
+    with timed(f"total ({RUN_MODE})"):
+        _run()
+
+
+def _run():
     if RUN_MODE == "evening":
         from evening_update import run_evening
         config = load_config()

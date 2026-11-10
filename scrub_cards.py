@@ -3,6 +3,7 @@
 Strict-drop dead/no-URL news items. Strict-drop bad-format/dead repo items.
 Works with any topic set (old + new pivot fields alike)."""
 import json
+from latest_utils import write_latest_file
 from digest_utils import (
     batch_check_urls, validate_news_items, validate_repo_items,
     GITHUB_REPO_RE, list_item_fields,
@@ -53,6 +54,8 @@ def scrub_file(path: str) -> None:
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    if path == "cards.json":
+        write_latest_file(data, path)   # keep latest.json in step with cards.json
     print(f"Wrote {path}")
 
 

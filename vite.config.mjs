@@ -9,6 +9,7 @@ const runtimeFiles = [
   'router-init.js',
   'config.json',
   'cards.json',
+  'latest.json',
   'weekly.json',
   'monthly.json',
   '_headers',

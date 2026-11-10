@@ -11,9 +11,10 @@ from digest_utils import (
     batch_check_urls, validate_news_items, validate_repo_items,
     is_duplicate_title, DEDUP_DAYS,
 )
-from jina_fetch import fetch_topic_context
+from jina_fetch import fetch_topic_context, parallel_map
 from llm_client import call_llm
 from json_extract import parse_llm_json
+from latest_utils import write_latest_file
 
 
 def sanitize_reader_detail(item: dict) -> dict:
@@ -63,8 +64,19 @@ def fetch_contexts(topics: dict, month_year: str,
     topic_contexts = {}
     trusted_urls: set[str] = set()
     image_map: dict = {}
-    for key, topic in topics.items():
-        ctx, urls, images = fetch_topic_context(topic, month_year, exclude_urls)
+
+    def fetch_one(entry):
+        key, topic = entry
+        try:
+            return fetch_topic_context(topic, month_year, exclude_urls)
+        except Exception as e:  # one topic's fetch must not take the others down
+            print(f"::warning::Fetch crashed for topic {key}: {e}")
+            return "", set(), {}
+
+    # Topics fetch concurrently (each fans out its own queries/feeds); results are
+    # merged in config order so prompts and "first image wins" stay deterministic.
+    results = parallel_map(fetch_one, topics.items(), max_workers=len(topics) or 1)
+    for key, (ctx, urls, images) in zip(topics, results):
         topic_contexts[key] = ctx
         trusted_urls |= urls
         for u, img in images.items():
@@ -223,3 +235,4 @@ def write_cards_file(cards: list, path: str = "cards.json") -> None:
     evening flow which mutates cards[0] in place instead of inserting a new card."""
     with open(path, "w", encoding="utf-8") as f:
         json.dump(cards, f, ensure_ascii=False, indent=2)
+    write_latest_file(cards, path)

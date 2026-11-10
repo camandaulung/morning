@@ -1,6 +1,22 @@
 """Web fetching utilities for Morning Digest: Jina Search + GitHub Trending API."""
-import json, os, urllib.request, urllib.parse
+import json, os, threading, urllib.request, urllib.parse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
+
+# Fetches run concurrently (topics × queries/feeds), so each upstream gets its own
+# cap on simultaneous requests to stay clear of rate limits: Jina Search, and the
+# GitHub Search API (30 req/min with a token, 10 without).
+_JINA_SLOTS   = threading.BoundedSemaphore(int(os.environ.get("JINA_CONCURRENCY", "4")))
+_GITHUB_SLOTS = threading.BoundedSemaphore(2)
+
+
+def parallel_map(fn, items, max_workers: int = 8) -> list:
+    """Run fn over items on threads; results come back in input order."""
+    items = list(items)
+    if len(items) <= 1:
+        return [fn(x) for x in items]
+    with ThreadPoolExecutor(max_workers=max(1, min(max_workers, len(items)))) as pool:
+        return list(pool.map(fn, items))
 
 JINA_API_KEY = os.environ.get("JINA_API_KEY", "")
 SEARCH_URL   = "https://s.jina.ai/"
@@ -31,7 +47,7 @@ def jina_search(query: str, max_results: int = 5) -> list[dict]:
     req.add_header("X-With-Generated-Alt", "false")
 
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with _JINA_SLOTS, urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read())
         raw = data.get("data", [])
         results = [r for r in raw if not is_blocked_url(r.get("url", ""))][:max_results]
@@ -53,10 +69,8 @@ def jina_search(query: str, max_results: int = 5) -> list[dict]:
 
 def fetch_jina_topic(topic: dict, month_year: str) -> tuple[str, set[str]]:
     """Fetch Jina results for a topic. Returns (text_context, valid_urls_set)."""
-    all_results = []
-    for q in topic.get("search_queries", []):
-        query = q.replace("{month_year}", month_year)
-        all_results.extend(jina_search(query))
+    queries = [q.replace("{month_year}", month_year) for q in topic.get("search_queries", [])]
+    all_results = [r for batch in parallel_map(jina_search, queries) for r in batch]
 
     if not all_results:
         return "", set()
@@ -99,7 +113,7 @@ def github_search(query: str, max_results: int = 8) -> list[dict]:
         req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
 
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with _GITHUB_SLOTS, urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read())
         raw = data.get("items", [])
         items = [it for it in raw if not is_blocked_url(it.get("html_url", ""))][:max_results]
@@ -144,9 +158,11 @@ def fetch_github_topic(topic: dict, cutoff_date: str, created_cutoff: str = "",
     empty (2026-10-20 onwards)."""
     exclude_urls = exclude_urls or set()
     seen = {}
-    for q in topic.get("github_queries", []):
-        query = q.replace("{cutoff_date}", cutoff_date).replace("{created_cutoff}", created_cutoff or cutoff_date)
-        for repo in github_search(query, topic.get("github_per_query", 8)):
+    queries = [q.replace("{cutoff_date}", cutoff_date).replace("{created_cutoff}", created_cutoff or cutoff_date)
+               for q in topic.get("github_queries", [])]
+    per_query = topic.get("github_per_query", 8)
+    for batch in parallel_map(lambda q: github_search(q, per_query), queries):
+        for repo in batch:
             if repo["url"] and repo["url"] not in seen and repo["url"] not in exclude_urls:
                 seen[repo["url"]] = repo
 
