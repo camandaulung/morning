@@ -1,5 +1,86 @@
 [
   {
+    "weekLabel": "Tuần 46/2026",
+    "fromDate": "2026-11-09",
+    "toDate": "2026-11-14",
+    "highlights": [
+      {
+        "title": "⚡ Microsoft 365 tê liệt toàn cầu",
+        "desc": "Sáng 13/11, hàng loạt ứng dụng văn phòng quen thuộc gồm Outlook, Teams và Copilot đồng loạt gặp sự cố sập hệ thống trên diện rộng. Sự cố làm gián đoạn nghiêm trọng công việc của vô số doanh nghiệp trên toàn thế giới mà không xuất phát từ tấn công mạng.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://tinhte.vn/thread/microsoft-365-sap-toan-cau-outlook-teams-copilot-cung-loi-khong-phai-tan-cong-mang.4191990/"
+      },
+      {
+        "title": "🤖 Anthropic tung bộ công cụ văn phòng Claude",
+        "desc": "Anthropic chính thức bổ sung loạt tính năng chuyên sâu phục vụ tác vụ văn phòng cho Claude, trực tiếp thách thức vị thế của Microsoft 365 và Google Workspace. Động thái này đánh dấu bước chuyển mình lớn của Claude từ trợ lý đối thoại thành nền tảng làm việc toàn diện.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://genk.vn/ra-mat-loat-cong-cu-van-phong-moi-anthropic-dung-claude-vao-gianh-mieng-banh-cua-microsoft-va-google-165261113123707827.chn"
+      },
+      {
+        "title": "💼 Quốc hội mở cơ chế sandbox chứng khoán",
+        "desc": "Luật Chứng khoán sửa đổi vừa chính thức thông qua khung pháp lý thử nghiệm có kiểm soát cho các sản phẩm và giải pháp công nghệ tài chính mới. Cơ chế tạo tiền đề quan trọng giúp thị trường vốn thúc đẩy đổi mới sáng tạo an toàn và bài bản.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://tuoitre.vn/quoc-hoi-mo-co-che-thu-nghiem-co-kiem-soat-trong-linh-vuc-chung-khoan-100261113092832461.htm"
+      },
+      {
+        "title": "⚠️ Lỗi driver AMD Radeon âm thầm ghi mòn SSD",
+        "desc": "AMD xác nhận lỗi driver Radeon kích hoạt tiến trình ghi dữ liệu liên tục xuống ổ cứng thể rắn ngoài tầm kiểm soát của người dùng. Sự cố này trực tiếp làm suy giảm tuổi thọ phần cứng lưu trữ và buộc người dùng phải kiểm tra cập nhật bản vá ngay.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://tinhte.vn/thread/amd-xac-nhan-loi-driver-radeon-ghi-lien-tuc-vao-ssd.4190742/"
+      }
+    ],
+    "topRepos": [
+      {
+        "name": "IvanMurzak/Unity-MCP",
+        "url": "https://github.com/IvanMurzak/Unity-MCP",
+        "desc": "Bộ công cụ MCP và CLI mạnh mẽ kết nối AI trực tiếp vào Unity Engine để tự động hóa phát triển và chạy thử nghiệm.",
+        "stars": "⭐4.6K+",
+        "verdict": "yes"
+      },
+      {
+        "name": "aldegad/sprite-gen",
+        "url": "https://github.com/aldegad/sprite-gen",
+        "desc": "Pipeline tự động tạo 2D sprite và animation atlas chuẩn chỉnh, tích hợp dưới dạng kỹ năng cho Claude Code và Codex.",
+        "stars": "⭐4.0K+",
+        "verdict": "yes"
+      },
+      {
+        "name": "satelliteoflove/godot-mcp",
+        "url": "https://github.com/satelliteoflove/godot-mcp",
+        "desc": "Plugin MCP biến trợ lý AI thành phụ tá tương tác trực quan ngay bên trong Godot Editor.",
+        "stars": "⭐184",
+        "verdict": "yes"
+      }
+    ],
+    "topGaming": [
+      {
+        "title": "📱 Trung Quốc soán ngôi vương thị trường game mobile 121 tỉ USD",
+        "desc": "Các studio phát triển game Trung Quốc đã vượt mặt Mỹ để dẫn đầu doanh thu thị trường game di động toàn cầu với quy mô 121 tỉ USD.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaW8zSjZIejVXV0tjWDE0LUpiYXlRUDVZaFlTNTMtaG9FYnRQQ1hLcmVNNms2OVV0ZjNCd0VZNnYzVnFQcmJhOUE1RFJiNW5fbmJhX1FsdjJoRjdDNHRIRWJxSHFkYWRWV3BZQlZRQkZpMFJXdE91MXhIU2RlUVVPQ1B5dnBiUFRpNXMwRWh2bmFDUUkwaEttR0FUMA?oc=5"
+      },
+      {
+        "title": "🎮 Zelda 40th Anniversary đưa doanh số Switch 2 lập đỉnh",
+        "desc": "Phiên bản kỷ niệm 40 năm của thương hiệu The Legend of Zelda tạo cú hích doanh số phần cứng kỷ lục cho hệ máy Switch 2.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOemZpMUwzdXFJaWpWSWU3VDF1dnpqekZ3OWpSYVhYeG96T2pOZE9iVXMtTFpwTWFYcXd5VzBuTTI3SFN4cENndjF1WE5xRWFRa1E0S0VZWlVReU5Ra1RkOWZCeTJiT280Rklrak1rd0FmLW92Z0JDU25Pd1YzTExuWWJHR2x3RzZUQy1KampIUFIwY1c2RElaT2pPV2JhaUZ6ZzFMb3RFZ2x4SDVrbzZnWEktaGZGXzFlWkVpeTdGOERZeFVBWk5peTNuMi1mLUJiYkJVUHNUeVgtZlhHbGhHbnhpOXR4TUlRdzNKZ0tiaFd4YUxBYnJaeWg3dlJMSnc?oc=5"
+      },
+      {
+        "title": "⚠️ Nghịch lý game mobile fake gameplay vẫn thu doanh thu khủng",
+        "desc": "Chiêu trò quảng cáo sai lệch lối chơi thực tế vẫn mang lại lợi nhuận và doanh thu kỷ lục cho hàng loạt nhà phát hành game di động.",
+        "tag": "monet",
+        "tagLabel": "💰 MONET",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVk9iRmFRYlpzREFBQkYzMVd6bDJrd2c0NEpJTkktYlZyakEtY05jcXE5WTJ5bFdGNFNGNWU2UERUemVCX3V5WTQzZlFYclR3RWtyblB2cWxnY1hLV0FsQWdjNXlJQ0ZaMjh3djNKdnhxUk1wMmQ4alY1ZkNXNGE4dzdKeXV5Y2hjc3BpVEp1akZKYnluRjVWeWh2UU5qeTZKVlc4VVg5SUNFUWhp?oc=5"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 45/2026",
     "fromDate": "2026-11-02",
     "toDate": "2026-11-08",
@@ -718,72 +799,6 @@
         "tag": "social",
         "tagLabel": "🎰 SOCIAL",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUzFBNEwwZkFMWDJqMW8ya3ByX3M4NUVCVDUyV2lKVS1YSFBvZGJzVlFlcVJVamRneUlFaDVQNTA4ei1WTXVZNUZxaHQtTFFwWmFVMmxEMnVhNldHNzNxSXJmaGJidjJZRkVJTFFMUVFvOUV4VDg4NnBqMDQ4RlhTS2h4X2xQazJfR3JFamdmT3d0UlJxOWFndlhzZWxMYlE2SHlEdHpuanVQSzlxNWk4cVdjcjNEU25hVjkySDl4UjdLVU9HRzRlT3NkRDhEMEI4WnYxbFZJTzg?oc=5"
-      }
-    ]
-  },
-  {
-    "weekLabel": "Tuần 33/2026",
-    "fromDate": "2026-08-10",
-    "toDate": "2026-08-16",
-    "highlights": [
-      {
-        "title": "🤖 Apple tự huấn luyện AI riêng cho thị trường Trung Quốc, có Alibaba hỗ trợ",
-        "desc": "Apple đang tự phát triển mô hình AI ngôn ngữ lớn riêng cho thị trường Trung Quốc, với sự hỗ trợ từ Alibaba, cho thấy chiến lược địa phương hóa mạnh mẽ.",
-        "tag": "api",
-        "tagLabel": "🔧 API",
-        "url": "https://tinhte.vn/thread/apple-tu-huan-luyen-mo-hinh-ai-rieng-cho-thi-truong-trung-quoc-co-alibaba-ho-tro.4169289/"
-      },
-      {
-        "title": "💸 YouTube thay đổi lớn điều kiện bật kiếm tiền từ 1/2/2027",
-        "desc": "YouTube công bố điều chỉnh lớn nhất Chương trình Đối tác (YPP) từ 2018, áp dụng toàn cầu từ 1/2/2027, ảnh hưởng đến hàng triệu nhà sáng tạo nội dung.",
-        "tag": "deadline",
-        "tagLabel": "⏰ DEADLINE",
-        "url": "https://cafebiz.vn/thay-doi-lon-tren-youtube-lien-quan-den-dieu-kien-bat-kiem-tien-ma-nhieu-nguoi-nen-biet-ro-176260816080337327.chn"
-      },
-      {
-        "title": "🚀 Starlink chính thức bán Internet vệ tinh tại Việt Nam",
-        "desc": "Dịch vụ Internet vệ tinh Starlink của Elon Musk đã chuyển trạng thái 'có sẵn' tại Việt Nam, bắt đầu nhận đặt hàng với giá 11,3 triệu đồng/tháng.",
-        "tag": "feature",
-        "tagLabel": "✨ FEATURE",
-        "url": "https://genk.vn/starlink-gia-113-trieu-dong-moi-thang-dat-gap-6-lan-nhung-toc-do-chi-bang-1-3-goi-cap-quang-pho-thong-vay-ai-o-viet-nam-thuc-su-nen-mua-165260814080001008.chn"
-      },
-      {
-        "title": "📈 VN-Index 'Rơi' 64 Điểm Sau 2 Phiên, Vốn Hóa Bốc Hơi Hàng Tỷ USD",
-        "desc": "Thị trường chứng khoán Việt Nam chịu áp lực bán tháo mạnh, VN-Index mất 64 điểm sau hai phiên, vốn hóa toàn thị trường 'bốc hơi' hàng tỷ USD.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://cafef.vn/co-phieu-tru-bi-ban-manh-vn-index-roi-64-diem-sau-2-phien-188260814183718232.chn"
-      },
-      {
-        "title": "🔥 Bánh flan khổng lồ 20.000 đồng gây sốt MXH",
-        "desc": "Một tiệm bánh flan ở Sài Gòn đang gây bão mạng xã hội với món bánh flan khổng lồ chỉ 20.000 đồng, thu hút sự chú ý lớn từ cộng đồng mạng.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOU1KM3otWEVmTW5YRmNGX0h2Zk1UTHlabFY0aTVCS0RSTzVxYmtkeE16dUM4OGY3b3FNbEhpTU1feU1QRHNZTHBNdjhBR1RsNllFOFhrcXRfWXAtNm5laDRtVzhjdwFybDJvWWpZVVdZODNvdWpnSlFFdGRSc00ybXRUYVk1b1FLRW4yeDdZWUNFMmxwR0ZCMVA1S250OU9aanVxN0J1b195RzFq?oc=5"
-      }
-    ],
-    "topRepos": [],
-    "topGaming": [
-      {
-        "title": "🎮 Tomb Raider: Legacy of Atlantis Hồi Sinh Huyền Thoại",
-        "desc": "Bản 'tái tưởng tượng' của Tomb Raider 1996, Legacy of Atlantis, hứa hẹn mang lại cảm giác phiêu lưu kinh điển cùng lối chơi hiện đại.",
-        "tag": "gameplay",
-        "tagLabel": "🎮 GAMEPLAY",
-        "url": "https://www.ign.com/articles/tomb-raider-legacy-of-atlantis-the-first-preview"
-      },
-      {
-        "title": "🎮 Keanu Reeves đóng game John Wick mới",
-        "desc": "Keanu Reeves đã xác nhận sẽ lồng tiếng và thể hiện hình ảnh trong tựa game John Wick mới của Saber Interactive, hứa hẹn một trải nghiệm hành động đỉnh cao.",
-        "tag": "gameplay",
-        "tagLabel": "🎮 GAMEPLAY",
-        "url": "https://www.ign.com/articles/saber-interactive-announces-new-john-wick-game-sony-state-of-play"
-      },
-      {
-        "title": "💻 Trend game mới trên Steam: Sắp xếp đồ vật nhàm chán",
-        "desc": "Các tựa game về việc sắp xếp hàng nghìn đồ vật hàng ngày lên kệ đang trở thành cơn sốt mới trên PC Gaming tuần qua, thu hút đông đảo người chơi.",
-        "tag": "chart",
-        "tagLabel": "📊 CHART",
-        "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-games-about-sorting-1000s-of-mundane-objects-onto-shelves-is-the-new-craze-sweeping-pc-gaming/"
       }
     ]
   }
