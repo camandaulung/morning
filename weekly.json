@@ -6,28 +6,28 @@
     "highlights": [
       {
         "title": "⚡ Microsoft 365 tê liệt toàn cầu",
-        "desc": "Sáng 13/11, hàng loạt ứng dụng văn phòng quen thuộc gồm Outlook, Teams và Copilot đồng loạt gặp sự cố sập hệ thống trên diện rộng. Sự cố làm gián đoạn nghiêm trọng công việc của vô số doanh nghiệp trên toàn thế giới mà không xuất phát từ tấn công mạng.",
+        "desc": "Sáng 13/11, hàng loạt ứng dụng văn phòng thiết yếu như Outlook, Teams và Copilot đồng loạt gặp sự cố sập diện rộng. Sự cố làm gián đoạn nghiêm trọng hoạt động vận hành của vô số doanh nghiệp trên toàn thế giới dù không phải do tấn công mạng.",
         "tag": "hot",
         "tagLabel": "🔥 HOT",
         "url": "https://tinhte.vn/thread/microsoft-365-sap-toan-cau-outlook-teams-copilot-cung-loi-khong-phai-tan-cong-mang.4191990/"
       },
       {
-        "title": "🤖 Anthropic tung bộ công cụ văn phòng Claude",
-        "desc": "Anthropic chính thức bổ sung loạt tính năng chuyên sâu phục vụ tác vụ văn phòng cho Claude, trực tiếp thách thức vị thế của Microsoft 365 và Google Workspace. Động thái này đánh dấu bước chuyển mình lớn của Claude từ trợ lý đối thoại thành nền tảng làm việc toàn diện.",
+        "title": "🤖 Anthropic tung bộ công cụ văn phòng Claude mới",
+        "desc": "Anthropic chính thức ra mắt loạt tính năng chuyên sâu phục vụ tác vụ văn phòng ngay trên Claude. Động thái này đưa mô hình AI của Anthropic đối đầu trực diện với bộ giải pháp năng suất từ Microsoft và Google.",
         "tag": "feature",
         "tagLabel": "✨ FEATURE",
         "url": "https://genk.vn/ra-mat-loat-cong-cu-van-phong-moi-anthropic-dung-claude-vao-gianh-mieng-banh-cua-microsoft-va-google-165261113123707827.chn"
       },
       {
         "title": "💼 Quốc hội mở cơ chế sandbox chứng khoán",
-        "desc": "Luật Chứng khoán sửa đổi vừa chính thức thông qua khung pháp lý thử nghiệm có kiểm soát cho các sản phẩm và giải pháp công nghệ tài chính mới. Cơ chế tạo tiền đề quan trọng giúp thị trường vốn thúc đẩy đổi mới sáng tạo an toàn và bài bản.",
+        "desc": "Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán chính thức thông qua khung thử nghiệm có kiểm soát (sandbox). Quy định mới mở đường phát triển các sản phẩm, giải pháp và mô hình kinh doanh ứng dụng công nghệ tài chính tại Việt Nam.",
         "tag": "hot",
         "tagLabel": "🔥 HOT",
         "url": "https://tuoitre.vn/quoc-hoi-mo-co-che-thu-nghiem-co-kiem-soat-trong-linh-vuc-chung-khoan-100261113092832461.htm"
       },
       {
-        "title": "⚠️ Lỗi driver AMD Radeon âm thầm ghi mòn SSD",
-        "desc": "AMD xác nhận lỗi driver Radeon kích hoạt tiến trình ghi dữ liệu liên tục xuống ổ cứng thể rắn ngoài tầm kiểm soát của người dùng. Sự cố này trực tiếp làm suy giảm tuổi thọ phần cứng lưu trữ và buộc người dùng phải kiểm tra cập nhật bản vá ngay.",
+        "title": "⚠️ Driver AMD Radeon dính lỗi bào mòn ổ cứng SSD",
+        "desc": "AMD chính thức xác nhận lỗi tiến trình trong phần mềm điều khiển Radeon khiến hệ thống liên tục ghi khối lượng lớn dữ liệu xuống ổ lưu trữ. Tình trạng ghi dữ liệu bất thường ngoài tầm kiểm soát đe dọa trực tiếp đến tuổi thọ linh kiện SSD của người dùng.",
         "tag": "hot",
         "tagLabel": "🔥 HOT",
         "url": "https://tinhte.vn/thread/amd-xac-nhan-loi-driver-radeon-ghi-lien-tuc-vao-ssd.4190742/"
@@ -37,43 +37,43 @@
       {
         "name": "IvanMurzak/Unity-MCP",
         "url": "https://github.com/IvanMurzak/Unity-MCP",
-        "desc": "Bộ công cụ MCP và CLI mạnh mẽ kết nối AI trực tiếp vào Unity Engine để tự động hóa phát triển và chạy thử nghiệm.",
-        "stars": "⭐4.6K+",
+        "desc": "Bộ công cụ MCP và CLI nối trực tiếp AI agent vào engine Unity, tự động hóa toàn diện từ mã nguồn tới vòng lặp chạy thử.",
+        "stars": "4.6K+",
         "verdict": "yes"
       },
       {
         "name": "aldegad/sprite-gen",
         "url": "https://github.com/aldegad/sprite-gen",
-        "desc": "Pipeline tự động tạo 2D sprite và animation atlas chuẩn chỉnh, tích hợp dưới dạng kỹ năng cho Claude Code và Codex.",
-        "stars": "⭐4.0K+",
+        "desc": "Quy trình AI tạo 2D sprite và animation atlas chuẩn chỉnh, hỗ trợ tích hợp trực tiếp kỹ năng cho Claude Code và Codex.",
+        "stars": "4.0K+",
         "verdict": "yes"
       },
       {
         "name": "satelliteoflove/godot-mcp",
         "url": "https://github.com/satelliteoflove/godot-mcp",
-        "desc": "Plugin MCP biến trợ lý AI thành phụ tá tương tác trực quan ngay bên trong Godot Editor.",
-        "stars": "⭐184",
+        "desc": "Plugin MCP mạnh mẽ cấp quyền tương tác sâu và trực quan hóa ngữ cảnh dự án trong Godot Editor cho trợ lý AI.",
+        "stars": "184",
         "verdict": "yes"
       }
     ],
     "topGaming": [
       {
-        "title": "📱 Trung Quốc soán ngôi vương thị trường game mobile 121 tỉ USD",
-        "desc": "Các studio phát triển game Trung Quốc đã vượt mặt Mỹ để dẫn đầu doanh thu thị trường game di động toàn cầu với quy mô 121 tỉ USD.",
+        "title": "📱 Trung Quốc chiếm ngôi đầu thị trường game di động 121 tỉ USD",
+        "desc": "Các studio phát triển game Trung Quốc chính thức vượt qua các đối thủ Mỹ để dẫn đầu doanh thu toàn cầu của ngành công nghiệp game mobile.",
         "tag": "chart",
         "tagLabel": "📊 CHART",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaW8zSjZIejVXV0tjWDE0LUpiYXlRUDVZaFlTNTMtaG9FYnRQQ1hLcmVNNms2OVV0ZjNCd0VZNnYzVnFQcmJhOUE1RFJiNW5fbmJhX1FsdjJoRjdDNHRIRWJxSHFkYWRWV3BZQlZRQkZpMFJXdE91MXhIU2RlUVVPQ1B5dnBiUFRpNXMwRWh2bmFDUUkwaEttR0FUMA?oc=5"
       },
       {
-        "title": "🎮 Zelda 40th Anniversary đưa doanh số Switch 2 lập đỉnh",
-        "desc": "Phiên bản kỷ niệm 40 năm của thương hiệu The Legend of Zelda tạo cú hích doanh số phần cứng kỷ lục cho hệ máy Switch 2.",
+        "title": "🎮 Zelda 40th Anniversary đẩy doanh số Switch 2 lập kỷ lục",
+        "desc": "Cú hích phát hành phiên bản kỷ niệm 40 năm thương hiệu Zelda đưa lượng tiêu thụ phần cứng Switch 2 tăng vọt lên mức đỉnh mới.",
         "tag": "chart",
         "tagLabel": "📊 CHART",
         "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOemZpMUwzdXFJaWpWSWU3VDF1dnpqekZ3OWpSYVhYeG96T2pOZE9iVXMtTFpwTWFYcXd5VzBuTTI3SFN4cENndjF1WE5xRWFRa1E0S0VZWlVReU5Ra1RkOWZCeTJiT280Rklrak1rd0FmLW92Z0JDU25Pd1YzTExuWWJHR2x3RzZUQy1KampIUFIwY1c2RElaT2pPV2JhaUZ6ZzFMb3RFZ2x4SDVrbzZnWEktaGZGXzFlWkVpeTdGOERZeFVBWk5peTNuMi1mLUJiYkJVUHNUeVgtZlhHbGhHbnhpOXR4TUlRdzNKZ0tiaFd4YUxBYnJaeWg3dlJMSnc?oc=5"
       },
       {
-        "title": "⚠️ Nghịch lý game mobile fake gameplay vẫn thu doanh thu khủng",
-        "desc": "Chiêu trò quảng cáo sai lệch lối chơi thực tế vẫn mang lại lợi nhuận và doanh thu kỷ lục cho hàng loạt nhà phát hành game di động.",
+        "title": "⚠️ Nghịch lý game di động giả mạo gameplay bội thu",
+        "desc": "Chiến lược quảng cáo video gameplay sai lệch so với sản phẩm thực tế vẫn mang lại lợi nhuận và doanh số khổng lồ cho nhiều studio di động.",
         "tag": "monet",
         "tagLabel": "💰 MONET",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVk9iRmFRYlpzREFBQkYzMVd6bDJrd2c0NEpJTkktYlZyakEtY05jcXE5WTJ5bFdGNFNGNWU2UERUemVCX3V5WTQzZlFYclR3RWtyblB2cWxnY1hLV0FsQWdjNXlJQ0ZaMjh3djNKdnhxUk1wMmQ4alY1ZkNXNGE4dzdKeXV5Y2hjc3BpVEp1akZKYnluRjVWeWh2UU5qeTZKVlc4VVg5SUNFUWhp?oc=5"
