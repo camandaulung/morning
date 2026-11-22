@@ -1,5 +1,86 @@
 [
   {
+    "weekLabel": "Tuần 47/2026",
+    "fromDate": "2026-11-16",
+    "toDate": "2026-11-22",
+    "highlights": [
+      {
+        "title": "🤖 AI Claude giải mã giả thuyết Riemann: Cột mốc chấn động giới toán học sau 167 năm",
+        "desc": "Nhà toán học Levent Alpöge tại Anthropic công bố xây dựng thành công lời giải cho Giả thuyết Riemann với sự hỗ trợ từ AI Claude. Đột phá này đánh dấu bước chuyển mình lịch sử của AI trong giải toán học hàn lâm cao cấp.",
+        "tag": "model",
+        "tagLabel": "🧠 MODEL",
+        "url": "https://tinhte.vn/thread/ai-vua-chung-minh-gia-thuyet-riemann-bai-toan-167-nam-chuyen-gi-thuc-su-da-xay-ra.4194738/"
+      },
+      {
+        "title": "🤖 Microsoft tung 7 mô hình AI mới: Cắt giảm chi phí vận hành tới 95%",
+        "desc": "Microsoft công bố loạt 7 mô hình AI định hướng tối ưu hóa lập trình với hiệu năng ngang ngửa Claude nhưng cắt giảm chi phí tới 95%. Bước đi này tạo sức ép cạnh tranh mạnh mẽ lên các nhà cung cấp nền tảng AI thương mại.",
+        "tag": "model",
+        "tagLabel": "🧠 MODEL",
+        "url": "https://genk.vn/doi-dau-anthropic-microsoft-ra-mat-7-mo-hinh-ai-moi-chi-phi-thap-hon-toi-95-165261120214407864.chn"
+      },
+      {
+        "title": "🤖 Google mở Project Genie: AI tự dựng thế giới 3D tương tác qua trình duyệt",
+        "desc": "DeepMind chính thức mở quyền truy cập Genie 4, cho phép người dùng nhập prompt để tự sinh thế giới ảo 3D và điều khiển tương tác trực tiếp. Công nghệ này hứa hẹn thay đổi hoàn toàn quy trình làm game và thiết kế không gian ảo.",
+        "tag": "feature",
+        "tagLabel": "✨ FEATURE",
+        "url": "https://tinhte.vn/thread/google-mo-genie-4-cho-nguoi-dung-ai-tao-the-gioi-ao-di-lai-duoc-sua-canh-bang-cau-lenh.4194078/"
+      },
+      {
+        "title": "🛡️ OpenAI phát hiện 35 lỗ hổng Apple, bẻ gãy Lockdown Mode",
+        "desc": "Mô hình GPT-6 Cyber kết hợp cùng chuyên gia bảo mật Dương Ngọc Thái phát hiện khoảng 35 lỗ hổng nghiêm trọng trên hệ điều hành của Apple. Phát hiện cho thấy năng lực kiểm thử xâm nhập tự động bằng AI đang phát triển vượt bậc.",
+        "tag": "hot",
+        "tagLabel": "🔥 HOT",
+        "url": "https://tinhte.vn/thread/ai-cua-openai-tim-ra-khoang-35-lo-hong-apple-viet-duoc-ma-vuot-lockdown-mode.4193732/"
+      }
+    ],
+    "topRepos": [
+      {
+        "name": "Donchitos/Claude-Code-Game-Studios",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+        "desc": "Biến Claude Code thành một studio làm game hoàn chỉnh với hệ thống 49 AI agent và 75 kỹ năng workflow chuyên biệt.",
+        "stars": "40.4K+",
+        "verdict": "yes"
+      },
+      {
+        "name": "CoplayDev/unity-mcp",
+        "url": "https://github.com/CoplayDev/unity-mcp",
+        "desc": "Cầu nối giao thức MCP giúp các trợ lý AI như Claude điều khiển trực tiếp Unity Editor để sửa script và quản lý scene.",
+        "stars": "16.1K+",
+        "verdict": "yes"
+      },
+      {
+        "name": "rehan-remade/universal-modder",
+        "url": "https://github.com/rehan-remade/universal-modder",
+        "desc": "Bộ công cụ kết hợp Claude Code và fal MCP cho phép dịch ngược, tạo tài nguyên AI và mod hầu như mọi tựa game PC.",
+        "stars": "9.8K+",
+        "verdict": "yes"
+      }
+    ],
+    "topGaming": [
+      {
+        "title": "🏆 The Game Awards 2026 lộ diện đề cử: Phantom Blade Zero góp mặt",
+        "desc": "Sự kiện trao giải game lớn nhất năm TGA 2026 công bố danh sách đề cử với sự chú ý đổ dồn vào bom tấn hành động Phantom Blade Zero.",
+        "tag": "gameplay",
+        "tagLabel": "🎮 GAMEPLAY",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUGZzWEVyQkF0cHNzTi10QWZBc0E5U1gwNmtLZm5BZTlIUnRLYWs1dzN3dDBnc1hFT0g4NU5ndlhvc0hHd0FPMTl3NUtURDl2cjlNdFpFSEJnelVUTl82UC1rUmxUNksxLUpyVG5ib2pHR2l6RUg1aENkdDl4cHhYZGVB?oc=5"
+      },
+      {
+        "title": "📱 Monster Hunter Rise chuẩn bị đổ bộ di động qua Netflix",
+        "desc": "Capcom hợp tác với Netflix đưa siêu phẩm săn quái Monster Hunter Rise lên nền tảng iOS và Android hoàn toàn miễn phí cho thuê bao.",
+        "tag": "casual",
+        "tagLabel": "🎈 CASUAL",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTlBzV0N0Xy12UFdNWnNnNFpkaGI1NTVtenJ1UDF4WW5pWkg1QlgwS1Q2OUQ1S1hoUjNMN0FYc3FQZjMyVXRjbWNseDVuMFExWjJSWVByUjFUUktrME5seU1FdWx3czJtMmU3VEV6QkItSGRlc0R0VllwZFFTX3Fkelo3ek5RaTNwR1NOa1E3eGg5anB4SkhHQnVzdEFqUndOdmt4TmRkZjZ1S3RWNEZTSw?oc=5"
+      },
+      {
+        "title": "🎉 Liên Quân Mobile chạm mốc 10 tuổi: Một thập kỷ giữ lửa MOBA di động",
+        "desc": "Tựa game MOBA quốc dân chính thức phát động chuỗi sự kiện mừng sinh nhật 10 năm với quy mô quà tặng và tri ân cộng đồng kỷ lục.",
+        "tag": "chart",
+        "tagLabel": "📊 CHART",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmlLV1dkR1NYeE96ZnpxR2xwbXo5RGM3cXlXU0s1T1M3am9PZzQxYkVuNFdDNWQ0QWVTR1IxTmlIZmlGVnZ6S3NaUG5wYlFDZUpnajRjaEdoS3dBeEJTZjh5Wmc1U2RoR2pEOWo0RzRuRlBRcmNuYm52cXltMlljNVptRzB0aHk1aWdQV2M0SDBXdzRnSEJQRWFlSE56aURCcHNPcTlKVHV3Vnp2U3g0YjVmQTc?oc=5"
+      }
+    ]
+  },
+  {
     "weekLabel": "Tuần 46/2026",
     "fromDate": "2026-11-09",
     "toDate": "2026-11-14",
@@ -740,65 +821,6 @@
         "tag": "gameplay",
         "tagLabel": "🎮 GAMEPLAY",
         "url": "https://tinhte.vn/thread/dung-dai-cai-gta-vi-113gb-dang-leak-pha-ke-ma-doc.4171563/"
-      }
-    ]
-  },
-  {
-    "weekLabel": "Tuần 34/2026",
-    "fromDate": "2026-08-17",
-    "toDate": "2026-08-23",
-    "highlights": [
-      {
-        "title": "👑 Ông Nawat đòi bắt khẩn cấp Hoa hậu Hoàn vũ",
-        "desc": "Chủ tịch Miss Grand International, ông Nawat, có động thái cực căng khi ra văn bản xúc tiến bắt khẩn cấp Đương kim Hoa hậu Hoàn vũ, gây chấn động giới sắc đẹp.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://kenh14.vn/ong-nawat-da-cang-ra-van-ban-xuc-tien-bat-khan-cap-duong-kim-hoa-hau-hoan-vu-21526082308333627.chn"
-      },
-      {
-        "title": "📈 Việt Nam chính thức sánh ngang Trung Quốc, Ấn Độ về nâng hạng thị trường",
-        "desc": "Việt Nam sẽ chính thức được nâng hạng lên thị trường mới nổi thứ cấp của FTSE Russell, sánh ngang với các nền kinh tế lớn như Trung Quốc và Ấn Độ, hứa hẹn thu hút hàng tỷ USD vốn đầu tư.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://cafef.vn/dung-1-thang-nua-viet-nam-se-chinh-thuc-sanh-ngang-trung-quoc-an-do-18826082123155854.chn"
-      },
-      {
-        "title": "🎵 BIGBANG 'sold out' 2 đêm concert Hà Nội chỉ trong 1 tiếng rưỡi",
-        "desc": "Toàn bộ vé của hai đêm concert BIGBANG tại Hà Nội (24 và 25/10) đã 'cháy hàng' chỉ sau 1 tiếng rưỡi mở bán đợt cuối, khẳng định sức hút khủng khiếp của nhóm nhạc huyền thoại này.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://kenh14.vn/giai-ma-hien-tuong-chay-ve-bigbang-215260820170741772.chn"
-      },
-      {
-        "title": "🤖 AI Trung Quốc tự học cách hack",
-        "desc": "Z.ai công bố GLM-5.3, một mô hình AI có khả năng tự học cách hack, gây bất ngờ cho cả nhà phát triển và đặt ra nhiều câu hỏi về an ninh mạng.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://genk.vn/ai-trung-quoc-tu-hoc-duoc-cach-hack-165260820065004243.chn"
-      },
-      {
-        "title": "💸 Người Việt đầu tiên thành Partner quỹ tỷ đô Phố Wall",
-        "desc": "Đỗ Hồng Anh, người Việt đầu tiên, đã trở thành Partner tại một quỹ phòng hộ quản lý tài sản hơn 6 tỷ USD ở Phố Wall, đánh dấu một thành tựu lớn trong lĩnh vực tài chính quốc tế.",
-        "tag": "hot",
-        "tagLabel": "🔥 HOT",
-        "url": "https://cafef.vn/bi-mat-cua-nguoi-viet-dau-tien-tro-thanh-partner-quy-phong-ho-ty-do-pho-wall-18826082221500741.chn"
-      }
-    ],
-    "topRepos": [],
-    "topGaming": [
-      {
-        "title": "🎮 Trend Người Nhện đen trắng",
-        "desc": "Bộ ảnh Người Nhện đen trắng vẫn gây sốt, khiến cộng đồng game thủ náo loạn vì quá 'cuốn'.",
-        "tag": "social",
-        "tagLabel": "🎰 SOCIAL",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUzFBNEwwZkFMWDJqMW8ya3ByX3M4NUVCVDUyV2lKVS1YSFBvZGJzVlFlcVJVamRneUlFaDVQNTA4ei1WTXVZNUZxaEQtTFFwWmFVMmxEMnVhNldHNzNxSXJmaGJidjJZRkVJTFFMUVFvOUV4VDg4NnBqMDQ4RlhTS2h4X2xQazJfR3JFamdmT3d0UlJxOWFndlhzZWxMYlE2SHlEdHpuanVQSzlxNWk4cVdjcjNEU25hVjkySDl4UjdLVU9HRzRlT3NkRDhEMEI4WnYxbFZJTzg?oc=5"
-      },
-      {
-        "title": "🕷️ Trend Người Nhện đen trắng 'cuốn' anh em game thủ",
-        "desc": "Dù 'trễ nhất' trend, một bộ ảnh Người Nhện đen trắng mới xuất hiện vẫn khiến cộng đồng game thủ 'náo loạn' vì quá 'cuốn'.",
-        "tag": "social",
-        "tagLabel": "🎰 SOCIAL",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUzFBNEwwZkFMWDJqMW8ya3ByX3M4NUVCVDUyV2lKVS1YSFBvZGJzVlFlcVJVamRneUlFaDVQNTA4ei1WTXVZNUZxaHQtTFFwWmFVMmxEMnVhNldHNzNxSXJmaGJidjJZRkVJTFFMUVFvOUV4VDg4NnBqMDQ4RlhTS2h4X2xQazJfR3JFamdmT3d0UlJxOWFndlhzZWxMYlE2SHlEdHpuanVQSzlxNWk4cVdjcjNEU25hVjkySDl4UjdLVU9HRzRlT3NkRDhEMEI4WnYxbFZJTzg?oc=5"
       }
     ]
   }
