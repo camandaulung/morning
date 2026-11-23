@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-23",
+    "dayLabel": "Thứ Hai",
+    "dateLabel": "23/11/2026",
+    "entertainment": [],
+    "trending": [],
+    "gaming": [],
+    "lifestyle": [],
+    "vietnam": [],
+    "tech": [],
+    "finance": [
+      {
+        "title": "🪙 Goldman Sachs dự báo vàng chạm 5.600 USD/oz vào cuối năm 2028",
+        "desc": "Dù chịu sức ép điều chỉnh ngắn hạn khi Fed duy trì lãi suất cao, giá vàng thế giới được dự báo sẽ tái lập đỉnh kỷ lục hướng tới mốc 5.600 USD/oz vào cuối năm 2028.",
+        "detail": "Sáng đầu tuần ngày 23/11, thị trường kim loại quý tại châu Á ghi nhận nhịp hồi phục sau chuỗi phiên rung lắc dữ dội. Theo Goldman Sachs, các đợt điều chỉnh hiện tại chỉ mang tính chu kỳ ngắn hạn trước khi dòng tiền phòng thủ đẩy vàng lên vùng giá mới. Với nhà đầu tư cá nhân tích lũy tài sản dài hạn, việc chia nhỏ tỷ trọng gom vàng ở các nhịp điều chỉnh sâu vẫn là chiến lược quản trị rủi ro tối ưu.",
+        "tag": "gold",
+        "tagLabel": "🪙 VÀNG",
+        "source": "23/11·VnEconomy",
+        "url": "https://vneconomy.vn/goldman-sachs-den-cuoi-2028-gia-vang-se-tai-lap-ky-luc-gan-5600-usdoz.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/11/23/9cd28750aebc493d85d206d5cf0758bc-137763.png?w=1200&h=630&mode=crop"
+      },
+      {
+        "title": "📈 Trung tâm Tài chính Quốc tế TP.HCM nâng quy mô vốn huy động lên 7,7 tỷ USD",
+        "desc": "VIFC-HCMC vừa kết nạp thêm 7 thành viên mới, nâng tổng quy mô vốn cam kết và huy động lên mức 7,7 tỷ USD để hoàn thiện hệ sinh thái tài chính.",
+        "detail": "Sự gia nhập của các định chế tài chính mới tạo động lực mạnh mẽ cho việc phát triển các sản phẩm vốn, ngân hàng đầu tư và thị trường phái sinh tại TP.HCM. Động thái này giúp thị trường tài chính Việt Nam thu hút thêm nguồn vốn ngoại dài hạn thay vì chỉ phụ thuộc vào dòng tiền nóng. Đối với các nhà đầu tư cá nhân, đây là chỉ dấu tích cực cho hạ tầng chứng khoán và mở ra nhiều kênh phân bổ tài sản chuẩn quốc tế trong trung hạn.",
+        "tag": "stock",
+        "tagLabel": "📈 CK",
+        "source": "23/11·VnEconomy",
+        "url": "https://vneconomy.vn/vifc-hcmc-mo-rong-he-sinh-thai-voi-7-thanh-vien-moi-nang-tong-von-huy-dong-len-77-ty-usd.htm",
+        "image": "https://premedia.vneconomy.vn/files/uploads/2026/11/23/3213a5b269b047e79a58cec99a0110de-137873.jpg?w=1200&h=630&mode=crop"
+      },
+      {
+        "title": "🏠 Đề xuất mạng lưới đường sắt kết nối sân bay Gia Bình 200.000 tỷ đồng",
+        "desc": "Masterise vừa đề xuất phương án bổ sung 4 ga đường sắt kết nối trực tiếp vào siêu sân bay Gia Bình trị giá 200.000 tỷ đồng, thiết kế phục vụ tới 100.000 lượt khách mỗi ngày.",
+        "detail": "Đề xuất hạ tầng giao thông quy mô lớn này hướng đến việc đồng bộ mạng lưới kết nối giữa Bắc Ninh, Hà Nội và các vùng kinh tế trọng điểm phía Bắc. Nếu được thông qua, quy hoạch này sẽ là lực đẩy lớn cho thanh khoản và giá trị bất động sản công nghiệp, đô thị dịch vụ phụ cận sân bay. Anh chị đang nắm giữ quỹ đất hoặc theo dõi BĐS vệ tinh phía Bắc nên bám sát tiến độ quy hoạch chi tiết để đánh giá chu kỳ đầu tư.",
+        "tag": "realestate",
+        "tagLabel": "🏠 BĐS",
+        "source": "23/11·CafeBiz",
+        "url": "https://cafebiz.vn/masterise-de-xuat-bo-sung-4-ga-duong-sat-tai-san-bay-gia-binh-200000-ty-thiet-ke-don-100000-khach-ngay-176261123161139013.chn",
+        "image": "https://cafebiz.cafebizcdn.vn/zoom/700_438/162123310254002176/2026/11/23/avatar1795425078128-1795425078562655868432.jpg"
+      }
+    ],
+    "sports": [],
+    "gamedev": []
+  },
+  {
     "date": "2026-11-22",
     "dayLabel": "Chủ Nhật",
     "dateLabel": "22/11/2026",
@@ -11133,19 +11178,5 @@
     "sports": [],
     "gamedev": [],
     "eveningDone": true
-  },
-  {
-    "date": "2026-10-24",
-    "dayLabel": "Thứ Bảy",
-    "dateLabel": "24/10/2026",
-    "entertainment": [],
-    "trending": [],
-    "gaming": [],
-    "lifestyle": [],
-    "vietnam": [],
-    "tech": [],
-    "finance": [],
-    "sports": [],
-    "gamedev": []
   }
 ]
